@@ -1,0 +1,667 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+
+
+######################### GENERIC ##########################
+
+
+GER_area_priority = {
+	enable = {
+		original_tag = GER
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = europe
+		value = 110
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = scandinavia
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = north_america
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = south_america
+		value = 50
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = asia
+		value = 75
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = middle_east
+		value = 50
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = suez
+		value = 50
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = pacific
+		value = 300
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = oceania
+		value = 80
+	}
+}
+
+
+GER_garrison_coast = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = put_unit_buffers
+				
+		states = { 
+			56
+			59
+			58
+			61
+			62
+			63
+			85
+			5
+			763
+		}
+
+		ratio = 0.1
+		#area = europe
+		subtract_invasions_from_need = no
+	}
+}
+
+
+GER_protect_north_coast = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = baltic_sea
+		value = 2600
+	}
+	ai_strategy = {
+		type = area_priority
+		id = north_sea
+		value = 1400
+	}
+}
+
+
+
+	
+
+
+
+######################### GREAT WAR ##########################
+
+GER_more_artillery= {
+	allowed = {
+		original_tag = GER
+		has_start_date < 1937.1.1
+	}
+	enable = {
+		always = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 100
+	}
+}
+
+
+GER_build_up_army = {
+	allowed = {
+		original_tag = GER
+		has_start_date < 1937.1.1
+	}
+	enable = {
+		OR = { country_exists = FRA   country_exists = RUS }
+		has_army_manpower = { size < 2500000 }
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = equipment_stockpile_surplus_ratio
+		value = -25 # reduce while we build up in case of issues
+	}
+}
+
+
+
+
+GER_we_like_blimps = {
+	allowed = {
+		original_tag = GER
+		has_start_date < 1937.1.1
+	}
+	enable = {
+		has_deployed_air_force_size = {
+		    size < 34
+		    type = strategic_bomber
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = strategic_bomber
+		value = 2
+	}
+}
+
+
+GER_stop_making_scouts = {
+	allowed = {
+		original_tag = GER
+		has_start_date < 1937.1.1
+	}
+	enable = {
+		has_deployed_air_force_size = {
+		    size > 249
+		    type = scout_plane
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = scout_plane
+		value = -100
+	}
+}
+
+
+GER_stop_making_blimps = {
+	allowed = {
+		original_tag = GER
+		has_start_date < 1937.1.1
+	}
+	enable = {
+		OR = {
+			has_deployed_air_force_size = {
+			    size > 34
+			    type = strategic_bomber
+			}
+			has_equipment = {
+			    airship_bomber_equipment > 34
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = strategic_bomber
+		value = -100
+	}
+}
+
+
+no_one_gets_our_troops = {
+	allowed = {
+		original_tag = GER
+		has_start_date < 1937.1.1
+	}
+	enable = {
+		is_historical_focus_on = yes
+		date < 1914.1.1
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "QIN"
+		value = 0
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "BUL"
+		value = 0
+	}
+}
+
+
+
+GER_der_schlieffen_plan = {
+	allowed = {
+		original_tag = GER
+		has_start_date < 1937.1.1
+	}
+	enable = {
+		FRA = { exists = yes }
+		OR = {
+			has_idea = schlieffen
+			FRA = { surrender_progress > 0.3 }
+			NOT = { has_global_flag = hoi4tgw_SchlieffenSecurity }
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = conquer
+		id = "BEL"			
+		value = 3500
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = "BEL"			
+		value = 600
+	}
+
+	ai_strategy = {
+		type = conquer
+		id = "FRA"			
+		value = 400
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = "FRA"			
+		value = 150
+	}
+
+	ai_strategy = {
+		type = front_control
+		tag = BEL
+		priority = 800
+		ratio = 0.1
+		ordertype = front
+		execution_type = rush
+		execute_order = yes
+		manual_attack = yes
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		tag = BEL
+		value = 400
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		tag = RUS
+		value = -50
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = "AUH"		
+		value = 40
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = "USA"		
+		value = 100
+	}
+}
+
+
+
+GER_leave_lux_later = {
+	allowed = {
+		original_tag = GER
+		has_start_date < 1937.1.1
+	}
+	enable = {
+		BEL = { has_capitulated = no }
+		has_idea = schlieffen
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = declare_war
+		id = "LUX"			
+		value = -8000 
+	}
+	
+	ai_strategy = {
+		type = diplo_action_desire
+		id = "LUX"		
+		target = declare_war		
+		value = -50000 
+	}
+}
+
+
+
+GER_focus_east = {
+	allowed = {
+		original_tag = GER
+		has_start_date < 1937.1.1
+	}
+	enable = {
+		has_war_with = RUS
+		NOT = { has_idea = schlieffen }
+		NOT = { controls_state = 16 }		#if germans take paris, they continue to push
+		has_global_flag = hoi4tgw_SchlieffenSecurity
+	}
+	abort_when_not_enabled = yes
+
+	# If Germany invades liege it can be a possiblity to make it historical
+	
+	ai_strategy = {
+		type = conquer
+		id = "RUS"			
+		value = 550
+	}
+	ai_strategy = {
+		type = conquer
+		id = "FRA"			
+		value = 200
+	}
+	ai_strategy = {
+		type = consider_weak
+		id = "RUS"			
+		value = 35
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = FRA			
+		value = 50
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = USA
+		value = 100
+	}
+	ai_strategy = {
+		type = 	spare_unit_factor		
+		value = -150
+	}
+}
+
+
+
+GER_attack_french_during_mutiny = {
+	allowed = {
+		original_tag = GER
+		has_start_date < 1937.1.1
+	}
+	enable = {
+		has_war_with = FRA
+		FRA = { has_idea = FRA_french_army_mutiny }
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = consider_weak
+		id = "BEL"			
+		value = 35
+	}
+	ai_strategy = {
+		type = consider_weak
+		id = "FRA"			
+		value = 30
+	}
+}
+
+
+GER_ignore_africa = {
+	allowed = {
+		original_tag = GER
+		has_start_date < 1937.1.1
+	}
+	enable = {
+		always = yes
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = africa		
+		value = -60
+	}	
+}
+
+
+
+########################## WW2 ##########################
+
+
+
+GER_unit_production = {
+	allowed = {
+		original_tag = GER
+		has_start_date > 1937.1.1
+	}
+	enable = {
+		NOT = { has_government = democratic  has_government = communism }
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 4
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 4
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 2
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = cavalry 
+		value = -100
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = motorized
+		value = 5
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = mechanized
+		value = 5
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 2
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 70 
+	}
+	#Air unit factors
+	ai_strategy = {
+		type = unit_ratio
+		id = fighter
+		value = 100
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = cas
+		value = 5
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = tactical_bomber
+		value = 10
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = strategic_bomber
+		value = 5
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = naval_bomber
+		value = 5
+	}
+	# Naval unit factors
+	ai_strategy = {
+		type = unit_ratio
+		id = capital_ship
+		value = 15
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = submarine
+		value = 10
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = screen_ship
+		value = 40
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 15
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = fighter
+		value = 175
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = tactical_bomber
+		value = 10 
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = naval_bomber
+		value = -40
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 5 #30 to 50
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = anti_tank
+		value = 20
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 40 #20 to 40
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = -5 
+	} 
+	ai_strategy = {
+		type = equipment_production_factor
+		id = motorized
+		value = -40
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = artillery
+		value = 3
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = fighter
+		value = 4
+	}
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = support_equipment
+		value = 30
+	}
+	ai_strategy = {
+		type = air_factory_balance
+		value = 120 
+	}
+}
+
+
+GER_prepare_against_france = {
+	allowed = {
+		original_tag = GER
+		has_start_date > 1937.1.1
+	}
+	enable = {
+		has_global_flag = kaiser_wilhelm_ii_dead
+		NOT = { is_in_faction_with = FRA }
+		NOT = { has_global_flag = french_plebicites_held }
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = "FRA"			
+		value = 200
+	}
+}
+
+
+GER_prepare_against_russia = {
+	allowed = {
+		original_tag = GER
+		has_start_date > 1937.1.1
+	}
+	enable = {
+		has_global_flag = kaiser_wilhelm_ii_dead
+		NOT = { is_in_faction_with = RUS }
+		NOT = { has_global_flag = eastern_plebicites_held }
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = "RUS"			
+		value = 100
+	}
+}

@@ -1,0 +1,230 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+
+
+AUH_area_priority = {
+	allowed = {
+		original_tag = AUH
+	}
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = europe
+		value = 100 #more focus here
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = scandinavia
+		value = 25
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = north_america
+		value = 10
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = south_america
+		value = -50
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = asia
+		value = -50
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = middle_east
+		value = -50
+	}
+	ai_strategy = {
+		type = area_priority
+		id = suez
+		value = -25
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = africa
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = pacific
+		value = -120 #less focus here
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = oceania
+		value = -100
+	}
+}
+
+
+
+AUH_garrison_coast = {
+	allowed = {
+		original_tag = AUH
+	}
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = put_unit_buffers
+				
+		states = { 
+			736
+			103
+			163
+		}
+
+		ratio = 0.05
+		#area = europe
+		subtract_invasions_from_need = no
+	}
+}
+
+
+#AUH_more_artillery= {
+#	allowed = {
+#		original_tag = AUH
+#		has_start_date < 1937.1.1
+#	}
+#	enable = {
+#		always = yes
+#	}
+#
+#	ai_strategy = {
+#		type = equipment_production_factor
+#		id = artillery
+#		value = 50
+#	}
+#}
+
+
+AUH_kill_serbia = {
+	allowed = {
+		original_tag = AUH
+		has_start_date < 1937.1.1
+	}
+	enable = {
+		date > 1914.1.1
+		SER = { 
+			exists = yes 
+			NOT = { is_puppet_of = AUH }
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = conquer
+		id = "SER"			
+		value = 400
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = "SER"			
+		value = 50
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = "MTN"			
+		value = 10
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = "RUS"			
+		value = 50
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		tag = SER
+		value = 100
+	}	
+}
+
+
+
+
+########################## WW2 ##########################
+
+
+AUH_stockpile_less_after_threat = {
+	allowed = { 
+		original_tag = AUH 
+		has_start_date > 1937.1.1
+	}
+	enable = {
+		NOT = { has_government = democratic }
+	}
+	abort = {
+		has_army_manpower = { size > 700000 }
+	}
+
+	ai_strategy = {
+		type = equipment_stockpile_surplus_ratio
+		value = -10 # reduce while we build up in case of issues
+	}
+}
+
+
+AUH_aid_germany_ww2 = {
+	allowed = {
+		original_tag = FRA
+		has_start_date > 1937.1.1
+	}
+	enable = {
+		country_exists = GER
+		is_in_faction_with = GER
+		has_global_flag = kaiser_wilhelm_ii_dead
+	}
+	abort = {
+		has_non_aggression_pact_with = GER
+	}
+
+	ai_strategy = {
+		type = support
+		id = "GER"			
+		value = 100
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

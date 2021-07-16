@@ -1,0 +1,9 @@
+#makes the errror log shut up about this tech
+technologies = {
+	armored_car1 = { start_year = 2000  research_cost = 1 }
+	amphibious_tank = { start_year = 2000  research_cost = 1 }
+	amphibious_mechanized_infantry = { start_year = 2000  research_cost = 1 }
+	scout_plane1 = { start_year = 2000  research_cost = 1 }
+	heavy_battleship = { start_year = 2000  research_cost = 1 }
+	heavy_battleship2 = { start_year = 2000  research_cost = 1 }
+}

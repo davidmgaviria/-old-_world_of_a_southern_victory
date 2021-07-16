@@ -1,0 +1,55 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+
+
+CHI-QIN_dont_join_european_war = {
+	enable = {
+		OR = {
+			tag = QIN
+			tag = CHI
+		}	
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = alliance
+		id = "GER"			
+		value = -1000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"			
+		value = -1000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"			
+		value = -1000
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

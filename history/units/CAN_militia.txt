@@ -1,0 +1,139 @@
+﻿
+###################################################################
+
+division_template = {
+	name = "Canadian Volunteers"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+
+
+
+units = {
+
+	division= { 
+		name = "1 Canadian Volunteers"
+		location=3778 # Ottawa
+		division_template="Canadian Volunteers"
+		start_experience_factor=0.05
+	}
+	division= { 
+		name = "2 Canadian Volunteers"
+		location=3778 # Ottawa
+		division_template="Canadian Volunteers"
+		start_experience_factor=0.05
+	}
+	division= { 
+		name = "3 Canadian Volunteers"
+		location=3778 # Ottawa
+		division_template="Canadian Volunteers"
+		start_experience_factor=0.05
+	}
+	division= { 
+		name = "4 Canadian Volunteers"
+		location=3778 # Ottawa
+		division_template="Canadian Volunteers"
+		start_experience_factor=0.05
+	}
+	division= { 
+		name = "5 Canadian Volunteers"
+		location=3778 # Ottawa
+		division_template="Canadian Volunteers"
+		start_experience_factor=0.05
+	}
+	division= { 
+		name = "6 Canadian Volunteers"
+		location=3778 # Ottawa
+		division_template="Canadian Volunteers"
+		start_experience_factor=0.05
+	}
+	division= { 
+		name = "7 Canadian Volunteers"
+		location=3778 # Ottawa
+		division_template="Canadian Volunteers"
+		start_experience_factor=0.05
+	}
+	division= { 
+		name = "8 Canadian Volunteers"
+		location=3778 # Ottawa
+		division_template="Canadian Volunteers"
+		start_experience_factor=0.05
+	}
+	division= { 
+		name = "9 Canadian Volunteers"
+		location=3778 # Ottawa
+		division_template="Canadian Volunteers"
+		start_experience_factor=0.05
+	}
+	division= { 
+		name = "10 Canadian Volunteers"
+		location=3778 # Ottawa
+		division_template="Canadian Volunteers"
+		start_experience_factor=0.05
+	}
+	
+	division= { 
+		name = "21 Canadian Volunteers"
+		location=4872# Winnipeg
+		division_template="Canadian Volunteers"
+		start_experience_factor=0.05
+	}
+	division= { 
+		name = "22 Canadian Volunteers"
+		location=4872# Winnipeg
+		division_template="Canadian Volunteers"
+		start_experience_factor=0.05
+	}
+	division= { 
+		name = "23 Canadian Volunteers"
+		location=4872# Winnipeg
+		division_template="Canadian Volunteers"
+		start_experience_factor=0.05
+	}
+	division= { 
+		name = "24 Canadian Volunteers"
+		location=4872# Winnipeg
+		division_template="Canadian Volunteers"
+		start_experience_factor=0.05
+	}
+	division= { 
+		name = "25 Canadian Volunteers"
+		location=4872# Winnipeg
+		division_template="Canadian Volunteers"
+		start_experience_factor=0.05
+	}
+	division= { 
+		name = "26 Canadian Volunteers"
+		location=4872# Winnipeg
+		division_template="Canadian Volunteers"
+		start_experience_factor=0.05
+	}
+	division= { 
+		name = "27 Canadian Volunteers"
+		location=4872# Winnipeg
+		division_template="Canadian Volunteers"
+		start_experience_factor=0.05
+	}
+	division= { 
+		name = "28 Canadian Volunteers"
+		location=4872# Winnipeg
+		division_template="Canadian Volunteers"
+		start_experience_factor=0.05
+	}
+	division= { 
+		name = "29 Canadian Volunteers"
+		location=4872# Winnipeg
+		division_template="Canadian Volunteers"
+		start_experience_factor=0.05
+	}
+	division= { 
+		name = "20 Canadian Volunteers"
+		location=4872# Winnipeg
+		division_template="Canadian Volunteers"
+		start_experience_factor=0.05
+	}
+}
+

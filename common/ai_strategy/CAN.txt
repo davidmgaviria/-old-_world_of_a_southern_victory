@@ -1,0 +1,66 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+
+
+
+CAN_defend_against_usa = {
+	enable = {
+		tag = CAN
+		USA = { exists = yes }
+		NOT = {
+			is_in_faction_with = USA
+			has_non_aggression_pact_with = USA
+		}
+		has_start_date < 1937.1.1
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = put_unit_buffers	
+		states = { 
+			276
+		}
+		ratio = 0.3
+		subtract_invasions_from_need = no
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = north_america
+		value = 110
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = "USA"
+		value = 40
+	}
+
+	ai_strategy = {
+		type = 	spare_unit_factor		
+		value = -1000
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

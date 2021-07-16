@@ -1,0 +1,40 @@
+state={
+	id=113
+	name="STATE_113" # Leinster
+	manpower = 1357600
+	state_category=city
+	provinces={ 285 303 369 3342 3359 7377 11293 11303 }
+	resources={
+		#wood=0
+		#coal=2
+		steel=2
+		}
+	history={
+		victory_points={ 11293 5 }
+		owner=ENG
+		add_core_of=IRE
+		add_core_of=ENG
+		1914.1.1={
+			buildings={
+				arms_factory=2
+				dockyard=1
+			}
+		}
+		1937.1.1={ 
+			owner=IRE
+			remove_core_of=ENG
+			victory_points={ 11293 5 }
+			buildings={
+				infrastructure=6
+				industrial_complex=3
+				air_base=2
+				11293={ naval_base=4 }
+				}
+			}
+		buildings={
+			infrastructure=6
+			industrial_complex=2
+			11293={ naval_base=4 }
+			}
+		}
+	}
