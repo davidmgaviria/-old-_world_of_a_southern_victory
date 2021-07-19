@@ -347,14 +347,4 @@ units = {
 		location = 11825
 		division_template = "Milicia Civil"
 	}
-	division = {			
-		name = "55a Milicia Civil"		
-		location = 11825
-		division_template = "Milicia Civil"
-	}
-	division = {			
-		name = "56a Milicia Civil"		
-		location = 11825
-		division_template = "Milicia Civil"
-	}
 }
