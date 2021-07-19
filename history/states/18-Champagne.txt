@@ -32,11 +32,6 @@ state={
 				bunker = 1
 
 			}
-			3560 = {
-				trench = 1
-
-			}
-
 		}
 		1937.1.1 = {
 			owner = FRA
