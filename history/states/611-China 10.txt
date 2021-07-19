@@ -29,7 +29,6 @@ state={
 		1941.1.1={ owner=JAP  }
 		buildings={
 			infrastructure=3
-			industrial_complex=0
 			}
 		}
 	}

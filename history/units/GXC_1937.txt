@@ -42,7 +42,7 @@ units = {
 		location = 4656
 		start_experience_factor = 0.1
 		division_template = "Sanjiao Jun"
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.5
 		start_experience_factor = 0.1
 
 	}
@@ -53,7 +53,7 @@ units = {
 		}
 		location = 1469
 		division_template = "Sanjiao Jun"
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.5
 		start_experience_factor = 0.1
 
 	}
@@ -64,7 +64,7 @@ units = {
 		}
 		location = 4077
 		division_template = "Sanjiao Jun"
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.5
 		start_experience_factor = 0.1
 	}
 	division = { # "65 Juntuán"
@@ -74,7 +74,7 @@ units = {
 		}
 		location = 7650
 		division_template = "Sanjiao Jun"
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.5
 		start_experience_factor = 0.1
 
 	}
@@ -85,7 +85,7 @@ units = {
 		}
 		location = 4028
 		division_template = "Sanjiao Jun"
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.5
 		start_experience_factor = 0.1
 
 	}
@@ -96,7 +96,7 @@ units = {
 		}
 		location = 1597
 		division_template = "Sanjiao Jun"
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.5
 		start_experience_factor = 0.1
 
 	}
@@ -104,14 +104,14 @@ units = {
 		name = "Guangzhou Jingbei"
 		location = 4152
 		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.5
 		start_experience_factor = 0.1
 	}
 	division = {
 		name = "Hainan Jingbei"
 		location = 1087
 		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.5
 		start_experience_factor = 0.1
 
 	}
@@ -119,7 +119,7 @@ units = {
 		name = "Guilin Jingbei"
 		location = 1131
 		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.5
 		start_experience_factor = 0.1
 
 	}
@@ -127,7 +127,7 @@ units = {
 		name = "Xiquan Jingbei"
 		location = 7039
 		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.5
 		start_experience_factor = 0.1
 	}
 

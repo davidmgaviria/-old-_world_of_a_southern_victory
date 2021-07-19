@@ -19,8 +19,8 @@ state={
 		#add_core_of=PRC
 		1912.2.12={ owner=CHI }
 		1937.1.1={ 
-			owner=GXC
 			
+			owner=GXC
 			add_core_of=GXC
 			add_core_of=CHI
 			#add_core_of=PRC
@@ -28,6 +28,7 @@ state={
 			buildings={
 				infrastructure=3
 				industrial_complex=1
+				arms_factory=1
 				}
 			}
 		buildings={

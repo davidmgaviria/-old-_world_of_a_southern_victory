@@ -29,28 +29,28 @@ units = {
 		location = 10776
 		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.55
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Yunnan Baoan Ke"
 		location = 1522
 		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.55
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Dali Baoan Ke"
 		location = 1114
 		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.55
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Xian Baoan Ke"
 		location = 1196
 		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.55
+		start_equipment_factor = 0.5
 	}
 
 	division = {
