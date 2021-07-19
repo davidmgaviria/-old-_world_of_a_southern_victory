@@ -1906,7 +1906,7 @@ focus_tree = {
 		prerequisite = { focus = CSA2_demand_remaining_territory }
 		x = 1
 		y = 1
-		cost = 4
+		cost = 10
 		relative_position_id = CSA2_remilitarize_plebiscite_states
 		
 		available_if_capitulated = no
@@ -1914,15 +1914,12 @@ focus_tree = {
 		available = {
 			country_exists = USA
 			NOT = { is_in_faction_with = USA }
-			OR = {
-				has_global_flag = kaiser_wilhelm_ii_dead
-				has_army_manpower = { size > 1749999 }
-			}
+			has_army_manpower = { size > 1749999 }
 		}
 
 		bypass = { has_war_with = USA }
 
-		ai_will_do = { factor = 400 }
+		ai_will_do = { factor = 60 }
 
 		completion_reward = {
 			news_event = wsv_ww2_csa.5
