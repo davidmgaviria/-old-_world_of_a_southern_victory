@@ -254,16 +254,25 @@ units = {
 		name = "41a Milicia Civil"		
 		location = 11707
 		division_template = "Milicia Civil"
-		
 	}	
 	division = {			
 		name = "42a Milicia Civil"		
 		location = 11707
 		division_template = "Milicia Civil"
-		
 	}
 	division = {			
 		name = "43a Milicia Civil"		
+		location = 11707
+		division_template = "Milicia Civil"
+	}
+	division = {			
+		name = "44a Milicia Civil"		
+		location = 11707
+		division_template = "Milicia Civil"
+		
+	}	
+	division = {			
+		name = "45a Milicia Civil"		
 		location = 11707
 		division_template = "Milicia Civil"
 		
@@ -271,18 +280,7 @@ units = {
 
 
 	######  Center Reserves #######
-	division = {			
-		name = "44a Milicia Civil"		
-		location = 9757
-		division_template = "Milicia Civil"
-		
-	}	
-	division = {			
-		name = "45a Milicia Civil"		
-		location = 9757
-		division_template = "Milicia Civil"
-		
-	}
+	
 	division = {			
 		name = "46a Milicia Civil"		
 		location = 9757
@@ -299,5 +297,28 @@ units = {
 		name = "48a Milicia Civil"		
 		location = 9757
 		division_template = "Milicia Civil"
-	}								
+	}
+
+	division = {			
+		name = "49a Milicia Civil"		
+		location = 9757
+		division_template = "Milicia Civil"
+		
+	}	
+	division = {			
+		name = "50a Milicia Civil"		
+		location = 9757
+		division_template = "Milicia Civil"
+		
+	}	
+	division = {			
+		name = "51a Milicia Civil"		
+		location = 9757
+		division_template = "Milicia Civil"
+	}
+	division = {			
+		name = "52a Milicia Civil"		
+		location = 9757
+		division_template = "Milicia Civil"
+	}									
 }

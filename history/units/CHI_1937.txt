@@ -389,7 +389,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 480
 		}
-		location = 5025
+		location = 2030
 		division_template = "Sanjiao Jun"		# German-trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
@@ -406,7 +406,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 16
 		}
-		location = 5025
+		location = 2030
 		division_template = "Juntuán"
 		start_experience_factor = 0.2
 	}
@@ -416,7 +416,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 27
 		}
-		location = 5025
+		location = 2030
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
@@ -427,7 +427,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 90
 		}
-		location = 5025
+		location = 2030
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
@@ -438,7 +438,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 72
 		}
-		location = 5025
+		location = 2030
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
@@ -449,7 +449,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 78
 		}
-		location = 5025
+		location = 2030
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
@@ -1284,6 +1284,94 @@ units = {
 		}
 		location = 4925
 		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
+	}
+
+
+	division = {
+		name = "1a Sanjiao Jun"
+		location = 7568
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
+	}
+	division = {
+		name = "2a Sanjiao Jun"
+		location = 7568
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
+	}
+	division = {
+		name = "3a Sanjiao Jun"
+		location = 7568
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
+	}
+	division = {
+		name = "4a Sanjiao Jun"
+		location = 7568
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
+	}
+	division = {
+		name = "5a Sanjiao Jun"
+		location = 7568
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+		name = "6a Sanjiao Jun"
+		location = 4619
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
+	}
+	division = {
+		name = "7a Sanjiao Jun"
+		location = 4619
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
+	}
+	division = {
+		name = "8a Sanjiao Jun"
+		location = 4619
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
+	}
+	division = {
+		name = "9a Sanjiao Jun"
+		location = 4619
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
+	}
+	division = {
+		name = "10a Sanjiao Jun"
+		location = 4619
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
+	}
+	division = {
+		name = "11a Sanjiao Jun"
+		location = 4619
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+		name = "12a Sanjiao Jun"
+		location = 6999
+		division_template = "Sanjiao Jun"		
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
 	}
