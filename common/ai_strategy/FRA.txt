@@ -241,7 +241,7 @@ FRA_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = artillery
-		value = 40 #20 to 40
+		value = 45 #20 to 40
 	}
 	ai_strategy = {
 		type = equipment_production_factor
