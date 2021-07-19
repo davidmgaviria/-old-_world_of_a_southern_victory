@@ -289,6 +289,30 @@ RUS_unit_production = {
 }
 
 
+RUS_stockpile_less_early_game = {
+	allowed = { 
+		original_tag = RUS 
+		has_start_date > 1937.1.1
+	}
+	enable = {
+		has_government = fascism
+	}
+	abort = {
+		has_army_manpower = { size > 2250000 }
+	}
+
+	ai_strategy = {
+		type = equipment_stockpile_surplus_ratio
+		value = -20 # reduce while we build up in case of issues
+	}
+	ai_strategy = {
+		type = build_army
+		id = infantry		
+		value = 100
+	}
+}
+
+
 RUS_attack_germany_ww2 = {
 	allowed = { 
 		original_tag = RUS 
@@ -342,27 +366,24 @@ RUS_attack_germany_ww2 = {
 }
 
 
-RUS_stockpile_less_early_game = {
-	allowed = { 
-		original_tag = RUS 
-		has_start_date > 1937.1.1
+RUS_dont_take_claims_on_UKR_we_got_focus = {
+	allowed = {
+		original_tag = RUS
 	}
 	enable = {
-		has_government = fascism
+		country_exists = UKR
+		NOT = { has_war_with = GER }
+		date < 1942.1.1
 	}
 	abort = {
-		has_army_manpower = { size > 2250000 }
+		UKR  { is_puppet = no }
 	}
-
+	
 	ai_strategy = {
-		type = equipment_stockpile_surplus_ratio
-		value = -20 # reduce while we build up in case of issues
-	}
-	ai_strategy = {
-		type = build_army
-		id = infantry		
-		value = 100
-	}
+		type = ignore_claim
+		id = "UKR"			
+		value = 1000
+	}		
 }
 
 

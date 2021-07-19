@@ -643,6 +643,29 @@ USA_anti_confederate_war_plan = {
 }
 
 
+USA_no_one_gets_our_troops = {
+	allowed = {
+		original_tag = USA
+		has_start_date > 1937.1.1
+	}
+	enable = {
+		is_historical_focus_on = yes
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "GER"
+		value = 0
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "AUH"
+		value = 0
+	}
+}
+
+
 
 
 

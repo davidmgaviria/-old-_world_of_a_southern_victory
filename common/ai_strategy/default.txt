@@ -462,6 +462,7 @@ default_unit_production = {
 			tag = FRA
 			tag = RUS
 			tag = GER
+			tag = AUH
 		}	
 	}
 	

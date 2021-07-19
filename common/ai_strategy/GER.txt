@@ -583,7 +583,7 @@ GER_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
-		value = 5 #30 to 50
+		value = 10 #30 to 50
 	}
 	ai_strategy = {
 		type = equipment_production_factor
@@ -593,7 +593,7 @@ GER_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = artillery
-		value = 40 #20 to 40
+		value = 45 #20 to 40
 	}
 	ai_strategy = {
 		type = equipment_production_factor
@@ -618,11 +618,11 @@ GER_unit_production = {
 	ai_strategy = {
 		type = equipment_variant_production_factor
 		id = support_equipment
-		value = 30
+		value = 20
 	}
 	ai_strategy = {
 		type = air_factory_balance
-		value = 120 
+		value = 110 
 	}
 }
 

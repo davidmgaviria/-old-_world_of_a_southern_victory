@@ -397,7 +397,7 @@ CSA_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = artillery
-		value = 40 #20 to 40
+		value = 45 #20 to 40
 	} 
 	ai_strategy = {
 		type = equipment_production_factor
@@ -617,66 +617,86 @@ CSA_super_boost_light_for_modern_armor = {
 ## WW2 US Plans
 
 CSA_dont_fight_germany_yet = {
-	allowed = { 
-		original_tag = CSA 
+	allowed = {
+		original_tag = CSA
 		has_start_date > 1937.1.1
 	}
 	enable = {
-		has_government = fascism
+		is_historical_focus_on = yes
 		is_in_faction_with = FRA
-		USA = { NOT = { has_war_with = FRA } }
+		country_exists = USA
 	}
-	abort_when_not_enabled = yes
+	abort = {
+		OR = {
+			USA = { is_puppet_of = CSA }
+			has_non_aggression_pact_with = USA
+			is_in_faction_with = USA
+			date > 1942.1.1
+		}
+	}
 
+	ai_strategy = {
+		type = diplo_action_desire
+		id = FRA
+		target = join_allies
+		value = -99999
+	}
+
+	ai_strategy = {
+		type = diplo_action_acceptance
+		id = FRA
+		target = call_allies
+		value = -99999
+	}
+
+	ai_strategy = {
+		type = send_lend_lease_desire
+		id = ENG
+		value = -999
+	}
+	ai_strategy = {
+		type = send_lend_lease_desire
+		id = FRA
+		value = -999
+	}
+	ai_strategy = {
+		type = send_lend_lease_desire
+		id = RUS
+		value = -999
+	}
+}
+
+
+CSA_dont_pressure_us_yet = {
+	allowed = {
+		has_start_date > 1937.1.1
+	}
+	enable = {
+		is_in_faction_with = CSA
+		has_war = yes
+	}
+	abort = {
+		OR = {
+			has_war_with = USA
+			date > 1942.1.1
+		}
+	}
+
+	ai_strategy = {
+		type = diplo_action_desire
+		id = CSA
+		target = call_allies
+		value = -99999
+	}
 	ai_strategy = {
 		type = diplo_action_acceptance
 		id = CSA
 		target = join_allies
 		value = -99999
 	}
-	ai_strategy = {
-		type = dont_join_wars_with
-		id = FRA
-		target_country = GER
-		value = 99999
-	}
-	ai_strategy = {
-		type = dont_join_wars_with
-		id = RUS
-		target_country = GER
-		value = 99999
-	}
-	ai_strategy = {
-		type = dont_join_wars_with
-		id = ENG
-		target_country = GER
-		value = 99999
-	}
-	ai_strategy = {
-		type = dont_join_wars_with
-		id = AST
-		target_country = GER
-		value = 99999
-	}
-	ai_strategy = {
-		type = dont_join_wars_with
-		id = NZL
-		target_country = GER
-		value = 99999
-	}
-	ai_strategy = {
-		type = dont_join_wars_with
-		id = RAJ
-		target_country = GER
-		value = 99999
-	}
-	ai_strategy = {
-		type = dont_join_wars_with
-		id = SAF
-		target_country = GER
-		value = 99999
-	}
 }
+
+
 
 
 CSA_attack_usa_ww2 = {

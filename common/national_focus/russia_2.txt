@@ -1843,13 +1843,13 @@ focus_tree = {
 		prerequisite = { focus = RUS2_ukrainian_seperatists   focus = RUS2_baltic_unrest }
 		x = 0
 		y = 3
-		cost = 2
+		cost = 10
 		relative_position_id = RUS2_rejoin_entente
 		
 		available_if_capitulated = no
 
 		ai_will_do = {
-			factor = 400
+			factor = 60
 		}
 
 		available = {
@@ -1860,10 +1860,7 @@ focus_tree = {
 	    		is_in_faction_with = UKR
 			}
 			NOT = { is_in_faction_with = GER }
-			OR = {
-				has_global_flag = kaiser_wilhelm_ii_dead
-				has_army_manpower = { size > 2999999 }
-			}
+			has_army_manpower = { size > 2999999 }
 		}
 
 		completion_reward = {
