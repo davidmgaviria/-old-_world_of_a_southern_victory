@@ -280,7 +280,7 @@ AUH_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
-		value = 10 #30 to 50
+		value = 15 #30 to 50
 	}
 	ai_strategy = {
 		type = equipment_production_factor
@@ -305,11 +305,11 @@ AUH_unit_production = {
 	ai_strategy = {
 		type = equipment_variant_production_factor
 		id = support_equipment
-		value = 25
+		value = 20
 	}
 	ai_strategy = {
 		type = air_factory_balance
-		value = 40 
+		value = 20 
 	}
 }
 
@@ -323,12 +323,12 @@ AUH_stockpile_less_after_threat = {
 		NOT = { has_government = democratic }
 	}
 	abort = {
-		has_army_manpower = { size > 700000 }
+		has_army_manpower = { size > 900000 }
 	}
 
 	ai_strategy = {
 		type = equipment_stockpile_surplus_ratio
-		value = -10 # reduce while we build up in case of issues
+		value = -20 # reduce while we build up in case of issues
 	}
 }
 

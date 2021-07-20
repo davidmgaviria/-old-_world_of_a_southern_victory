@@ -11,9 +11,8 @@ news_event = {
 	picture = news_event_USA_mormon_revolt
 
 	trigger = {
-		#date > 1937.1.1
-		date > 1937.6.1
-		country_exists = SPR
+		date > 1937.1.1
+		tag = SPR
 		SPR = {
 			has_government = neutrality
 			has_war = no
@@ -22,7 +21,7 @@ news_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 30  #historical date
+		days = 32  #historical date
 	}
 
 	major = yes
