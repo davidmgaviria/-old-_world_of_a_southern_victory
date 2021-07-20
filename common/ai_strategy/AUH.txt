@@ -280,7 +280,7 @@ AUH_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
-		value = 15 #30 to 50
+		value = 20 #30 to 50
 	}
 	ai_strategy = {
 		type = equipment_production_factor

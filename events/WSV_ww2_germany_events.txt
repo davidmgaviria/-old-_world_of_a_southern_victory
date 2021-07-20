@@ -11,14 +11,14 @@ news_event = {
 	major = yes
 
 	mean_time_to_happen = {
-        days = 4
-    }
+    days = 4   
+  }
 
 	trigger = {
 		tag = GER
 		GER = { has_government = neutrality }
         NOT = { has_global_flag = kaiser_wilhelm_ii_dead }
-        date > 1941.6.1
+        date > 1941.5.12
 	}
 
     immediate = {
