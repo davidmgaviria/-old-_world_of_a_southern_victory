@@ -11,10 +11,11 @@ news_event = {
 	major = yes
 
 	mean_time_to_happen = {
-		days = 0
+		days = 7
 	}
 
 	trigger = {
+		tag = FRA
     	FRA = { 
     		has_war_with = GER 
     		has_stability < 0.5
