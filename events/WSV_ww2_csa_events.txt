@@ -1587,6 +1587,7 @@ news_event = {
 	picture = news_event_wsv_civil_war
 
 	trigger = {
+		tag = CSA
 		CSA = { 
 			has_country_leader = {
 			    name = "Jake Featherstone"
