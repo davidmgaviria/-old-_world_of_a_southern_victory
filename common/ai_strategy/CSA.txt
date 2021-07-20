@@ -768,19 +768,14 @@ CSA_operation_blackbeard = {
 		priority = 400
 		ratio = 0.1
 		ordertype = front
-		execution_type = balanced
+		execution_type = rush_weak
 		execute_order = yes
 		manual_attack = no
 	}
 	ai_strategy = {
 		type = front_unit_request
 		state = 261
-		value = 300
-	}
-	ai_strategy = {
-		type = consider_weak
-		id = "USA"
-		value = 25
+		value = 250
 	}
 
 	#less units for illinois/indiana
@@ -799,15 +794,25 @@ CSA_operation_blackbeard = {
 	#southwest
 	ai_strategy = {
 		type = front_unit_request
-		state = 816
-		state = 377
 		state = 376
 		state = 374
 		state = 373
 		state = 817
 		value = -60
 	}
+
+
+	#far southwest
+	ai_strategy = {
+		type = front_unit_request
+		state = 816
+		state = 377
+		state = 837
+		state = 378
+		value = -80
+	}
 }
+
 
 
 ## Other plans

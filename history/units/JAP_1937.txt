@@ -1595,11 +1595,7 @@ air_wings = {
 ## STARTING PRODUCTION ##
 #########################
 instant_effect = {
-	add_equipment_to_stockpile = { type = infantry_equipment_4   amount = 14000   producer = GER }
-	add_equipment_to_stockpile = { type = support_equipment_1   amount = 360   producer = GER }
-	add_equipment_to_stockpile = { type = artillery_equipment_1   amount = 200   producer = GER }
-	add_equipment_to_stockpile = { type = light_tank_equipment_1   amount = 135   producer = GER }
-
+	
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_3

@@ -11,8 +11,8 @@ news_event = {
 	major = yes
 
 	mean_time_to_happen = {
-        days = 24
-    }
+    days = 4   
+  }
 
 	trigger = {
 		tag = GER

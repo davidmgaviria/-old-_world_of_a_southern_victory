@@ -323,12 +323,12 @@ AUH_stockpile_less_after_threat = {
 		NOT = { has_government = democratic }
 	}
 	abort = {
-		has_army_manpower = { size > 700000 }
+		has_army_manpower = { size > 900000 }
 	}
 
 	ai_strategy = {
 		type = equipment_stockpile_surplus_ratio
-		value = -10 # reduce while we build up in case of issues
+		value = -20 # reduce while we build up in case of issues
 	}
 }
 
