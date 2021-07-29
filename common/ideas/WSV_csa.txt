@@ -187,8 +187,8 @@ ideas = {
 			picture= generic_robert_e_lee
 			targeted_modifier = {
                 tag = USA
-                attack_bonus_against = 0.1
-                breakthrough_bonus_against = 0.25
+                attack_bonus_against = 0.25
+                breakthrough_bonus_against = 0.5
             }
 
             modifier = { 

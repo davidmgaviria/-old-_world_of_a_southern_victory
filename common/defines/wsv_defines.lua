@@ -17,7 +17,7 @@ NDefines.NCountry.DEFAULT_WAR_SUPPORT = 0.2
 NDefines.NCountry.BASE_STABILITY_WAR_FACTOR = -0.2
 
 --war stuff
-NDefines.NMilitary.PLAN_EXECUTE_BALANCED_LIMIT = 5				-- When looking for an attach target, this score limit is required in the battle plan to consider province for attack
+NDefines.NMilitary.PLAN_EXECUTE_BALANCED_LIMIT = 3				-- When looking for an attach target, this score limit is required in the battle plan to consider province for attack
 --NDefines.NMilitary.PLAN_NEIGHBORING_ENEMY_PROVINCE_FACTOR = 0.6	-- When calculating the importance of provinces, it takes number of enemy provinces into account, factored by this
 --NDefines.NMilitary.PLAN_PROVINCE_BASE_IMPORTANCE = 1.0			-- Used when calculating the calue of front and defense area provinces for the battle plan system
 	

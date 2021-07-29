@@ -1463,14 +1463,14 @@ technologies = {
 	support_weapons4 = {
 
 		category_all_infantry = {
-			defense = 0.08
-			soft_attack = 0.08
-			breakthrough = 0.05
+			defense = 0.05
+			soft_attack = 0.05
+			breakthrough = 0.03
 		}
 		cavalry = {
-			defense = 0.04
-			soft_attack = 0.04
-			breakthrough = 0.02
+			defense = 0.03
+			soft_attack = 0.03
+			breakthrough = 0.01
 		}
 		
 		path = {

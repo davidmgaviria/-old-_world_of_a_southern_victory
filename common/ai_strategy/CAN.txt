@@ -13,6 +13,142 @@
 # area_priority
 
 
+CAN_unit_production = {
+	allowed = {
+		has_start_date < 1937.1.1
+	}
+	enable = {	
+		date < 1937.1.1	
+		original_tag = CAN
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 4
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 2
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 2
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armored_car
+		value = 1
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 70 
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = cavalry
+		value = 10
+	}
+	
+	#Air unit factors
+	ai_strategy = {
+		type = unit_ratio
+		id = scout_plane
+		value = 2
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = fighter
+		value = 40
+	}
+	
+	ai_strategy = {
+		type = unit_ratio
+		id = cas
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = unit_ratio
+		id = tactical_bomber
+		value = 5
+	}
+	
+	ai_strategy = {
+		type = unit_ratio
+		id = strategic_bomber
+		value = 2
+	}
+	
+	ai_strategy = {
+		type = unit_ratio
+		id = naval_bomber
+		value = 1
+	}
+	
+	
+	# Naval unit factors
+	ai_strategy = {
+		type = unit_ratio
+		id = capital_ship
+		value = 10
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = submarine
+		value = 10
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = screen_ship
+		value = 40
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 20
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = fighter
+		value = 25
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 45
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 10
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 5
+	}
+}
+
 
 CAN_defend_against_usa = {
 	enable = {
@@ -26,20 +162,6 @@ CAN_defend_against_usa = {
 	}
 	abort_when_not_enabled = yes
 
-	ai_strategy = {
-		type = put_unit_buffers	
-		states = { 
-			276
-		}
-		ratio = 0.3
-		subtract_invasions_from_need = no
-	}
-
-	ai_strategy = {
-		type = area_priority
-		id = north_america
-		value = 110
-	}
 
 	ai_strategy = {
 		type = prepare_for_war
@@ -47,9 +169,66 @@ CAN_defend_against_usa = {
 		value = 40
 	}
 
+
+	ai_strategy = {
+		type = front_unit_request
+		area = eastern_canada
+		value = -10
+	}
+	
+	ai_strategy = {
+		type = front_unit_request
+		area = western_canada
+		value = 30
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		state = 393
+		state = 358
+		value = -60
+	}
+
+
+	ai_strategy = {
+		type = front_unit_request
+		area = europe
+		value = -100
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = africa
+		value = -100
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = asia
+		value = -100
+	}
 	ai_strategy = {
 		type = 	spare_unit_factor		
-		value = -1000
+		value = -100
+	}
+}
+
+
+
+CAN_hold_the_west = {
+	enable = {
+		tag = CAN
+		has_start_date < 1937.1.1
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = front_control
+		area = western_canada
+		priority = 400
+		ratio = 0.1
+		ordertype = front
+		execution_type = careful
+		execute_order = yes
+		manual_attack = yes
 	}
 }
 

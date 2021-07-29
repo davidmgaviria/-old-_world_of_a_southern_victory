@@ -1,7 +1,7 @@
 ﻿###################################################################
 
 division_template = {
-	name = "Infantry Division"
+	name = "Pekhotna Diviziya"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -17,7 +17,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Infantry Brigade"
+	name = "Pekhotna Brigada"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -28,7 +28,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Cavalry Division"
+	name = "Kavaleriĭska Diviziya"
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
@@ -60,257 +60,195 @@ fleet = {
 	}
 }
 
-	division= { 
-			name = "4-a Konna brigada"
-			location=9783 # Varna
-			division_template="Cavalry Division"
-			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
-			}
+
 	
 	
 	division= { 
-			name = "Border Guards"
-			location=9783 # Varna
-			division_template="Infantry Brigade"
-			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
-			}
-
-
-	division= { 
-			name = "Border Guards 2"
-			location=9783 # Varna
-			division_template="Infantry Brigade"
-			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
-			}
-
-	division= { 
-			name = "Border Guards 3"
-			location=9783 # Varna
-			division_template="Infantry Brigade"
-			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
-			}	
-
-	division= { 
-			name = "Border Guards 4"
-			location=9783 # Varna
-			division_template="Infantry Brigade"
-			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
-			}	
-	
-	
-	division= { 
-			name = "Northern Border Guards"
-			location = 793 # Pleven
-			division_template="Infantry Brigade"
-			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
-			}
-
-	division= { 
-			name = "Northern Border Guards 2"
-			location = 793 # Pleven
-			division_template="Infantry Brigade"
-			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
-			}
-
-	division= { 
-			name = "Northern Border Guards 3"
-			location = 793 # Pleven
-			division_template="Infantry Brigade"
-			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
-			}
-	division= { 
-			name = "Northern Border Guards 4"
-			location = 793 # Pleven
-			division_template="Infantry Brigade"
-			start_experience_factor=0.05
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
-			}
-	
-	
-	division= { 
-			name = "1-ta 'Sofiyska' Pehotna Divizija"
+			name = "1a Pekhotna Divizija"
 			location = 949 # Sofiya
-			division_template="Infantry Division"
-			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+			division_template="Pekhotna Diviziya"
+			start_experience_factor=0.2
+			
 			}
 	
 	
 	division= { 
-			name = "6-ta 'Bdinska' Pehotna Divizija"
+			name = "2a Pekhotna Divizija"
 			location = 949 # Sofiya
-			division_template="Infantry Division"
-			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+			division_template="Pekhotna Diviziya"
+			start_experience_factor=0.2
+			
 			}
 	
 	
 	division= { 
-			name = "7-ma 'Rilska' Pekhotna Divizija"
+			name = "3a Pekhotna Divizija"
 			location = 949 # Sofiya
-			division_template="Infantry Division"
-			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+			division_template="Pekhotna Diviziya"
+			start_experience_factor=0.2
+			
 			}
 	division= { 
-			name = "8-ma 'Rilska' Pekhotna Divizija"
+			name = "4a Pekhotna Divizija"
 			location = 949 # Sofiya
-			division_template="Infantry Division"
-			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+			division_template="Pekhotna Diviziya"
+			start_experience_factor=0.2
+			
 			}
 
 	division= { 
-			name = "9-ma 'Rilska' Pekhotna Divizija"
+			name = "5a Pekhotna Divizija"
 			location = 949 # Sofiya
-			division_template="Infantry Division"
-			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+			division_template="Pekhotna Diviziya"
+			start_experience_factor=0.2
+			
 			}
 
 	division= { 
-			name = "10-ma 'Rilska' Pekhotna Divizija"
+			name = "6a Pekhotna Divizija"
 			location = 949 # Sofiya
-			division_template="Infantry Division"
-			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+			division_template="Pekhotna Diviziya"
+			start_experience_factor=0.2
+			
 			}
 
 	division= { 
-			name = "11-ma 'Rilska' Pekhotna Divizija"
+			name = "7a Pekhotna Divizija"
 			location = 949 # Sofiya
-			division_template="Infantry Division"
-			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+			division_template="Pekhotna Diviziya"
+			start_experience_factor=0.2
+			
 			}
 
 	division= { 
-			name = "12-ma 'Rilska' Pekhotna Divizija"
+			name = "8a Pekhotna Divizija"
 			location = 949 # Sofiya
-			division_template="Infantry Division"
-			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+			division_template="Pekhotna Diviziya"
+			start_experience_factor=0.2
+			
 			}
 
 	division= { 
-			name = "13-ma 'Rilska' Pekhotna Divizija"
+			name = "9a Pekhotna Divizija"
 			location = 949 # Sofiya
-			division_template="Infantry Division"
-			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+			division_template="Pekhotna Diviziya"
+			start_experience_factor=0.2
+			
 			}
 
 		division= { 
-			name = "14-ma 'Rilska' Pekhotna Divizija"
+			name = "10a Pekhotna Divizija"
 			location = 949 # Sofiya
-			division_template="Infantry Division"
-			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+			division_template="Pekhotna Diviziya"
+			start_experience_factor=0.2
+			
 		}
 
 		division= { 
-			name = "14-ma 'Rilska' Pekhotna Divizija II"
+			name = "11a Pekhotna Divizija"
 			location = 949 # Sofiya
-			division_template="Infantry Division"
-			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+			division_template="Pekhotna Diviziya"
+			start_experience_factor=0.2
+		}
+		division= { 
+			name = "12a Pekhotna Divizija"
+			location = 949 # Sofiya
+			division_template="Pekhotna Diviziya"
+			start_experience_factor=0.2
+		}
+		division= { 
+			name = "13a Pekhotna Divizija"
+			location = 949 # Sofiya
+			division_template="Pekhotna Diviziya"
+			start_experience_factor=0.2
 		}
 	
 	
 	division= { 
-			name = "1-ta Konna brigada"
+			name = "1a Kavaleriĭska Diviziya"
 			location = 949 # Sofiya
-			division_template="Cavalry Division"
-			start_experience_factor=0.15
-			}
+			division_template="Kavaleriĭska Diviziya"
+			start_experience_factor=0.1
+		}
+	division= { 
+			name = "2a Kavaleriĭska Diviziya"
+			location=9783 # Varna
+			division_template="Kavaleriĭska Diviziya"
+			start_experience_factor=0.1
+		}
 	
 	
 	division= { 
-			name = "2-ta 'Trakiyska' Pekhotna Divizija"
-			location=6923 # Plovdiv
-			division_template="Infantry Division"
+			name = "1a Pekhotna Brigada"
+			location=9783 # Varna
+			division_template="Pekhotna Brigada"
 			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
-			}
-	
-	
+			start_equipment_factor=0.8
+		}
+
 	division= { 
-			name = "3-a 'Balkanska' Pehotna Divizija"
-			location=6923 # Plovdiv
-			division_template="Infantry Division"
+			name = "2a Pekhotna Brigada"
+			location=9783 # Varna
+			division_template="Pekhotna Brigada"
 			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
-			}
-	
-	
-	division= { 
-			name = "8-ta 'Tundzhavska' Pehotna Divizija"
-			location=6923 # Plovdiv
-			division_template="Infantry Division"
-			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+			start_equipment_factor=0.8
+			
 			}
 
 	division= { 
-			name = "2-ta 'Trakiyska' Pekhotna Divizija II"
-			location=6923 # Plovdiv
-			division_template="Infantry Division"
+			name = "3a Pekhotna Brigada"
+			location=9783 # Varna
+			division_template="Pekhotna Brigada"
 			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
-			}
+			start_equipment_factor=0.8
+			
+			}	
+
+	division= { 
+			name = "4a Pekhotna Brigada"
+			location=9783 # Varna
+			division_template="Pekhotna Brigada"
+			start_experience_factor=0.1
+			start_equipment_factor=0.8
+			
+			}	
 	
 	
 	division= { 
-			name = "3-a 'Balkanska' Pehotna Divizija II"
-			location=6923 # Plovdiv
-			division_template="Infantry Division"
+			name = "5a Pekhotna Brigada"
+			location = 793 # Pleven
+			division_template="Pekhotna Brigada"
 			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+			start_equipment_factor=0.8
+			
 			}
-	
-	
+
 	division= { 
-			name = "8-ta 'Tundzhavska' Pehotna Divizija II"
-			location=6923 # Plovdiv
-			division_template="Infantry Division"
+			name = "6a Pekhotna Brigada"
+			location = 793 # Pleven
+			division_template="Pekhotna Brigada"
 			start_experience_factor=0.1
-			# start_equipment_factor = 0.3 
-			# start_manpower_factor = 0.3
+			start_equipment_factor=0.8
+			
 			}
-		
+
+	division= { 
+			name = "7a Pekhotna Brigada"
+			location = 793 # Pleven
+			division_template="Pekhotna Brigada"
+			start_experience_factor=0.1
+			start_equipment_factor=0.8
+			
+			}
+	division= { 
+			name = "8a Pekhotna Brigada"
+			location = 793 # Pleven
+			division_template="Pekhotna Brigada"
+			start_experience_factor=0.1
+			start_equipment_factor=0.8
+			
+			}
+
 	}
 
 

@@ -195,65 +195,49 @@ units = {
 			name = "1st Grenadier Division"
 			location=11841 #Richmond
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 			}
 	division= { 
 			name = "2nd Grenadier Division"
 			location=11841 #Richmond
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 			}
 	division= { 
 			name = "3rd Grenadier Division"
 			location=11841 #Richmond
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 			}
 	division= { 
 			name = "4th Grenadier Division"
 			location=6696 #Louisville
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 			}
 	division= { 
 			name = "5th Grenadier Division"
 			location=6696 #Louisville
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 			}
 	division= { 
 			name = "6th Grenadier Division"
 			location=6696 #Louisville
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 			}
 	division= { 
 			name = "7th Grenadier Division"
 			location=7552 # New Orleans
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 			}
 	division= { 
 			name = "8th Grenadier Division"
 			location=7552 # New Orleans
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 			}
 	division= { 
 			name = "9th Grenadier Division"
@@ -267,193 +251,149 @@ units = {
 			name = "10th Grenadier Division"
 			location=7480 #Mobile
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 	}
 	division= { 
 			name = "11th Grenadier Division"
 			location=866 # Florida
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 	}
 	division= { 
 			name = "3rd Grenadier Division"
 			location=10337 #Houston
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 	}
 	division= { 
 			name = "13th Grenadier Division"
 			location=10337 #Houston
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 	}
 	division= { 
 			name = "14th Grenadier Division"
 			location=10337 #Houston
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 	}
 	division= { 
 			name = "15th Grenadier Division"
 			location=3960 #Dallas
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 	}
 	division= { 
 			name = "16th Grenadier Division"
 			location=3960 #Dallas
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 	}
 	division= { 
 			name = "17th Grenadier Division"
 			location=10765 #Sonora
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 	}
 	division= { 
 			name = "18th Grenadier Division"
 			location=8097 #Chichuana
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 	}
 	division= { 
 			name = "19th Grenadier Division"
 			location=3972 #Texas
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 	}
 	division= { 
 			name = "20th Grenadier Division"
 			location=12489 #Little Rock
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 	}
 	division= { 
 			name = "21st Grenadier Division"
 			location=12489 #Little Rock
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 	}
 	division= { 
 			name = "22nd Grenadier Division"
 			location=12501 #Nashville
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 	}
 	division= { 
 			name = "23rd Grenadier Division"
 			location=12501 #Nashville
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 	}
 	division= { 
 			name = "24th Grenadier Division"
 			location=12501 #Nashville
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 	}
 	division= { 
 			name = "25th Grenadier Division"
 			location=7138 #Charlotte
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 	}
 	division= { 
 			name = "26th Grenadier Division"
 			location=7138 #Charlotte
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 	}
 	division= { 
 			name = "27th Grenadier Division"
 			location=873 #North Virginia
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 	}
 	division= { 
 			name = "28th Grenadier Division"
 			location=873 #North Virginia
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 	}
 	division= { 
 			name = "29th Grenadier Division"
 			location=10343 #North Virginia
 			division_template="Grenadier Division"
-			start_experience_factor=0.3
-			#start_equipment_factor = 0.5
-			#start_manpower_factor = 0.7
+			start_experience_factor=0.2
 	}
 	division= { 
 			name = "1st State Guard"
 			location= 788 #Norfolk
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
-			#start_manpower_factor = 0.5
+			start_equipment_factor = 0.35
 	}
 	division= { 
 			name = "2nd State Guard"
 			location= 788 #Norfolk
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
-			#start_manpower_factor = 0.5
+			start_equipment_factor = 0.35
 	}
 	division= { 
 			name = "3rd State Guard"
 			location= 11975 #Georgia
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
-			#start_manpower_factor = 0.5
+			start_equipment_factor = 0.35
 	}
 	division= { 
 			name = "4th State Guard"
 			location= 1550 #Cuba
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
-			#start_manpower_factor = 0.5
+			start_equipment_factor = 0.35
 	}
 	
 	division= { 
@@ -461,72 +401,63 @@ units = {
 			location= 10352 #Alabama
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
-			#start_manpower_factor = 0.5
+			start_equipment_factor = 0.35
 	}
 	division= { 
 			name = "6th State Guard"
 			location= 12728 #Texas
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
-			#start_manpower_factor = 0.5
+			start_equipment_factor = 0.35
 	}
 	division= { 
 			name = "7th State Guard"
 			location= 9773 #Texas
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
-			#start_manpower_factor = 0.5
+			start_equipment_factor = 0.35
 	}
 	division= { 
 			name = "8th State Guard"
 			location= 1485 #South Carolina
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
-			#start_manpower_factor = 0.5
+			start_equipment_factor = 0.35
 	}
 	division= { 
 			name = "9th State Guard"
 			location= 12325 #Florida
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
-			#start_manpower_factor = 0.5
+			start_equipment_factor = 0.35
 	}
 	division= { 
 			name = "10th State Guard"
 			location= 12301 #Texas
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
-			#start_manpower_factor = 0.5
+			start_equipment_factor = 0.35
 	}
 	division= { 
 			name = "11th State Guard"
 			location= 12833 #Sonora
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
-			#start_manpower_factor = 0.5
+			start_equipment_factor = 0.35
 	}
 	division= { 
 			name = "12th State Guard"
 			location= 7480 #Mobile
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
-			#start_manpower_factor = 0.5
+			start_equipment_factor = 0.35
 	}
 	division= { 
 			name = "13th State Guard"
 			location= 7480 #Mobile
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
-			#start_manpower_factor = 0.5
+			start_equipment_factor = 0.35
 	}
 
 	division= { 
@@ -535,7 +466,6 @@ units = {
 			division_template="Cavalry Division"
 			start_experience_factor=0.1
 			start_equipment_factor = 0.5
-			#start_manpower_factor = 0.5
 	}
 	division= { 
 			name = "2nd Cavalry Division"
@@ -543,7 +473,6 @@ units = {
 			division_template="Cavalry Division"
 			start_experience_factor=0.1
 			start_equipment_factor = 0.5
-			#start_manpower_factor = 0.5
 	}
 	division= { 
 			name = "3rd Cavalry Division"
@@ -551,7 +480,6 @@ units = {
 			division_template="Cavalry Division"
 			start_experience_factor=0.1
 			start_equipment_factor = 0.5
-			#start_manpower_factor = 0.5
 	}
 	division= { 
 			name = "4th Cavalry Division"
@@ -559,7 +487,6 @@ units = {
 			division_template="Cavalry Division"
 			start_experience_factor=0.1
 			start_equipment_factor = 0.5
-			#start_manpower_factor = 0.5
 	}
 	division= { 
 			name = "5th Cavalry Division"
@@ -567,7 +494,6 @@ units = {
 			division_template="Cavalry Division"
 			start_experience_factor=0.1
 			start_equipment_factor = 0.5
-			#start_manpower_factor = 0.5
 	}
 	division= { 
 			name = "6th Cavalry Division"
@@ -575,7 +501,6 @@ units = {
 			division_template="Cavalry Division"
 			start_experience_factor=0.1
 			start_equipment_factor = 0.5
-			#start_manpower_factor = 0.5
 	}
 	
 	division= { 

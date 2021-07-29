@@ -98,8 +98,7 @@ fleet = {
 	    location = 9833# Istanbul
 	    division_template = "Piyade Tümeni"
 	    start_experience_factor=0.1
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
+		start_equipment_factor = 0.8
 	}
 
 	division = {
@@ -107,401 +106,377 @@ fleet = {
 	    location = 9833# Istanbul
 	    division_template = "Piyade Tümeni"
 	    start_experience_factor=0.1
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-
-
-	division = {
-	    name = "13. Süvari Tugayı"
-	    location = 4112# Istanbul
-	    division_template = "Süvari Tugayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-	
-	division = {
-	    name = "Istanbul Garnizon"
-	    location = 9833# Istanbul
-	    division_template = "Jandarma Alayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
+		start_equipment_factor = 0.8
 	}
 
 	division = {
-	    name = "4. Piyade Tümeni 'Tekirdag'"
+	    name = "3. Piyade Tümeni 'Tekirdag'"
 	    location = 3879# Tekirdag
 	    division_template = "Piyade Tümeni"
 	    start_experience_factor=0.1
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
+		start_equipment_factor = 0.8
 	}
 
 
 	division = {
-	    name = "5. Piyade Tümeni 'Gelibolu'"
+	    name = "4. Piyade Tümeni 'Gelibolu'"
 	    location = 849# Gelibolu
 	    division_template = "Piyade Tümeni"
 	    start_experience_factor=0.1
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
+		start_equipment_factor = 0.8
 	}
 
 	division = {
-	    name = "6. Piyade Tümeni 'Smyrna'"
+	    name = "5. Piyade Tümeni 'Smyrna'"
 	    location = 4112# Smyrna
 	    division_template = "Piyade Tümeni"
 	    start_experience_factor=0.1
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
+		start_equipment_factor = 0.8
 	}
 
 	division = {
-	    name = "12. Süvari Tugayı"
-	    location = 4112# Smyrna
-	    division_template = "Süvari Tugayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-	
-	division = {
-	    name = "Çanakkale Garnizon"
-	    location = 6864# Canakkale
-	    division_template = "Jandarma Alayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-
-	division = {
-	    name = "7. Piyade Tümeni 'Kirk Kilise'"
+	    name = "6. Piyade Tümeni 'Kirk Kilise'"
 	    location = 922# Kirklareli
 	    division_template = "Piyade Tümeni"
 	    start_experience_factor=0.1
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
+		start_equipment_factor = 0.8
 	}
 
 	division = {
-	    name = "8. Piyade Tümeni 'Çorlu'"
+	    name = "7. Piyade Tümeni 'Çorlu'"
 	    location = 6895# Corlu
 	    division_template = "Piyade Tümeni"
 	    start_experience_factor=0.1
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
+		start_equipment_factor = 0.8
 	}
 
 
 	division = {
-	    name = "3. Tüfek Alayi"
-	    location = 922# Kirklareli
-	    division_template = "Jandarma Alayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-
-	division = {
-	    name = "10. Piyade Tümeni"
+	    name = "8. Piyade Tümeni"
 	    location = 3893# Edirne
 	    division_template = "Piyade Tümeni"
 	    start_experience_factor=0.1
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
+		start_equipment_factor = 0.8
 	}
 
 	division = {
-	    name = "11. Piyade Tümeni"
+	    name = "9. Piyade Tümeni"
 	    location = 9930# Thasos
 	    division_template = "Piyade Tümeni"
 	    start_experience_factor=0.1
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-
-
-	division = {
-	    name = "4. Tüfek Alayi"
-	    location = 3893# Edirne
-	    division_template = "Jandarma Alayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
+		start_equipment_factor = 0.8
 	}
 
 	division = {
-	    name = "Edirne Garnizon"
-	    location = 3893# Edirne
-	    division_template = "Jandarma Alayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-
-	division = {
-	    name = "13. Piyade Tümeni 'Selanik'"
+	    name = "10. Piyade Tümeni 'Selanik'"
 	    location = 11818# Salonica
 	    division_template = "Piyade Tümeni"
 	    start_experience_factor=0.1
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-
-	division = {
-	    name = "11. Süvari Tugayı"
-	    location = 11818# Salonica
-	    division_template = "Süvari Tugayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-	
-
-	division = {
-	    name = "9. Jandarma Alayı"
-	    location = 3526# Kilkis
-	    division_template = "Jandarma Alayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
+		start_equipment_factor = 0.8
 	}
 
 
 	division = {
-	    name = "10. Jandarma Alayı"
-	    location = 9780# Shkoder
-	    division_template = "Jandarma Alayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-
-
-	division = {
-	    name = "10. Süvari Tugayı"
-	    location = 9914# Tirane
-	    division_template = "Süvari Tugayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-	
-
-	division = {
-	    name = "11. Jandarma Alayı"
-	    location = 3882# Skopje
-	    division_template = "Jandarma Alayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-
-
-
-	division = {
-	    name = "12. Jandarma Alayı"
-	    location = 966# Kozani
-	    division_template = "Jandarma Alayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-
-	division = {
-	    name = "7. Tüfek Alayi"
-	    location = 3882# Skopje
-	    division_template = "Jandarma Alayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-
-	division = {
-	    name = "9. Süvari Tugayı"
-	    location = 3882# Skopje
-	    division_template = "Süvari Tugayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-	
-
-	division = {
-	    name = "26. Piyade Tümeni"
+	    name = "11. Piyade Tümeni"
 	    location = 12473# Aleppo
 	    division_template = "Piyade Tümeni"
 	    start_experience_factor=0.1
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
+		start_equipment_factor = 0.8
 	}
 
 	division = {
-	    name = "27. Piyade Tümeni"
+	    name = "12. Piyade Tümeni"
 	    location = 1086# Jerusalem
 	    division_template = "Piyade Tümeni"
 	    start_experience_factor=0.1
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
+		start_equipment_factor = 0.8
 	}
 
 	division = {
-	    name = "8. Süvari Tugayı"
-	    location = 1086# Jerusalem
-	    division_template = "Süvari Tugayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-	
-	division = {
-	    name = "8. Tüfek Alayi"
-	    location = 4111# Damascus
-	    division_template = "Jandarma Alayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-
-	division = {
-	    name = "13. Jandarma Alayı"
-	    location = 876# Erzurum
-	    division_template = "Jandarma Alayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-
-	division = {
-	    name = "29. Piyade Tümeni 'Bayburt'"
+	    name = "13. Piyade Tümeni 'Bayburt'"
 	    location = 9886# Bayburt
 	    division_template = "Piyade Tümeni"
 	    start_experience_factor=0.1
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
+		start_equipment_factor = 0.8
 	}
 
-	division = {
-	    name = "9. Tüfek Alayi"
-	    location = 876# Erzurum
-	    division_template = "Jandarma Alayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
 
 	division = {
-	    name = "30. Piyade Tümeni"
-	    location = 6919# Erzincan
-	    division_template = "Piyade Tümeni"
-	    start_experience_factor=0.1
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-
-	
-	division = {
-	    name = "7. Süvari Tugayı"
-	    location = 9932# Trabzon
-	    division_template = "Süvari Tugayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-	
-	division = {
-	    name = "33. Piyade Tümeni 'Van'"
+	    name = "14. Piyade Tümeni 'Van'"
 	    location = 1463# Van
 	    division_template = "Piyade Tümeni"
 	    start_experience_factor=0.1
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
+		start_equipment_factor = 0.8
 	}
 
 	division = {
-	    name = "34. Piyade Tümeni 'Mus'"
+	    name = "15. Piyade Tümeni 'Mus'"
 	    location = 11880# Mus
 	    division_template = "Piyade Tümeni"
 	    start_experience_factor=0.1
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
+		start_equipment_factor = 0.8
 	}
+
+	###############################
 
 	division = {
 	    name = "1. Süvari Tugayı"
-	    location = 876# Erzurum
+	    location = 4112# Istanbul
 	    division_template = "Süvari Tugayı"
-	    start_experience_factor=0.05
+	    start_experience_factor=0.1
 		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
 	}
 
 	division = {
 	    name = "2. Süvari Tugayı"
-	    location = 12376# Agri
+	    location = 11818# Salonica
 	    division_template = "Süvari Tugayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-
-	division = {
-	    name = "3. Süvari Tugayı"
-	    location = 11829# Karakurt
-	    division_template = "Süvari Tugayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-
-	division = {
-	    name = "4. Süvari Tugayı"
-	    location = 12416# Derik
-	    division_template = "Süvari Tugayı"
-	    start_experience_factor=0.05
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-
-	division = {
-	    name = "35. Piyade Tümeni 'Musul'"
-	    location = 10106# Mosul
-	    division_template = "Piyade Tümeni"
 	    start_experience_factor=0.1
 		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-
-	division = {
-	    name = "36. Piyade Tümeni 'Kerkük'"
-	    location = 10811# Kirkuk
-	    division_template = "Piyade Tümeni"
-	    start_experience_factor=0.1
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-
-	division = {
-	    name = "37. Piyade Tümeni 'Bagdat'"
-	    location = 2097# Baghdad
-	    division_template = "Piyade Tümeni"
-	    start_experience_factor=0.1
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
-	}
-
-	division = {
-	    name = "38. Piyade Tümeni 'Basra'"
-	    location = 2089# Al Basrah
-	    division_template = "Piyade Tümeni"
-	    start_experience_factor=0.1
-		start_equipment_factor = 0.65
-			#start_manpower_factor = 0.2
 	}
 	
+	division = {
+	    name = "3. Süvari Tugayı"
+	    location = 9914# Tirane
+	    division_template = "Süvari Tugayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+	
+	division = {
+	    name = "4. Süvari Tugayı"
+	    location = 3882# Skopje
+	    division_template = "Süvari Tugayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+	
+
+	division = {
+	    name = "5. Süvari Tugayı"
+	    location = 1086# Jerusalem
+	    division_template = "Süvari Tugayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+	
+	division = {
+	    name = "6. Süvari Tugayı"
+	    location = 9932# Trabzon
+	    division_template = "Süvari Tugayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+	
+	division = {
+	    name = "7. Süvari Tugayı"
+	    location = 876# Erzurum
+	    division_template = "Süvari Tugayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+	    name = "8. Süvari Tugayı"
+	    location = 12376# Agri
+	    division_template = "Süvari Tugayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+	    name = "9. Süvari Tugayı"
+	    location = 11829# Karakurt
+	    division_template = "Süvari Tugayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+
+
+	#######################################################33
+
+
+	division = {
+	   name = "1. Jandarma Alayı"
+	    location = 6864# Canakkale
+	    division_template = "Jandarma Alayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+	    name = "2. Jandarma Alayı"
+	    location = 922# Kirklareli
+	    division_template = "Jandarma Alayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+	    name = "3. Jandarma Alayı"
+	    location = 3893# Edirne
+	    division_template = "Jandarma Alayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+	    name = "4. Jandarma Alayı"
+	    location = 3893# Edirne
+	    division_template = "Jandarma Alayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+	    name = "5. Jandarma Alayı"
+	    location = 3526# Kilkis
+	    division_template = "Jandarma Alayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+	    name = "6. Jandarma Alayı"
+	    location = 9780# Shkoder
+	    division_template = "Jandarma Alayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+	
+	division = {
+	    name = "7. Jandarma Alayı"
+	    location = 3882# Skopje
+	    division_template = "Jandarma Alayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+	    name = "8. Jandarma Alayı"
+	    location = 966# Kozani
+	    division_template = "Jandarma Alayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+	    name = "9. Jandarma Alayı"
+	    location = 3882# Skopje
+	    division_template = "Jandarma Alayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+	    name = "10. Jandarma Alayı"
+	    location = 4111# Damascus
+	    division_template = "Jandarma Alayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+	    name = "11. Jandarma Alayı"
+	    location = 876# Erzurum
+	    division_template = "Jandarma Alayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+	   name = "12. Jandarma Alayı"
+	    location = 876# Erzurum
+	    division_template = "Jandarma Alayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+	    name = "13. Jandarma Alayı"
+	    location = 9833# Istanbul
+	    division_template = "Jandarma Alayı"
+	    start_experience_factor=0.05
+		start_equipment_factor = 0.6
+		#start_manpower_factor = 0.2
+	}
+
+
+	division = {
+	    name = "14. Jandarma Alayı"
+	    location = 3526# Kilkis
+	    division_template = "Jandarma Alayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+	    name = "15. Jandarma Alayı"
+	    location = 9780# Shkoder
+	    division_template = "Jandarma Alayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+	
+	division = {
+	    name = "16. Jandarma Alayı"
+	    location = 3882# Skopje
+	    division_template = "Jandarma Alayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+	    name = "17. Jandarma Alayı"
+	    location = 966# Kozani
+	    division_template = "Jandarma Alayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+	    name = "18. Jandarma Alayı"
+	    location = 3882# Skopje
+	    division_template = "Jandarma Alayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+	    name = "19. Jandarma Alayı"
+	    location = 3882# Skopje
+	    division_template = "Jandarma Alayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+	    name = "20. Jandarma Alayı"
+	    location = 4111# Damascus
+	    division_template = "Jandarma Alayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+	    name = "21. Jandarma Alayı"
+	    location = 876# Erzurum
+	    division_template = "Jandarma Alayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+	   name = "22. Jandarma Alayı"
+	    location = 876# Erzurum
+	    division_template = "Jandarma Alayı"
+	    start_experience_factor=0.1
+		start_equipment_factor = 0.65
+	}
 }
+
+
+
 air_wings = {}
 instant_effect = {
 	add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "TUR" } requested_factories = 1 progress = 0.1 efficiency = 50}
