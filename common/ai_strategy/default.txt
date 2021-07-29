@@ -18,17 +18,24 @@
 ########################## THE GREAT WAR   ##########################
 ######################################################################
 
-#GW before 1916
+
+#GW past 1916
 default_unit_production = {
 	allowed = {
 		has_start_date < 1937.1.1
 	}
-	
 	enable = {	
-		date < 1916.1.1				
-	}
-	abort = { 
-		date > 1916.1.1
+		date < 1937.1.1	
+		NOT = {
+			original_tag = CAN
+			original_tag = USA
+			original_tag = CSA
+			original_tag = ENG
+			original_tag = FRA
+			original_tag = GER
+			original_tag = AUH
+			original_tag = RUS
+		}	
 	}
 	
 	ai_strategy = {
@@ -53,6 +60,12 @@ default_unit_production = {
 		type = role_ratio
 		id = armor
 		value = 2
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armored_car
+		value = 1
 	}
 
 	ai_strategy = {
@@ -71,131 +84,6 @@ default_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = scout_plane
-		value = 1
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = fighter
-		value = 5
-	}
-	
-	ai_strategy = {
-		type = unit_ratio
-		id = cas
-		value = 0
-	}
-	
-	ai_strategy = {
-		type = unit_ratio
-		id = tactical_bomber
-		value = 0
-	}
-	
-	ai_strategy = {
-		type = unit_ratio
-		id = strategic_bomber
-		value = 2
-	}
-	
-	ai_strategy = {
-		type = unit_ratio
-		id = naval_bomber
-		value = 1
-	}
-	
-	
-	# Naval unit factors
-	ai_strategy = {
-		type = unit_ratio
-		id = capital_ship
-		value = 15
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = submarine
-		value = 5
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = screen_ship
-		value = 40
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = convoy
-		value = 15
-	}
-
-	ai_strategy = {
-		type = equipment_production_factor
-		id = infantry
-		value = 55
-	}
-	ai_strategy = {
-		type = equipment_production_factor
-		id = artillery
-		value = 40
-	}
-	ai_strategy = {
-		type = air_factory_balance
-		value = -75
-	}
-}
-
-
-#GW past 1916
-default_unit_production = {
-	allowed = {
-		has_start_date < 1937.1.1
-	}
-	enable = {	
-		date > 1916.1.1				
-	}
-	
-	ai_strategy = {
-		type = role_ratio
-		id = paratroopers
-		value = 0
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = mountaineers
-		value = 4
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = marines
-		value = 2
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = armor
-		value = 5
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = infantry
-		value = 65 
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = cavalry
-		value = 5
-	}
-	
-	#Air unit factors
-	ai_strategy = {
-		type = unit_ratio
-		id = scout_plane
 		value = 2
 	}
 
@@ -220,13 +108,13 @@ default_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = strategic_bomber
-		value = 5
+		value = 2
 	}
 	
 	ai_strategy = {
 		type = unit_ratio
 		id = naval_bomber
-		value = 2
+		value = 1
 	}
 	
 	
@@ -234,7 +122,7 @@ default_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = capital_ship
-		value = 15
+		value = 10
 	}
 
 	ai_strategy = {
@@ -257,8 +145,13 @@ default_unit_production = {
 
 	ai_strategy = {
 		type = equipment_production_factor
+		id = fighter
+		value = 25
+	}
+	ai_strategy = {
+		type = equipment_production_factor
 		id = infantry
-		value = 50
+		value = 40
 	}
 	ai_strategy = {
 		type = equipment_production_factor
@@ -268,16 +161,7 @@ default_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = armor
-		value = 20
-	}
-	ai_strategy = {
-		type = equipment_production_factor
-		id = fighter
-		value = 35
-	}
-	ai_strategy = {
-		type = air_factory_balance
-		value = 10
+		value = 5
 	}
 }
 
@@ -402,30 +286,24 @@ DEFAULT_template_design = {
 }
 
 
-GW_stop_making_scouts_and_blimps = {
+
+GW_reduced_early_air_production = {
 	allowed = {
 		has_start_date < 1937.1.1
 	}
-	enable = {
-		NOT = { tag = GER }
-		has_deployed_air_force_size = {
-		    size > 249
-		    type = scout_plane
-		}
+	enable = {	
+		NOT = { has_tech = ww1_fighter2 }		
 	}
 	abort_when_not_enabled = yes
-	
+
 	ai_strategy = {
-		type = equipment_production_factor
-		id = scout_plane
-		value = -100
-	}
-	ai_strategy = {
-		type = equipment_production_factor
-		id = strategic_bomber
-		value = -100
+		type = air_factory_balance
+		value = -75
 	}
 }
+
+
+
 
 
 ######################################################################
@@ -453,16 +331,16 @@ default_unit_production = {
 	allowed = {
 		has_start_date > 1937.1.1
 	}
-
 	enable = {	
 		date > 1937.1.1	
 		NOT = {
-			tag = CSA
-			tag = ENG
-			tag = FRA
-			tag = RUS
-			tag = GER
-			tag = AUH
+			original_tag = USA
+			original_tag = CSA
+			original_tag = ENG
+			original_tag = FRA
+			original_tag = GER
+			original_tag = AUH
+			original_tag = RUS
 		}	
 	}
 	
@@ -575,6 +453,7 @@ default_unit_production = {
 		id = artillery
 		value = 25
 	}
+
 	ai_strategy = {
 		type = air_factory_balance
 		value = 15

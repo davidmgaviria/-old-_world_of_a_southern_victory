@@ -92,13 +92,6 @@ fleet = {
 			#start_manpower_factor = 0.5
 		}
 	division= { 
-			name = "5th Canadian Infantry Div."
-			location=4345 #Montreal
-			division_template="Canadian Royal Infantry Division"
-			start_experience_factor=0.3
-			#start_manpower_factor = 0.5
-		}
-	division= { 
 			name = "1st Canadian Royal Cavalry"
 			location=1262
 			division_template="Canadian Royal Cavalry Division"
@@ -124,7 +117,7 @@ fleet = {
 			location=7361 #Halifax
 			division_template="Canadian Home Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.45
 			#start_manpower_factor = 0.5
 			}	
 	division= { 
@@ -132,7 +125,7 @@ fleet = {
 			location=4285 #New Brunswick
 			division_template="Canadian Home Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.45
 			#start_manpower_factor = 0.5
 			}
 	division= { 
@@ -140,7 +133,7 @@ fleet = {
 			location=4666 #Northwetern Canada
 			division_template="Canadian Home Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.45
 			#start_manpower_factor = 0.5
 		}
 	division= { 
@@ -148,7 +141,7 @@ fleet = {
 			location=4362
 			division_template="Canadian Home Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.45
 			#start_manpower_factor = 0.5
 		}
 	division= { 
@@ -156,7 +149,7 @@ fleet = {
 			location=3010
 			division_template="Canadian Home Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.45
 			#start_manpower_factor = 0.5
 		}
 	division= { 
@@ -164,7 +157,7 @@ fleet = {
 			location= 7875
 			division_template="Canadian Home Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.45
 			#start_manpower_factor = 0.5
 		}
 	division= { 
@@ -172,7 +165,7 @@ fleet = {
 			location= 1408 #Vancouver
 			division_template="Canadian Home Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.45
 			#start_manpower_factor = 0.5
 		}
 	division= { 
@@ -188,7 +181,7 @@ fleet = {
 			location= 10230
 			division_template="Canadian Home Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.45
 			#start_manpower_factor = 0.5
 		}
 	division= { 
@@ -196,7 +189,7 @@ fleet = {
 			location= 6510
 			division_template="Canadian Home Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.45
 			#start_manpower_factor = 0.5
 		}
 		division= { 
@@ -212,7 +205,7 @@ fleet = {
 			location=4285 #New Brunswick
 			division_template="Canadian Home Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.45
 			#start_manpower_factor = 0.5
 		}
 	division= { 
@@ -220,7 +213,7 @@ fleet = {
 			location=4285 #New Brunswick
 			division_template="Canadian Home Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.45
 			#start_manpower_factor = 0.5
 		}
 	division= { 
@@ -228,7 +221,7 @@ fleet = {
 			location=7361 #Halifax
 			division_template="Canadian Home Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.45
 			#start_manpower_factor = 0.5
 			}	
 	division= { 
@@ -236,7 +229,7 @@ fleet = {
 			location=4285 #New Brunswick
 			division_template="Canadian Home Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.45
 			#start_manpower_factor = 0.5
 			}
 	division= { 
@@ -244,7 +237,7 @@ fleet = {
 			location=4666 #Northwetern Canada
 			division_template="Canadian Home Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.45
 			#start_manpower_factor = 0.5
 		}
 	division= { 
@@ -252,23 +245,7 @@ fleet = {
 			location=4362
 			division_template="Canadian Home Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
-			#start_manpower_factor = 0.5
-		}
-	division= { 
-			name = "17th Canadian Home Guard"
-			location=3010
-			division_template="Canadian Home Guard"
-			start_experience_factor=0.1
-			start_equipment_factor = 0.65
-			#start_manpower_factor = 0.5
-		}
-	division= { 
-			name = "18th Canadian Home Guard"
-			location= 7875
-			division_template="Canadian Home Guard"
-			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.45
 			#start_manpower_factor = 0.5
 		}
 }

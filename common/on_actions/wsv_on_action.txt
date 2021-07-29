@@ -15,6 +15,71 @@ on_actions = {
 	}
 
 
+	#English men to Canada
+	#on_startup = {
+	#	effect = {
+	#		if = {
+	#			limit = {
+	#				has_start_date > 1910.1.1
+	#				has_start_date < 1914.1.1
+	#			}
+	#			ENG = {
+	#				load_oob = ENG_canadian_expeditionary_1910
+	#				set_division_template_lock = { division_template = "Canadian Expeditionary Division"   is_locked = yes }
+	#				set_country_flag = england_canadian_expeditionary_force
+	#			}
+	#		}
+	#		else_if = {
+	#			limit = {
+	#				has_start_date > 1914.1.1
+	#				has_start_date < 1937.1.1
+	#			}
+	#			ENG = {
+	#				load_oob = ENG_canadian_expeditionary_1914
+	#				set_country_flag = england_canadian_expeditionary_force
+	#				if = {
+	#					limit = { is_ai = yes }
+	#					set_division_template_lock = { division_template = "Canadian Expeditionary Division"   is_locked = yes }
+	#				}
+	#			}
+	#		}
+	#	}		
+	#}
+
+
+	#english send men to canada
+	#on_war = {
+	#	effect = {
+	#		if = {
+	#			limit = {
+	#				CAN = { 
+	#					has_war_with = USA
+	#					is_subject_of = ENG
+	#				}
+	#				ENG = {
+	#					is_ai = yes
+	#					NOT = { has_global_flag = england_canadian_expeditionary_force }
+	#				}
+	#			}
+	#			ENG = {
+	#				transfer_units_fraction= {
+	#					target = CAN
+	#					size = 0.35
+	#					stockpile_ratio = 0.35
+	#				}
+	#				add_ideas = ENG_canadian_expeditionary_force_sender
+	#				set_global_flag = england_canadian_expeditionary_force
+	#			}
+	#			CAN = { 
+	#				add_ideas = ENG_canadian_expeditionary_force_reciever 
+	#			}
+	#		}
+	#	}
+	#}
+
+
+
+
 	#what to do with mormon leaders
 	on_capitulation = {
 		effect = {
@@ -109,6 +174,16 @@ on_actions = {
 			if = {
 				limit = { original_tag = QIN }
 				add_ideas = neutrality_idea
+			}
+		}
+	}
+
+
+	## war exhaustion controls
+	on_war = {
+		effect = { 
+			if = {
+				limit = { tag = CAN }
 			}
 		}
 	}

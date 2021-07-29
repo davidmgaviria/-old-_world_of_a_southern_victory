@@ -80,10 +80,10 @@ if = { limit = { has_start_date < 1937.1.1 }
 			thorough_planner 
 			} 
 		skill = 4
-		attack_skill = 5
-		defense_skill = 4
+		attack_skill = 4
+		defense_skill = 3
 		planning_skill = 4
-		logistics_skill = 4 
+		logistics_skill = 3 
 	}
 
 	create_field_marshal = { 
@@ -91,11 +91,11 @@ if = { limit = { has_start_date < 1937.1.1 }
 		id = 42004 
 		portrait_path = "gfx/portraits/USA/army_generals/USA_Francis_Marshall.dds" 
 		traits = { } 
-		skill = 2 
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 1
+		skill = 3 
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 2
 	}
 
 	create_field_marshal = {  
@@ -117,7 +117,7 @@ if = { limit = { has_start_date < 1937.1.1 }
 		traits = {   } 
 		skill = 3 
 		attack_skill = 3
-		defense_skill = 3
+		defense_skill = 2
 		planning_skill = 3
 		logistics_skill = 2
 	}
@@ -138,7 +138,7 @@ if = { limit = { has_start_date < 1937.1.1 }
 		} 
 		skill = 2 
 		attack_skill = 2
-		defense_skill = 2
+		defense_skill = 1
 		planning_skill = 1
 		logistics_skill = 2
 	}
@@ -168,7 +168,7 @@ if = { limit = { has_start_date < 1937.1.1 }
 		 attack_skill = 3
 		 defense_skill = 3
 		 planning_skill = 4
-		 logistics_skill = 5
+		 logistics_skill = 4
 	}
 	create_corps_commander = {  
 		name = "Frederick Funston" 
@@ -219,7 +219,7 @@ if = { limit = { has_start_date < 1937.1.1 }
 		skill = 3 
 		attack_skill = 3
 		defense_skill = 2
-		planning_skill = 4
+		planning_skill = 2
 		logistics_skill = 3
 	}
 
@@ -228,11 +228,11 @@ if = { limit = { has_start_date < 1937.1.1 }
 		id = 93020 
 		portrait_path = "gfx/portraits/USA/army_generals/USA_Douglas_MacArthur.dds" 
 		traits = { trait_engineer } 
-		skill = 4 
-		attack_skill = 4
-		defense_skill = 4
+		skill = 3 
+		attack_skill = 3
+		defense_skill = 2
 		planning_skill = 2
-		logistics_skill = 4
+		logistics_skill = 2
 	}
 
 	create_corps_commander = {  
@@ -240,11 +240,11 @@ if = { limit = { has_start_date < 1937.1.1 }
 		id = 42005 
 		portrait_path = "gfx/portraits/USA/army_generals/USA_Paul_Malone.dds" 
 		traits = { trait_engineer } 
-		skill = 4 
-		attack_skill = 4
+		skill = 3 
+		attack_skill = 3
 		defense_skill = 2
 		planning_skill = 3
-		logistics_skill = 4
+		logistics_skill = 2
 	}
 
 	create_corps_commander = {  
@@ -266,8 +266,8 @@ if = { limit = { has_start_date < 1937.1.1 }
 		traits = { trait_engineer } 
 		skill = 3
 		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 3
+		defense_skill = 2
+		planning_skill = 2
 		logistics_skill = 3
 	}
 
@@ -312,11 +312,11 @@ if = { limit = { has_start_date < 1937.1.1 }
 		id = 42013 
 		portrait_path = "gfx/portraits/USA/army_generals/USA_Oliver_Edwards.dds" 
 		traits = { trait_engineer } 
-		skill = 3 
-		attack_skill = 3
-		defense_skill = 3
-		logistics_skill = 3
-		planning_skill = 3
+		skill = 2 
+		attack_skill = 2
+		defense_skill = 2
+		logistics_skill = 1
+		planning_skill = 1
 	}
 
 	create_corps_commander = {  
@@ -324,11 +324,11 @@ if = { limit = { has_start_date < 1937.1.1 }
 		id = 42014 
 		portrait_path = "gfx/portraits/USA/army_generals/USA_Charles_Hedekin.dds" 
 		traits = { trait_engineer } 
-		skill = 1 
+		skill = 2 
 		attack_skill = 1
 		defense_skill = 1
 		planning_skill = 1
-		logistics_skill = 1
+		logistics_skill = 2
 	}
 
 	create_corps_commander = {  

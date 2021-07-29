@@ -87,24 +87,27 @@ units = {
 		name = "2 Qábing Jun"
 		location = 8081
 		division_template = "Qibing Jun"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
 	}
 	division = {
 		name = "6 Qábing Jun"
 		location = 7940
 		division_template = "Qibing Jun"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
 	}
 	division = {
 		name = "5 Qábing Jun"
 		location = 7940
 		division_template = "Qibing Jun"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
 	}
 }
+
+
+
 instant_effect = {
 	add_equipment_production = {
 		equipment = {

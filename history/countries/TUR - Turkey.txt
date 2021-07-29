@@ -39,20 +39,20 @@ if = { limit = { has_start_date < 1937.1.1 }
 	create_country_leader={ name = "Mehmed V" desc=TUR_mehmed_v_DESC picture="gfx/portraits/TUR/country_leaders/TUR_mehmed_v.dds" expire="1935.1.1" ideology=nazism  traits={  } }
 
 
-	create_field_marshal={  name = "Hasan Tahsin"  portrait_path="gfx/portraits/TUR/army_generals/TUR_Hasan_Tahsin.dds"  traits={ offensive_doctrine desert_fox } skill=3 
-		attack_skill = 3
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 3
-	}
-	create_field_marshal={  name = "Esad Akman"  portrait_path="gfx/portraits/TUR/army_generals/TUR_Esad.dds" traits={ defensive_doctrine } skill=2 
+	create_field_marshal={  name = "Hasan Tahsin"  portrait_path="gfx/portraits/TUR/army_generals/TUR_Hasan_Tahsin.dds"  traits={ offensive_doctrine desert_fox } skill=2 
 		attack_skill = 2
-		defense_skill = 3
-		planning_skill = 2
+		defense_skill = 2
+		planning_skill = 1
 		logistics_skill = 2
 	}
-	create_corps_commander={  name = "Enver Pasha"  portrait_path="gfx/portraits/TUR/army_generals/TUR_Enver.dds"  traits={ old_guard } skill=2
-		attack_skill = 2
+	create_field_marshal={  name = "Esad Akman"  portrait_path="gfx/portraits/TUR/army_generals/TUR_Esad.dds" traits={ defensive_doctrine } skill=2 
+		attack_skill = 1
+		defense_skill = 2
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	create_corps_commander={  name = "Enver Pasha"  portrait_path="gfx/portraits/TUR/army_generals/TUR_Enver.dds"  traits={ old_guard } skill=1
+		attack_skill = 1
 		defense_skill = 1
 		planning_skill = 1
 		logistics_skill = 1

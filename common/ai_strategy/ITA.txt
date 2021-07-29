@@ -17,7 +17,7 @@ italoturkish_war = {
 	ai_strategy = {
 		type = area_priority
 		id = africa
-		value = 250
+		value = 100
 	}
 
 	ai_strategy = {
@@ -29,7 +29,13 @@ italoturkish_war = {
 	ai_strategy = {
 		type = front_unit_request
 		area = africa
-		value = 100
+		value = 80
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		state = 663
+		value = 60
 	}
 
 	ai_strategy = {

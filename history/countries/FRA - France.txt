@@ -83,7 +83,7 @@ create_field_marshal={
 	attack_skill = 3
 	defense_skill = 4
 	planning_skill = 3
-	logistics_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander={
@@ -102,7 +102,7 @@ create_corps_commander={
 	portrait_path="gfx/portraits/FRA/army_generals/FRA_robert_nivelle.dds"
 	traits={ }
 	skill=2
-	attack_skill = 3
+	attack_skill = 2
 	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 2
@@ -114,10 +114,10 @@ create_corps_commander = {
 	traits = {
 		trickster
 	}
-	skill = 5
+	skill = 2
 	attack_skill = 2
 	defense_skill = 1
-	planning_skill = 3
+	planning_skill = 2
 	logistics_skill = 2
 }
 
@@ -125,7 +125,7 @@ create_corps_commander={
 	name = "Louis Franchet d'Espèrey" id=32003
 	portrait_path="gfx/portraits/FRA/army_generals/FRA_louis_franchet_d_esperey.dds"
 	traits={ }
-	skill=3
+	skill=2
 	attack_skill = 1
 	defense_skill = 2
 	planning_skill = 1
@@ -158,7 +158,7 @@ create_corps_commander={
 	name = "Michel Maunoury" id=32033
 	portrait_path="gfx/portraits/FRA/army_generals/FRA_michel_maunoury.dds"
 	traits={ }
-	skill=3
+	skill=2
 	attack_skill = 2
 	defense_skill = 1
 	planning_skill = 1
@@ -169,7 +169,7 @@ create_navy_leader={
 	name = "Auguste Boué de Lapeyrère" id=32302
 	portrait_path="gfx/portraits/FRA/navy_admirals/FRA_de_lapeyrere.dds"
 	traits={ }
-	skill=3
+	skill=2
 	attack_skill = 1
 	defense_skill = 2
 }
@@ -196,7 +196,7 @@ create_navy_leader={
 	name = "Pierre-Alexis Ronarc'h" id=32341
 	portrait_path="gfx/portraits/FRA/navy_admirals/FRA_ronarc_h.dds"
 	traits={ }
-	skill=3
+	skill=2
 	attack_skill = 1
 	defense_skill = 1
 }

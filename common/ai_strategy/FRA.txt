@@ -14,6 +14,8 @@
 
 
 
+######################### GENERIC ##########################
+
 FRA_area_priority_africa = {
     enable = {
         original_tag = FRA
@@ -36,7 +38,7 @@ FRA_area_priority_africa = {
 ######################### GREAT WAR ##########################
 
 
-FRA_more_artillery= {
+FRA_gw_unit_production = {
 	allowed = {
 		original_tag = FRA
 		has_start_date < 1937.1.1
@@ -44,12 +46,134 @@ FRA_more_artillery= {
 	enable = {
 		always = yes
 	}
-	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 2
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 2
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 2
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = armored_car
+		value = 1
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 70 
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = cavalry
+		value = 5
+	}
+	
+	#Air unit factors
+	ai_strategy = {
+		type = unit_ratio
+		id = scout_plane
+		value = 2
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = fighter
+		value = 55
+	}	
+	ai_strategy = {
+		type = unit_ratio
+		id = cas
+		value = 0
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = tactical_bomber
+		value = 5
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = strategic_bomber
+		value = 2
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = naval_bomber
+		value = 1
+	}
+	
+	# Naval unit factors
+	ai_strategy = {
+		type = unit_ratio
+		id = capital_ship
+		value = 15
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = submarine
+		value = 5
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = screen_ship
+		value = 40
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 20
+	}
 
 	ai_strategy = {
 		type = equipment_production_factor
+		id = fighter
+		value = 35
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 40
+	}
+	ai_strategy = {
+		type = equipment_production_factor
 		id = artillery
-		value = 70
+		value = 35
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 5
+	}
+}
+
+
+FRA_build_up_army = {
+	allowed = {
+		original_tag = FRA
+		has_start_date < 1937.1.1
+	}
+	enable = {
+		country_exists = GER
+		has_army_manpower = { size < 1000000 }
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = equipment_stockpile_surplus_ratio
+		value = -20 # reduce while we build up in case of issues
 	}
 }
 
@@ -68,12 +192,7 @@ FRA_focus_on_germany = {
 	ai_strategy = {
 		type = conquer
 		id = "GER"			
-		value = 80
-	}
-	ai_strategy = {
-		type = protect
-		id = "BEL"			
-		value = 100
+		value = 50
 	}
 	ai_strategy = {
 		type = dont_defend_ally_borders
@@ -106,11 +225,93 @@ FRA_focus_on_germany = {
 		value = -60
 	}
 	ai_strategy = {
+		type = front_unit_request
+		area = north_america
+		value = -100
+	}
+	ai_strategy = {
 		type = ignore
 		id = "USA"		
 		value = 200
 	}
 }
+
+
+FRA_plan_17 = {
+	allowed = {
+		original_tag = FRA
+		has_start_date < 1937.1.1
+	}
+	enable  {
+		has_war_with = GER
+		is_in_faction_with = BEL
+	}
+	abort = {
+		OR = {
+			surrender_progress > 0.1
+			casualties > 100000
+		}
+	}
+	ai_strategy = {
+		type = front_control
+		state = 28
+		priority = 200
+		ratio = 0.2
+		ordertype = front
+		execution_type = rush_weak
+		execute_order = yes
+		manual_attack = yes
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = "BEL"			
+		value = 25
+	}
+}
+
+
+FRA_conserve_manpower_1 = {
+	allowed = { 
+		original_tag = FRA 
+		has_start_date < 1937.1.1
+	}
+	enable = {		
+		has_war_with = GER
+		casualties > 300000
+	}
+	abort = {
+		GER = { surrender_progress > 0.15 }
+	}
+
+	ai_strategy = {
+		type = consider_weak
+		id = "GER"			
+		value = -25
+	}
+}
+
+
+
+FRA_conserve_manpower_2 = {
+	allowed = { 
+		original_tag = FRA 
+		has_start_date < 1937.1.1
+	}
+	enable = {		
+		has_war_with = GER
+		casualties > 600000
+	}
+	abort = {
+		GER = { surrender_progress > 0.15 }
+	}
+
+	ai_strategy = {
+		type = consider_weak
+		id = "GER"			
+		value = -30
+	}
+}	
 
 
 
