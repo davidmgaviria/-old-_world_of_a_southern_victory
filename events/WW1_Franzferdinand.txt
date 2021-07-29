@@ -300,7 +300,7 @@ country_event = {
 		
 		hidden_effect = {
 		    BEL = { add_timed_idea = { days = 30  idea = unexpected_assault }  }
-		    #FRA = { add_timed_idea = { days = 21  idea = outflanked_through_belgium }  }
+		   	FRA = { add_timed_idea = { days = 30  idea = outflanked_through_belgium }  }
 		}
 		
 		if = { 
@@ -337,7 +337,7 @@ country_event = {
 		
 		hidden_effect = {
 		    BEL = { add_timed_idea = { days = 30  idea = unexpected_assault }  }
-		   # FRA = { add_timed_idea = { days = 21  idea = outflanked_through_belgium } }
+		    FRA = { add_timed_idea = { days = 30  idea = outflanked_through_belgium } }
 		}
 
 		HOL = {

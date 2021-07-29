@@ -250,6 +250,7 @@ FRA_plan_17 = {
 		OR = {
 			surrender_progress > 0.1
 			casualties > 100000
+			GER = { controls_state = 34 }
 		}
 	}
 	ai_strategy = {
@@ -265,8 +266,8 @@ FRA_plan_17 = {
 
 	ai_strategy = {
 		type = dont_defend_ally_borders
-		id = "BEL"			
-		value = 25
+		id = "BEL"		
+		value = 100
 	}
 }
 
@@ -309,7 +310,7 @@ FRA_conserve_manpower_2 = {
 	ai_strategy = {
 		type = consider_weak
 		id = "GER"			
-		value = -30
+		value = -45
 	}
 }	
 
@@ -698,7 +699,7 @@ FRA_attack_germany_ww2 = {
 	}
 	ai_strategy = {
 		type = 	spare_unit_factor		
-		value = -09
+		value = -100
 	}	
 }
 

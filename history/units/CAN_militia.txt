@@ -75,6 +75,12 @@ units = {
 		division_template="Canadian Militiamen"
 		start_experience_factor=0.1
 	}
+	division= { 
+		name = "10 Canadian Militiamen"
+		location=7899
+		division_template="Canadian Militiamen"
+		start_experience_factor=0.1
+	}
 
 	##### East #####
 	division= { 
@@ -116,6 +122,30 @@ units = {
 	division= { 
 		name = "16 Canadian Militiamen"
 		location=4342
+		division_template="Canadian Militiamen"
+		start_experience_factor=0.1
+	}
+	division= { 
+		name = "17 Canadian Militiamen"
+		location=4345
+		division_template="Canadian Militiamen"
+		start_experience_factor=0.1
+	}
+	division= { 
+		name = "18 Canadian Militiamen"
+		location=4345
+		division_template="Canadian Militiamen"
+		start_experience_factor=0.1
+	}
+	division= { 
+		name = "19 Canadian Militiamen"
+		location=4345
+		division_template="Canadian Militiamen"
+		start_experience_factor=0.1
+	}
+	division= { 
+		name = "20 Canadian Militiamen"
+		location=4345
 		division_template="Canadian Militiamen"
 		start_experience_factor=0.1
 	}

@@ -316,7 +316,6 @@ ENG_dont_defend_north_america = {
 		has_start_date < 1937.1.1
 	}
 	enable = {
-		has_war_with = USA
 		OR = {
 			is_in_faction_with = CSA
 			is_in_faction_with = MEX

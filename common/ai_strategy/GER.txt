@@ -132,12 +132,12 @@ GER_protect_north_coast = {
 	ai_strategy = {
 		type = area_priority
 		id = baltic_sea
-		value = 2600
+		value = 3000
 	}
 	ai_strategy = {
 		type = area_priority
 		id = north_sea
-		value = 1400
+		value = 1800
 	}
 }
 
@@ -353,7 +353,7 @@ GER_der_schlieffen_plan = {
 			#attack has failed
 			AND = {
 				casualties > 250000
-				BEL = { has_capitulated = no }		
+				NOT = { controls_state = 16 }		
 			}
 			#schliffen is over
 			AND = {
@@ -366,7 +366,7 @@ GER_der_schlieffen_plan = {
 	ai_strategy = {
 		type = conquer
 		id = "BEL"			
-		value = 1000
+		value = 1400
 	}
 
 	ai_strategy = {
@@ -378,7 +378,7 @@ GER_der_schlieffen_plan = {
 	ai_strategy = {
 		type = conquer
 		id = "FRA"			
-		value = 400
+		value = 600
 	}
 
 	ai_strategy = {
@@ -486,27 +486,20 @@ GER_focus_east = {
 		value = 250
 	}
 	ai_strategy = {
-		type = conquer
-		id = "FRA"			
-		value = 100
-	}
-	ai_strategy = {
 		type = consider_weak
 		id = "RUS"			
-		value = 35
+		value = 25
 	}
 	ai_strategy = {
 		type = front_unit_request
 		tag = FRA			
 		value = 55
 	}
-
 	ai_strategy = {
 		type = front_unit_request
 		area = africa		
 		value = -200
 	}
-
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = USA
@@ -544,43 +537,37 @@ GER_attack_french_during_mutiny = {
 }
 
 
-GER_protect_auh = {
+GER_support_austria = {
 	allowed = {
 		original_tag = GER
 		has_start_date < 1937.1.1
 	}
 	enable = {
 		has_war = yes
-		AUH = { 
-			is_in_faction_with = GER
-			surrender_progress > 0.2
-		}
+		is_in_faction_with = AUH
 	}
 	ai_strategy = {
-		type = protect
-		id = "AUH"		
-		value = 60
-	}	
+ 		type = send_lend_lease_desire
+  		id = AUH
+   		value = 60
+   	}	
 }
 
 
-GER_protect_tur = {
+GER_support_turkey = {
 	allowed = {
 		original_tag = GER
 		has_start_date < 1937.1.1
 	}
 	enable = {
 		has_war = yes
-		TUR = { 
-			is_in_faction_with = GER
-			surrender_progress > 0.2
-		}
+		is_in_faction_with = TUR
 	}
 	ai_strategy = {
-		type = front_unit_request
-		area = middle_east
-		value = 25
-	}	
+ 		type = send_lend_lease_desire
+  		id = TUR
+   		value = 40
+   	}	
 }
 
 
