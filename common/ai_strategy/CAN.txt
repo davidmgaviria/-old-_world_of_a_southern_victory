@@ -162,31 +162,31 @@ CAN_defend_against_usa = {
 	}
 	abort_when_not_enabled = yes
 
-
 	ai_strategy = {
 		type = prepare_for_war
 		id = "USA"
-		value = 40
+		value = 100
 	}
-
 
 	ai_strategy = {
-		type = front_unit_request
-		area = eastern_canada
-		value = -10
+		type = invade
+		id = "USA"
+		value = -1000
 	}
-	
+
 	ai_strategy = {
 		type = front_unit_request
 		area = western_canada
-		value = 30
+		value = 25
 	}
 
 	ai_strategy = {
-		type = front_unit_request
-		state = 393
-		state = 358
-		value = -60
+		type = put_unit_buffers		
+		states = { 
+			822	
+		}
+		ratio = 0.15
+		subtract_fronts_from_need = no
 	}
 
 
@@ -209,26 +209,27 @@ CAN_defend_against_usa = {
 		type = 	spare_unit_factor		
 		value = -100
 	}
-}
+}	
 
 
 
-CAN_hold_the_west = {
-	enable = {
-		tag = CAN
+CAN_conserve_manpower = {
+	allowed = { 
+		original_tag = CAN 
 		has_start_date < 1937.1.1
 	}
-	abort_when_not_enabled = yes
+	enable = {		
+		has_war_with = USA
+		casualties > 300000
+	}
+	abort = {
+		USA = { surrender_progress > 0.15 }
+	}
 
 	ai_strategy = {
-		type = front_control
-		area = western_canada
-		priority = 400
-		ratio = 0.1
-		ordertype = front
-		execution_type = careful
-		execute_order = yes
-		manual_attack = yes
+		type = consider_weak
+		id = "USA"			
+		value = -15
 	}
 }
 

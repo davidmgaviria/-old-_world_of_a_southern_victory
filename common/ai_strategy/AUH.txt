@@ -273,13 +273,7 @@ AUH_kill_serbia = {
 	ai_strategy = {
 		type = conquer
 		id = "SER"			
-		value = 400
-	}
-
-	ai_strategy = {
-		type = consider_weak
-		id = "SER"			
-		value = 25
+		value = 250
 	}
 
 	ai_strategy = {

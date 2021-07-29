@@ -26,6 +26,7 @@ country_event = {
 		}
 		CAN = { 
 			add_ideas = ENG_canadian_expeditionary_force_reciever 
+			#load_oob = "CAN_militia"
 		}
 	}
 }

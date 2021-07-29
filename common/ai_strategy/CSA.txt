@@ -278,6 +278,7 @@ CSA_ww1_focus_on_usa = {
 		id = "USA"
 		value = 60
 	}
+
 	ai_strategy = {
 		type = 	spare_unit_factor		
 		value = -100
@@ -317,12 +318,12 @@ CSA_ww1_focus_on_usa = {
 		value = 80
 	}
 
-	#we dont care about sonora
+	#sonora
 	ai_strategy = {
 		type = front_unit_request
 		state = 377
 		state = 837
-		value = -60
+		value = -50
 	}
 }	
 
@@ -339,14 +340,8 @@ CSA_take_dc = {
 	abort = {
 		OR = {
 			surrender_progress > 0.1
-			casualties > 100000
+			casualties > 50000
 		}
-	}
-
-	ai_strategy = {
-		type = conquer
-		id = "USA"			
-		value = 100
 	}
 
 	ai_strategy = {
@@ -368,7 +363,7 @@ CSA_take_dc = {
 		state = 840
 		state = 360
 		state = 361
-		value = 350
+		value = 250
 	}
 }
 
@@ -383,7 +378,7 @@ CSA_conserve_manpower_1 = {
 		casualties > 300000
 	}
 	abort = {
-		USA = { surrender_progress > 0.15 }
+		USA = { surrender_progress > 0.2 }
 	}
 
 	ai_strategy = {
