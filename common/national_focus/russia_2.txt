@@ -1602,7 +1602,7 @@ focus_tree = {
 			}
 			hidden_effect = {
 				#GER = { country_event = { id = wsv_ww2_germany.30  days = 7  random = 14 } }
-				#news_event = wsv_ww2_russia.14
+				news_event = wsv_ww2_russia.14
 			}
 		}
 	}
@@ -2006,7 +2006,7 @@ focus_tree = {
 			hidden_effect = {
 				#GER = { country_event = { id = wsv_ww2_germany.28  days = 7  random = 14 } }
 				#GER = { country_event = { id = wsv_ww2_germany.29  days = 7  random = 14 } }
-				#news_event = wsv_ww2_russia.14
+				news_event = wsv_ww2_russia.14
 			}
 		}
 	}

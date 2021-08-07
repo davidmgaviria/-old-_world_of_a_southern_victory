@@ -841,7 +841,7 @@ fleet = {
 			location=4135 # Gibraltar
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.55
+			start_equipment_factor = 0.5
 			}
 	
 	
@@ -850,7 +850,7 @@ fleet = {
 			location = 12003 # Malta
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.55
+			start_equipment_factor = 0.5
 			}
 	
 	
@@ -859,7 +859,7 @@ fleet = {
 			location = 4076 # El Iskandarîya
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.55
+			start_equipment_factor = 0.5
 			
 			}
 	
@@ -869,7 +869,7 @@ fleet = {
 			location=12299 # Singapore
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.55
+			start_equipment_factor = 0.5
 			
 			}
 	
@@ -879,7 +879,7 @@ fleet = {
 			location = 4205 # Weihai
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.55
+			start_equipment_factor = 0.5
 			
 			}
 	
@@ -889,7 +889,7 @@ fleet = {
 			location = 4205 # Weihai
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.55
+			start_equipment_factor = 0.5
 			
 			}
 	
@@ -899,7 +899,7 @@ fleet = {
 			location=10062 # Hong Kong
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.55
+			start_equipment_factor = 0.5
 		}
 	
 	
@@ -908,7 +908,7 @@ fleet = {
 			location = 12821 # Aden
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.55
+			start_equipment_factor = 0.5
 			
 		}
 	
@@ -918,7 +918,7 @@ fleet = {
 			location=5210 # Mombasa
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.55
+			start_equipment_factor = 0.5
 			
 			}
 	
@@ -928,7 +928,7 @@ fleet = {
 			location = 1939 # Nairobi
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.55
+			start_equipment_factor = 0.5
 			
 			}
 	
@@ -938,7 +938,7 @@ fleet = {
 			location = 10862 # Accra
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.55
+			start_equipment_factor = 0.5
 			
 			}
 

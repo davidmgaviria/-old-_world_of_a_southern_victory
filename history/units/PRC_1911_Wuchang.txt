@@ -1,70 +1,278 @@
 ﻿###################################################################
 
 division_template = {
-	name = "Infantry Division"
+	name = "Nóngmín Bīng"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-	}
-}
-
-division_template = {
-	name = "Infantry Brigade"
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 1 y = 0 }
 	}
 	priority = 0
 }
 
-division_template = {
-	name = "Cavalry Division"
-	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-	}
-}
 
 ###################################################################
 
 units = {
+	
+	#Guangzhou
 	division= { 
-			name = "1. Hubei Revolutionary Army"
-			location=4619 # Wuhan
-			division_template="Infantry Division"
-			start_experience_factor=0
-			}
-	
-	
-	division= { 
-			name = "2. Hubei Revolutionary Army"
-			location = 4631 # Xianning
-			division_template="Infantry Division"
-			start_experience_factor=0
-			}
-	
-	
-	division= { 
-			name = "Hubei Militia"
-			location = 4631 # Jiayu
-			division_template="Infantry Brigade"
-			start_experience_factor=0
-			}
-	
-	
-	division= { 
-			name = "Wuchang Militia"
-			location=4619 # Wuhan
-			division_template="Infantry Brigade"
-			start_experience_factor=0
-			}
-	
+		name = "1a Nóngmín Bīng"
+		location = 1187
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
 	}
-air_wings = { 
+	division= { 
+		name = "2a Nóngmín Bīng"
+		location = 1187
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
 	}
-instant_effect = {
+	division= { 
+		name = "3a Nóngmín Bīng"
+		location = 1187
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
 	}
+	division= { 
+		name = "4a Nóngmín Bīng"
+		location = 1187
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "5a Nóngmín Bīng"
+		location = 1187
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+
+	#Fujian
+	division= { 
+		name = "6a Nóngmín Bīng"
+		location = 1193
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "7a Nóngmín Bīng"
+		location = 1193
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "8a Nóngmín Bīng"
+		location = 1193
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "9a Nóngmín Bīng"
+		location = 1193
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "10a Nóngmín Bīng"
+		location = 1193
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "11a Nóngmín Bīng"
+		location = 1193
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "12a Nóngmín Bīng"
+		location = 1193 
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "13a Nóngmín Bīng"
+		location = 1193
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "14a Nóngmín Bīng"
+		location = 1193
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "15a Nóngmín Bīng"
+		location = 1193
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+
+	#Suiyan
+	division= { 
+		name = "16a Nóngmín Bīng"
+		location = 4525
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "17a Nóngmín Bīng"
+		location = 4525 # Anshun
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "18a Nóngmín Bīng"
+		location = 4525 # Anshun
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "19a Nóngmín Bīng"
+		location = 4525 # Anshun
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "20a Nóngmín Bīng"
+		location = 4525
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+
+	#Jehoul
+	division= { 
+		name = "21a Nóngmín Bīng"
+		location = 814
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "22a Nóngmín Bīng"
+		location = 814
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "23a Nóngmín Bīng"
+		location = 814
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "24a Nóngmín Bīng"
+		location = 814
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "25a Nóngmín Bīng"
+		location = 814
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "26a Nóngmín Bīng"
+		location = 814
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "27a Nóngmín Bīng"
+		location = 814
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "28a Nóngmín Bīng"
+		location = 814
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+
+	#Hubei
+	division= { 
+		name = "29a Nóngmín Bīng"
+		location = 1612
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "30a Nóngmín Bīng"
+		location = 1612
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+		division= { 
+		name = "31a Nóngmín Bīng"
+		location = 1612
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "32a Nóngmín Bīng"
+		location = 1612
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "33a Nóngmín Bīng"
+		location = 1612
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "34a Nóngmín Bīng"
+		location = 1612
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "35a Nóngmín Bīng"
+		location = 1612
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+	division= { 
+		name = "36a Nóngmín Bīng"
+		location = 1612
+		division_template="Nóngmín Bīng"
+		start_experience_factor= 0.05
+		start_equipment_factor = 0.5
+	}
+}

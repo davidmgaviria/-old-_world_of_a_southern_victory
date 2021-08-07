@@ -976,7 +976,7 @@ fleet = {
 			location=4401 # Saigon
 			division_template="Troupes Coloniales"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.6
 			}
 	
 	
@@ -985,7 +985,7 @@ fleet = {
 			location = 10137 # Quang Ngai
 			division_template="Troupes Coloniales"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.6
 			}
 	
 	
@@ -994,7 +994,7 @@ fleet = {
 			location=4075 # Hanoi
 			division_template="Troupes Coloniales"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.6
 			}
 	
 	
@@ -1003,7 +1003,7 @@ fleet = {
 			location = 5222 # Antananarivo
 			division_template="Troupes Coloniales"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.6
 			}
 	
 	
@@ -1012,7 +1012,7 @@ fleet = {
 			location = 5222 # Antananarivo
 			division_template="Troupes Coloniales"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.6
 			}
 	
 	
@@ -1021,7 +1021,7 @@ fleet = {
 			location = 698 # St. Louis
 			division_template="Troupes Coloniales"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.6
 			}
 	
 	
@@ -1030,7 +1030,7 @@ fleet = {
 			location=4948 # Dakar
 			division_template="Troupes Coloniales"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.6
 			}
 	
 	
@@ -1039,7 +1039,7 @@ fleet = {
 			location=5139 # Libreville
 			division_template="Troupes Coloniales"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.65
+			start_equipment_factor = 0.6
 			}
 	 
 	 

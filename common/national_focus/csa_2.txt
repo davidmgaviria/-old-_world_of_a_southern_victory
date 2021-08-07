@@ -1728,7 +1728,7 @@ focus_tree = {
 				add_resistance_target = { amount = 30    days = 360 }
 			}
 			#USA = { country_event = wsv_ww2_csa.27 }
-			#hidden_effect = { news_event = wsv_ww2_csa.46 }
+			hidden_effect = { news_event = wsv_ww2_csa.46 }
 		}
 	}
 
@@ -1769,7 +1769,7 @@ focus_tree = {
 				add_resistance_target = { amount = 30    days = 360 }
 			}
 			#USA = { country_event = wsv_ww2_csa.28 }
-			#hidden_effect = { news_event = wsv_ww2_csa.46 }
+			hidden_effect = { news_event = wsv_ww2_csa.46 }
 		}
 	}
 

@@ -36,6 +36,7 @@ news_event = {
 					}
 				}
 				add_named_threat = { threat = 1   name = kaiser_wilhelm_dead_tt }
+				add_timed_idea = { idea = GER_kaisers_death   days = 90 }
 	    	}
 	    }
     }

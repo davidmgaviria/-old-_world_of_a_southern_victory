@@ -256,17 +256,17 @@ GER_gw_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
-		value = 15
+		value = 10
 	}
 	ai_strategy = {
 		type = equipment_variant_production_factor
 		id = support_equipment
-		value = -5
+		value = -10
 	}
 	ai_strategy = {
 		type = equipment_production_factor
 		id = artillery
-		value = 60
+		value = 65
 	}
 	ai_strategy = {
 		type = equipment_production_factor
@@ -366,7 +366,7 @@ GER_der_schlieffen_plan = {
 	ai_strategy = {
 		type = conquer
 		id = "BEL"			
-		value = 1400
+		value = 2400
 	}
 
 	ai_strategy = {
@@ -390,8 +390,12 @@ GER_der_schlieffen_plan = {
 	ai_strategy = {
 		type = front_control
 		tag = BEL
-		priority = 800
-		ratio = 0.1
+		state = 18
+		state = 785
+		state = 29
+		state = 16
+		priority = 200
+		ratio = 0.35
 		ordertype = front
 		execution_type = rush_weak
 		execute_order = yes
@@ -485,19 +489,44 @@ GER_focus_east = {
 		id = "RUS"			
 		value = 250
 	}
+
 	ai_strategy = {
 		type = consider_weak
 		id = "RUS"			
-		value = 25
+		value = 20
 	}
+
+	ai_strategy = {
+		type = conquer
+		id = "FRA"			
+		value = 50
+	}
+
 	ai_strategy = {
 		type = front_unit_request
 		tag = FRA			
 		value = 55
 	}
+	
+	ai_strategy = {
+		type = front_control
+		tag = FRA
+		priority = 50
+		ratio = 0.7
+		ordertype = front
+		execution_type = careful
+		execute_order = yes
+		manual_attack = yes
+	}
+
 	ai_strategy = {
 		type = front_unit_request
 		area = africa		
+		value = -200
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = north_america		
 		value = -200
 	}
 	ai_strategy = {
@@ -525,14 +554,15 @@ GER_attack_french_during_mutiny = {
 	abort_when_not_enabled = yes
 	
 	ai_strategy = {
-		type = consider_weak
-		id = "BEL"			
-		value = 35
-	}
-	ai_strategy = {
-		type = consider_weak
-		id = "FRA"			
-		value = 30
+		type = front_control
+		tag = FRA
+		tag = BEL
+		priority = 120
+		ratio = 0.4
+		ordertype = front
+		execution_type = rush_weak
+		execute_order = yes
+		manual_attack = yes
 	}
 }
 
@@ -571,6 +601,29 @@ GER_support_turkey = {
 }
 
 
+GER_garrison_belgium_and_northern_france = {
+	allowed = {
+		original_tag = GER
+		date < 1937.1.1
+	}
+	enable = {
+		has_war_with = BEL
+		has_war_with = FRA
+	}
+
+	ai_strategy = {
+		type = put_unit_buffers	
+		states = { 
+			6
+			29
+			15
+		}
+		ratio = 0.1
+		subtract_invasions_from_need = no
+	}
+}
+
+
 GER_ignore_africa = {
 	allowed = {
 		original_tag = GER
@@ -582,6 +635,22 @@ GER_ignore_africa = {
 	ai_strategy = {
 		type = front_unit_request
 		area = africa		
+		value = -80
+	}	
+}
+
+
+GER_ignore_serbia = {
+	allowed = {
+		original_tag = GER
+		has_start_date < 1937.1.1
+	}
+	enable = {
+		has_war_with = SER
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = SER		
 		value = -80
 	}	
 }
@@ -712,7 +781,7 @@ GER_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
-		value = 10 #30 to 50
+		value = 5 #30 to 50
 	}
 	ai_strategy = {
 		type = equipment_production_factor
@@ -722,7 +791,7 @@ GER_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = artillery
-		value = 45 #20 to 40
+		value = 65 #20 to 40
 	}
 	ai_strategy = {
 		type = equipment_production_factor
@@ -752,6 +821,23 @@ GER_unit_production = {
 	ai_strategy = {
 		type = air_factory_balance
 		value = 110 
+	}
+}
+
+
+GER_more_civs = {
+	allowed = {
+		original_tag = GER
+		has_start_date > 1937.1.1
+	}
+	enable = {
+		has_war = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = added_military_to_civilian_factory_ratio		
+		value = -25
 	}
 }
 

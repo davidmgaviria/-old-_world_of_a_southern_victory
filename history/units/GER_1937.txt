@@ -496,21 +496,21 @@ fleet = {
         location = 9496#Frankfurt an der Oder
         division_template = "Hussars"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.8
     }
     division = {
         name = "4. Kavallerie-Division"
         location = 9496#Frankfurt an der Oder
         division_template = "Hussars"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.8
     }
     division = {
         name = "9. Kavallerie-Division"
         location = 9496#Frankfurt an der Oder
         division_template = "Hussars"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.8
     }
     division = {
         name = "5. Reserve-Division"
@@ -545,7 +545,7 @@ fleet = {
         location = 6282#Stettin
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.65
     }
     division = {
         name = "1. Infanterie-Division"
@@ -720,35 +720,35 @@ fleet = {
         location = 514#Dresden
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.65
     }
     division = {
         name = "45. Infantry Brigade"
         location = 514#Dresden
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.65
     }
     division = {
         name = "53. Infantry Brigade"
         location = 514#Dresden
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.65
     }
     division = {
         name = "9. Bayerisches Infantry Brigade"
         location = 514#Dresden
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.65
     }
     division = {
         name = "16. Infantry Brigade"
         location = 514#Dresden
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.65
     }
     division = {
         name = "9. Reserve-Division"
@@ -804,7 +804,7 @@ fleet = {
         location = 6558#Poznan
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.65
     }
     division = {
         name = "69. Ersatz Division"
@@ -860,35 +860,35 @@ fleet = {
         location = 6521#Berlin
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.65
     }
     division = {
         name = "3. Infantry Kommando"
         location = 6521#Berlin
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.65
     }
     division = {
         name = "2. Infantry Brigade"
         location = 6521#Berlin
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.65
     }
     division = {
         name = "6. Infantry Brigade"
         location = 6521#Berlin
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.65
     }
     division = {
         name = "70. Infantry Brigade"
         location = 6521#Berlin
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.65
     }
     division = {
         name = "31. Infanterie-Division"
@@ -965,7 +965,7 @@ fleet = {
         location = 692#München
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.65
     }
     division = {
         name = "28. Infanterie-Division"
@@ -1000,7 +1000,7 @@ fleet = {
         location = 9655#Konstanz
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.65
     }
     division = {
         name = "30. Bayerisches Reserve Division"
@@ -1021,14 +1021,14 @@ fleet = {
         location = 9655#Konstanz
         division_template = "Hussars"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.8
     }
     division = {
         name = "8. Kavallerie-Division"
         location = 9655#Konstanz
         division_template = "Hussars"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.8
     }
     division = {
         name = "Upper Rhine Fortress Troops"
@@ -1084,14 +1084,14 @@ fleet = {
         location = 9441#Plauen
         division_template = "Hussars"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.8
     }
     division = {
         name = "3. Kavallerie-Division"
         location = 9441#Plauen
         division_template = "Hussars"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.8
     }
     division = {
         name = "11. Infanterie-Division"
@@ -1183,14 +1183,14 @@ fleet = {
         location = 495#Dortmund
         division_template = "Hussars"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.8
     }
     division = {
         name = "5. Kavallerie-Division"
         location = 495#Dortmund
         division_template = "Hussars"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.8
     }
     division = {
         name = "23. Reserve-Division"
@@ -1232,49 +1232,49 @@ fleet = {
         location = 2196#Dar es Salaam
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.65
     }
     division = {
         name = "Ostafrikanische Schutztruppe 11-14"
         location = 8183#Tanga
         division_template = "Hussars"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.8
     }
     division = {
         name = "Ostafrikanische Askari"
         location = 2196#Kaiti
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.65
     }
     division = {
         name = "1. DSWA Regiment"
         location = 2229#Keetmanshoop
         division_template = "Hussars"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.8
     }
     division = {
         name = "2. DSWA Camel Regiment"
         location = 2229#Keetmanshoop
         division_template = "Hussars"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.8
     }
     division = {
         name = "German Colonists"
         location = 2229#Lüderitz
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.65
     }
     division = {
         name = "Schutzgebiet Kiautschou"
         location = 12237#Qingdao
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        #start_equipment_factor = 0.8
+        start_equipment_factor = 0.65
     }
 
     ################################
