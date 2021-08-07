@@ -159,10 +159,10 @@ ideas = {
             removal_cost = -1
 
             modifier = {
-                army_org = 2
                 army_morale_factor = 0.1
                 army_speed_factor = 0.05
 				org_loss_when_moving = -0.05
+                surrender_limit = 0.5
             }
         }
 

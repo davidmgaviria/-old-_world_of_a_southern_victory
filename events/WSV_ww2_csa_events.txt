@@ -1643,7 +1643,7 @@ news_event = {
 	major = yes
 
 	immediate = {
-		hidden_effect = { CSA = { add_threat = 2 } }
+		hidden_effect = { CSA = { add_threat = 1.5 } }
 	}
 
 	option = {

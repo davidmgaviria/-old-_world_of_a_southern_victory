@@ -40,6 +40,50 @@ CHI-QIN_dont_join_european_war = {
 }
 
 
+CHI_conserve_equipment = {
+	allowed = { 
+		original_tag = CHI 
+		has_start_date > 1937.1.1
+	}
+	enable = {		
+		has_war_with = JAP
+		has_equipment = { infantry_equipment < -25000 }
+	}
+	abort = {
+		JAP = { surrender_progress > 0.15 }
+	}
+
+	ai_strategy = {
+		type = front_control
+		tag = JAP
+		priority = 50
+		ratio = 0.7
+		ordertype = front
+		execution_type = careful
+		execute_order = yes
+		manual_attack = yes
+	}
+}
+
+
+CHI_defend_chinese_allies = {
+	allowed = { 
+		original_tag = CHI 
+		has_start_date > 1937.1.1
+	}
+	enable = {		
+		has_war_with = JAP
+		is_in_faction = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = 	spare_unit_factor		
+		value = 50
+	}
+}
+
+
 
 
 

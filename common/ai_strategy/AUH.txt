@@ -297,7 +297,7 @@ AUH_kill_serbia = {
 	ai_strategy = {
 		type = front_unit_request
 		tag = SER
-		value = 100
+		value = 120
 	}	
 
 	ai_strategy = {
@@ -443,7 +443,7 @@ AUH_unit_production = {
 	ai_strategy = {
 		type = equipment_variant_production_factor
 		id = support_equipment
-		value = 20
+		value = 10
 	}
 	ai_strategy = {
 		type = air_factory_balance
@@ -452,21 +452,38 @@ AUH_unit_production = {
 }
 
 
-AUH_stockpile_less_after_threat = {
-	allowed = { 
-		original_tag = AUH 
+AUH_more_civs = {
+	allowed = {
+		original_tag = AUH
 		has_start_date > 1937.1.1
 	}
 	enable = {
+		has_war = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = added_military_to_civilian_factory_ratio		
+		value = -40
+	}
+}
+
+
+
+AUH_ww2_build_up_army = {
+	allowed = {
+		original_tag = AUH
+		has_start_date > 1937.1.1
+	}
+	enable = {
+		OR = { country_exists = RUS }
 		NOT = { has_government = democratic }
 	}
-	abort = {
-		has_army_manpower = { size > 900000 }
-	}
-
+	abort_when_not_enabled = yes
+	
 	ai_strategy = {
 		type = equipment_stockpile_surplus_ratio
-		value = -20 # reduce while we build up in case of issues
+		value = -15 # reduce while we build up in case of issues
 	}
 }
 

@@ -775,7 +775,7 @@ news_event = {
 	major = yes
 
 	immediate = {
-		hidden_effect = { RUS = { add_threat = 2 } }
+		hidden_effect = { RUS = { add_threat = 1.5 } }
 	}
 
 	option = {

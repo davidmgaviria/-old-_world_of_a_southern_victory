@@ -397,7 +397,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_generic_underfunded_army"
 		texturefile = "gfx/interface/ideas/WSV_ideas/idea_generic_underfunded_army.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_GER_kaiser_dead"
+		texturefile = "gfx/interface/ideas/WSV_ideas/idea_GER_kaiser_dead.dds"
 	}		
 
+	
 	
 }

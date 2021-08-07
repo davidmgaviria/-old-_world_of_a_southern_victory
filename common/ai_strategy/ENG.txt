@@ -506,6 +506,11 @@ ENG_unit_production = {
 		value = 45
 	}
 	ai_strategy = {
+		type = equipment_production_factor
+		id = motorized
+		value = 15
+	}
+	ai_strategy = {
 		type = air_factory_balance
 		value = 210
 	}

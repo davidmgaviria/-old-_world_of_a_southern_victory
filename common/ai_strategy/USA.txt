@@ -332,7 +332,7 @@ USA_focus_on_csa = {
 	ai_strategy = {
 		type = conquer
 		id = "CSA"			
-		value = 150
+		value = 250
 	}
 
 	ai_strategy = {
@@ -353,7 +353,7 @@ USA_focus_on_csa = {
 		state = 483
 		state = 816
 		state = 814
-		value = -70
+		value = -75
 	}
 }
 
@@ -367,15 +367,21 @@ USA_opening_csa_assaut = {
 		has_war_with = CSA
 	}
 	abort = {
-		casualties > 200000
+		casualties > 300000
 	}
 
 	ai_strategy = {
-		type = consider_weak
-		id = "CSA"			
-		value = 20
+		type = front_control
+		tag = CSA
+		priority = 100
+		ratio = 0.7
+		ordertype = front
+		execution_type = rush_weak
+		execute_order = yes
+		manual_attack = yes
 	}
 }
+
 
 
 USA_attack_canada = {
@@ -388,6 +394,12 @@ USA_attack_canada = {
 		NOT = { is_in_faction_with = CAN }
 	}
 	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = conquer
+		id = "CAN"			
+		value = 100
+	}
 
 	ai_strategy = {
 		type = prepare_for_war
@@ -432,7 +444,7 @@ USA_take_english_islands = {
 		state = 690 #north bermuda
 		state = 693 #south bermuda
 		state = 629 #hawaii
-		ratio = 0
+		ratio = 0.6
 		priority = 100
 		ordertype = invasion
 		execution_type = balanced
@@ -452,9 +464,14 @@ USA_attack_csa_during_black_rebellion = {
 	abort_when_not_enabled = yes
 	
 	ai_strategy = {
-		type = consider_weak
-		id = "CSA"			
-		value = 10
+		type = front_control
+		tag = CSA
+		priority = 100
+		ratio = 0.8
+		ordertype = front
+		execution_type = rush_weak
+		execute_order = yes
+		manual_attack = yes
 	}
 }
 
@@ -577,7 +594,7 @@ USA_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
-		value = 10 #30 to 50
+		value = 15 #30 to 50
 	}
 	ai_strategy = {
 		type = equipment_production_factor
@@ -650,7 +667,7 @@ USA_focus_alot_on_civs = {
 	}
 	ai_strategy = {
 		type = air_factory_balance
-		value = -75 
+		value = -50 
 	}
 }
 
@@ -686,8 +703,13 @@ USA_focus_some_on_civs = {
 		value = -25
 	}
 	ai_strategy = {
+		type = equipment_production_factor
+		id = fighter
+		value = -25
+	}
+	ai_strategy = {
 		type = air_factory_balance
-		value = -50 
+		value = -25 
 	}
 }
 
@@ -715,16 +737,7 @@ USA_focus_tiny_on_civs = {
 	
 	ai_strategy = {
 		type = added_military_to_civilian_factory_ratio		
-		value = -20
-	}
-	ai_strategy = {
-		type = unit_ratio
-		id = fighter
 		value = -25
-	}
-	ai_strategy = {
-		type = air_factory_balance
-		value = -25 
 	}
 }
 
@@ -767,7 +780,7 @@ USA_build_up_against_featherstone = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = fighter
-		value = 50
+		value = 100
 	}
 }
 

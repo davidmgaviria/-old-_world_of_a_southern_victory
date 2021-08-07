@@ -256,8 +256,8 @@ FRA_plan_17 = {
 	ai_strategy = {
 		type = front_control
 		state = 28
-		priority = 200
-		ratio = 0.2
+		priority = 100
+		ratio = 0.4
 		ordertype = front
 		execution_type = rush_weak
 		execute_order = yes
@@ -272,7 +272,7 @@ FRA_plan_17 = {
 }
 
 
-FRA_conserve_manpower_1 = {
+FRA_conserve_manpower = {
 	allowed = { 
 		original_tag = FRA 
 		has_start_date < 1937.1.1
@@ -286,9 +286,20 @@ FRA_conserve_manpower_1 = {
 	}
 
 	ai_strategy = {
+		type = front_control
+		tag = GER
+		priority = 50
+		ratio = 0.7
+		ordertype = front
+		execution_type = careful
+		execute_order = yes
+		manual_attack = yes
+	}
+
+	ai_strategy = {
 		type = consider_weak
 		id = "GER"			
-		value = -25
+		value = -5
 	}
 }
 
@@ -308,9 +319,20 @@ FRA_conserve_manpower_2 = {
 	}
 
 	ai_strategy = {
+		type = front_control
+		tag = GER
+		priority = 50
+		ratio = 0.7
+		ordertype = front
+		execution_type = careful
+		execute_order = yes
+		manual_attack = yes
+	}
+
+	ai_strategy = {
 		type = consider_weak
 		id = "GER"			
-		value = -45
+		value = -15
 	}
 }	
 
@@ -371,7 +393,7 @@ FRA_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 75
+		value = 70
 	}
 	#Air unit factors
 	ai_strategy = {
@@ -433,7 +455,7 @@ FRA_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
-		value = 10 #30 to 50
+		value = 5 #30 to 50
 	}
 	ai_strategy = {
 		type = equipment_production_factor
@@ -443,7 +465,7 @@ FRA_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = artillery
-		value = 45 #20 to 40
+		value = 55 #20 to 40
 	}
 	ai_strategy = {
 		type = equipment_production_factor
@@ -459,6 +481,11 @@ FRA_unit_production = {
 		type = equipment_variant_production_factor
 		id = support_equipment
 		value = 40
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = motorized
+		value = 25
 	}
 	ai_strategy = {
 		type = air_factory_balance
@@ -761,10 +788,10 @@ FRA_through_benelux = {
 		state = 6
 		state = 35
 		state = 36
-		priority = 400
-		ratio = 0.05
+		priority = 100
+		ratio = 0.35
 		ordertype = front
-		execution_type = balanced
+		execution_type = rush_weak
 		execute_order = yes
 		manual_attack = yes
 	}

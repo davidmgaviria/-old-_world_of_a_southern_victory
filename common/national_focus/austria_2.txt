@@ -1651,8 +1651,8 @@
 
 
 	focus = {
-		id = AUH2_militarism
-		icon = GFX_goal_generic_political_pressure
+		id = AUH2_increase_conscription
+		icon = GFX_goal_rhineland
 		prerequisite = { focus = AUH2_reaffirm_authority_of_emperor }
 		x = 2
 		y = 1
@@ -1667,7 +1667,7 @@
 			has_government = neutrality
 			OR = {
 				has_war_support > 0.5
-				threat > 0.4
+				threat > 0.2
 			}
 		}
 
@@ -1675,10 +1675,18 @@
 			if = {
 				limit = { has_idea = neutrality_idea }
 				remove_ideas = neutrality_idea
-			}			
-			add_ideas = militarism_focus
-			army_experience = 20
-			set_rule = { can_send_volunteers = yes }
+			}		
+			if = {
+				limit = { OR = { has_idea = volunteer_only   has_idea = disarmed_nation  } }
+				add_ideas = limited_conscription
+			}
+			else_if = {
+
+				limit = { has_idea = limited_conscription }
+				add_ideas = extensive_conscription
+			}
+			add_manpower = 100000
+			army_experience = 10
 		}
 	}
 
@@ -1686,10 +1694,10 @@
 	focus = {
 		id = AUH2_paramilitarism
 		icon = GFX_goal_generic_military_sphere
-		prerequisite = { focus = AUH2_militarism }
+		prerequisite = { focus = AUH2_increase_conscription }
 		x = 0
 		y = 2
-		relative_position_id = AUH2_militarism
+		relative_position_id = AUH2_increase_conscription
 		cost = 10
 
 		available_if_capitulated = yes
