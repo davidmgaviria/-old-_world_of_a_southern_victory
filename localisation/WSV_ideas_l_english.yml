@@ -98,6 +98,10 @@
  #ENG
  ENG_british_regulars:0 "British Regulars"
  ENG_british_regulars_desc:0 "The British Empire was the only nation in Europe to field a fully professional army.  As a result, although small in numbers, each British soldier was worth 10 of the enemy.\n§RWill be removed if missing 'Volunteer Only'§!"
+ ENG_canadian_expeditionary_force_sender:0 "Canadian Expeditionary Force Sent"
+ ENG_canadian_expeditionary_force_sender_desc:0 "England has sent a part of its army and industry to aid Canada in the fight against the Americans."
+ ENG_canadian_expeditionary_force_reciever:0 "British-Sent Expeditionary Force"
+ ENG_canadian_expeditionary_force_reciever_desc:0 "England has sent a part of its army and industry to aid Canada in the fight against the Americans."
 
  #FRA
  FRA_french_army_mutiny:0 "French Army Mutinies"
