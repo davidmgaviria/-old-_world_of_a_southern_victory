@@ -103,9 +103,9 @@ ideas = {
 			research_bonus = { air_doctrine = -0.5 }
 
 			modifier={ 
-				army_org_factor = -0.1
+				army_org = -5
 				war_support_factor = -0.1
-				training_time_factor = 0.2
+				training_time_factor = 0.1
 				justify_war_goal_time = 0.5
 			}
 		}
@@ -118,7 +118,7 @@ ideas = {
 			picture = generic_disjointed_gov
 			modifier = {
 				consumer_goods_factor = 0.1
-				local_resources_factor = -0.2
+				local_resources_factor = -0.1
 				political_power_gain = -0.2
 			}
 		}
@@ -179,6 +179,21 @@ ideas = {
 		       army_morale_factor = 0.1
 		       mobilization_speed = 0.05
 		    }
+		}
+
+		GER_kaisers_death = {
+
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+
+			picture = GER_kaiser_dead
+
+			modifier={ 
+				army_morale_factor = -0.1
+				stability_factor = -0.1
+				political_power_gain = -0.5
+			}
 		}
 	}
 }

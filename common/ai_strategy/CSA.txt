@@ -140,6 +140,128 @@ CSA_france_ally = {
 ########################## GREAT WAR ##########################
 
 
+CSA_gw_unit_production = {
+	allowed = {
+		original_tag = CSA
+		has_start_date < 1937.1.1
+	}
+	enable = {
+		always = yes
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 2
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 2
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 2
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = armored_car
+		value = 1
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 70 
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = cavalry
+		value = 10
+	}
+	
+	#Air unit factors
+	ai_strategy = {
+		type = unit_ratio
+		id = scout_plane
+		value = 2
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = fighter
+		value = 50
+	}	
+	ai_strategy = {
+		type = unit_ratio
+		id = cas
+		value = 0
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = tactical_bomber
+		value = 5
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = strategic_bomber
+		value = 2
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = naval_bomber
+		value = 1
+	}
+	
+	# Naval unit factors
+	ai_strategy = {
+		type = unit_ratio
+		id = capital_ship
+		value = 10
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = submarine
+		value = 20
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = screen_ship
+		value = 35
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 20
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = fighter
+		value = 30
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 40
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 25
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 5
+	}
+}
+
+
 CSA_ww1_focus_on_usa = {
 	allowed = {
 		original_tag = CSA		
@@ -156,9 +278,10 @@ CSA_ww1_focus_on_usa = {
 		id = "USA"
 		value = 60
 	}
+
 	ai_strategy = {
 		type = 	spare_unit_factor		
-		value = -1000
+		value = -100
 	}
 	ai_strategy = {
 		type = dont_defend_ally_borders
@@ -186,12 +309,23 @@ CSA_ww1_focus_on_usa = {
 		value = 100
 	}
 
-	#we dont care about sonora
+	#protect richmond
+	ai_strategy = {
+		type = front_unit_request
+		state = 362
+		state = 360
+		state = 361
+		state = 814
+		state = 813
+		value = 50
+	}
+
+	#sonora
 	ai_strategy = {
 		type = front_unit_request
 		state = 377
 		state = 837
-		value = -60
+		value = -45
 	}
 }	
 
@@ -204,14 +338,12 @@ CSA_take_dc = {
 	}
 	enable = {
 		USA = { exists = yes }
-		casualties < 250000
 	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = conquer
-		id = "USA"			
-		value = 100
+	abort = {
+		OR = {
+			surrender_progress > 0.1
+			casualties > 250000
+		}
 	}
 
 	ai_strategy = {
@@ -219,8 +351,8 @@ CSA_take_dc = {
 		state = 361
 		state = 360
 		state = 840
-		priority = 600
-		ratio = 0.1
+		priority = 100
+		ratio = 0.4
 		ordertype = front
 		execution_type = rush_weak
 		execute_order = yes
@@ -233,40 +365,79 @@ CSA_take_dc = {
 		state = 840
 		state = 360
 		state = 361
-		value = 400
-	}
-
-	#less troops west
-	ai_strategy = {
-		type = front_unit_request
-		state = 376
-		state = 382
-		state = 383
-		state = 395
-		state = 396
-		state = 813
-		value = -60
+		value = 250
 	}
 }
 
 
-CSA_conserve_manpower = {
+CSA_on_the_defensive = {
 	allowed = { 
 		original_tag = CSA 
 		has_start_date < 1937.1.1
 	}
 	enable = {		
 		has_war_with = USA
-		has_manpower < 500000
 	}
-	abort_when_not_enabled = yes
+	abort = {
+		USA = { surrender_progress > 0.15 }
+	}
 
 	ai_strategy = {
-		type = conquer
-		id = "USA"
-		value = -50
+		type = front_control
+		tag = USA
+		priority = 50
+		ratio = 0.7
+		ordertype = front
+		execution_type = careful
+		execute_order = yes
+		manual_attack = yes
 	}
-}	
+}
+
+
+
+CSA_conserve_manpower_1 = {
+	allowed = { 
+		original_tag = CSA 
+		has_start_date < 1937.1.1
+	}
+	enable = {		
+		has_war_with = USA
+		casualties > 300000
+	}
+	abort = {
+		USA = { surrender_progress > 0.15 }
+	}
+
+	ai_strategy = {
+		type = consider_weak
+		id = "USA"			
+		value = -5
+	}
+}
+
+
+CSA_conserve_manpower_2 = {
+	allowed = { 
+		original_tag = CSA 
+		has_start_date < 1937.1.1
+	}
+	enable = {		
+		has_war_with = USA
+		casualties > 600000
+	}
+	abort = {
+		USA = { surrender_progress > 0.15 }
+	}
+
+	ai_strategy = {
+		type = consider_weak
+		id = "USA"			
+		value = -15
+	}
+}
+
+
 
 
 ########################## WW2 ##########################
@@ -392,7 +563,7 @@ CSA_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
-		value = 10 #30 to 50
+		value = 15 #30 to 50
 	}
 	ai_strategy = {
 		type = equipment_production_factor
@@ -433,6 +604,11 @@ CSA_unit_production = {
 		type = equipment_variant_production_factor
 		id = support_equipment
 		value = 40
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = motorized
+		value = 20
 	}
 	ai_strategy = {
 		type = air_factory_balance
@@ -616,82 +792,46 @@ CSA_super_boost_light_for_modern_armor = {
 
 ## WW2 US Plans
 
-CSA_dont_fight_germany_yet = {
-	allowed = {
-		original_tag = CSA
-		has_start_date > 1937.1.1
-	}
+
+
+CSA_dont_fight_germany_yet = { # Reverse strategy
+	reversed = yes
+
 	enable = {
-		is_historical_focus_on = yes
-		is_in_faction_with = FRA
+		NOT = { tag = CSA }
+		date > 1937.1.1
 		country_exists = USA
-	}
-	abort = {
-		OR = {
-			USA = { is_puppet_of = CSA }
-			has_non_aggression_pact_with = USA
-			is_in_faction_with = USA
-			date > 1942.1.1
+		CSA = {
+			OR = {
+				is_in_faction_with = FRA
+				is_in_faction_with = ENG
+			}
 		}
-	}
-
-	ai_strategy = {
-		type = diplo_action_desire
-		id = FRA
-		target = join_allies
-		value = -99999
-	}
-
-	ai_strategy = {
-		type = diplo_action_acceptance
-		id = FRA
-		target = call_allies
-		value = -99999
-	}
-
-	ai_strategy = {
-		type = send_lend_lease_desire
-		id = ENG
-		value = -999
-	}
-	ai_strategy = {
-		type = send_lend_lease_desire
-		id = FRA
-		value = -999
-	}
-	ai_strategy = {
-		type = send_lend_lease_desire
-		id = RUS
-		value = -999
-	}
-}
-
-
-CSA_dont_pressure_us_yet = {
-	allowed = {
-		has_start_date > 1937.1.1
-	}
-	enable = {
 		is_in_faction_with = CSA
-		has_war = yes
 	}
+
 	abort = {
-		OR = {
-			has_war_with = USA
-			date > 1942.1.1
+		CSA = {
+			OR = {
+				has_non_aggression_pact_with = USA
+				is_in_faction_with = USA
+				has_war_with = USA
+			}
 		}
 	}
 
+
 	ai_strategy = {
 		type = diplo_action_desire
-		id = CSA
-		target = call_allies
+		id = "CSA"
+		target = join_allies
 		value = -99999
 	}
+
 	ai_strategy = {
 		type = diplo_action_acceptance
-		id = CSA
-		target = join_allies
+		id = "CSA"
+		target = call_allies
 		value = -99999
 	}
 }
@@ -711,12 +851,7 @@ CSA_attack_usa_ww2 = {
 		has_completed_focus = CSA2_remilitarize_plebiscite_states
 	}
 	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = conquer
-		id = "USA"			
-		value = 200
-	}
+	
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = "RUS"			
@@ -750,7 +885,7 @@ CSA_operation_blackbeard = {
 			exists = yes
 			NOT = { is_in_faction_with = CSA }
 		}
-		has_completed_focus = CSA2_remilitarize_plebiscite_states
+		has_completed_focus = CSA2_operation_blackbeard
 		controls_state = 369
 	}
 	abort = {
@@ -761,26 +896,33 @@ CSA_operation_blackbeard = {
 		}
 	}
 
+	ai_strategy = {
+		type = conquer
+		id = "USA"			
+		value = 250
+	}
+
+	ai_strategy = {
+		type = consider_weak
+		id = "USA"			
+		value = 30
+	}
+
 	#attack ohio
 	ai_strategy = {
 		type = front_control
 		state = 261
-		priority = 400
-		ratio = 0.1
+		priority = 100
+		ratio = 0.1		# originally 0.35
 		ordertype = front
-		execution_type = balanced
+		execution_type = rush_weak
 		execute_order = yes
-		manual_attack = no
+		manual_attack = yes
 	}
 	ai_strategy = {
 		type = front_unit_request
 		state = 261
-		value = 300
-	}
-	ai_strategy = {
-		type = consider_weak
-		id = "USA"
-		value = 25
+		value = 250
 	}
 
 	#less units for illinois/indiana
@@ -789,25 +931,42 @@ CSA_operation_blackbeard = {
 		state = 395
 		state = 396
 		state = 814
-		ratio = 0.1
-		priority = 40
+		priority = 120
 		ordertype = front
-		execution_type = balanced
 		execute_order = no
-	}	
+	}
+
+
+	#east
+	ai_strategy = {
+		type = front_unit_request
+		state = 814
+		state = 361
+		value = -50
+	}
 
 	#southwest
 	ai_strategy = {
 		type = front_unit_request
-		state = 816
-		state = 377
 		state = 376
 		state = 374
 		state = 373
 		state = 817
-		value = -60
+		value = -85
+	}
+
+
+	#far southwest
+	ai_strategy = {
+		type = front_unit_request
+		state = 816
+		state = 377
+		state = 837
+		state = 378
+		value = -90
 	}
 }
+
 
 
 ## Other plans

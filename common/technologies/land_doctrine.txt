@@ -11,14 +11,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		planning_speed = 0.1
-		#army_speed_factor = 0.1
+		planning_speed = 0.1 
 		org_loss_when_moving = 0.2
 
 		enable_tactic = tactic_human_wave_tactics
 
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 3
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 0.5
@@ -40,7 +39,7 @@ technologies = {
 	ww1_directfire = {
 
 		max_dig_in = 10
-		dig_in_speed_factor = 0.25 #50% bonus	
+		dig_in_speed_factor = 0.25 
 
 		path = {
 			leads_to_tech = ww1_rifle_ammo
@@ -54,7 +53,7 @@ technologies = {
 		#enable_tactic = tactic_delay
 
 		doctrine = yes	
-		research_cost = 4.25
+		research_cost = 4.5
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 0.5
@@ -70,7 +69,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 5
+			factor = 3
 		}
 	
 	}
@@ -92,7 +91,7 @@ technologies = {
 		}
 
 		doctrine = yes	
-		research_cost = 5
+		research_cost = 4.5
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 0.5
@@ -109,6 +108,10 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 1.5
+				tag = USA
+			}
 		}	
 	}
 
@@ -128,7 +131,7 @@ technologies = {
 		}
 
 		doctrine = yes	
-		research_cost = 5
+		research_cost = 4.5
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 0.5
@@ -163,7 +166,7 @@ technologies = {
 		}
 
 		doctrine = yes	
-		research_cost = 5
+		research_cost = 4.5
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 0.5
@@ -180,6 +183,10 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 2
+				tag = USA
+			}
 		}	
 	}
 
@@ -211,6 +218,10 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 1.5
+				tag = GER
+			}
 		}	
 	}
 
@@ -229,7 +240,7 @@ technologies = {
 		enable_tactic = tactic_backhand_blow
 
 		doctrine = yes	
-		research_cost = 5 
+		research_cost = 4.5
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 0.5
@@ -246,13 +257,18 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 1.5
+				OR = { tag = USA   tag = GER }
+			}
 		}	
 	}
+	
 
 	ww1_mass_artillery = {
 		
 		category_artillery = {
-			soft_attack = 0.10
+			soft_attack = 0.20
 		}
 		
 		enable_tactic = tactic_overwhelming_fire
@@ -296,7 +312,7 @@ technologies = {
 		}
 
 		doctrine = yes	
-		research_cost = 5
+		research_cost = 4.5
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 0.5
@@ -334,7 +350,7 @@ technologies = {
 		}
 
 		doctrine = yes	
-		research_cost = 5
+		research_cost = 4.5
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 0.5
@@ -372,7 +388,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 5
+		research_cost = 4.5
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 0.5
@@ -414,7 +430,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 5
+		research_cost = 4.5
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 0.5
@@ -451,7 +467,7 @@ technologies = {
 		enable_tactic = tactic_breakthrough
 		
 		doctrine = yes	
-		research_cost = 5
+		research_cost = 4.5
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 0.5
@@ -484,7 +500,7 @@ technologies = {
 		enable_tactic = tactic_breakthrough
 		
 		doctrine = yes	
-		research_cost = 5
+		research_cost = 4.5
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 0.5

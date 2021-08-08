@@ -43,10 +43,11 @@ ideas = {
 			picture = GFX_idea_CAN_american_menance
 			
 			modifier = {
+				army_core_defence_factor = 0.1
 				war_support_factor = 0.2
 				consumer_goods_factor = -0.05
 				conscription = 0.02
-				mobilization_speed = 0.1
+				mobilization_speed = 0.05
 			}
 		}
 
@@ -65,8 +66,8 @@ ideas = {
 			picture = generic_defensive_mindset
 			
 			modifier = {
-				max_dig_in = 2.5
-				dig_in_speed_factor = 0.1
+				max_dig_in = 5
+				dig_in_speed_factor = 0.2
 			}
 		}
 
@@ -91,25 +92,52 @@ ideas = {
 			}
 		}
 
-		CAN_hold_out_for_british = {
 
+		ENG_canadian_expeditionary_force_sender = {
+		
 			allowed = {
-					always = no
-				}
+				always = no
+			}
 
 			allowed_civil_war = {
 				always = yes
 			}
 
+			#cancel = { NOT = { has_global_flag = england_canadian_expeditionary_force } }
+
 			removal_cost = -1
 
-			picture = generic_wait_for_british
+			picture = generic_manpower_bonus
 			
 			modifier = {
-				army_defence_factor = 0.2
-				army_speed_factor = 0.1
+				conscription = -0.015
+				industrial_capacity_factory = -0.15
 			}
 		}
+
+
+		ENG_canadian_expeditionary_force_reciever = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			#cancel = { NOT = { has_global_flag = england_canadian_expeditionary_force } }
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription = 0.02
+				industrial_capacity_factory = 0.25
+			}
+		}
+
 
 
 

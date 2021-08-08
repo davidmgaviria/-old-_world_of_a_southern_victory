@@ -1602,7 +1602,7 @@ focus_tree = {
 			}
 			hidden_effect = {
 				#GER = { country_event = { id = wsv_ww2_germany.30  days = 7  random = 14 } }
-				#news_event = wsv_ww2_russia.14
+				news_event = wsv_ww2_russia.14
 			}
 		}
 	}
@@ -1840,7 +1840,8 @@ focus_tree = {
 		id = RUS2_demand_eastern_plebicites
 		icon = GFX_goal_generic_territory_or_war
 		prerequisite = { focus = RUS2_rejoin_entente }
-		prerequisite = { focus = RUS2_ukrainian_seperatists   focus = RUS2_baltic_unrest }
+		prerequisite = { focus = RUS2_ukrainian_seperatists }
+		prerequisite = { focus = RUS2_baltic_unrest }
 		x = 0
 		y = 3
 		cost = 10
@@ -1860,12 +1861,11 @@ focus_tree = {
 	    		is_in_faction_with = UKR
 			}
 			NOT = { is_in_faction_with = GER }
-			has_army_manpower = { size > 2999999 }
+			has_army_manpower = { size > 1999999 }
 		}
 
 		completion_reward = {
-			GER = { country_event = { id = wsv_ww2_russia.4  days = 1 } }
-			custom_effect_tooltip = eastern_plebicite_or_war_tt
+			custom_effect_tooltip = eastern_plebicites_unlocked_tt
 		}
 	}
 
@@ -2006,7 +2006,7 @@ focus_tree = {
 			hidden_effect = {
 				#GER = { country_event = { id = wsv_ww2_germany.28  days = 7  random = 14 } }
 				#GER = { country_event = { id = wsv_ww2_germany.29  days = 7  random = 14 } }
-				#news_event = wsv_ww2_russia.14
+				news_event = wsv_ww2_russia.14
 			}
 		}
 	}

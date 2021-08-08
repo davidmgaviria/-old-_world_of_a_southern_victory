@@ -1205,7 +1205,7 @@
 		available_if_capitulated = no
 
 		available = {
-			date > 1940.1.1
+			date > 1939.5.1
 		}
 
 		ai_will_do = { 
@@ -1249,7 +1249,7 @@
 		available_if_capitulated = no
 
 		available = {
-			date > 1941.5.1
+			date > 1940.5.1
 		}
 
 		ai_will_do = { 
@@ -1740,7 +1740,7 @@
 		available_if_capitulated = no
 
 		available = {
-			date > 1940.1.1
+			date > 1939.5.1
 		}
 
 		ai_will_do = { factor = 30 }
@@ -1777,7 +1777,7 @@
 		available_if_capitulated = no
 
 		available = {
-			date > 1941.5.1
+			date > 1940.5.1
 		}
 
 		ai_will_do = { factor = 30 }
@@ -3103,7 +3103,7 @@
 		ai_will_do = { 
 			factor = 40
 			modifier = {
-				factor = 2
+				factor = 10
 				has_global_flag = CSA_richmond_agreement_broken
 			} 
 		}
@@ -3126,6 +3126,15 @@
 			if = {
 				limit = { has_idea = USA_socialist_policies }
 				remove_ideas = USA_socialist_policies
+			}
+			if = {
+				limit = { OR = { has_idea = volunteer_only   has_idea = disarmed_nation  } }
+				add_ideas = limited_conscription
+			}
+			else_if = {
+
+				limit = { has_idea = limited_conscription }
+				add_ideas = extensive_conscription
 			}
 			add_manpower = 100000
 		}

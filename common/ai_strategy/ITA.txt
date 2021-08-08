@@ -17,7 +17,7 @@ italoturkish_war = {
 	ai_strategy = {
 		type = area_priority
 		id = africa
-		value = 250
+		value = 100
 	}
 
 	ai_strategy = {
@@ -29,7 +29,13 @@ italoturkish_war = {
 	ai_strategy = {
 		type = front_unit_request
 		area = africa
-		value = 100
+		value = 80
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		state = 663
+		value = 60
 	}
 
 	ai_strategy = {
@@ -47,10 +53,40 @@ italoturkish_war = {
 		id = "SER"			
 		value = -1000			#do not join serbia	
 	}
-
+	
 	ai_strategy = {
 		type = alliance
 		id = "BUL"			
 		value = -1000			#do not join bulgaria	
+	}
+}
+
+
+ITA_dont_join_fra = {
+	enable = {
+		tag = ITA
+		NOT = { is_in_faction_with = FRA }
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = alliance
+		id = "FRA"			
+		value = -2000
+	}
+}
+
+
+ITA_dont_join_germany = {
+	enable = {
+		tag = ITA
+		NOT = { is_in_faction_with = GER }
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = alliance
+		id = "GER"			
+		value = -2000
 	}
 }
