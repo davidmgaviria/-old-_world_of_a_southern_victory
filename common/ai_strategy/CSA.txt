@@ -851,12 +851,7 @@ CSA_attack_usa_ww2 = {
 		has_completed_focus = CSA2_remilitarize_plebiscite_states
 	}
 	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = conquer
-		id = "USA"			
-		value = 200
-	}
+	
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = "RUS"			
@@ -890,7 +885,7 @@ CSA_operation_blackbeard = {
 			exists = yes
 			NOT = { is_in_faction_with = CSA }
 		}
-		has_completed_focus = CSA2_remilitarize_plebiscite_states
+		has_completed_focus = CSA2_operation_blackbeard
 		controls_state = 369
 	}
 	abort = {
@@ -901,12 +896,24 @@ CSA_operation_blackbeard = {
 		}
 	}
 
+	ai_strategy = {
+		type = conquer
+		id = "USA"			
+		value = 250
+	}
+
+	ai_strategy = {
+		type = consider_weak
+		id = "USA"			
+		value = 30
+	}
+
 	#attack ohio
 	ai_strategy = {
 		type = front_control
 		state = 261
 		priority = 100
-		ratio = 0.35
+		ratio = 0.1		# originally 0.35
 		ordertype = front
 		execution_type = rush_weak
 		execute_order = yes
@@ -928,6 +935,15 @@ CSA_operation_blackbeard = {
 		ordertype = front
 		execute_order = no
 	}
+  
+	#east
+	ai_strategy = {
+		type = front_unit_request
+		state = 814
+		state = 361
+		value = -50
+	}
+
 
 	#southwest
 	ai_strategy = {
@@ -936,7 +952,18 @@ CSA_operation_blackbeard = {
 		state = 374
 		state = 373
 		state = 817
-		value = -60
+		value = -85
+	}
+
+
+	#far southwest
+	ai_strategy = {
+		type = front_unit_request
+		state = 816
+		state = 377
+		state = 837
+		state = 378
+		value = -90
 	}
 
 

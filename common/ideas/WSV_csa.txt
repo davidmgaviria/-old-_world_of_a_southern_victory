@@ -264,14 +264,6 @@ ideas = {
 		        tag = USA
 		        attack_bonus_against = 0.25
 		    }
-
-		    modifier = {
-		        org_loss_when_moving = -0.1
-		        army_org = 5 
-		        army_speed_factor = 0.1
-		   		air_air_superiority_attack_factor = 0.2
-		   		air_close_air_support_attack_factor = 0.2
-		    }
 		}
 
 

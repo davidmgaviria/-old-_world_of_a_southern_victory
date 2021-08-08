@@ -261,7 +261,6 @@ ideas = {
 			removal_cost=-1
 			picture = generic_chinese_unity
 			modifier = {
-				consumer_goods_factor = -0.1
 				surrender_limit = 0.25
 				war_support_factor = 0.25
 				stability_factor = 0.25
