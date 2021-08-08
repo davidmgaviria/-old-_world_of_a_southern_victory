@@ -26,7 +26,7 @@ technologies = {
 		navy_capital_ship_defence_factor = 0.05
 
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 3
 		xp_research_type = navy
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
@@ -41,7 +41,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3 
+			factor = 2
+			modifier = {
+				factor = 1.5
+				OR = { tag = USA  tag = ENG  tag = JAP }
+			} 
 		}
 	}
 
@@ -72,7 +76,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1 
+			factor = 1
+			modifier = {
+				factor = 1.2
+				is_major = yes
+			} 
 		}
 	}
 
@@ -107,7 +115,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1 
+			factor = 1
+			modifier = {
+				factor = 1.2
+				OR = { tag = ENG  tag = JAP }
+			}
 		}
 	}
 
@@ -145,7 +157,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1 
+			factor = 1
+			modifier = {
+				factor = 1.2
+				OR = { tag = ENG  tag = JAP }
+			} 
 		}
 	}
 
@@ -179,7 +195,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1 
+			factor = 1
 		}
 	}
 

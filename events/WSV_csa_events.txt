@@ -122,6 +122,7 @@ news_event = {
 	}
 
 	trigger = {
+		tag = CSA
     	USA = { has_war_with = CSA }
         362 = { is_controlled_by = USA } 
         362 = { is_owned_by = CSA }
@@ -173,13 +174,13 @@ news_event = {
 	major = yes
 
 	mean_time_to_happen = {	
-        days = 40 	
+        days = 80 	
     }
 
     trigger = {
     	tag = CSA
-        date > 1915.7.1
-        date < 1916.7.1
+        date > 1915.6.1
+        date < 1916.6.1
         has_war_with = USA
         NOT = { has_global_flag = csa_black_revolt }
     }

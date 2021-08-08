@@ -122,6 +122,7 @@ news_event = {
 	}
 
 	trigger = {
+		tag = USA
     	CSA = { has_war_with = USA }
         361 = { is_controlled_by = CSA } 
         361 = { is_owned_by = USA }
@@ -174,12 +175,13 @@ news_event = {
 	major = yes
 
 	mean_time_to_happen = {	
-        days = 20 		#around easter
+        days = 45 		#around easter
     }
 
     trigger = {
-        date > 1915.4.1		#april 4
-        date < 1916.8.4
+    	tag = USA
+        date > 1915.3.1	
+        date < 1916.3.1		
         USA = { 
      		has_war_with = CSA
      		NOT =  { has_war_with = DES }
@@ -968,6 +970,7 @@ news_event = {
 	}
 
 	trigger = {
+		tag = USA
     	CSA = { has_war_with = USA }
         840 = { is_controlled_by = CSA } 
         840 = { is_owned_by = USA }
@@ -1024,6 +1027,7 @@ news_event = {
 	}
 
 	trigger = {
+		tag = USA
     	CSA = { has_war_with = USA }
         839 = { is_controlled_by = CSA } 
         839 = { is_owned_by = USA }

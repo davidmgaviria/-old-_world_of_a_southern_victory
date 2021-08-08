@@ -1,6 +1,37 @@
 ﻿add_namespace = wsv_england
 
 
+#send men to canada
+country_event = {
+	id = wsv_england.1
+	title = wsv_england.1.t
+	desc = wsv_england.1.d
+	#picture = report_event_deal_made
+
+	fire_only_once = yes
+
+    is_triggered_only = yes
+
+	option = {
+		name = wsv_england.1.a
+		
+		ENG = {
+			transfer_units_fraction= {
+				target = CAN
+				size = 0.4
+				stockpile_ratio = 0.4
+			}
+			add_ideas = ENG_canadian_expeditionary_force_sender
+			set_country_flag = england_canadian_expeditionary_force
+		}
+		CAN = { 
+			add_ideas = ENG_canadian_expeditionary_force_reciever 
+			#load_oob = "CAN_militia"
+		}
+	}
+}
+
+
 #irish revolt
 news_event = {
 	id = wsv_england.2
@@ -79,3 +110,11 @@ news_event = {
 		}
 	}
 }
+
+
+
+
+
+
+
+

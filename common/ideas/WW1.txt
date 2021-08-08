@@ -159,10 +159,10 @@ ideas = {
             removal_cost = -1
 
             modifier = {
-                army_org = 2
                 army_morale_factor = 0.1
                 army_speed_factor = 0.05
 				org_loss_when_moving = -0.05
+                surrender_limit = 0.5
             }
         }
 
@@ -172,15 +172,15 @@ ideas = {
             removal_cost = -1 
 
             targeted_modifier = {
-                tag = LUX
-                attack_bonus_against = 0.25
-                breakthrough_bonus_against = 0.5
+                tag = BEL
+                attack_bonus_against = 0.1
+                breakthrough_bonus_against = 0.25
             }
 
             targeted_modifier = {
                 tag = LUX
-                attack_bonus_against = 0.25
-                breakthrough_bonus_against = 0.5
+                attack_bonus_against = 0.1
+                breakthrough_bonus_against = 0.25
             }
 
             targeted_modifier = {
@@ -190,7 +190,6 @@ ideas = {
             }
 
             modifier = { 
-                land_reinforce_rate = 0.01
                 army_speed_factor = 0.1
                 army_morale_factor = 0.1
                 org_loss_when_moving = -0.1
@@ -229,7 +228,7 @@ ideas = {
             modifier = {   
                 army_org_factor = -0.25
                 org_loss_when_moving = 0.25
-                land_reinforce_rate = -0.025
+                land_reinforce_rate = -0.015
                 army_morale_factor = -0.1
             }
         }

@@ -17,7 +17,20 @@ NDefines.NCountry.DEFAULT_WAR_SUPPORT = 0.2
 NDefines.NCountry.BASE_STABILITY_WAR_FACTOR = -0.2
 
 --war stuff
-NDefines.NMilitary.PLAN_EXECUTE_BALANCED_LIMIT = 5				-- When looking for an attach target, this score limit is required in the battle plan to consider province for attack
+NDefines.NMilitary.PLAN_EXECUTE_BALANCED_LIMIT = 3				-- When looking for an attach target, this score limit is required in the battle plan to consider province for attack
+
+
+--give states
+NDefines.NAI.GIVE_STATE_CONTROL_BASE_SCORE = 60			-- (Originally 50) Base diplo score for giving away control of states
+NDefines.NAI.GIVE_STATE_CONTROL_DIFF_FACTOR = 0.9		-- (Originally 2) Diplo score multiplier for state control compared to war participation difference
+NDefines.NAI.GIVE_STATE_CONTROL_NEIGHBOR_SCORE = 20		-- (Originally 20) Diplo score for each neighboring state controlled by the target
+NDefines.NAI.GIVE_STATE_CONTROL_NEIGHBOR_ACTOR_SCORE = -25 -- (Originally -5) Diplo score for each neighboring state that is controlled by the sender
+NDefines.NAI.GIVE_STATE_CONTROL_NEIGHBOR_OTHER_SCORE = 5 -- (Originally 5) Diplo score for each neighboring state controlled by someone else
+NDefines.NAI.GIVE_STATE_CONTROL_MAX_SCORE_DIST = 600	-- (Originally 600) A State that is closer to the recipient capital than this gets a score bonus based on the below value
+NDefines.NAI.GIVE_STATE_CONTROL_DIST_SCORE_MULT = 0.2	-- (Originally 0.2) Multiplier for the score gained from distance ( GIVE_STATE_CONTROL_MAX_SCORE_DIST - distance ) * this
+
+
+
 --NDefines.NMilitary.PLAN_NEIGHBORING_ENEMY_PROVINCE_FACTOR = 0.6	-- When calculating the importance of provinces, it takes number of enemy provinces into account, factored by this
 --NDefines.NMilitary.PLAN_PROVINCE_BASE_IMPORTANCE = 1.0			-- Used when calculating the calue of front and defense area provinces for the battle plan system
 	
@@ -28,5 +41,8 @@ NDefines.NMilitary.PLAN_EXECUTE_BALANCED_LIMIT = 5				-- When looking for an att
 --resistance
 --NDefines.NCountry.RESISTANCE_DECAY_WHEN_NO_GROWTH = 0.005   		--originally 0.005
 --NDefines.NCountry.SUPPRESSION_NEEDED_BY_RESISTANCE_POINT = 0.75  		--originally 0.75
+
+
+
 
 
