@@ -225,6 +225,11 @@ ideas = {
 				}
 
 				modifier = {
+					factor = 20
+					CHI = { has_war_with = JAP }
+				}	
+
+				modifier = {
 					#Block  unless nation has a lot of manpower
 					factor = 0
 					manpower_per_military_factory <  7000

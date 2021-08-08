@@ -36,7 +36,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3 
+			factor = 1
+			modifier = {
+				factor = 2
+				has_tech = ww1_fighter2
+			} 
 		}
 	}
 
@@ -67,7 +71,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3 
+			factor = 0.5 
+			modifier = {
+				factor = 2
+				has_tech = ww1_fighter2
+			} 
+			modifier = {
+				factor = 2
+				is_major = yes
+			} 
 		}
 	}
 
@@ -99,7 +111,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3 
+			factor = 0.5 
+			modifier = {
+				factor = 2
+				has_tech = ww1_fighter2
+			} 
+			modifier = {
+				factor = 2
+				is_major = yes
+			} 
 		}
 	}
 
@@ -134,7 +154,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3 
+			factor = 0.5 
+			modifier = {
+				factor = 2
+				has_tech = ww1_fighter2
+			} 
+			modifier = {
+				factor = 2
+				is_major = yes
+			} 
 		}
 	}
 
@@ -169,7 +197,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3 
+			factor = 0.5 
+			modifier = {
+				factor = 2
+				has_tech = ww1_fighter2
+			} 
+			modifier = {
+				factor = 2
+				is_major = yes
+			} 
 		}
 	}
 
@@ -206,7 +242,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3 
+			factor = 0.5 
+			modifier = {
+				factor = 2
+				has_tech = ww1_fighter2
+			} 
+			modifier = {
+				factor = 2
+				is_major = yes
+			} 
 		}
 	}
 
@@ -237,7 +281,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3 
+			factor = 0.5 
+			modifier = {
+				factor = 2
+				has_tech = ww1_fighter2
+			} 
+			modifier = {
+				factor = 2
+				is_major = yes
+			} 
 		}
 	}
 
@@ -268,7 +320,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3 
+			factor = 0.5 
+			modifier = {
+				factor = 2
+				has_tech = ww1_fighter2
+			} 
+			modifier = {
+				factor = 2
+				is_major = yes
+			} 
 		}
 	}
 
@@ -300,7 +360,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3 
+			factor = 0.5 
+			modifier = {
+				factor = 2
+				has_tech = ww1_fighter2
+			} 
+			modifier = {
+				factor = 2
+				is_major = yes
+			} 
 		}
 	}
 
@@ -332,7 +400,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3 
+			factor = 0.5 
+			modifier = {
+				factor = 2
+				has_tech = ww1_fighter2
+			} 
+			modifier = {
+				factor = 2
+				is_major = yes
+			} 
 		}
 	}
 
@@ -371,7 +447,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3 
+			factor = 0.5 
+			modifier = {
+				factor = 2
+				has_tech = ww1_fighter2
+			} 
+			modifier = {
+				factor = 2
+				is_major = yes
+			} 
 		}
 	}
 
@@ -400,7 +484,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3 
+			factor = 0.5 
+			modifier = {
+				factor = 2
+				has_tech = ww1_fighter2
+			} 
+			modifier = {
+				factor = 2
+				is_major = yes
+			} 
 		}
 	}
 
@@ -431,7 +523,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3 
+			factor = 0.5 
+			modifier = {
+				factor = 2
+				has_tech = ww1_fighter2
+			} 
+			modifier = {
+				factor = 2
+				is_major = yes
+			} 
 		}
 	}
 
@@ -458,7 +558,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
+			factor = 0.5 
+			modifier = {
+				factor = 2
+				has_tech = ww1_fighter2
+			} 
+			modifier = {
+				factor = 2
+				is_major = yes
+			} 
 		}
 	}
 
@@ -470,6 +578,10 @@ technologies = {
 
 	air_superiority = {
 		doctrine_name = "TITLE_STRATEGIC_DESTRUCTION"
+
+		allow_branch = {
+			has_start_date > 1937.1.1
+		}
 		
 		# EFFECT ########
 		air_superiority_detect_factor = 0.1
@@ -1220,6 +1332,10 @@ technologies = {
 	formation_flying = {
 		doctrine_name = "TITLE_BATTLEFIELD_SUPPORT"
 
+		allow_branch = {
+			has_start_date > 1937.1.1
+		}
+
 		xor = { force_rotation air_superiority }
 
 		xp_research_type = air
@@ -1853,6 +1969,10 @@ technologies = {
 
 	force_rotation = {
 		doctrine_name = "TITLE_OPERATIONAL_INTEGRITY"
+
+		allow_branch = {
+			has_start_date > 1937.1.1
+		}
 		
 		xp_research_type = air
 		

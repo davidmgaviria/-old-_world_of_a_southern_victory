@@ -113,6 +113,8 @@
  GER_fur_vaterland_desc:0 "The German Fatherland is under attack.  We must push out the invaders at all costs!"
  GER_bloated_bureaucracy:0 "Bloated Bureaucracy"
  GER_bloated_bureaucracy_desc:0 "In order to manage their vastly increased holdings, the German Empire was forced to rapidly expand its bureaucracy.  This came at a cost, with many German bureaucracy being forced to fill positions they were not prepared for.  The result was inefficiency and econoic stagnation."
+ GER_kaisers_death:0 "The Kaiser's Death"
+ GER_kaisers_death_desc:0 "The death of Kaiser Wilhelm II came as a blow to many in the German Empire, and the period of transition afterwards was rife with political instability."
 
  #AUH
  AUH_homogenizing_empire:0 "Homogenizing the Empire"

@@ -63,6 +63,32 @@ division_template = {
 
 ### OOB ###
 units = {
+
+
+	fleet = {
+		name = "Northern Fleet Fleet"
+		naval_base = 10068 # Tianjin
+		task_force = {
+			name = "Northern Fleet"
+			location = 10068 # Tianjin
+			ship = { name = "Hai Chou" definition = light_cruiser equipment = { light_cruiser_1900 = { amount = 1 owner = CHI version_name = "Hai Yung Class" } } }
+			ship = { name = "Gen Zho" definition = light_cruiser equipment = { light_cruiser_1910 = { amount = 1 owner = CHI version_name = "Hai Yung Class" } } }
+			ship = { name = "Hu Ying" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = CHI } } }
+		}
+	}
+
+	fleet = {
+		name = "Central Fleet Fleet"
+		naval_base = 9974 # Ningbo
+		task_force = {
+			name = "Central Fleet"
+			location = 9974 # Ningbo
+			ship = { name = "Tung Chi" definition = destroyer equipment = { destroyer_1900 = { amount = 1 owner = CHI } } }
+			ship = { name = "Bou Chi" definition = destroyer equipment = { destroyer_1910 = { amount = 1 owner = CHI } } }
+		}
+	}
+	
+
 	###### Kuomintang Army (CO: Chang Kai-shek) ######
 	##### First War Area (CO: Wei Lihuang) #####
 	division = { # "40 Sanjiao Jun"
@@ -73,7 +99,7 @@ units = {
 		location = 6932
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 	division = { # "76 Sanjiao Jun"
 		division_name = {
@@ -83,7 +109,7 @@ units = {
 		location = 11931
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 	### 2nd Army Group (CO: Sun Lianzhong) ###
 	division = { # "27 Bubing Shi"
@@ -94,7 +120,7 @@ units = {
 		location = 4606
 		division_template = "Sanjiao Jun"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 	division = { # "30 Sanjiao Jun"
 		division_name = {
@@ -104,7 +130,7 @@ units = {
 		location = 1004
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "56 Sanjiao Jun"
@@ -115,7 +141,7 @@ units = {
 		location = 10364
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 	division = { # "68 Sanjiao Jun"
 		division_name = {
@@ -125,44 +151,44 @@ units = {
 		location = 7656
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 	### 3rd Army Group (CO: Sun Tongxuan) ###
-	division = { # "12 Sanjiao Jun"
+	division = { # "12 Juntuán"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 12
 		}
 		location = 7129
 		division_template = "Juntuán"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 	}
-	division = { # "13 Sanjiao Jun"
+	division = { # "13 Juntuán"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 13
 		}
 		location = 7129
 		division_template = "Juntuán"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 	}
-	division = { # "14 Sanjiao Jun"
+	division = { # "14 Juntuán"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 14
 		}
 		location = 7129
 		division_template = "Juntuán"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 	}
-	division = { # "15 Sanjiao Jun"
+	division = { # "15 Juntuán"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 15
 		}
 		location = 7129
 		division_template = "Juntuán"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 	}
 	### Hopehei-Chahar C-in-C (CO: ) ###
 	division = { # "69 Sanjiao Jun"
@@ -173,7 +199,7 @@ units = {
 		location = 4010
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "99 Sanjiao Jun"
@@ -184,7 +210,7 @@ units = {
 		location = 7129
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 	division = { # "Xin 5 Sanjiao Jun"
 		division_name = {
@@ -194,7 +220,7 @@ units = {
 		location = 7025
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 	### Hopehei-Chahar C-in-C (CO: ) ###
 	division = { # "69b Sanjiao Jun"
@@ -205,7 +231,7 @@ units = {
 		location = 9956
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "99b Sanjiao Jun"
@@ -216,7 +242,7 @@ units = {
 		location = 7200
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "Xin 5b Sanjiao Jun"
@@ -227,18 +253,18 @@ units = {
 		location = 1029
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 
 	####Reserves
-	division = { # "28 Sanjiao Jun"
+	division = { # "28 Juntuán"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 28
 		}
 		location = 7508
 		division_template = "Juntuán"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 
 	}
 	division = { # "91 Sanjiao Jun"
@@ -249,7 +275,7 @@ units = {
 		location = 7508
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	### 23rd Army Group (CO: Tang Shizun) ###
@@ -261,7 +287,7 @@ units = {
 		location = 7508
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "50 Sanjiao Jun"
@@ -272,18 +298,18 @@ units = {
 		location = 7508
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	### 25th Army Group (CO: Chen Yi) ###
-	division = { # "100 Sanjiao Jun"
+	division = { # "100 Juntuán"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 100
 		}
 		location = 7508
 		division_template = "Juntuán"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 
 	}
 	### 32nd Army Group (CO: Shangguan Yunxiang) ###
@@ -295,7 +321,7 @@ units = {
 		location = 7508
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 	division = { # "29 Sanjiao Jun"
 		division_name = {
@@ -305,7 +331,7 @@ units = {
 		location = 7508
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 	## Shandong-Kansu C-in-C (CO: ) ##
 	division = { # "51 Sanjiao Jun"
@@ -316,7 +342,7 @@ units = {
 		location = 7508
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "57 Sanjiao Jun"
@@ -327,7 +353,7 @@ units = {
 		location = 7508
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "89 Sanjiao Jun"
@@ -338,7 +364,7 @@ units = {
 		location = 7508
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 	### Hunan C-in-C (CO: ) ###
 	division = { # "3 Bubing Shi"
@@ -349,16 +375,16 @@ units = {
 		location = 7508
 		division_template = "Sanjiao Jun"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
-	division = { # "73 Sanjiao Jun"
+	division = { # "73 Juntuán"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 73
 		}
 		location = 7508
 		division_template = "Juntuán"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 
 	}
 	division = { # "Xin 6 Sanjiao Jun"
@@ -369,7 +395,7 @@ units = {
 		location = 7508
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 	### 27th Army Group (CO: Yang Sen) ###
 	division = { # "20 Sanjiao Jun"
@@ -380,7 +406,7 @@ units = {
 		location = 7508
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 	####Far North Reserves
 	### Fujian Defense Force (CO: ) ###
@@ -389,26 +415,27 @@ units = {
 			is_name_ordered = yes
 			name_order = 480
 		}
-		location = 5025
+		location = 2030
 		division_template = "Sanjiao Jun"		# German-trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = {
 		name = "Fujian Jingbei"
 		location = 1166
-		division_template = "Juntuán"	# Garrison unit (poor equipment and training)
-		start_equipment_factor = 0.3
+		division_template = "Sanjiao Jun"	# Garrison unit (poor equipment and training)
+		start_equipment_factor = 0.55
+		start_experience_factor = 0.1
 	}
-	division = { # "16 Sanjiao Jun"
+	division = { # "16 Juntuán"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 16
 		}
-		location = 5025
+		location = 2030
 		division_template = "Juntuán"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 	}
 	### 34th Army Group (CO: Hu Zongnan) ###
 	division = { # "27 Sanjiao Jun"
@@ -416,10 +443,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 27
 		}
-		location = 5025
+		location = 2030
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "90 Sanjiao Jun"
@@ -427,10 +454,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 90
 		}
-		location = 5025
+		location = 2030
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 	### 30th Army Group (CO: Wang Lingji) ###
 	division = { # "72 Sanjiao Jun"
@@ -438,10 +465,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 72
 		}
-		location = 5025
+		location = 2030
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "78 Sanjiao Jun"
@@ -449,23 +476,23 @@ units = {
 			is_name_ordered = yes
 			name_order = 78
 		}
-		location = 5025
+		location = 2030
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 
 
 
 	##### Second War Area (CO: Yan Xishan) #####
-	division = { # "9 Sanjiao Jun"
+	division = { # "9 Juntuán"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 9
 		}
 		location = 9953
 		division_template = "Juntuán"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 	}
 	### 4th Army Group (CO: Sun Weiru) ###
 	division = { # "67 Bubing Shi"
@@ -476,7 +503,7 @@ units = {
 		location = 10095
 		division_template = "Sanjiao Jun"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "38 Sanjiao Jun"
@@ -487,7 +514,7 @@ units = {
 		location = 4001
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "47 Sanjiao Jun"
@@ -498,7 +525,7 @@ units = {
 		location = 4148
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "96 Sanjiao Jun"
@@ -509,7 +536,7 @@ units = {
 		location = 1001
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	### 5th Army Group (CO: Zeng Wanzhong) ###
@@ -521,7 +548,7 @@ units = {
 		location = 7094
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "15 Sanjiao Jun"
@@ -532,7 +559,7 @@ units = {
 		location = 7222
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "17 Sanjiao Jun"
@@ -543,7 +570,7 @@ units = {
 		location = 10017
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	### 6th Army Group (CO: Yang Aiyuan) ###
@@ -555,7 +582,7 @@ units = {
 		location = 12061
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "61 Sanjiao Jun"
@@ -566,7 +593,7 @@ units = {
 		location = 1083
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "1 Qibing Jun"
@@ -577,7 +604,7 @@ units = {
 		location = 7035
 		division_template = "Qibing Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	### 7th Army Group (CO: Zhao Chengshou) ###
@@ -589,7 +616,7 @@ units = {
 		location = 1153
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "35 Sanjiao Jun"
@@ -600,7 +627,7 @@ units = {
 		location = 7007
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "Xin 1 Sanjiao Jun"
@@ -611,7 +638,7 @@ units = {
 		location = 7174
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = {
@@ -619,7 +646,7 @@ units = {
 		location = 10086
 		division_template = "Sanjiao Jun"		# Manchurian Advance Group (militia-quality guerrila group)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	### 14th Army Group (CO: Wei Lihuang) ###
@@ -631,7 +658,7 @@ units = {
 		location = 10014
 		division_template = "Sanjiao Jun"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 	division = { # "83 Bubing Shi"
 		division_name = {
@@ -641,7 +668,7 @@ units = {
 		location = 11991
 		division_template = "Sanjiao Jun"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 	division = { # "14 Sanjiao Jun"
 		division_name = {
@@ -651,7 +678,7 @@ units = {
 		location = 7086
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 	division = { # "98 Sanjiao Jun"
 		division_name = {
@@ -661,7 +688,7 @@ units = {
 		location = 1166
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 
 	#### North Reserves
@@ -674,7 +701,7 @@ units = {
 		location = 4079
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "65 Sanjiao Jun"
@@ -685,7 +712,7 @@ units = {
 		location = 4079
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 
 	### 12th Army Group (CO: Yu Hanmou) ###
@@ -697,7 +724,7 @@ units = {
 		location = 4079
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "63 Sanjiao Jun"
@@ -708,7 +735,7 @@ units = {
 		location = 4079
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "66 Sanjiao Jun"
@@ -719,7 +746,7 @@ units = {
 		location = 4079
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "Sanjiao Jun"
@@ -730,7 +757,7 @@ units = {
 		location = 4079
 		division_template = "Sanjiao Jun"		
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 
 	### 16th Army Group (CO: Xia Wei) ###
@@ -742,7 +769,7 @@ units = {
 		location = 4079
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "64 Juntuán"
@@ -752,7 +779,7 @@ units = {
 		}
 		location = 4079
 		division_template = "Juntuán"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 	}
 	### 26th Army Group (CO: Xu Yuanquan) ###
 	division = { # "10 Juntuán"
@@ -762,7 +789,7 @@ units = {
 		}
 		location = 4079
 		division_template = "Juntuán"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 	}
 
 
@@ -776,17 +803,17 @@ units = {
 		location = 3992
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
-	division = { # "84 Sanjiao Jun"
+	division = { # "84 Juntuán"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 84
 		}
 		location = 3992
 		division_template = "Juntuán"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 	}
 	### 21st Army Group (CO: Liao Lei) ###
 	division = { # "7 Sanjiao Jun"
@@ -797,7 +824,7 @@ units = {
 		location = 3992
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 	division = { # "48 Sanjiao Jun"
 		division_name = {
@@ -807,7 +834,7 @@ units = {
 		location = 3992
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	### 22nd Army Group (CO: Sun Zhen) ###
@@ -819,7 +846,7 @@ units = {
 		location = 3992
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "45 Sanjiao Jun"
@@ -830,7 +857,7 @@ units = {
 		location = 3992
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	### 29th Army Group (CO: Wang Zuanxu) ###
@@ -842,7 +869,7 @@ units = {
 		location = 3992
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "67 Sanjiao Jun"
@@ -853,7 +880,7 @@ units = {
 		location = 3992
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	### 31st Army Group (CO: Tang Enbo) ###
@@ -865,7 +892,7 @@ units = {
 		location = 3992
 		division_template = "Sanjiao Jun"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 	division = { # "11 Bubing Shi"
 		division_name = {
@@ -875,7 +902,7 @@ units = {
 		location = 3992
 		division_template = "Sanjiao Jun"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 	division = { # "89 Bubing Shi"
 		division_name = {
@@ -885,16 +912,16 @@ units = {
 		location = 3992
 		division_template = "Sanjiao Jun"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
-	division = { # "13 Sanjiao Jun"
+	division = { # "13 Juntuán"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 13
 		}
 		location = 3992
 		division_template = "Juntuán"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 	}
 	division = { # "85 Sanjiao Jun"
 		division_name = {
@@ -904,7 +931,7 @@ units = {
 		location = 3992
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "92 Sanjiao Jun"
@@ -915,7 +942,7 @@ units = {
 		location = 3992
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	### 33rd Army Group (CO: Zhang Zizhong) ###
@@ -927,7 +954,7 @@ units = {
 		location = 3992
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "59 Sanjiao Jun"
@@ -938,17 +965,17 @@ units = {
 		location = 3992
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
-	division = { # "77 Sanjiao Jun"
+	division = { # "77 Juntuán"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 77
 		}
 		location = 3992
 		division_template = "Juntuán"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 	}
 
 
@@ -959,10 +986,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 457
 		}
-		location = 10459
+		location = 4504
 		division_template = "Sanjiao Jun"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "5 Sanjiao Jun"
@@ -970,20 +997,20 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 10459
+		location = 4504
 		division_template = "Motuo Hua Bubing Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 	}
 	division = { # "75 Sanjiao Jun"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 75
 		}
-		location = 10459
+		location = 4504
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	### 1st Army Group (CO: Song Zheyuan) ###
@@ -992,10 +1019,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 58
 		}
-		location = 10459
+		location = 4504
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "60 Sanjiao Jun"
@@ -1003,10 +1030,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 60
 		}
-		location = 10459
+		location = 4504
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "Xin 3 Sanjiao Jun"
@@ -1014,10 +1041,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 203
 		}
-		location = 10459
+		location = 4504
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	### 15th Army Group (CO: Chen Cheng) ###
@@ -1026,10 +1053,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 402
 		}
-		location = 10459
+		location = 4504
 		division_template = "Sanjiao Jun"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "25 Bubing Shi"
@@ -1037,10 +1064,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 425
 		}
-		location = 10459
+		location = 4504
 		division_template = "Sanjiao Jun"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "37 Sanjiao Jun"
@@ -1048,10 +1075,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 37
 		}
-		location = 10459
+		location = 4504
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "52 Sanjiao Jun"
@@ -1059,10 +1086,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 52
 		}
-		location = 10459
+		location = 4504
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "79 Sanjiao Jun"
@@ -1070,31 +1097,31 @@ units = {
 			is_name_ordered = yes
 			name_order = 79
 		}
-		location = 10459
+		location = 4504
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	### 19th Army Group (CO: Luo Zhuoying) ###
-	division = { # "32 Sanjiao Jun"
+	division = { # "32 Juntuán"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 32
 		}
-		location = 10459
+		location = 4504
 		division_template = "Juntuán"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 	}
 	division = { # "49 Sanjiao Jun"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 49
 		}
-		location = 10459
+		location = 4504
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "70 Sanjiao Jun"
@@ -1102,10 +1129,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 70
 		}
-		location = 10459
+		location = 4504
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	### 20th Army Group (CO: Shang Zhen) ###
@@ -1114,31 +1141,30 @@ units = {
 			is_name_ordered = yes
 			name_order = 414
 		}
-		location = 10459
+		location = 4504
 		division_template = "Sanjiao Jun"		# German-trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
-	division = { # "53 Sanjiao Jun"
+	division = { # "53 Juntuán"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 53
 		}
-		location = 10459
+		location = 4504
 		division_template = "Juntuán"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 	}
 	division = { # "87 Sanjiao Jun"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 87
 		}
-		location = 10459
+		location = 4504
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
-
+		start_equipment_factor = 0.55
 	}
 
 
@@ -1152,7 +1178,7 @@ units = {
 		location = 6999
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "86 Sanjiao Jun"
@@ -1163,7 +1189,7 @@ units = {
 		location = 6999
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	### 8th Army Group (CO: Sun Chu) ###
@@ -1175,7 +1201,7 @@ units = {
 		location = 6999
 		division_template = "Sanjiao Jun"		# German-trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "36 Bubing Shi"
@@ -1186,7 +1212,7 @@ units = {
 		location = 6999
 		division_template = "Sanjiao Jun"		# German-trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "87 Bubing Shi"
@@ -1197,7 +1223,7 @@ units = {
 		location = 6999
 		division_template = "Sanjiao Jun"		# German-trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "88 Bubing Shi"
@@ -1208,7 +1234,7 @@ units = {
 		location = 6999
 		division_template = "Sanjiao Jun"		# German-trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "1 Sanjiao Jun"
@@ -1219,7 +1245,7 @@ units = {
 		location = 6999
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "2 Sanjiao Jun"
@@ -1230,7 +1256,7 @@ units = {
 		location = 6999
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	### 24th Army Group (CO: Pang Bingxun) ###
@@ -1242,7 +1268,7 @@ units = {
 		location = 4925
 		division_template = "Sanjiao Jun"		# German-trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "6 Sanjiao Jun"
@@ -1253,7 +1279,7 @@ units = {
 		location = 4925
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	division = { # "64 Sanjiao Jun"
@@ -1264,18 +1290,18 @@ units = {
 		location = 4925
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
 
 	}
 	### 28th Army Group (CO: Pan Wenhua) ###
-	division = { # "23 Sanjiao Jun"
+	division = { # "23 Juntuán"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 23
 		}
 		location = 4925
 		division_template = "Juntuán"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 	}
 	division = { # "26 Sanjiao Jun"
 		division_name = {
@@ -1285,7 +1311,95 @@ units = {
 		location = 4925
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.55
+	}
+
+
+	division = {
+		name = "1a Sanjiao Jun"
+		location = 7568
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.55
+	}
+	division = {
+		name = "2a Sanjiao Jun"
+		location = 7568
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.55
+	}
+	division = {
+		name = "3a Sanjiao Jun"
+		location = 7568
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.55
+	}
+	division = {
+		name = "4a Sanjiao Jun"
+		location = 7568
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.55
+	}
+	division = {
+		name = "5a Sanjiao Jun"
+		location = 7568
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.55
+	}
+
+	division = {
+		name = "6a Sanjiao Jun"
+		location = 4619
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.55
+	}
+	division = {
+		name = "7a Sanjiao Jun"
+		location = 4619
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.55
+	}
+	division = {
+		name = "8a Sanjiao Jun"
+		location = 4619
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.55
+	}
+	division = {
+		name = "9a Sanjiao Jun"
+		location = 4619
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.55
+	}
+	division = {
+		name = "10a Sanjiao Jun"
+		location = 4619
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.55
+	}
+	division = {
+		name = "11a Sanjiao Jun"
+		location = 4619
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.55
+	}
+
+	division = {
+		name = "12a Sanjiao Jun"
+		location = 6999
+		division_template = "Sanjiao Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.55
 	}
 }
 

@@ -17,8 +17,8 @@ ideas = {
 			picture = warrior_traditions_idea
 			
 			modifier = {
-				war_support_factor = 0.15
-				army_attack_factor = 0.1
+				war_support_factor = 0.1
+				army_attack_factor = 0.05
 				justify_war_goal_time = -0.2
 			}			
 		}

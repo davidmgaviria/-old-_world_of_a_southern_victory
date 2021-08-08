@@ -682,6 +682,7 @@ suppression_generic = {
 infantry_generic = {
 
 	blocked_for = {
+		CAN
 		RUS
 		SOV
 		JAP
@@ -795,6 +796,7 @@ infantry_generic = {
 infantry_big_generic = {
 
 	blocked_for = {
+		CAN
 		JAP
 		RUS
 		SOV

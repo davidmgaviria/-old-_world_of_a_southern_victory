@@ -104,9 +104,13 @@ ideas = {
 				modifier = {
 					#Prio if low on manpower
 					factor = 20
-					manpower_per_military_factory <  800
+					manpower_per_military_factory <  1000
 				}
-				
+
+				modifier = {
+					factor = 20
+					CHI = { has_war_with = JAP }
+				}	
 			}	
 			
 			cancel_if_invalid = no

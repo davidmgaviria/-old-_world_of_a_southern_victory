@@ -1,7 +1,7 @@
 ﻿###################################################################
 
 division_template = {
-	name = "Infantry Division"
+	name = "Pešadijska Divizija"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -17,7 +17,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Infantry Brigade"
+	name = "Pešadijska Brigada"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 1 y = 0 }
@@ -26,7 +26,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Cavalry Division"
+	name = "Konjicka Divizija"
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
@@ -39,15 +39,13 @@ division_template = {
 }
 
 division_template = {
-	name = "Armored Car Division"
-
+	name = "Bataljon Oklopnih Automobila"
 	regiments = {
 		armored_car = { x = 0 y = 0 }
 		armored_car = { x = 0 y = 1 }		
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 	}
-
 	support = {
 		engineer = { x = 0 y = 0 }
 	}
@@ -57,143 +55,143 @@ division_template = {
 
 units = {
 	division= { 
-			name = "Sumadijska divizija II poziva"
+			name = "1a Pešadijska Divizija"
 			location = 3939 # Valjevo
-			division_template="Infantry Division"
+			division_template="Pešadijska Divizija"
 			start_experience_factor=0.1
-			}
+		}
 	
 	
 	division= { 
-			name = "Uzicka brigada"
+			name = "2a Pešadijska Divizija"
 			location = 3939 # Valjevo
-			division_template="Infantry Division"
+			division_template="Pešadijska Divizija"
 			start_experience_factor=0.1
-			}
+		}
 	
 	
 	division= { 
-			name = "Lima sekcija"
+			name = "3a Pešadijska Divizija"
 			location = 3939 # Valjevo
-			division_template="Infantry Division"
+			division_template="Pešadijska Divizija"
 			start_experience_factor=0.1
-			}
+		}
 	
 	
 	division= { 
-			name = "Timocka divizija I poziva"
+			name = "4a Pešadijska Divizija"
 			location = 11586 # Beograd
-			division_template="Infantry Division"
+			division_template="Pešadijska Divizija"
 			start_experience_factor=0.1
-			}
+		}
 	
 	
 	division= { 
-			name = "Timocka divizija II poziva"
+			name = "5a Pešadijska Divizija"
 			location = 11586 # Beograd
-			division_template="Infantry Division"
+			division_template="Pešadijska Divizija"
 			start_experience_factor=0.1
-			#start_equipment_factor = 0.65 
-			#start_manpower_factor = 0.6
-			}
+		}
 	
 	
 	division= { 
-			name = "Moravska divizija II poziva"
+			name = "6a Pešadijska Divizija"
 			location = 11586 # Beograd
-			division_template="Infantry Division"
+			division_template="Pešadijska Divizija"
 			start_experience_factor=0.1
-			#start_equipment_factor = 0.65 
-			#start_manpower_factor = 0.6
-			}
+		}
 	
 	
 	division= { 
-			name = "Konjicka divizija"
+			name = "7a Pešadijska Divizija"
 			location = 11586 # Beograd
-			division_template="Cavalry Division"
+			division_template="Pešadijska Divizija"
 			start_experience_factor=0.1
-			}
+		}
 	
 	
 	division= { 
-			name = "Branicevska sekcija"
-			location = 11586 # Beograd
-			division_template="Infantry Division"
-			start_experience_factor=0.05
-			}
-	
-	
-	division= { 
-			name = "Obrenovacska sekcija"
+			name = "8a Pešadijska Divizija"
 			location = 6998 # Krusevac
-			division_template="Infantry Division"
+			division_template="Pešadijska Divizija"
 			start_experience_factor=0.1
-			}
-	
-	
+		}
 	division= { 
-			name = "Sabacka sekcija"
+			name = "9a Pešadijska Divizija"
 			location = 6998 # Krusevac
-			division_template="Infantry Division"
+			division_template="Pešadijska Divizija"
 			start_experience_factor=0.1
-			}
-	
-	
+		}
+
 	division= { 
-			name = "Loznicka sekcija"
+			name = "10a Pešadijska Divizija"
 			location = 6998 # Krusevac
-			division_template="Infantry Division"
+			division_template="Pešadijska Divizija"
 			start_experience_factor=0.1
-			}
+		}
+
+	division= { 
+			name = "1a Konjicka Divizija"
+			location = 11586 # Beograd
+			division_template="Konjicka Divizija"
+			start_experience_factor=0.1
+		}
+
+	division= { 
+			name = "1b Konjicka Divizija"
+			location = 11586 # Beograd
+			division_template="Konjicka Divizija"
+			start_experience_factor=0.1
+		}
 	
 	
 	division= { 
-			name = "Ljubovijska sekcija"
+			name = "1a Pešadijska Brigada"
 			location = 6998 # Krusevac
-			division_template="Infantry Division"
+			division_template="Pešadijska Brigada"
 			start_experience_factor=0.1
+			start_equipment_factor = 0.8
+		}
+	
+	
+	division= { 
+			name = "2a Pešadijska Brigada"
+			location = 6998 # Krusevac
+			division_template="Pešadijska Divizija"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.8
 			}
 	
 	
 	division= { 
-			name = "Vardarska sekcija"
+			name = "3a Pešadijska Brigada"
+			location = 6998 # Krusevac
+			division_template="Pešadijska Divizija"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.8
+			}
+	
+	
+	division= { 
+			name = "4a Pešadijska Brigada"
 			location = 9906 # Pirot
-			division_template="Infantry Division"
-			start_experience_factor=0.05
-			#start_equipment_factor = 0.65 
-			#start_manpower_factor = 0.6
-			}
+			division_template="Pešadijska Divizija"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.8
+		}
 	
 	
 	division= { 
-			name = "Kosovska sekcija"
+			name = "5a Pešadijska Brigada"
 			location = 9906 # Pirot
-			division_template="Infantry Division"
-			start_experience_factor=0.05
-			#start_equipment_factor = 0.65 
-			#start_manpower_factor = 0.6
-			}
-	
-	
-	division= { 
-			name = "Ibarska sekcija"
-			location = 9906 # Pirot
-			division_template="Infantry Division"
-			start_experience_factor=0.05
-			#start_equipment_factor = 0.65 
-			#start_manpower_factor = 0.6
-			}
-	
+			division_template="Pešadijska Divizija"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.8
+		}
 	}
 air_wings = { 
 	}
 instant_effect = {
-
-	#add_equipment_to_stockpile = { type = infantry_equipment_1   amount = 5000   producer = BUL }
-	#add_equipment_to_stockpile = { type = support_equipment_1   amount = 60   producer = BUL }
-	#add_equipment_to_stockpile = { type = light_field_gun_equipment_1   amount = 85   producer = BUL }
-
 
 	add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "SER" } requested_factories = 1 progress = 0.1 efficiency = 65 }
 	add_equipment_production = { equipment = { type = support_equipment_1 creator = "SER" } requested_factories = 1 progress = 0.1 efficiency = 50 }

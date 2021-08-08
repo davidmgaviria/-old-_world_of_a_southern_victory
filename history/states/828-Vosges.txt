@@ -15,6 +15,12 @@ state={
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 2
+			3560 = {
+				trench = 1
+			}
+			698 = {
+				trench = 1
+			}
 			11516 = {
 				trench = 1
 

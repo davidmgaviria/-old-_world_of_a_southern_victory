@@ -164,7 +164,7 @@ JAP_prepare_against_china = {
 	ai_strategy = {
 		type = prepare_for_war
 		id = "SHX"
-		value = 50
+		value = 100
 	}
 	ai_strategy = {
 		type = prepare_for_war
@@ -190,12 +190,12 @@ JAP_war_with_china = {
 	ai_strategy = {
 		type = force_defend_ally_borders
 		id = "MAN"
-		value = 50
+		value = 100
 	}
 	ai_strategy = {
 		type = force_defend_ally_borders
 		id = "MEN"
-		value = 50
+		value = 100
 	}
 } 
 
@@ -214,9 +214,10 @@ JAP_war_with_china_opening_offensives = {
 	ai_strategy = {
 		type = consider_weak
 		id = "CHI"
-		value = 30
+		value = 25
 	}
 } 
+
 
 
 

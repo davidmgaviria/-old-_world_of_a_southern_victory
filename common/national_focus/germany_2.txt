@@ -2038,12 +2038,14 @@
 		cost = 10
 		relative_position_id = GER2_kaiserreich
 
-		ai_will_do = { factor = 100 }
+		ai_will_do = { 
+			factor = 200 
+		}
 		
 		available_if_capitulated = no
 
 		available = {
-			threat > 0.2
+			threat > 0.15
 		}
 
 		completion_reward = {
@@ -2061,7 +2063,13 @@
 		cost = 10
 		relative_position_id = GER2_war_propaganda
 
-		ai_will_do = { factor = 100 }
+		ai_will_do = { 
+			factor = 120 
+			modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
 		
 		available_if_capitulated = no
 
@@ -2070,8 +2078,26 @@
 		}
 
 		completion_reward = {
-			add_ideas = extensive_conscription
+			if = {
+				limit = { OR = { has_idea = volunteer_only   has_idea = disarmed_nation  } }
+				add_ideas = limited_conscription
+			}
+			else_if = {
+
+				limit = { has_idea = limited_conscription }
+				add_ideas = extensive_conscription
+			}
+			add_manpower = 100000
 			army_experience = 10
+		}
+
+		bypass = {
+			OR = {
+				has_idea = extensive_conscription
+				has_idea = service_by_requirement
+				has_idea = all_adults_serve
+				has_idea = scraping_the_barrel
+			}
 		}
 	}
 
@@ -2085,7 +2111,13 @@
 		cost = 10
 		relative_position_id = GER2_war_propaganda
 
-		ai_will_do = { factor = 70 }
+		ai_will_do = { 
+			factor = 50 
+			modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
 		
 		available_if_capitulated = no
 
@@ -2109,7 +2141,13 @@
 		cost = 10
 		relative_position_id = GER2_increase_conscription
 
-		ai_will_do = { factor = 200 }
+		ai_will_do = { 
+			factor = 100 
+			modifier = {
+				factor = 4
+				has_war = yes
+			}
+		}
 		
 		available_if_capitulated = no
 

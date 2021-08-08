@@ -153,9 +153,6 @@ ideas = {
 			modifier = {
 				stability_weekly = -0.001
 				war_support_weekly = -0.003
-				conscription_factor = -0.05
-				army_morale_factor = -0.05
-				army_org = -5
 			}
 		}
 
@@ -169,9 +166,11 @@ ideas = {
 			modifier = {
 				stability_weekly = -0.002
 				war_support_weekly = -0.005
+
 				conscription_factor = -0.1
-				army_morale_factor = -0.1
-				army_org = -10
+				army_morale_factor = -0.05
+				army_org = -5
+
 				surrender_limit = -0.25
 			}
 		}
@@ -184,14 +183,17 @@ ideas = {
 			picture = generic_war_exhaustion3_icon
 			
 			modifier = {
-				stability_weekly = -0.004
+				stability_weekly = -0.003
 				war_support_weekly = -0.01
-				conscription_factor = -0.2
-				army_morale_factor = -0.2
-				army_org = -15
+
+				conscription_factor = -0.25
+				army_morale_factor = -0.1
+
+				army_org = -10
 				surrender_limit = -0.5
 			}
 		}
+		
 
 		#################
 		###### WW2 ######
@@ -259,9 +261,10 @@ ideas = {
 			removal_cost=-1
 			picture = generic_chinese_unity
 			modifier = {
-				surrender_limit = 0.75
+				surrender_limit = 0.25
 				war_support_factor = 0.25
 				stability_factor = 0.25
+				army_defence_factor = 0.1
 			}
 		}
 

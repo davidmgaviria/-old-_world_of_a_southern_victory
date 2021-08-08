@@ -1654,4 +1654,4 @@ news_event = {
 			NOT = { tag = USA   is_in_faction_with = USA }
 		}
 	} 
-}
+

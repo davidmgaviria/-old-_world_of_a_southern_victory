@@ -64,7 +64,7 @@ BUL_first_balkan = {
 	ai_strategy = {
 		type = conquer
 		id = "TUR"			
-		value = 200
+		value = 100
 	}	
 
 	ai_strategy = {

@@ -266,7 +266,7 @@ create_equipment_variant={ name="Hai Tien Class" type=light_cruiser_1900 parent_
 		low_economic_mobilisation
 		limited_conscription
 		closed_economy
-		generic_incompetent_officers
+		#generic_incompetent_officers
 	}
 
 	#if = {

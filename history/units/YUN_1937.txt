@@ -56,23 +56,23 @@ units = {
 	division = {
 		name = "1a Qibing Jun"
 		location = 1319
-		division_template = "Qibing Jun"		# Provincial militia unit (poor equipment and training)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		division_template = "Qibing Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.55
 	}
 	division = {
 		name = "2a Qibing Jun"
 		location = 1319
-		division_template = "Qibing Jun"		# Provincial militia unit (poor equipment and training)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		division_template = "Qibing Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.55
 	}
 	division = {
 		name = "3a Qibing Jun"
 		location = 1319
-		division_template = "Qibing Jun"		# Provincial militia unit (poor equipment and training)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		division_template = "Qibing Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.55
 	}
 }
 

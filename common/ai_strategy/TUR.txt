@@ -31,7 +31,7 @@ TUR_build_up_army = {
 
 	ai_strategy = {
 		type = force_build_armies
-		value = 40
+		value = 60
 	}
 }
 
@@ -59,7 +59,8 @@ TUR_balkan_buffers = {
 			341
 		}
 
-		ratio = 0.1
+		ratio = 0.25
 		subtract_invasions_from_need = yes
 	}	
 }
+
