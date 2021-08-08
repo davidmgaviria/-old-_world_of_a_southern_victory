@@ -30,8 +30,6 @@ state={
 		1938.10.1={ owner=CHI }
 		buildings={
 			infrastructure=3
-			industrial_complex=1
-			arms_factory=0
 			}
 		}
 	}

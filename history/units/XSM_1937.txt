@@ -31,80 +31,83 @@ units = {
 		name = "81 Sanjiao Jun"
 		location = 7803
 		division_template = "Sanjiao Jun"
-		start_equipment_factor = 0.55
+		start_equipment_factor = 0.5
 		start_experience_factor = 0.1
 	}
 	division = {
 		name = "84 Sanjiao Jun"
 		location = 7803
 		division_template = "Sanjiao Jun"
-		start_equipment_factor = 0.55
+		start_equipment_factor = 0.5
 		start_experience_factor = 0.1
 	}
 	division = {
 		name = "80 Sanjiao Jun"
 		location = 7803
 		division_template = "Sanjiao Jun"
-		start_equipment_factor = 0.55
+		start_equipment_factor = 0.5
 		start_experience_factor = 0.1
 	}
 	division = {
 		name = "82 Sanjiao Jun"
 		location = 7803
 		division_template = "Sanjiao Jun"
-		start_equipment_factor = 0.55
+		start_equipment_factor = 0.5
 		start_experience_factor = 0.1
 	}
 	division = {
 		name = "Xin 2 Sanjiao Jun"
 		location = 8055
 		division_template = "Sanjiao Jun"
-		start_equipment_factor = 0.55
+		start_equipment_factor = 0.5
 		start_experience_factor = 0.1
 	}
 	division = {
 		name = "5 Qábing Jun"
 		location = 10724
 		division_template = "Qibing Jun"
-		start_equipment_factor = 0.55
+		start_equipment_factor = 0.5
 		start_experience_factor = 0.1
 	}
 	division = {
 		name = "Golmud Jingbei"
 		location = 10724
 		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.55
+		start_equipment_factor = 0.5
 		start_experience_factor = 0.1
 	}
 	division = {
 		name = "81 Sanjiao Jun"
 		location = 8081
 		division_template = "Sanjiao Jun"
-		start_equipment_factor = 0.55
+		start_equipment_factor = 0.5
 		start_experience_factor = 0.1
 	}
 	division = {
 		name = "2 Qábing Jun"
 		location = 8081
 		division_template = "Qibing Jun"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
 	}
 	division = {
 		name = "6 Qábing Jun"
 		location = 7940
 		division_template = "Qibing Jun"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
 	}
 	division = {
 		name = "5 Qábing Jun"
 		location = 7940
 		division_template = "Qibing Jun"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
 	}
 }
+
+
+
 instant_effect = {
 	add_equipment_production = {
 		equipment = {

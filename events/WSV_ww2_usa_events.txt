@@ -774,6 +774,7 @@ news_event = {
 
     trigger = {
         date > 1937.1.1
+        tag = USA
         USA = { 
      		has_war_with = CSA
      		NOT = { has_war_with = DES }

@@ -8,9 +8,8 @@ news_event = {
 	picture = news_event_marco_polo_bridge
 
 	trigger = {
-		#date > 1937.1.1
-		date > 1937.7.7
-		country_exists = JAP
+		date > 1937.1.1
+		tag = JAP
 		country_exists = CHI
 		CHI = {
 			NOT = { has_war_with = JAP }
@@ -21,8 +20,7 @@ news_event = {
 	}
 
 	mean_time_to_happen = {
-		base = 1
-		days = 66  #historical date
+		days = 73  #historical date
 	}
 
 	major = yes

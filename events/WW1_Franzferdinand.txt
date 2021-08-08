@@ -84,6 +84,7 @@ country_event = {
 		has_war=no
 		date > 1914.6.28
 	}
+
 	option={
 		name=ww1_franzferdinand.2.a
 		ai_chance={
@@ -91,11 +92,13 @@ country_event = {
 		}
 		set_global_flag = kis_serbia_refuse
 		hidden_effect = {
+			ENG={ country_event= { days = 0    id = wsv_england.1 }	}
 			RUS={ country_event= { days = 2    id = ww1_franzferdinand.4 }	}
 			MTN={ country_event= { days = 2    id = ww1_franzferdinand.103 } }
 		}
 		news_event = { days = 0 id = ww1_franzferdinand.102 }
 	}
+
 	option={
 		name=ww1_franzferdinand.2.b
 		ai_chance={
@@ -296,15 +299,15 @@ country_event = {
 		}
 		
 		hidden_effect = {
-		    BEL = { add_timed_idea = { days = 21  idea = unexpected_assault }  }
-		    FRA = { add_timed_idea = { days = 21  idea = outflanked_through_belgium }  }
+		    BEL = { add_timed_idea = { days = 30  idea = unexpected_assault }  }
+		   	FRA = { add_timed_idea = { days = 30  idea = outflanked_through_belgium }  }
 		}
 		
 		if = { 
 			limit = { is_ai = no }
 			LUX = {
 			    hidden_effect = {
-			        add_timed_idea = { days = 21   idea = unexpected_assault }
+			        add_timed_idea = { days = 30   idea = unexpected_assault }
 				}
 				add_to_war = {
 		           targeted_alliance = BEL enemy = GER
@@ -333,13 +336,13 @@ country_event = {
 		}
 		
 		hidden_effect = {
-		    BEL = { add_timed_idea = { days = 21  idea = unexpected_assault }  }
-		    FRA = { add_timed_idea = { days = 21  idea = outflanked_through_belgium } }
+		    BEL = { add_timed_idea = { days = 30  idea = unexpected_assault }  }
+		    FRA = { add_timed_idea = { days = 30  idea = outflanked_through_belgium } }
 		}
 
 		HOL = {
 		    hidden_effect = {
-		        add_timed_idea = { days = 21  idea = unexpected_assault }
+		        add_timed_idea = { days = 30  idea = unexpected_assault }
 			}
 			add_to_war = {
 	            targeted_alliance = BEL enemy = GER
@@ -402,7 +405,7 @@ country_event = {
 		hidden_effect = { 
 			CSA = { 
 				add_stability = 0.1 
-				add_timed_idea = { days = 60  idea = CSA_legacy_of_lee }
+				#add_timed_idea = { days = 60  idea = CSA_legacy_of_lee }
 			} 
 		}
 		

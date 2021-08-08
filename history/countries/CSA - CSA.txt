@@ -43,11 +43,11 @@ create_field_marshal = {
 	id = 42019
 	portrait_path = "gfx/portraits/CSA/army_generals/CSA_JEB_Stuart_Jr.dds"
 	traits = { offensive_doctrine }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 3
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
 	planning_skill = 3
-	logistics_skill = 3
+	logistics_skill = 2
 }
 
 #Weird one
@@ -56,11 +56,11 @@ create_field_marshal = {
 	#id = 32019
 	portrait_path = "gfx/portraits/USA/army_generals/USA_William_Hay.dds" 
 	traits = { defensive_doctrine old_guard }
-	skill = 4
-	attack_skill = 4
+	skill = 3
+	attack_skill = 3
 	defense_skill = 3
 	planning_skill = 2
-	logistics_skill = 3
+	logistics_skill = 2
 }
 
 #Weird one
@@ -69,11 +69,11 @@ create_field_marshal = {
 	#id = 93552
 	portrait_path = "gfx/portraits/USA/army_generals/USA_Tasker_Bliss.dds"
 	traits = { offensive_doctrine }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 3
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_field_marshal = {
@@ -81,11 +81,11 @@ create_field_marshal = {
 	id = 93065
 	portrait_path = "gfx/portraits/CSA/army_generals/CSA_Charles_Pelot_Summerall.dds" 
 	traits = { offensive_doctrine }
-	skill = 4
+	skill = 3
 	attack_skill = 3
-	defense_skill = 4
+	defense_skill = 3
 	planning_skill = 3
-	logistics_skill = 3
+	logistics_skill = 2
 }
 
 ########################
@@ -113,8 +113,8 @@ create_corps_commander = {
 	traits = {
 		trickster  
 	}
-	skill = 4
-	attack_skill = 3
+	skill = 3
+	attack_skill = 2
 	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 2
@@ -131,7 +131,7 @@ create_corps_commander = {
 	attack_skill = 2
 	defense_skill = 3
 	planning_skill = 1
-	logistics_skill = 1
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -141,11 +141,11 @@ create_corps_commander = {
 	traits = {
 		fortress_buster
 	}
-	skill = 4
-	attack_skill = 4
-	defense_skill = 3
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -155,11 +155,11 @@ create_corps_commander = {
 	traits = {
 		fortress_buster  
 	}
-	skill = 3
+	skill = 2
 	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -169,11 +169,11 @@ create_corps_commander = {
 	traits = {
 
 	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
 }
 
 ###Weird one
@@ -184,11 +184,11 @@ create_corps_commander = {
 	traits = {
 		 trickster
 	}
-	skill = 3
+	skill = 2
 	attack_skill = 2
 	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
 }
 
 ###Weird one
@@ -199,10 +199,10 @@ create_corps_commander = {
 	traits = {
 		commando
 	}
-	skill = 3
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
 	logistics_skill = 2
 }
 
@@ -213,11 +213,11 @@ create_corps_commander = {
 	traits = {
 
 	}
-	skill = 4
-	attack_skill = 4
+	skill = 2
+	attack_skill = 2
 	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -227,10 +227,10 @@ create_corps_commander = {
 	traits = {
 		fortress_buster
 	}
-	skill = 3
-	attack_skill = 3
+	skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 3
+	planning_skill = 2
 	logistics_skill = 1
 }
 
@@ -241,11 +241,11 @@ create_corps_commander = {
 	traits = {
 
 	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -255,11 +255,11 @@ create_corps_commander = {
 	traits = {
 
 	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 2
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 ########################

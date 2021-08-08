@@ -177,6 +177,14 @@
  wsv_england.2.b:0 "This could be useful..."
  wsv_england.2.c:0 "An interesting turn of events"
 
+ wsv_england.3.t:0 "Canadian Expeditionary Force?"
+ wsv_england.3.d:0 "The British AI seems to have a problem defending Canada.  As a result, this event forces them to give some divisions to Canada.  If you are a player, you can ignore this event (unless you'd like to give some divisions to Canada)."
+ wsv_england.3.a:0 "The British Army will remain seperate"
+ wsv_england.3.b:0 "A wise idea"
+ wsv_england.4.t:0 "Deploy Canadian Expeditionary"
+ wsv_england.4.d:0 "The time has come.  The defence of Canada has begun."
+ wsv_england.4.a:0 "Send the men"
+
  #France
  wsv_france.1.t:0 "French Army Mutinies"
  wsv_france.1.d:0 "After three years of war and slaughter, the soldiers of the French army can take no more.  In an act of defiance, tens of thousands of French soldiers have thrown down their arms and deserted the army, leaving the remainder of the French army reeling on the brink of collapse.  If the German Empire decides to launch an offensive, it could mean the end of the French army."

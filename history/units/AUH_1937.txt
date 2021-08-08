@@ -198,9 +198,8 @@ fleet = {
 			name = "103. LstrInfanteriebrigaden"
 			location=6626 # Trieste
 			division_template="Ersatz Division"
-			start_experience_factor=0.00
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.35
 			}
 	
 	
@@ -223,9 +222,8 @@ fleet = {
 			name = "106. Landsturminfanteriedivision"
 			location = 11542 # Praha
 			division_template="Ersatz Division"
-			start_experience_factor=0.05
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.35
 			}
 	
 	
@@ -233,8 +231,10 @@ fleet = {
 			name = "9. Infanteriedivision"
 			location = 11608 # Caransebes
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -242,9 +242,10 @@ fleet = {
 			name = "21. Landwehrinfanteriedivision"
 			location = 11608 # Caransebes
 			division_template="Landwehr Division"
-			start_experience_factor=0.05
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -252,25 +253,28 @@ fleet = {
 			name = "42. Honvedinfanteriedivision"
 			location = 3617 # Kikinda
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	division= { 
 			name = "104. Landstrurmbrigaden"
 			location = 646 # Timisoara
 			division_template="Ersatz Division"
-			start_experience_factor=0.00
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.35
 			}
 		
 	division= { 
 			name = "48. Infanteriedivision"
 			location = 6889 # Dubrovnik
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 
@@ -304,9 +308,8 @@ fleet = {
 			name = "109.Landsturmbrigaden"
 			location=3924 # Split
 			division_template="Ersatz Division"
-			start_experience_factor=0.00
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.35
 			}
 	
 	
@@ -314,8 +317,10 @@ fleet = {
 			name = "5. Infanteriedivision"
 			location = 9427 # Kraków
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -323,9 +328,10 @@ fleet = {
 			name = "46. Landwehrinfanteriedivision"
 			location = 9427 # Kraków
 			division_template="Landwehr Division"
-			start_experience_factor=0.05
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -333,8 +339,10 @@ fleet = {
 			name = "14. Infanteriedivision"
 			location = 11479 # Lwów
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -342,8 +350,10 @@ fleet = {
 			name = "33. Infanteriedivision"
 			location = 11479 # Lwów
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 
@@ -351,8 +361,10 @@ fleet = {
 			name = "24. Infanteriedivision"
 			location = 6522 # Przemysl
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -360,9 +372,10 @@ fleet = {
 			name = "45. Landwehr infanterie division"
 			location = 6522 # Przemysl
 			division_template="Landwehr Division"
-			start_experience_factor=0.05
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -370,17 +383,20 @@ fleet = {
 			name = "12. Infanteriedivision"
 			location = 9427 # Kraków
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 
 	division= { 
 			name = "46t. Landwehrinfanteriedivision"
 			location = 9427 # Kraków
 			division_template="Landwehr Division"
-			start_experience_factor=0.05
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -388,8 +404,10 @@ fleet = {
 			name = "14t. Infanteriedivision"
 			location = 11479 # Lwów
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -397,8 +415,10 @@ fleet = {
 			name = "33t. Infanteriedivision"
 			location = 11479 # Lwów
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -406,8 +426,10 @@ fleet = {
 			name = "37t. Honvedinfanteriedivision"
 			location = 11479 # Lwów
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -415,17 +437,20 @@ fleet = {
 			name = "2t. Infanteriedivision"
 			location = 6522 # Przemysl
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	division= { 
 			name = "45t. Landwehr infanterie division"
 			location = 6522 # Przemysl
 			division_template="Landwehr Division"
-			start_experience_factor=0.05
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -433,8 +458,10 @@ fleet = {
 			name = "12t. Infanteriedivision"
 			location = 9427 # Kraków
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 
 
@@ -442,16 +469,20 @@ fleet = {
 			name = "12z. Infanteriedivision"
 			location = 9427 # Kraków
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 
 	division= { 
 			name = "15z. Infanteriedivision"
 			location = 9427 # Kraków
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 
 	
@@ -459,9 +490,8 @@ fleet = {
 			name = "101. Landsturminfanteriebrigaden"
 			location = 6522 # Przemysl
 			division_template="Ersatz Division"
-			start_experience_factor=0.00
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.35
 			}
 	
 	
@@ -469,8 +499,10 @@ fleet = {
 			name = "16. Infanteriedivision"
 			location=9660 # Budapest
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -478,8 +510,10 @@ fleet = {
 			name = "35. Infanteriedivision"
 			location=9660 # Budapest
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -487,8 +521,10 @@ fleet = {
 			name = "38. Honvedinfanteriedivision"
 			location=9660 # Budapest
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 
 	
@@ -496,8 +532,10 @@ fleet = {
 			name = "28. Infanteriedivision"
 			location=9660 # Budapest
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -505,8 +543,10 @@ fleet = {
 			name = "17. Infanteriedivision"
 			location=9660 # Budapest
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -514,8 +554,10 @@ fleet = {
 			name = "34. Infanteriedivision"
 			location=9660 # Budapest
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -523,8 +565,10 @@ fleet = {
 			name = "31. Infanteriedivision"
 			location=9660 # Budapest
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -532,8 +576,10 @@ fleet = {
 			name = "32. Infanteriedivision"
 			location=9660 # Budapest
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -541,33 +587,40 @@ fleet = {
 			name = "20. Honvedinfanteriedivision"
 			location=9660 # Budapest
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	division= { 
 			name = "11. Infanteriedivision"
 			location=9660 # Budapest
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	division= { 
 			name = "43. Landwehrinfanteriedivision"
 			location=9660 # Budapest
 			division_template="Landwehr Division"
-			start_experience_factor=0.05
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	division= { 
 			name = "30. Infanteriedivision"
 			location = 3673 # Villach
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -575,8 +628,10 @@ fleet = {
 			name = "23. Honvedinfanteriedivision"
 			location = 688 # Linz
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -584,9 +639,10 @@ fleet = {
 			name = "44. Landwehrinfanteriedivision"
 			location=673 # Innsbruck
 			division_template="Landwehr Division"
-			start_experience_factor=0.05
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -594,9 +650,8 @@ fleet = {
 			name = "97. LstrInfanteriebrigaden"
 			location = 11666 # Wien
 			division_template="Ersatz Division"
-			start_experience_factor=0.05
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.35
 			}
 	
 	
@@ -604,9 +659,8 @@ fleet = {
 			name = "108. LstrInfanteriebrigaden"
 			location=673 # Innsbruck
 			division_template="Ersatz Division"
-			start_experience_factor=0.05
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.35
 			}
 	
 	
@@ -614,8 +668,10 @@ fleet = {
 			name = "4. Infanteriedivision"
 			location=6711 # Cluj
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -623,9 +679,10 @@ fleet = {
 			name = "13. Landwehrinfanteriedivision"
 			location=6711 # Cluj
 			division_template="Landwehr Division"
-			start_experience_factor=0.05
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -633,8 +690,10 @@ fleet = {
 			name = "25. Infanteriedivision"
 			location=6711 # Cluj
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -642,8 +701,10 @@ fleet = {
 			name = "15. Infanteriedivision"
 			location = 3743 # Sighetu Marmatiei
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -651,8 +712,10 @@ fleet = {
 			name = "27. Infanteriedivision"
 			location = 3743 # Sighetu Marmatiei
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -660,8 +723,10 @@ fleet = {
 			name = "39. Honvedinfanteriedivision"
 			location = 3743 # Sighetu Marmatiei
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -669,8 +734,10 @@ fleet = {
 			name = "10. Infanteriedivision"
 			location = 9670 # Gheorgheni
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -678,9 +745,10 @@ fleet = {
 			name = "26. Landwehrinfanteriedivision"
 			location = 9670 # Gheorgheni
 			division_template="Landwehr Division"
-			start_experience_factor=0.05
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -688,8 +756,10 @@ fleet = {
 			name = "19. Infanteriedivision"
 			location=6711 # Cluj
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -700,9 +770,8 @@ fleet = {
 			name = "105b. LstrInfanteriebrigaden "
 			location = 9630 # Lienz
 			division_template="Ersatz Division"
-			start_experience_factor=0.00
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.35
 			}
 	
 	
@@ -710,9 +779,8 @@ fleet = {
 			name = "103b. LstrInfanteriebrigaden"
 			location=6626 # Trieste
 			division_template="Ersatz Division"
-			start_experience_factor=0.00
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.35
 			}
 	
 	
@@ -720,9 +788,8 @@ fleet = {
 			name = "102b. LstrInfanteriebrigaden"
 			location=11581 # Zagreb
 			division_template="Ersatz Division"
-			start_experience_factor=0.00
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.35
 			}
 	
 	
@@ -730,9 +797,8 @@ fleet = {
 			name = "95b. Landsturminfanteriedivision"
 			location = 11542 # Praha
 			division_template="Ersatz Division"
-			start_experience_factor=0.00
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.35
 			}
 	
 	
@@ -740,9 +806,8 @@ fleet = {
 			name = "106b. Landsturminfanteriedivision"
 			location = 11542 # Praha
 			division_template="Ersatz Division"
-			start_experience_factor=0.05
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.35
 			}
 	
 	
@@ -751,8 +816,10 @@ fleet = {
 			name = "9b. Infanteriedivision"
 			location = 11608 # Caransebes
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -760,9 +827,10 @@ fleet = {
 			name = "21b. Landwehrinfanteriedivision"
 			location = 11608 # Caransebes
 			division_template="Landwehr Division"
-			start_experience_factor=0.05
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -770,8 +838,10 @@ fleet = {
 			name = "36b. Infanteriedivision"
 			location = 3617 # Kikinda
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -779,8 +849,10 @@ fleet = {
 			name = "42b. Honvedinfanteriedivision"
 			location = 3617 # Kikinda
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -788,8 +860,10 @@ fleet = {
 			name = "13b. Infanteriebrigaden"
 			location = 3617 # Kikinda
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -797,9 +871,8 @@ fleet = {
 			name = "104b. Landstrurmbrigaden"
 			location = 646 # Timisoara
 			division_template="Ersatz Division"
-			start_experience_factor=0.00
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.35
 			}
 	
 	
@@ -807,8 +880,10 @@ fleet = {
 			name = "1b. Infanteriedivision"
 			location = 6889 # Dubrovnik
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -816,8 +891,10 @@ fleet = {
 			name = "48b. Infanteriedivision"
 			location = 6889 # Dubrovnik
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -825,8 +902,10 @@ fleet = {
 			name = "40b. Honvedinfanteriedivision"
 			location = 6799 # Tuzla
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -834,16 +913,20 @@ fleet = {
 			name = "47b. Infanterie Division"
 			location=11899 # Sarajevo
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}	
 	
 	division= { 
 			name = "2b. Infanteriedivision"
 			location = 6522 # Przemysl
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -851,8 +934,10 @@ fleet = {
 			name = "24b. Infanteriedivision"
 			location = 6522 # Przemysl
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -860,9 +945,10 @@ fleet = {
 			name = "45b. Landwehr infanterie division"
 			location = 6522 # Przemysl
 			division_template="Landwehr Division"
-			start_experience_factor=0.05
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -870,8 +956,10 @@ fleet = {
 			name = "12b. Infanteriedivision"
 			location = 9427 # Kraków
 			division_template="Landwehr Division"
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.65
+			
+			
 			}
 	
 	
@@ -880,9 +968,8 @@ fleet = {
 			name = "36b. LstrInfanteriebrigaden"
 			location = 9427 # Kraków
 			division_template="Ersatz Division"
-			start_experience_factor=0.00
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.35
 			}
 	
 	
@@ -890,9 +977,8 @@ fleet = {
 			name = "1b. LstrInfanteriebrigaden"
 			location = 9427 # Kraków
 			division_template="Ersatz Division"
-			start_experience_factor=0.00
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.35
 			}
 	
 	
@@ -900,9 +986,8 @@ fleet = {
 			name = "101b. Landsturminfanteriebrigaden"
 			location = 6522 # Przemysl
 			division_template="Ersatz Division"
-			start_experience_factor=0.00
-			start_equipment_factor = 0.55
-			#start_manpower_factor = 0.3
+			start_experience_factor=0.1
+			start_equipment_factor = 0.35
 			}
 
 

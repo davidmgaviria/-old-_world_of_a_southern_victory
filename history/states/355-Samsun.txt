@@ -20,6 +20,7 @@ state={
 			}
 		buildings={
 			infrastructure=3
+			industrial_complex=1
 			11894={ naval_base=3 }
 			}
 		}

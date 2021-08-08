@@ -935,8 +935,7 @@ CSA_operation_blackbeard = {
 		ordertype = front
 		execute_order = no
 	}
-
-
+  
 	#east
 	ai_strategy = {
 		type = front_unit_request
@@ -944,6 +943,7 @@ CSA_operation_blackbeard = {
 		state = 361
 		value = -50
 	}
+
 
 	#southwest
 	ai_strategy = {
@@ -964,6 +964,17 @@ CSA_operation_blackbeard = {
 		state = 837
 		state = 378
 		value = -90
+	}
+
+
+	#far southwest
+	ai_strategy = {
+		type = front_unit_request
+		state = 816
+		state = 377
+		state = 837
+		state = 378
+		value = -80
 	}
 }
 

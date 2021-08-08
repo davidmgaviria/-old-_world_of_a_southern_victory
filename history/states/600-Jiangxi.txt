@@ -15,7 +15,6 @@ state={
 		1912.2.12={ owner=CHI }
 		1914.1.1={
 			buildings={
-				arms_factory=3
 			}
 		}
 		1937.1.1={ 
@@ -25,10 +24,10 @@ state={
 			victory_points={ 3992 3 }
 			buildings={
 				infrastructure=3
-				industrial_complex=1
-				}
+				industrial_complex=2
+				arms_factory=1
 			}
-		1938.10.1={		 JAP={ set_province_controller=1153 set_province_controller=1628 set_province_controller=3992 set_province_controller=4038 set_province_controller=4185 set_province_controller=7653 set_province_controller=10114 set_province_controller=11988 set_province_controller=13141 } 			 }
+	 	}
 		buildings={
 			infrastructure=3
 			industrial_complex=1
