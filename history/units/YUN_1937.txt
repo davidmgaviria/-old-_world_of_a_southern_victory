@@ -29,50 +29,50 @@ units = {
 		location = 10776
 		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.55
 	}
 	division = {
 		name = "Yunnan Baoan Ke"
 		location = 1522
 		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.55
 	}
 	division = {
 		name = "Dali Baoan Ke"
 		location = 1114
 		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.55
 	}
 	division = {
 		name = "Xian Baoan Ke"
 		location = 1196
 		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.55
 	}
 
 	division = {
 		name = "1a Qibing Jun"
 		location = 1319
-		division_template = "Qibing Jun"		# Provincial militia unit (poor equipment and training)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		division_template = "Qibing Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.55
 	}
 	division = {
 		name = "2a Qibing Jun"
 		location = 1319
-		division_template = "Qibing Jun"		# Provincial militia unit (poor equipment and training)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		division_template = "Qibing Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.55
 	}
 	division = {
 		name = "3a Qibing Jun"
 		location = 1319
-		division_template = "Qibing Jun"		# Provincial militia unit (poor equipment and training)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		division_template = "Qibing Jun"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.55
 	}
 }
 

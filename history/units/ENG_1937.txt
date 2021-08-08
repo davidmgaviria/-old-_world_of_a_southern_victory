@@ -861,6 +861,18 @@ units = {
 		division_template="Royal Marines Division"
 		start_experience_factor=0.3
 	}
+	division= { 
+		name = "4th Marines Division"
+		location= 540 
+		division_template="Royal Marines Division"
+		start_experience_factor=0.3
+	}
+	division= { 
+		name = "5th Marines Division"
+		location= 540 
+		division_template="Royal Marines Division"
+		start_experience_factor=0.3
+	}
 }
 
 

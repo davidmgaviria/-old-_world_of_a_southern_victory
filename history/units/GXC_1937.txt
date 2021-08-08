@@ -33,105 +33,9 @@ division_template = {
 
 ### OOB ###
 units = {
-	#Guangdong/Guangxi units - 21 divisions
-	division = { # "62 Sanjiao Jun"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 62
-		}
-		location = 4656
-		start_experience_factor = 0.1
-		division_template = "Sanjiao Jun"
-		start_equipment_factor = 0.5
-		start_experience_factor = 0.1
 
-	}
-	division = { # "63 Sanjiao Jun"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 63
-		}
-		location = 1469
-		division_template = "Sanjiao Jun"
-		start_equipment_factor = 0.5
-		start_experience_factor = 0.1
 
-	}
-	division = { # "64 Sanjiao Jun"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 64
-		}
-		location = 4077
-		division_template = "Sanjiao Jun"
-		start_equipment_factor = 0.5
-		start_experience_factor = 0.1
-	}
-	division = { # "65 Juntuán"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 65
-		}
-		location = 7650
-		division_template = "Sanjiao Jun"
-		start_equipment_factor = 0.5
-		start_experience_factor = 0.1
-
-	}
-	division = { # "66 Juntuán"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 66
-		}
-		location = 4028
-		division_template = "Sanjiao Jun"
-		start_equipment_factor = 0.5
-		start_experience_factor = 0.1
-
-	}
-	division = { # "67 Sanjiao Jun"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 67
-		}
-		location = 1597
-		division_template = "Sanjiao Jun"
-		start_equipment_factor = 0.5
-		start_experience_factor = 0.1
-
-	}
-	division = {
-		name = "Guangzhou Jingbei"
-		location = 4152
-		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.5
-		start_experience_factor = 0.1
-	}
-	division = {
-		name = "Hainan Jingbei"
-		location = 1087
-		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.5
-		start_experience_factor = 0.1
-
-	}
-	division = {
-		name = "Guilin Jingbei"
-		location = 1131
-		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.5
-		start_experience_factor = 0.1
-
-	}
-	division = {
-		name = "Xiquan Jingbei"
-		location = 7039
-		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.5
-		start_experience_factor = 0.1
-	}
-
-	################ Good Inf ####################
+	#Jutan
 	division = {
 		name = "1a Juntuán"
 		location = 1047
@@ -162,11 +66,106 @@ units = {
 		division_template = "Juntuán"		
 		start_experience_factor = 0.3
 	}
+	
+	
+
+	#Guangdong/Guangxi units 
+
+	division = { # "66 Sanjiao Jun"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 66
+		}
+		location = 4028
+		division_template = "Sanjiao Jun"
+		start_equipment_factor = 0.55
+		start_experience_factor = 0.1
+	}
+	division = { # "65 Sanjiao Jun"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 65
+		}
+		location = 7650
+		division_template = "Sanjiao Jun"
+		start_equipment_factor = 0.55
+		start_experience_factor = 0.1
+	}
+	division = { # "62 Sanjiao Jun"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 62
+		}
+		location = 4656
+		start_experience_factor = 0.1
+		division_template = "Sanjiao Jun"
+		start_equipment_factor = 0.55
+		start_experience_factor = 0.1
+
+	}
+	division = { # "63 Sanjiao Jun"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 63
+		}
+		location = 1469
+		division_template = "Sanjiao Jun"
+		start_equipment_factor = 0.55
+		start_experience_factor = 0.1
+
+	}
+	division = { # "64 Sanjiao Jun"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 64
+		}
+		location = 4077
+		division_template = "Sanjiao Jun"
+		start_equipment_factor = 0.55
+		start_experience_factor = 0.1
+	}
+	
+	
+	division = { # "67 Sanjiao Jun"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 67
+		}
+		location = 1597
+		division_template = "Sanjiao Jun"
+		start_equipment_factor = 0.55
+		start_experience_factor = 0.1
+
+	}
 	division = {
-		name = "6a Juntuán"
-		location = 10404
-		division_template = "Juntuán"		
-		start_experience_factor = 0.3
+		name = "Guangzhou Jingbei"
+		location = 4152
+		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.55
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Hainan Jingbei"
+		location = 1087
+		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.55
+		start_experience_factor = 0.1
+
+	}
+	division = {
+		name = "Guilin Jingbei"
+		location = 1131
+		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.55
+		start_experience_factor = 0.1
+
+	}
+	division = {
+		name = "Xiquan Jingbei"
+		location = 7039
+		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.55
+		start_experience_factor = 0.1
 	}
 }
 

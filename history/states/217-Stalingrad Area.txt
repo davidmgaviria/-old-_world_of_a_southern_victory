@@ -25,7 +25,7 @@ state={
 				infrastructure=5
 				industrial_complex=1
 				air_base=1
-				arms_factory=6
+				arms_factory=2
 				}
 			}
 		1941.1.1={ buildings={ arms_factory=2 } }
