@@ -46,6 +46,7 @@ news_event = {
 				add_state_claim = 591
 			}
 			CHI = { 
+				add_political_power = 100
 				add_ideas = generic_chinese_united_front
 				create_faction = "Chinese United Front"
 				add_to_faction = SHX
