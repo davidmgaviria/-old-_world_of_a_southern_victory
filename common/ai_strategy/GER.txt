@@ -120,6 +120,21 @@ GER_garrison_coast = {
 }
 
 
+GER_ignore_africa = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		always = yes
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = africa		
+		value = -80
+	}	
+}
+
+
 
 GER_protect_north_coast = {
 	allowed = {
@@ -624,22 +639,6 @@ GER_garrison_belgium_and_northern_france = {
 }
 
 
-GER_ignore_africa = {
-	allowed = {
-		original_tag = GER
-		has_start_date < 1937.1.1
-	}
-	enable = {
-		always = yes
-	}
-	ai_strategy = {
-		type = front_unit_request
-		area = africa		
-		value = -80
-	}	
-}
-
-
 GER_ignore_serbia = {
 	allowed = {
 		original_tag = GER
@@ -857,7 +856,13 @@ GER_prepare_against_france = {
 	ai_strategy = {
 		type = prepare_for_war
 		id = "FRA"			
-		value = 200
+		value = 400
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		id = "FRA"			
+		value = 60
 	}
 }
 
@@ -878,5 +883,34 @@ GER_prepare_against_russia = {
 		type = prepare_for_war
 		id = "RUS"			
 		value = 100
+	}
+}
+
+
+
+GER_eastern_puppets_build_up = {
+	allowed = {
+		has_start_date > 1937.1.1
+		OR = {
+			original_tag = UBD
+			original_tag = LIT
+			original_tag = UKR
+			original_tag = POL
+		}
+	}
+	enable = {
+		date > 1939.1.1
+		is_in_faction_with = GER
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = "RUS"			
+		value = 50
+	}
+	ai_strategy = {
+		type = equipment_stockpile_surplus_ratio
+		value = -10 # reduce while we build up in case of issues
 	}
 }
