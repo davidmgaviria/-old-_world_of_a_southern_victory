@@ -2437,19 +2437,7 @@
 		relative_position_id = ENG2_irish_breakaways
 
 		ai_will_do = { 
-			factor = 5
-			modifier = {
-				factor = 3
-				date > 1939.5.1
-			}
-			modifier = {
-				factor = 3
-				date > 1940.5.1
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
+			factor = 0
 		}
 		
 		available_if_capitulated = no
@@ -2590,10 +2578,14 @@
 		relative_position_id = ENG2_prepare_for_continental_war
 
 		ai_will_do = { 
-			factor = 20
+			factor = 30
 			modifier = {
 				factor = 2
-				date > 1941.1.1
+				date > 1940.1.1
+			}
+			modifier = {
+				factor = 2
+				date > 1940.5.1
 			}
 		}
 		

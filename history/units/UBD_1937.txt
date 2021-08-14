@@ -23,7 +23,7 @@ units = {
 		division_template = "Sicherheitskräfte"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "UBD" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.35
 
 	}
 	division = { # "II Sicherheitskräfte"
@@ -35,7 +35,7 @@ units = {
 		division_template = "Sicherheitskräfte"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "UBD" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.35
 
 	}
 	division = { # "III Sicherheitskräfte"
@@ -47,7 +47,7 @@ units = {
 		division_template = "Sicherheitskräfte"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "UBD" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.35
 	}
 
 	##### Lietuva Aukaèiausiosios Vadaviete #####
@@ -60,7 +60,7 @@ units = {
 		division_template = "Sicherheitskräfte"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "UBD" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.35
 
 	}
 	division = { # "V Sicherheitskräfte"
@@ -72,7 +72,7 @@ units = {
 		division_template = "Sicherheitskräfte"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "UBD" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.35
 
 	}
 }

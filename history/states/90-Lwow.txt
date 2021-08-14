@@ -19,7 +19,8 @@ state={
 			remove_core_of=RUS
 			#add_claim_by=RUS
 			buildings={
-				infrastructure=6
+				infrastructure=5
+				industrial_complex=1
 				}
 			}
 		buildings={

@@ -13,11 +13,10 @@ ideas = {
 			picture = idea_GER_superpower_of_europe
 			modifier = {
 				conscription_factor = 0.1
-				consumer_goods_factor = 0.1
 				political_power_gain = -0.2
-				send_volunteer_size = 1
 				guarantee_tension = -0.5
 				send_volunteers_tension = -0.5
+				lend_lease_tension = -0.5
 			}
 		}
 
@@ -103,7 +102,8 @@ ideas = {
 			research_bonus = { air_doctrine = -0.5 }
 
 			modifier={ 
-				army_org = -5
+				consumer_goods_factor = 0.1
+				army_org = -10
 				war_support_factor = -0.1
 				training_time_factor = 0.1
 				justify_war_goal_time = 0.5
@@ -118,7 +118,7 @@ ideas = {
 			picture = generic_disjointed_gov
 			modifier = {
 				consumer_goods_factor = 0.1
-				local_resources_factor = -0.1
+				local_resources_factor = -0.2
 				political_power_gain = -0.2
 			}
 		}
@@ -162,7 +162,7 @@ ideas = {
 		    modifier = {
 		        political_power_gain = -0.2
 		        army_morale_factor = -0.1
-		        army_org = -5
+		        stability_factor = -0.1
 		        conscription_factor = -0.2
 		    }
 		}
@@ -190,6 +190,7 @@ ideas = {
 			picture = GER_kaiser_dead
 
 			modifier={ 
+				army_org = -5
 				army_morale_factor = -0.1
 				stability_factor = -0.1
 				political_power_gain = -0.5

@@ -123,8 +123,8 @@ units = {
 		}
 		location = 11811
 		division_template = "Süvari Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.35
 
 	}
 	## VI. Kolordu ##
@@ -136,8 +136,8 @@ units = {
 		}
 		location = 11811
 		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
 
 	}
 	division = {
@@ -148,8 +148,8 @@ units = {
 		}
 		location = 11811
 		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
 
 	}
 	division = {
@@ -160,8 +160,8 @@ units = {
 		}
 		location = 11811
 		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
 
 	}
 
@@ -174,8 +174,8 @@ units = {
 		}
 		location = 9833
 		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
 
 	}
 	division = {
@@ -186,8 +186,8 @@ units = {
 		}
 		location = 9833
 		division_template = "Süvari Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.35
 
 	}
 	## III. Kolordu ##
@@ -199,8 +199,8 @@ units = {
 		}
 		location = 11842
 		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
 
 	}
 	division = {
@@ -211,8 +211,8 @@ units = {
 		}
 		location = 3893
 		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
 
 	}
 	division = {
@@ -223,8 +223,8 @@ units = {
 		}
 		location = 11842
 		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
 
 	}
 	## IV. Kolordu ##
@@ -236,8 +236,8 @@ units = {
 		}
 		location = 6895
 		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
 
 	}
 	division = {
@@ -248,8 +248,8 @@ units = {
 		}
 		location = 6895
 		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
 
 	}
 	division = {
@@ -260,8 +260,7 @@ units = {
 		}
 		location = 6895
 		division_template = "Dag Tugayi" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.3
 
 	}
 
@@ -274,8 +273,7 @@ units = {
 		}
 		location = 947
 		division_template = "Dag Tugayi" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.3
 
 	}
 	## I. Kolordu ##
@@ -287,8 +285,8 @@ units = {
 		}
 		location = 4112
 		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
 
 	}
 	division = {
@@ -299,8 +297,8 @@ units = {
 		}
 		location = 4112
 		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
 
 	}
 	division = {
@@ -325,8 +323,8 @@ units = {
 		}
 		location = 849
 		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
 
 	}
 	division = {
@@ -337,8 +335,7 @@ units = {
 		}
 		location = 849
 		division_template = "Dag Tugayi" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.3
 
 	}
 	## V. Kolordu ##
@@ -350,8 +347,8 @@ units = {
 		}
 		location = 947
 		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
 
 	}
 	division = {
@@ -362,8 +359,8 @@ units = {
 		}
 		location = 947
 		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
 
 	}
 
@@ -377,8 +374,8 @@ units = {
 		}
 		location = 4512
 		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
 
 	}
 	division = {
@@ -389,8 +386,8 @@ units = {
 		}
 		location = 4512
 		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
 
 	}
 	## VIII. Kolordu ##
@@ -402,8 +399,8 @@ units = {
 		}
 		location = 6995
 		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
 
 	}
 	division = {
@@ -414,8 +411,8 @@ units = {
 		}
 		location = 6995
 		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
 
 	}
 	## IX. Kolordu ##
@@ -427,8 +424,8 @@ units = {
 		}
 		location = 10403
 		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
 
 	}
 	division = {
@@ -439,8 +436,8 @@ units = {
 		}
 		location = 10472
 		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
 
 	}
 	division = {
@@ -451,8 +448,8 @@ units = {
 		}
 		location = 10472
 		division_template = "Süvari Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.35
 
 	}
 

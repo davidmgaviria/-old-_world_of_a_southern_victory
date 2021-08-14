@@ -256,7 +256,7 @@ create_equipment_variant={ name="Hai Tien Class" type=light_cruiser_1900 parent_
 
 	oob = "CHI_1937"
 	load_focus_tree = "generic_2_focus"
-	set_war_support = 0.3
+	set_war_support = 0.35
 	set_stability = 0.5
 	set_convoys = 60
 	set_research_slots = 3
@@ -266,7 +266,7 @@ create_equipment_variant={ name="Hai Tien Class" type=light_cruiser_1900 parent_
 		low_economic_mobilisation
 		limited_conscription
 		closed_economy
-		#generic_incompetent_officers
+		generic_incompetent_officers
 	}
 
 	#if = {

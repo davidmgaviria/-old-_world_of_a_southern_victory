@@ -594,7 +594,7 @@ GER_support_austria = {
 	ai_strategy = {
  		type = send_lend_lease_desire
   		id = AUH
-   		value = 60
+   		value = 400
    	}	
 }
 
@@ -611,7 +611,7 @@ GER_support_turkey = {
 	ai_strategy = {
  		type = send_lend_lease_desire
   		id = TUR
-   		value = 40
+   		value = 200
    	}	
 }
 
@@ -765,12 +765,17 @@ GER_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = fighter
-		value = 175
+		value = 150
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = cas
+		value = 15
 	}
 	ai_strategy = {
 		type = equipment_production_factor
 		id = tactical_bomber
-		value = 10 
+		value = 45 
 	}
 	ai_strategy = {
 		type = equipment_production_factor
@@ -780,7 +785,7 @@ GER_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
-		value = 5 #30 to 50
+		value = 10 #30 to 50
 	}
 	ai_strategy = {
 		type = equipment_production_factor
@@ -790,7 +795,7 @@ GER_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = artillery
-		value = 65 #20 to 40
+		value = 60 #20 to 40
 	}
 	ai_strategy = {
 		type = equipment_production_factor
@@ -815,7 +820,7 @@ GER_unit_production = {
 	ai_strategy = {
 		type = equipment_variant_production_factor
 		id = support_equipment
-		value = 20
+		value = -20
 	}
 	ai_strategy = {
 		type = air_factory_balance
@@ -841,15 +846,61 @@ GER_more_civs = {
 }
 
 
+GER_support_monarchist_spain = {
+	allowed = {
+		original_tag = GER
+		has_start_date > 1937.1.1
+	}
+	enable = {
+		has_government = neutrality
+		SPR = { 
+			exists = yes
+			has_war_with = SPN
+			NOT = { has_war_with = GER } 
+		}
+	}
+	abort = {
+		OR = {
+			date > 1939.1.1		#Germany pulls out by now, they have their own problems to deal with
+			SPR = { exists = no }
+		}
+	}
+
+	ai_strategy = {
+		type = support
+		id = "SPR"			
+		value = 200
+	}
+
+	ai_strategy = {
+		type = send_lend_lease_desire
+		id = SPR
+		value = 400
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = -35
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = -5
+	}
+}
+
+
 GER_prepare_against_france = {
 	allowed = {
 		original_tag = GER
 		has_start_date > 1937.1.1
 	}
 	enable = {
-		has_global_flag = kaiser_wilhelm_ii_dead
 		NOT = { is_in_faction_with = FRA }
 		NOT = { has_global_flag = french_plebicites_held }
+		FRA = { has_completed_focus = FRA2_french_plebicites }
 	}
 	abort_when_not_enabled = yes
 
@@ -861,7 +912,7 @@ GER_prepare_against_france = {
 
 	ai_strategy = {
 		type = front_unit_request
-		id = "FRA"			
+		id = "FRA"
 		value = 60
 	}
 }
@@ -873,9 +924,9 @@ GER_prepare_against_russia = {
 		has_start_date > 1937.1.1
 	}
 	enable = {
-		has_global_flag = kaiser_wilhelm_ii_dead
 		NOT = { is_in_faction_with = RUS }
 		NOT = { has_global_flag = eastern_plebicites_held }
+		FRA = { has_completed_focus = RUS2_demand_eastern_plebicites }
 	}
 	abort_when_not_enabled = yes
 
@@ -909,6 +960,7 @@ GER_eastern_puppets_build_up = {
 		id = "RUS"			
 		value = 50
 	}
+
 	ai_strategy = {
 		type = equipment_stockpile_surplus_ratio
 		value = -10 # reduce while we build up in case of issues

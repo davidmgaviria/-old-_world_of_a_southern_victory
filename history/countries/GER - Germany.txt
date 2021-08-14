@@ -901,6 +901,7 @@ create_navy_leader={  name = "Max von Fischel" id=34314 portrait_path="gfx/portr
 		ww1_infantry_equip1 = 1
 		ww1_infantry_equip2 = 1
 		ww1_infantry_equip3 = 1
+		#infantry_weapons1 = 1
 		support_weapons = 1
 		support_weapons2 = 1
 		ww1_helmet_equip = 1

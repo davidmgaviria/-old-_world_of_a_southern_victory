@@ -16,7 +16,6 @@ state={
 				arms_factory = 1
 
 			}
-
 		}
 		1937.1.1 = {
 			owner = UBD
@@ -26,14 +25,13 @@ state={
 				9221 1 
 			}
 			buildings = {
+				industrial_complex = 0
+				arms_factory = 0
 				infrastructure = 5
 				4640 = {
 					naval_base = 1
-
 				}
-
 			}
-
 		}
 		buildings = {
 			infrastructure = 5

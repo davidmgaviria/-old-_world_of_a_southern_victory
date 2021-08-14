@@ -17,7 +17,7 @@ state={
 			add_core_of=SPR
 			buildings={
 				infrastructure=5
-				industrial_complex=1
+				industrial_complex=2
 				}
 			}
 		buildings={

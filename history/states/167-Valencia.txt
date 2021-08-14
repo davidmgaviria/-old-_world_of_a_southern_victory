@@ -12,11 +12,7 @@ state={
 		owner=SPR
 		add_core_of=SPR
 		add_core_of=ARA
-		1914.1.1 = {
-			buildings = {
-				dockyard = 3
-			}
-		}
+		
 		1937.1.1={ 
 			owner=SPR
 			add_core_of=SPR
@@ -24,14 +20,16 @@ state={
 			buildings={
 				infrastructure=6
 				air_base=3
-				dockyard=1
+				industrial_complex=1
+				arms_factory=1
+				dockyard=2
 				6906={ naval_base=3 }
 				962={ naval_base=2 }
 				}
 			}
 		buildings={
 			infrastructure=6
-			dockyard=1
+			dockyard=2
 			6906={ naval_base=3 }
 			962={ naval_base=2 }
 			}

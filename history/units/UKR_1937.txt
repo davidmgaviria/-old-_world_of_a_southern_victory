@@ -140,8 +140,8 @@ units = {
 		}
 		location = 9493
 		division_template = "Gornostrelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
 
 	}
 	division= {	# "99ya Strelkovaya Diviziya"		
@@ -151,8 +151,8 @@ units = {
 		}
 		location = 3480
 		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
 
 	}
 
@@ -164,8 +164,8 @@ units = {
 		}
 		location = 3511
 		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
 
 	}			
 	division= {	# "51ya 'Perekopskaya' Strelk. Div."		
@@ -175,8 +175,8 @@ units = {
 		}
 		location = 9477
 		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
 
 	}			
 	division= {	# "96ya 'Vinnitskaya' Strelk. Div."		
@@ -186,8 +186,8 @@ units = {
 		}
 		location = 441
 		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
 
 	}
 
@@ -199,8 +199,8 @@ units = {
 		}
 		location = 3455
 		division_template = "Kavaleriyskaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
 
 	}
 	division= {	# "3ya 'Bessarabskaya' Kav. Div."		
@@ -210,8 +210,8 @@ units = {
 		}
 		location = 9531
 		division_template = "Kavaleriyskaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
 
 	}
 
@@ -223,8 +223,8 @@ units = {
 		}
 		location = 525
 		division_template = "Kavaleriyskaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
 
 	}
 	division= {	# "31ya Kavaleriyskaya Diviziya"		
@@ -234,8 +234,8 @@ units = {
 		}
 		location = 525
 		division_template = "Kavaleriyskaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
 
 	}
 
@@ -287,8 +287,8 @@ units = {
 		}
 		location = 9531
 		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
 
 	}			
 	division= {	# "44ya 'Kyiv' Strelk. Div."		
@@ -298,8 +298,8 @@ units = {
 		}
 		location = 523
 		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
 
 	}			
 	division= {	# "95ya 'Moldavskaya' Strelk. Div."		
@@ -309,8 +309,8 @@ units = {
 		}
 		location = 523
 		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
 
 	}
 	
@@ -323,8 +323,8 @@ units = {
 		}
 		location = 9461
 		division_template = "Gornostrelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
 
 	}			
 	division= {	# "62ya 'Turkestanskaya' Strelk. Div."		
@@ -334,8 +334,8 @@ units = {
 		}
 		location = 11670
 		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
 
 	}			
 	division= {	# "100ya Strelkovaya Diviziya"		
@@ -345,8 +345,8 @@ units = {
 		}
 		location = 11670
 		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
 
 	}
 
@@ -358,8 +358,8 @@ units = {
 		}
 		location = 11437
 		division_template = "Kavaleriyskaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
 
 	}
 	division= {	# "14ya 'Bessarabskaya' Kav. Div."		
@@ -369,8 +369,8 @@ units = {
 		}
 		location = 11437
 		division_template = "Kavaleriyskaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
 
 	}
 
@@ -384,8 +384,8 @@ units = {
 		}
 		location = 418
 		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
 
 	}			
 	division= {	# "25ya 'Chapayevskaya' Strelk. Div."		
@@ -395,8 +395,8 @@ units = {
 		}
 		location = 418
 		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
 
 	}			
 	division= {	# "30ya 'Irkutsk' Strelk. Div."		
@@ -406,8 +406,8 @@ units = {
 		}
 		location = 418
 		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
 
 	}
 	division= {	# "41ya Strelkovaya Diviziya"		
@@ -417,8 +417,8 @@ units = {
 		}
 		location = 418
 		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
 
 	}
 

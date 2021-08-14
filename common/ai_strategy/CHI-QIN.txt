@@ -100,7 +100,7 @@ CHI_conserve_equipment = {
 	}
 	enable = {		
 		has_war_with = JAP
-		has_equipment = { infantry_equipment < -25000 }
+		casualties > 500000
 	}
 	abort = {
 		JAP = { surrender_progress > 0.15 }
@@ -109,12 +109,20 @@ CHI_conserve_equipment = {
 	ai_strategy = {
 		type = front_control
 		tag = JAP
-		priority = 50
-		ratio = 0.7
+		tag = MEN
+		tag = MAN
+		priority = 100
+		ratio = 0.35
 		ordertype = front
 		execution_type = careful
 		execute_order = yes
-		manual_attack = yes
+		manual_attack = no
+	}
+
+	ai_strategy = {
+		type = consider_weak
+		id = "JAP"
+		value = -15
 	}
 }
 

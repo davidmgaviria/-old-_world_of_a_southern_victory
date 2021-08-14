@@ -13,7 +13,13 @@ state={
 		add_claim_by=BUL
 		1913.5.30 = { owner = BUL }
 		1913.8.10 = { owner = SER }
-		1937.1.1={ owner=BUL   add_core_of=BUL }
+		1937.1.1={ 
+			owner=BUL   add_core_of=BUL 
+			buildings={
+				infrastructure=4
+				industrial_complex=1
+			}
+		}
 		buildings={
 			infrastructure=4
 			}

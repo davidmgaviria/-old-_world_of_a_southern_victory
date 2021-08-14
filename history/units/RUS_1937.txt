@@ -243,7 +243,7 @@ units = {
 		location = 9203
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -255,7 +255,7 @@ units = {
 		location = 142
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -278,7 +278,7 @@ units = {
 		location = 3134
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -295,7 +295,7 @@ units = {
 		location = 149
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -307,7 +307,7 @@ units = {
 		location = 149
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -319,7 +319,7 @@ units = {
 		location = 3151
 		division_template = "GornoPekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -347,7 +347,7 @@ units = {
 		location = 104
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -359,7 +359,7 @@ units = {
 		location = 9408
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -371,7 +371,7 @@ units = {
 		location = 9120
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -380,7 +380,7 @@ units = {
 		location = 126
 		division_template = "Mekhanizirovaniy Korpus"		# 3x Mekh Bge
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -394,7 +394,7 @@ units = {
 		location = 415
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -406,7 +406,7 @@ units = {
 		location = 3310
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -418,7 +418,7 @@ units = {
 		location = 3333
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -433,7 +433,7 @@ units = {
 		location = 6293
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -445,7 +445,7 @@ units = {
 		location = 6293
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -459,7 +459,7 @@ units = {
 		location = 3219
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -471,7 +471,7 @@ units = {
 		location = 6371
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -483,7 +483,7 @@ units = {
 		location = 6220
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -497,7 +497,7 @@ units = {
 		location = 3267
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -509,7 +509,7 @@ units = {
 		location = 11216
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -537,7 +537,7 @@ units = {
 		location = 6380
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -549,7 +549,7 @@ units = {
 		location = 6380
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -564,7 +564,7 @@ units = {
 		location = 6262
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -576,7 +576,7 @@ units = {
 		location = 6262
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -588,7 +588,7 @@ units = {
 		location = 6262
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -608,7 +608,7 @@ units = {
 		location = 11241
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -620,7 +620,7 @@ units = {
 		location = 11241
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -632,7 +632,7 @@ units = {
 		location = 11241
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -646,7 +646,7 @@ units = {
 		location = 306
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -658,7 +658,7 @@ units = {
 		location = 306
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -670,7 +670,7 @@ units = {
 		location = 306
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -685,7 +685,7 @@ units = {
 		location = 9288
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -697,7 +697,7 @@ units = {
 		location = 9288
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -709,7 +709,7 @@ units = {
 		location = 9288
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -723,7 +723,7 @@ units = {
 		location = 3335
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -735,7 +735,7 @@ units = {
 		location = 3335
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -749,7 +749,7 @@ units = {
 		location = 11271
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -761,7 +761,7 @@ units = {
 		location = 11271
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -773,7 +773,7 @@ units = {
 		location = 11271
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -794,7 +794,7 @@ units = {
 		location = 9288
 		division_template = "GornoPekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -806,7 +806,7 @@ units = {
 		location = 11229
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -820,7 +820,7 @@ units = {
 		location = 288
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -832,7 +832,7 @@ units = {
 		location = 9542
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -844,7 +844,7 @@ units = {
 		location = 6481
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -858,7 +858,7 @@ units = {
 		location = 315
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -870,7 +870,7 @@ units = {
 		location = 6254
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -884,7 +884,7 @@ units = {
 		location = 9355
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -896,7 +896,7 @@ units = {
 		location = 9355
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -914,7 +914,7 @@ units = {
 		location = 9449
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -926,7 +926,7 @@ units = {
 		location = 11370
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -935,7 +935,7 @@ units = {
 		location = 11439
 		division_template = "Mekhanizirovaniy Korpus"		# 1x H Tank Bge, 2x Mekh Bge
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -949,7 +949,7 @@ units = {
 		location = 11370
 		division_template = "GornoPekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -961,7 +961,7 @@ units = {
 		location = 11439
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -973,7 +973,7 @@ units = {
 		location = 11439
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -987,7 +987,7 @@ units = {
 		location = 9417
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -999,7 +999,7 @@ units = {
 		location = 9417
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -1021,7 +1021,7 @@ units = {
 		location = 413
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1033,7 +1033,7 @@ units = {
 		location = 413
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1045,7 +1045,7 @@ units = {
 		location = 413
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -1057,7 +1057,7 @@ units = {
 		location = 413
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -1072,7 +1072,7 @@ units = {
 		division_template = "Kavaleriyskaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -1085,7 +1085,7 @@ units = {
 		division_template = "Kavaleriyskaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -1098,7 +1098,7 @@ units = {
 		division_template = "Kavaleriyskaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -1111,7 +1111,7 @@ units = {
 		division_template = "Kavaleriyskaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -1128,7 +1128,7 @@ units = {
 		location = 3580
 		division_template = "GornoPekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1140,7 +1140,7 @@ units = {
 		location = 3580
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1152,7 +1152,7 @@ units = {
 		location = 3580
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -1173,7 +1173,7 @@ units = {
 		division_template = "Kavaleriyskaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -1186,7 +1186,7 @@ units = {
 		division_template = "Kavaleriyskaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -1200,7 +1200,7 @@ units = {
 		location = 3717
 		division_template = "GornoPekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1212,7 +1212,7 @@ units = {
 		location = 11633
 		division_template = "GornoPekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1224,7 +1224,7 @@ units = {
 		location = 6702
 		division_template = "GornoPekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1240,7 +1240,7 @@ units = {
 		division_template = "GornoPekhotnaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1253,7 +1253,7 @@ units = {
 		division_template = "GornoPekhotnaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1266,7 +1266,7 @@ units = {
 		division_template = "GornoPekhotnaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1284,7 +1284,7 @@ units = {
 		location = 719
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1296,7 +1296,7 @@ units = {
 		location = 719
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1308,7 +1308,7 @@ units = {
 		location = 719
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1319,9 +1319,8 @@ units = {
 		}
 		location = 3734
 		division_template = "Pekhotnaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1333,7 +1332,7 @@ units = {
 		location = 719
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1347,7 +1346,7 @@ units = {
 		location = 9417
 		division_template = "GornoPekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1364,7 +1363,7 @@ units = {
 		division_template = "Kavaleriyskaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -1377,7 +1376,7 @@ units = {
 		division_template = "Kavaleriyskaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -1390,7 +1389,7 @@ units = {
 		division_template = "Kavaleriyskaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -1405,7 +1404,7 @@ units = {
 		division_template = "Kavaleriyskaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}
@@ -1418,7 +1417,7 @@ units = {
 		division_template = "GornoPekhotnaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1431,7 +1430,7 @@ units = {
 		division_template = "GornoPekhotnaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1450,7 +1449,7 @@ units = {
 		location = 7763
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1462,7 +1461,7 @@ units = {
 		location = 4725
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1474,7 +1473,7 @@ units = {
 		location = 10655
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1486,7 +1485,7 @@ units = {
 		location = 7801
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1498,7 +1497,7 @@ units = {
 		location = 10722
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1511,9 +1510,8 @@ units = {
 		}
 		location = 6838
 		division_template = "Pekhotnaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1524,9 +1522,8 @@ units = {
 		}
 		location = 3977
 		division_template = "Pekhotnaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1537,9 +1534,8 @@ units = {
 		}
 		location = 11879
 		division_template = "Pekhotnaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1553,9 +1549,8 @@ units = {
 		}
 		location = 12189
 		division_template = "Pekhotnaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1566,9 +1561,8 @@ units = {
 		}
 		location = 10466
 		division_template = "Pekhotnaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 
 
 	}			
@@ -1579,9 +1573,8 @@ units = {
 		}
 		location = 11643
 		division_template = "Pekhotnaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 
 
@@ -1591,181 +1584,181 @@ units = {
 		location = 6380  #moscow
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "2b Pekhotnaya Diviziya"		
 		location = 6380  #moscow
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "3b Pekhotnaya Diviziya"		
 		location = 6380  #moscow
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "4b Pekhotnaya Diviziya"		
 		location = 6380  #moscow
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "5b Pekhotnaya Diviziya"		
 		location = 6380  #moscow
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "6b Pekhotnaya Diviziya"		
 		location = 6380  #moscow
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "7b Pekhotnaya Diviziya"		
 		location = 6380  #moscow
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "8b Pekhotnaya Diviziya"		
 		location = 6380  #moscow
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "9b Pekhotnaya Diviziya"		
 		location = 6380  #moscow
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "10b Pekhotnaya Diviziya"		
 		location = 6380  #moscow
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 		division= {	# "11b Pekhotnaya Diviziya"		
 		location = 3151 #st petersburg
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "12b Pekhotnaya Diviziya"		
 		location = 3151 #st petersburg
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "13b Pekhotnaya Diviziya"		
 		location = 3151 #st petersburg
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "14b Pekhotnaya Diviziya"		
 		location = 3151 #st petersburg
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "15b Pekhotnaya Diviziya"		
 		location = 3151 #st petersburg
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "16b Pekhotnaya Diviziya"		
 		location = 3151 #st petersburg
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "17b Pekhotnaya Diviziya"		
 		location = 3151 #st petersburg
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "18b Pekhotnaya Diviziya"		
 		location = 3151 #st petersburg
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "19b Pekhotnaya Diviziya"		
 		location = 3151 #st petersburg
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "20b Pekhotnaya Diviziya"		
 		location = 3151 #st petersburg
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 		division= {	# "2b Pekhotnaya Diviziya"		
 		location = 3529 #stalingrad
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "22b Pekhotnaya Diviziya"		
 		location = 3529 #stalingrad
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "23b Pekhotnaya Diviziya"		
 		location = 3529 #stalingrad
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "24b Pekhotnaya Diviziya"		
 		location = 3529 #stalingrad
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "25b Pekhotnaya Diviziya"		
 		location = 3529 #stalingrad
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "26b Pekhotnaya Diviziya"		
 		location = 3529 #stalingrad
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "27b Pekhotnaya Diviziya"		
 		location = 3529 #stalingrad
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "28b Pekhotnaya Diviziya"		
 		location = 3529 #stalingrad
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "29b Pekhotnaya Diviziya"		
 		location = 3529 #stalingrad
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	# "30b Pekhotnaya Diviziya"		
 		location = 3529 #stalingrad
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 }					
 
@@ -1776,7 +1769,7 @@ air_wings = {
 		# 15ya Istrebitel'nye Aviabrigada
 		fighter_equipment_0 = {
 			owner = "RUS" 
-			amount = 294
+			amount = 137
 		}
 		# 18ya Bombardirovochnye Aviabrigada
 		tac_bomber_equipment_0 =  {
@@ -1790,7 +1783,7 @@ air_wings = {
 		# 2ya Istrebitel'nye Aviabrigada
 		fighter_equipment_0 = {
 			owner = "RUS" 
-			amount = 294
+			amount = 162
 		}
 		# 3ya Dal'nyaya Bombardirovochnye Aviabrigada
 		# 13ya Dal'nyaya Bombardirovochnye Aviabrigada
@@ -1806,12 +1799,12 @@ air_wings = {
 		# 8ya Istrebitel'nye Aviabrigada
 		fighter_equipment_1 = {
 			owner = "RUS" 
-			amount = 94
+			amount = 34
 		}
 		# 14ya Istrebitel'nye Aviabrigada
 		fighter_equipment_0 = {
 			owner = "RUS" 
-			amount = 294
+			amount = 156
 		}
 		# 16ya Bombardirovochnye Aviabrigada
 		tac_bomber_equipment_0 =  {
@@ -1825,13 +1818,13 @@ air_wings = {
 		# 17ya Istrebitel'nye Aviabrigada
 		fighter_equipment_1 = {
 			owner = "RUS" 
-			amount = 94
+			amount = 44
 		}
 		# 1ya Bombardirovochnye Aviabrigada
 		# 10ya Bombardirovochnye Aviabrigada
 		tac_bomber_equipment_0 =  {
 			owner = "RUS" 
-			amount = 120
+			amount = 60
 		}
 	}
 
@@ -1841,7 +1834,7 @@ air_wings = {
 		# 20ya Istrebitel'nye Aviabrigada
 		fighter_equipment_0 = {
 			owner = "RUS" 
-			amount = 188
+			amount = 78
 		}
 		# 5ya Dal'nyaya Bombardirovochnye Aviabrigada
 		strat_bomber_equipment_1 =  {
@@ -1855,7 +1848,7 @@ air_wings = {
 		# 8ya VMF Aviabrigada
 		nav_bomber_equipment_1 = {
 			owner = "RUS" 
-			amount = 54
+			amount = 24
 		}
 	}
 	# VVS - BSF Aviatsya Komandovaniya -- Sevastopol
@@ -1863,7 +1856,7 @@ air_wings = {
 		# 4ya VMF Aviabrigada
 		nav_bomber_equipment_1 = {
 			owner = "RUS" 
-			amount = 54
+			amount = 24
 		}
 	}
 }

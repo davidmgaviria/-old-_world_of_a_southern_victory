@@ -825,33 +825,33 @@ if = { limit = { has_start_date < 1937.1.1 }
 
 	### AMERICA ###
 	#utah
-	380 = {	start_resistance = yes 	set_compliance = 9	set_resistance = 19	 add_resistance_target = 40  }
+	380 = {	start_resistance = yes 	set_compliance = 9	set_resistance = 19	 add_resistance_target = 25  }
 	#houston
-	815 = {	start_resistance = yes	set_compliance = 7	set_resistance = 13   add_resistance_target = 20 }
+	815 = {	start_resistance = yes	set_compliance = 7	set_resistance = 13   add_resistance_target = 10 }
 	#sequoyah
-	374 = {	start_resistance = yes	set_compliance = 11  set_resistance = 9  add_resistance_target = 10 }
+	374 = {	start_resistance = yes	set_compliance = 11  set_resistance = 9  add_resistance_target = 5 }
 	#kentucky
-	369 = {	start_resistance = yes	set_compliance = 14  set_resistance = 8  add_resistance_target = 20 }
+	369 = {	start_resistance = yes	set_compliance = 14  set_resistance = 8  add_resistance_target = 10 }
 	#arlington
-	814 = {	start_resistance = yes	set_compliance = 6	set_resistance = 12   add_resistance_target = 10 }
+	814 = {	start_resistance = yes	set_compliance = 6	set_resistance = 12   add_resistance_target = 5 }
 	#sonora tip
-	816 = {	start_resistance = yes	set_compliance = 3	set_resistance = 4	add_resistance_target = 10   }	
+	816 = {	start_resistance = yes	set_compliance = 8	set_resistance = 4	add_resistance_target = 5   }	
 	#arkansas tip	
-	817 = {	start_resistance = yes	set_compliance = 3 set_resistance = 8	add_resistance_target = 10   }		
+	817 = {	start_resistance = yes	set_compliance = 5 set_resistance = 8	add_resistance_target = 5   }		
 
 	######### CANADA
-	739 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 10   }
-	740 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 10   }
-	471 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 10   }
-	473 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 10   }
-	470 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 10   }
-	469 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 10   }
-	467 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 10   }
-	682 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 10   }
-	683 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 10   }
-	276 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 10   }
-	465 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 10   }
-	464 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 10   }
+	739 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 5   }
+	740 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 5   }
+	471 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 5   }
+	473 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 5   }
+	470 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 5   }
+	469 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 5   }
+	467 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 5   }
+	682 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 5   }
+	683 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 5   }
+	276 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 5   }
+	465 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 5   }
+	464 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 add_resistance_target = 5   }
 	331 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12	 }
 	332 = {	start_resistance = yes 	 set_compliance = 14    set_resistance = 12  }
 	

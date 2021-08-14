@@ -435,8 +435,13 @@ RUS_unit_production = {
 	}
 	ai_strategy = {
 		type = equipment_production_factor
+		id = tactical_bomber
+		value = 25
+	}
+	ai_strategy = {
+		type = equipment_production_factor
 		id = strategic_bomber
-		value = 60
+		value = 40
 	}
 	ai_strategy = {
 		type = equipment_production_factor
@@ -521,7 +526,7 @@ RUS_attack_germany_ww2 = {
 	ai_strategy = {
 		type = prepare_for_war
 		id = "UKR"			
-		value = 100
+		value = 80
 	}
 	ai_strategy = {
 		type = prepare_for_war
@@ -551,7 +556,64 @@ RUS_attack_germany_ww2 = {
 }
 
 
-RUS_dont_take_claims_on_UKR_we_got_focus = {
+RUS_dont_take_claims_on_UBD = {
+	allowed = {
+		original_tag = RUS
+	}
+	enable = {
+		country_exists = UBD
+		NOT = { has_war_with = GER }
+		date < 1942.1.1
+	}
+	abort = {
+		UBD  = { NOT = { is_in_faction_with = GER } }
+	}	
+	ai_strategy = {
+		type = ignore_claim
+		id = "UBD"			
+		value = 1
+	}		
+}
+
+RUS_dont_take_claims_on_LIT = {
+	allowed = {
+		original_tag = RUS
+	}
+	enable = {
+		country_exists = LIT
+		NOT = { has_war_with = GER }
+		date < 1942.1.1
+	}
+	abort = {
+		LIT  = { NOT = { is_in_faction_with = GER } }
+	}	
+	ai_strategy = {
+		type = ignore_claim
+		id = "LIT"			
+		value = 1
+	}		
+}
+
+RUS_dont_take_claims_on_POL = {
+	allowed = {
+		original_tag = RUS
+	}
+	enable = {
+		country_exists = POL
+		NOT = { has_war_with = GER }
+		date < 1942.1.1
+	}
+	abort = {
+		POL  = { NOT = { is_in_faction_with = GER } }
+	}	
+	ai_strategy = {
+		type = ignore_claim
+		id = "POL"			
+		value = 1
+	}		
+}
+
+RUS_dont_take_claims_on_UKR = {
 	allowed = {
 		original_tag = RUS
 	}
@@ -561,13 +623,12 @@ RUS_dont_take_claims_on_UKR_we_got_focus = {
 		date < 1942.1.1
 	}
 	abort = {
-		UKR  { is_puppet = no }
-	}
-	
+		UKR  = { NOT = { is_in_faction_with = GER } }
+	}	
 	ai_strategy = {
 		type = ignore_claim
 		id = "UKR"			
-		value = 1000
+		value = 1
 	}		
 }
 

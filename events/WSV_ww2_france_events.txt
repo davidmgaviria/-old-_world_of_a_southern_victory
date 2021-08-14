@@ -178,12 +178,12 @@ news_event = {
     			    target = GER
     			}
     			create_wargoal = {
-    			    type = take_claimed_state
-    			    target = HOL
-    			}
-    			create_wargoal = {
     			    type = annex_everything
     			    target = BEL
+    			}
+    			create_wargoal = {
+    			    type = take_claimed_state
+    			    target = HOL
     			}
 	    	}
     	}
