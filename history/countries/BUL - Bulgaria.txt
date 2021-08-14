@@ -359,6 +359,18 @@ set_technology = {
 	}
 
 
+	############### RESISTANCE ##############
+
+	#serbia
+	#108 = {	start_resistance = yes 	set_compliance = 4	 set_resistance = 12	 set_garrison_strength = 0.5  }	
+
+	#macedonia
+	#106 = {	start_resistance = yes	set_compliance = 11  set_resistance = 7  set_garrison_strength = 0.5  }
+	#731 = {	start_resistance = yes	set_compliance = 11  set_resistance = 7  set_garrison_strength = 0.5  }
+
+	########################################
+
+
 	create_country_leader = { #VANILLA
 		name = "Georgi Dimitrov"
 		desc = "POLITICS_GEORGI_DIMITROV_DESC"

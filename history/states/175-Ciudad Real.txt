@@ -10,11 +10,6 @@ state={
 	history={
 		owner=SPR
 		add_core_of=SPR
-		1914.1.1 = {
-			buildings = {
-				arms_factory = 3
-			}
-		}
 		1937.1.1={ 
 			owner=SPR
 			add_core_of=SPR

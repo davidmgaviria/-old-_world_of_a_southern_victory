@@ -16,7 +16,7 @@ state={
 		add_core_of=ADU
 		1914.1.1 = {
 			buildings = {
-				arms_factory = 4
+				arms_factory = 1
 			}
 		}
 		1937.1.1={ 
@@ -27,7 +27,7 @@ state={
 			victory_points={ 7183 5 }
 			buildings={
 				infrastructure=6
-				industrial_complex=2
+				industrial_complex=1
 				air_base=3
 				arms_factory=1
 				1048={ naval_base=5 }
@@ -37,7 +37,7 @@ state={
 			infrastructure=6
 			industrial_complex=1
 			arms_factory=1
-			dockyard=2
+			dockyard=1
 			1048={ naval_base=5 }
 			}
 		}

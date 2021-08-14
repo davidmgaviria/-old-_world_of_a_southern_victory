@@ -197,6 +197,12 @@ JAP_war_with_china = {
 		id = "MEN"
 		value = 100
 	}
+
+	ai_strategy = {
+		type = front_unit_request
+		strategic_region = 143 	#north china
+		value = 40
+	}
 } 
 
 

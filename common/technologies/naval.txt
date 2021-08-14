@@ -1569,7 +1569,7 @@ technologies = {
 
 		invasion_preparation = -0.25
 		amphibious_invasion_defence = 0.08
-		naval_invasion_capacity = 20
+		naval_invasion_capacity = 12
 
 		path = {
 			leads_to_tech = tank_landing_craft 
@@ -1588,6 +1588,10 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 10
+			modifier = {
+				factor = 10
+				tag = ENG
+			}
 		}
 		
 		categories = {
@@ -1604,7 +1608,7 @@ technologies = {
 
 		amphibious_invasion = 0.13
 		amphibious_invasion_defence = 0.25
-		naval_invasion_capacity = 50
+		naval_invasion_capacity = 24
 
 		research_cost = 2
 		start_year = 1944

@@ -30,17 +30,10 @@ NDefines.NAI.GIVE_STATE_CONTROL_MAX_SCORE_DIST = 600	-- (Originally 600) A State
 NDefines.NAI.GIVE_STATE_CONTROL_DIST_SCORE_MULT = 0.2	-- (Originally 0.2) Multiplier for the score gained from distance ( GIVE_STATE_CONTROL_MAX_SCORE_DIST - distance ) * this
 
 
+--resistance and compliance
+NDefines.NResistance.INITIAL_STATE_RESISTANCE = 10.0  --inital resistance when taking over a state
+NDefines.NResistance.COMPLIANCE_GROWTH_IS_AT_PEACE = 5 -- compliance growth buff at peace
 
---NDefines.NMilitary.PLAN_NEIGHBORING_ENEMY_PROVINCE_FACTOR = 0.6	-- When calculating the importance of provinces, it takes number of enemy provinces into account, factored by this
---NDefines.NMilitary.PLAN_PROVINCE_BASE_IMPORTANCE = 1.0			-- Used when calculating the calue of front and defense area provinces for the battle plan system
-	
---NDefines.NMilitary.PLAN_PROVINCE_LOW_VP_IMPORTANCE_FRONT = 2.0    -- Used when calculating the calue of fronts in the battle plan system
---NDefines.NMilitary.PLAN_PROVINCE_MEDIUM_VP_IMPORTANCE_FRONT = 7.5 -- Used when calculating the calue of fronts in the battle plan system
---NDefines.NMilitary.PLAN_PROVINCE_HIGH_VP_IMPORTANCE_FRONT = 15.0  -- Used when calculating the calue of fronts in the battle plan system
-
---resistance
---NDefines.NCountry.RESISTANCE_DECAY_WHEN_NO_GROWTH = 0.005   		--originally 0.005
---NDefines.NCountry.SUPPRESSION_NEEDED_BY_RESISTANCE_POINT = 0.75  		--originally 0.75
 
 
 

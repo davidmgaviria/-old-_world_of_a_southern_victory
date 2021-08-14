@@ -12,20 +12,14 @@ state={
 		owner=SPR
 		add_core_of=SPR
 		add_core_of=GLC
-		1914.1.1 = {
-			buildings = {
-				dockyard = 5
-			}
-		}
 		1937.1.1={ 
 			owner=SPR
 			add_core_of=SPR
 			victory_points={ 758 3 }
 			buildings={
-				infrastructure=6
+				industrial_complex=2
+				infrastructure=4
 				air_base=2
-				dockyard=2
-				arms_factory=1
 				758={ naval_base=6 }
 				}
 			}

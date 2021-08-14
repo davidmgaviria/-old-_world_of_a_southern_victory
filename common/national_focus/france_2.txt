@@ -1869,7 +1869,7 @@
 
 
 	focus = {
-		id = FRA2_french_territories_or_war
+		id = FRA2_french_plebicites
 		icon = GFX_focus_FRA_alsace-lorraine
 		prerequisite = { focus = FRA2_around_the_rhine focus = FRA2_through_the_rhine }
 		x = -1
@@ -1877,7 +1877,7 @@
 		cost = 10
 		relative_position_id = FRA2_around_the_rhine
 
-		ai_will_do = { factor = 60 }
+		ai_will_do = { factor = 200 }
 		
 		available_if_capitulated = no
 
@@ -1888,7 +1888,7 @@
 				owns_state = 828
 			}
 			NOT = { is_in_faction_with = GER }
-			has_army_manpower = { size > 1999999 }
+			has_army_manpower = { size > 1249999 }
 		}
 
 		bypass = {
@@ -1902,8 +1902,7 @@
 		}
 
 		completion_reward = {
-			GER = { country_event = { id = wsv_ww2_france.3  days = 1 } }
-			custom_effect_tooltip = french_plebicite_or_war_tt
+			custom_effect_tooltip = french_plebicites_unlocked_tt
 		}
 	}
 
@@ -1912,11 +1911,11 @@
 	focus = {
 		id = FRA2_natural_borders
 		icon = GFX_focus_attack_kaiserreich
-		prerequisite = { focus = FRA2_french_territories_or_war }
+		prerequisite = { focus = FRA2_french_plebicites }
 		x = 0
 		y = 1
 		cost = 10
-		relative_position_id = FRA2_french_territories_or_war
+		relative_position_id = FRA2_french_plebicites
 
 		ai_will_do = { factor = 40 }
 		

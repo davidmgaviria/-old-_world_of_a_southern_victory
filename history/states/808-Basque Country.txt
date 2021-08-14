@@ -23,6 +23,9 @@ state={
 		add_core_of = SPR
 		1937.1.1 = {
 			owner=SPR
+			buildings = {
+				arms_factory = 0
+			}
 		}
 	}
 

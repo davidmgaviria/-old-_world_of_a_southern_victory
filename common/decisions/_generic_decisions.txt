@@ -330,6 +330,14 @@ propaganda_efforts = {
 				factor = 0
 				has_war_support > 0.9
 			}
+
+			modifier = {
+				factor = 5
+				AND = {
+					tag = CHI
+					has_war_support < 0.8
+				}
+			}
 		}
 	}
 }

@@ -182,7 +182,6 @@ news_event = {
 		hidden_effect = {
 			369 = { set_demilitarized_zone = no }
 			815 = { set_demilitarized_zone = no }
-			add_named_threat = { threat=10  name=CSA_remilitarizes_states_tt }
 			USA = { 
 				add_war_support = 0.2 
 				add_opinion_modifier = {
@@ -193,6 +192,7 @@ news_event = {
 			if = {
 				limit = { NOT = { has_global_flag = CSA_richmond_agreement_broken }	}
 				set_global_flag = CSA_richmond_agreement_broken
+				add_named_threat = { threat=10  name=CSA_richmond_broken_tt }
 			}
 		}
 	}
@@ -232,19 +232,6 @@ news_event = {
 	is_triggered_only = yes
 
 	major = yes
-
-	immediate = {
-		hidden_effect = {
-			set_global_flag = operation_blackbeard_commenced
-			CSA = { 
-				declare_war_on = {
-				    target = USA
-				    type = topple_government
-				}
-				#add_timed_idea = { days = 60   idea = CSA_operation_blackbeard_idea } 
-			}
-		}
-	}
 
 	option = {
 		name = wsv_ww2_csa.5.a
@@ -519,6 +506,7 @@ country_event = {
 		if = {
 			limit = { NOT = { has_global_flag = CSA_richmond_agreement_broken }	}
 			set_global_flag = CSA_richmond_agreement_broken
+			add_named_threat = { threat=10  name=CSA_richmond_broken_tt }
 		}
 	} 
 
@@ -1643,7 +1631,7 @@ news_event = {
 	major = yes
 
 	immediate = {
-		hidden_effect = { CSA = { add_threat = 1.5 } }
+		hidden_effect = { CSA = { add_threat = 2 } }
 	}
 
 	option = {
@@ -1668,62 +1656,3 @@ news_event = {
 		}
 	} 
 }
-
-
-########################################################
-## declare on us? (kaiser died)
-country_event = {
-	id = wsv_ww2_csa.47
-	title = wsv_ww2_csa.47.t
-	desc = wsv_ww2_csa.47.d
-	#picture = report_event_invasion
-
-	trigger = {
-		has_global_flag = kaiser_wilhelm_ii_dead
-		tag = CSA
-		FRA = { 
-			has_war_with = GER
-			is_in_faction_with = CSA 
-		}
-		NOT = { has_war_with = USA }
-	}
-
-	fire_only_once = yes
-
-	mean_time_to_happen = {
-		days = 10
-	}
-  	
-  	#yes
-	option = {
-		name = wsv_ww2_csa.47.a
-		news_event = wsv_ww2_csa.5
-		custom_effect_tooltip = declare_on_usa_tt
-
-		ai_chance = {
-			factor = 30
-			modifier = {
-				factor = 2
-				strength_ratio = {
-				    tag = USA
-				    ratio > 0.75
-				}
-			}
-		}
-	}
-
-	#no
-	option = {
-		name = wsv_ww2_csa.47.a
-		add_political_power = -50
-
-		ai_chance = {
-			factor = 40
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
-		}
-	}
-}
-

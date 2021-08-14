@@ -30,6 +30,10 @@ state={
 			owner = UKR  
 			remove_core_of=RUS
 			#add_claim_by=RUS 
+			buildings={
+				industrial_complex=2
+				arms_factory=1
+			}
 		}
 	}
 }

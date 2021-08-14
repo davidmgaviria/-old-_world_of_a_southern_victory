@@ -506,10 +506,10 @@ if = { limit = { has_start_date < 1937.1.1 }
 
 	############### RESISTANCE ##############
 
-	233 = {	start_resistance = yes 	set_compliance = 30	 set_resistance = 2	 set_garrison_strength = 0.5  }
-	231 = {	start_resistance = yes	set_compliance = 30  set_resistance = 2  set_garrison_strength = 0.5  }
-	230 = {	start_resistance = yes	set_compliance = 30  set_resistance = 2  set_garrison_strength = 0.5  }
-	229 = {	start_resistance = yes	set_compliance = 30  set_resistance = 2  set_garrison_strength = 0.5  }
+	233 = {	start_resistance = yes 	set_compliance = 4	 set_resistance = 9	 set_garrison_strength = 0.5  }
+	231 = {	start_resistance = yes	set_compliance = 5  set_resistance = 7  set_garrison_strength = 0.5  }
+	230 = {	start_resistance = yes	set_compliance = 6  set_resistance = 6  set_garrison_strength = 0.5  }
+	229 = {	start_resistance = yes	set_compliance = 3  set_resistance = 5  set_garrison_strength = 0.5  }
 
 	########################################
 

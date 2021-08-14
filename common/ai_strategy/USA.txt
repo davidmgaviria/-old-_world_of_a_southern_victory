@@ -583,8 +583,18 @@ USA_unit_production = {
 	}
 	ai_strategy = {
 		type = equipment_production_factor
-		id = tactical_bomber
+		id = cas
 		value = 10 
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = tactical_bomber
+		value = 25 
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = strategic_bomber
+		value = 15 
 	}
 	ai_strategy = {
 		type = equipment_production_factor
@@ -656,6 +666,11 @@ USA_focus_alot_on_civs = {
 		value = -75
 	}
 	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = -45
+	}
+	ai_strategy = {
 		type = unit_ratio
 		id = fighter
 		value = -50
@@ -697,6 +712,7 @@ USA_focus_some_on_civs = {
 		type = added_military_to_civilian_factory_ratio		
 		value = -50
 	}
+	
 	ai_strategy = {
 		type = unit_ratio
 		id = fighter
@@ -794,19 +810,32 @@ USA_anti_confederate_war_plan = {
 	enable = {
 		has_global_flag = CSA_richmond_agreement_broken 
 	}
-	abort = {
-		NOT = { controls_state = 261 }
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = "CSA"			
+		value = 200
 	}
 	
 	ai_strategy = {
 		type = area_priority
 		id = eastern_america
-		value = 75
+		value = 50
 	}
+
+	ai_strategy = {
+		type = area_priority
+		id = southwest_america
+		value = -75
+	}
+
+	#southwest america
 	ai_strategy = {
 		type = front_unit_request
-		state = 362
-		value = 80
+		state = 484
+		state = 483
+		value = -60
 	}
 }
 
@@ -824,12 +853,62 @@ USA_no_one_gets_our_troops = {
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = "GER"
-		value = 0
+		value = -999
 	}
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = "AUH"
-		value = 0
+		value = -999
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "BEL"
+		value = -999
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "HOL"
+		value = -999
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "DEN"
+		value = -999
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "UBD"
+		value = -999
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "LIT"
+		value = -999
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "POL"
+		value = -999
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "UKR"
+		value = -999
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "MTK"
+		value = -999
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "SER"
+		value = -999
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "ALB"
+		value = -999
 	}
 }
 

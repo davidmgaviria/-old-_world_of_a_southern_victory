@@ -65,80 +65,83 @@ units = {
 	division = {
 		name = "Suiyuan Jingbei"
 		location = 10880
-		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.55
+		division_template = "Sanjiao Jun"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.55
 	}
 	division = {
 		name = "Chahar Jingbei"
 		location = 12356
-		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.55
+		division_template = "Sanjiao Jun"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.55
 	}
 	division = {
 		name = "Suiyuan Jingbei II"
 		location = 7208
-		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.55
+		division_template = "Sanjiao Jun"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.55
 	}
 	division = {
 		name = "Chahar Jingbei II"
 		location = 5007
-		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.55
+		division_template = "Sanjiao Jun"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.55
 	}
 	division = {
 		name = "Dagen Jingbei"
 		location = 8049
-		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.55
+		division_template = "Sanjiao Jun"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.55
 	}	
 	division = {
 		name = "Dagen Jingbei II"
 		location = 8049
-		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.55
+		division_template = "Sanjiao Jun"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.55
 	}
 	division = {
 		name = "Varigen Jingbei"
 		location = 7418
-		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.55
+		division_template = "Sanjiao Jun"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.55
 	}
 	division = {
 		name = "Varigen Jingbei II"
 		location = 7418
-		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.55
+		division_template = "Sanjiao Jun"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.55
 	}
 
 	division = {
 		name = "1a Qibing Jun"
 		location = 8049
 		division_template = "Qibing Jun"		# Provincial militia unit (poor equipment and training)
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.55
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SHX" } }
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.55
 	}
 	division = {
 		name = "2a Qibing Jun"
 		location = 8049
 		division_template = "Qibing Jun"		# Provincial militia unit (poor equipment and training)
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.55
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SHX" } }
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.55
 	}
 	division = {
 		name = "3a Qibing Jun"
 		location = 8049
 		division_template = "Qibing Jun"		# Provincial militia unit (poor equipment and training)
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.55
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SHX" } }
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.55
 	}
 }
 
