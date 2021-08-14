@@ -905,8 +905,14 @@ GER_prepare_against_france = {
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
+		type = prepare_for_war
+		id = "FRA"			
+		value = 400
+	}
+
+	ai_strategy = {
 		type = front_unit_request
-		tag = FRA
+		id = "FRA"
 		value = 60
 	}
 }
@@ -953,5 +959,10 @@ GER_eastern_puppets_build_up = {
 		type = prepare_for_war
 		id = "RUS"			
 		value = 50
+	}
+
+	ai_strategy = {
+		type = equipment_stockpile_surplus_ratio
+		value = -10 # reduce while we build up in case of issues
 	}
 }

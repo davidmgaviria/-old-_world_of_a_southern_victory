@@ -906,11 +906,13 @@ CSA_attack_usa_ww2 = {
 		id = "USA"			
 		value = 50
 	}
+  
 	ai_strategy = {
 		type = invade
 		id = "QUE"
 		value = -1000
 	}
+	
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = "RUS"			

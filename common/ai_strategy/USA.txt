@@ -823,20 +823,6 @@ USA_anti_confederate_war_plan = {
 		id = eastern_america
 		value = 50
 	}
-
-	ai_strategy = {
-		type = area_priority
-		id = southwest_america
-		value = -75
-	}
-
-	#southwest america
-	ai_strategy = {
-		type = front_unit_request
-		state = 484
-		state = 483
-		value = -60
-	}
 }
 
 

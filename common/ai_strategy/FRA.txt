@@ -497,7 +497,7 @@ FRA_unit_production = {
 		value = 100 
 	}
 	ai_strategy = {
-		type = added_military_to_civilian_factory_ratio		
+		type = added_military_to_civilian_factory_ratio
 		value = 20
 	}
 }

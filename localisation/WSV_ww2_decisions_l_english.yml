@@ -4,6 +4,7 @@ wsv_ww2_decisions:0 "The Second Great War"
 wsv_ww2_decisions_desc:0 "The Second Great War came about as a result of the discontent among the Entente nations with the post-Great War status quo.  Eager to regain lost territory, the British, French, Russians, and Confederates all rearmed, planning to take back what was rightfully theirs, even if it cost millions of lives."
 wsv_sino-japanese_war_decisions:0 "Second Sino-Japanese War"
 
+
 #CSA
 operation_blackbeard:0 "Operation Blackbeard"
 operation_blackbeard_desc:0 "The brainchild of Nathaniel Bedford Forest III, Operation Blackbeard was a plan to strike the United States through Ohio, thus carving the country in two and knocking them out of the war before it could devolved into a battle of attrition."
@@ -23,3 +24,4 @@ eastern_plebicite_or_war_tt:0 "§RMay lead to war with Germany.§!"
 purchase_foreign_rifles:0 "Purchase Foreign Rifles"
 purchase_foreign_artillery:0 "Purchase Foreign Artillery"
 purchase_foreign_planes:0 "Purchase Foreign Aircraft"
+

@@ -677,12 +677,6 @@ ENG_invade_ireland = {
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
-		type = prepare_for_war
-		id = "IRE"			
-		value = 200
-	}
-
-	ai_strategy = {
 		type = invade
 		id = "IRE"			
 		value = 200
@@ -718,14 +712,8 @@ ENG_invade_norway = {
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
-		type = prepare_for_war
-		id = "NOR"			
-		value = 150
-	}
-
-	ai_strategy = {
 		type = invade
-		id = "NOR"			
+		id = "NOR"		
 		value = 150
 	}
 }
