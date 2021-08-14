@@ -447,7 +447,7 @@ AUH_unit_production = {
 	}
 	ai_strategy = {
 		type = air_factory_balance
-		value = 20 
+		value = 40 
 	}
 }
 
@@ -459,6 +459,7 @@ AUH_more_civs = {
 	}
 	enable = {
 		has_war = no
+		date < 1940.1.1
 	}
 	abort_when_not_enabled = yes
 	
@@ -470,20 +471,25 @@ AUH_more_civs = {
 
 
 
-AUH_ww2_build_up_army = {
+AUH_build_up_against_russia = {
 	allowed = {
 		original_tag = AUH
 		has_start_date > 1937.1.1
 	}
 	enable = {
-		OR = { country_exists = RUS }
-		NOT = { has_government = democratic }
+		date > 1939.1.1
+		is_in_faction_with = GER
 	}
 	abort_when_not_enabled = yes
-	
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = "RUS"			
+		value = 50
+	}
 	ai_strategy = {
 		type = equipment_stockpile_surplus_ratio
-		value = -15 # reduce while we build up in case of issues
+		value = -10 # reduce while we build up in case of issues
 	}
 }
 

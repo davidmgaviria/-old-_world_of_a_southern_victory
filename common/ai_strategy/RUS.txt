@@ -469,7 +469,7 @@ RUS_unit_production = {
 	}
 	ai_strategy = {
 		type = air_factory_balance
-		value = 70 
+		value = 50 
 	}
 }
 

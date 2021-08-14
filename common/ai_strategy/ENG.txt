@@ -512,7 +512,7 @@ ENG_unit_production = {
 	}
 	ai_strategy = {
 		type = air_factory_balance
-		value = 210
+		value = 160
 	}
 	ai_strategy = {
 		type = added_military_to_civilian_factory_ratio		
@@ -659,9 +659,9 @@ ENG_invade_ireland = {
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
-		type = prepare_for_war
+		type = invade
 		id = "IRE"			
-		value = 40
+		value = 200
 	}
 }
 
@@ -682,9 +682,9 @@ ENG_invade_norway = {
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
-		type = prepare_for_war
+		type = invade
 		id = "NOR"			
-		value = 20
+		value = 100
 	}
 }
 
