@@ -24,7 +24,7 @@ units = {
 		division_template = "Pestininku Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.35
 
 	}
 	division = { # "II. Divizija"
@@ -36,7 +36,7 @@ units = {
 		division_template = "Pestininku Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.35
 
 	}
 	division = { # "III. Divizija"
@@ -48,7 +48,7 @@ units = {
 		division_template = "Pestininku Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.35
 
 	}
 	division = { # "IV. Divizija"
@@ -60,7 +60,7 @@ units = {
 		division_template = "Pestininku Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.45
+		start_equipment_factor = 0.35
 	}
 
 	##### No Naval OOB #####

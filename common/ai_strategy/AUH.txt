@@ -110,6 +110,26 @@ AUH_garrison_coast = {
 }
 
 
+AUH_ignore_north_america = {
+	allowed = {
+		original_tag = AUH
+	}
+	enable = {
+		always = yes
+	}
+	
+	ai_strategy = {
+		type = front_unit_request
+		area = north_america		
+		value = -1000
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = USA
+		value = 100
+	}	
+}
+
 
 
 ######################### GREAT WAR ##########################
@@ -255,49 +275,30 @@ AUH_build_up_army = {
 }
 
 
-AUH_kill_serbia = {
+AUH_focus_serbia = {
 	allowed = {
 		original_tag = AUH
 		has_start_date < 1937.1.1
 	}
 	enable = {
-		date > 1914.1.1
 		SER = { 
 			exists = yes 
 			NOT = { is_puppet_of = AUH }
 		}
+		has_global_flag = kis_franzferdinand_murdered
 		surrender_progress < 0.1
 	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = conquer
-		id = "SER"			
-		value = 250
-	}
-
-	ai_strategy = {
-		type = prepare_for_war
-		id = "SER"			
-		value = 50
-	}
-
-	ai_strategy = {
-		type = prepare_for_war
-		id = "MTN"			
-		value = 10
-	}
-
-	ai_strategy = {
-		type = prepare_for_war
-		id = "RUS"			
-		value = 50
+	abort = {
+		OR = {
+			has_global_flag = kis_serbia_accept
+			SER = { has_capitulated = yes }
+		}
 	}
 
 	ai_strategy = {
 		type = front_unit_request
 		tag = SER
-		value = 120
+		value = 150
 	}	
 
 	ai_strategy = {
@@ -306,7 +307,6 @@ AUH_kill_serbia = {
 		value = -60
 	}
 }
-
 
 
 
@@ -422,19 +422,9 @@ AUH_unit_production = {
 	}
 	ai_strategy = {
 		type = equipment_production_factor
-		id = anti_tank
-		value = 20
-	}
-	ai_strategy = {
-		type = equipment_production_factor
 		id = artillery
 		value = 35 #20 to 40
 	}
-	ai_strategy = {
-		type = equipment_production_factor
-		id = armor
-		value = -5 
-	} 
 	ai_strategy = {
 		type = equipment_production_factor
 		id = motorized
@@ -443,7 +433,7 @@ AUH_unit_production = {
 	ai_strategy = {
 		type = equipment_variant_production_factor
 		id = support_equipment
-		value = 10
+		value = -10
 	}
 	ai_strategy = {
 		type = air_factory_balance

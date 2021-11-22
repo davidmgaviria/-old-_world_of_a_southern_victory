@@ -27,21 +27,37 @@ ENG_britannia_rules_the_waves = {
 
 	ai_strategy = {
    		type = dockyard_to_military_factory_ratio
-    	value = 55  
+    	value = 35  
     }
 
-    ai_strategy = {
-		type = area_priority
-		id = british_coast
-		value = 1800
+    #ai_strategy = {
+	#	type = area_priority
+	#	id = britain
+	#	value = 1800
+	#}
+
+	#ai_strategy = {
+	#	type = area_priority
+	#	id = north_sea
+	#	value = 800
+	#}
+}
+
+
+ENG_civilian_focus = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable  {
+		has_war = no
 	}
 
-	 ai_strategy = {
-		type = area_priority
-		id = north_sea
-		value = 800
+	ai_strategy = {
+		type = added_military_to_civilian_factory_ratio		
+		value = -25
 	}
 }
+
 
 
 ENG_area_priority_africa = {
@@ -62,8 +78,7 @@ ENG_area_priority_africa = {
 }
 
 
-
-ENG_garrison_coast = {
+ENG_extra_home_garrison = {
 	allowed = {
 		original_tag = ENG
 	}
@@ -72,30 +87,95 @@ ENG_garrison_coast = {
 	}
 
 	ai_strategy = {
-		type = put_unit_buffers
-				
-		states = { 
-			127
-			126
-			125
-			129
-			130
-			131
-			121
-			136
-			120
-			133
-			132
-			122
-			338
-			123
-			119
-			113
-			135
-		}
+		type = garrison
+		value = 25
+	}
+}
 
-		ratio = 0.1
-		subtract_invasions_from_need = yes
+
+ENG_ignore_csa = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		is_in_faction_with = CSA
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = CSA
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = MEX
+		value = 100
+	}			
+}
+
+
+
+ENG_ignore_russia = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		is_in_faction_with = RUS
+	}
+	
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = RUS
+		value = 100
+	}		
+}
+
+
+ENG_bef_against_germany = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		is_in_faction_with = FRA
+	}
+	abort = {
+		OR = {
+			has_non_aggression_pact_with = GER
+			GER = { has_capitulated = yes }
+		}
+	}
+
+	ai_strategy = {
+		type = spare_unit_factor
+		value = 50
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "GER"			
+		value = 50
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		area = europe		
+		value = 50
+	}
+
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = "FRA"			
+		value = 100
+	}	
+
+	ai_strategy = {
+		type = front_unit_request
+		area = africa		
+		value = -50
+	}
+
+	ai_strategy = {
+		type = garrison
+		value = -5
 	}
 }
 
@@ -127,7 +207,7 @@ ENG_default_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = north_america
-		value = 75
+		value = 85
 	}
 	
 	ai_strategy = {
@@ -275,7 +355,7 @@ ENG_gw_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
-		value = 45
+		value = 55
 	}
 	ai_strategy = {
 		type = equipment_production_factor
@@ -288,9 +368,6 @@ ENG_gw_unit_production = {
 		value = 10
 	}
 }
-
-
-
 
 
 ENG_save_up_equip = {
@@ -310,32 +387,59 @@ ENG_save_up_equip = {
 }
 
 
+#ENG_bef_against_USA = {
+#	allowed = {
+#		original_tag = ENG
+#		has_start_date > 1937.1.1
+#	}
+#	enable = {
+#		country_exists = USA
+#		CAN = { is_puppet_of = ENG }
+#		OR = {
+#			has_war_with = USA
+#			threat > 0.25
+#		}
+#	}
+#	abort = {
+#		has_non_aggression_pact_with = USA
+#	}
+#
+#	ai_strategy = {
+#		type = spare_unit_factor
+#		value = 25
+#	}
+#
+#	ai_strategy = {
+#		type = area_priority
+#		id = north_america
+#		value = 15
+#	}
+#		
+#	ai_strategy = {
+#		type = conquer
+#		id = "USA"			
+#		value = 50
+#	}
+#
+#	ai_strategy = {
+#		type = prepare_for_war
+#		id = "USA"			
+#		value = 75
+#	}
+#
+#	ai_strategy = {
+#		type = force_defend_ally_borders
+#		id = "CAN"			
+#		value = 100
+#	}	
+#
+#	ai_strategy = {
+#		type = garrison
+#		value = -5
+#
+#	}
+#}
 
-ENG_dont_defend_north_america = {
-	allowed = {
-		original_tag = ENG
-		has_start_date < 1937.1.1
-	}
-	enable = {
-		OR = {
-			is_in_faction_with = CSA
-			is_in_faction_with = MEX
-		}
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = CSA
-		value = 100
-	}
-
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "MEX"		
-		value = 100
-	}
-}
 
 
 ENG_dont_invade_auh = {
@@ -377,7 +481,7 @@ ENG_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = garrison
-		value = 4
+		value = 2
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -412,12 +516,12 @@ ENG_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = armor
-		value = 4
+		value = 2
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 60 
+		value = 65 
 	}
 	#Air unit factors
 	ai_strategy = {
@@ -499,7 +603,7 @@ ENG_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = armor
-		value = 15
+		value = 10
 	} 
 	ai_strategy = {
 		type = equipment_variant_production_factor
@@ -605,63 +709,30 @@ ENG_volunteers_to_spain = {
 
 
 
-ENG_bef_against_germany = {
+ENG_dont_take_claims_on_IRE = {
 	allowed = {
 		original_tag = ENG
 		has_start_date > 1937.1.1
 	}
 	enable = {
-		country_exists = GER
-		has_government = fascism
-		is_in_faction_with = FRA
-		has_completed_focus = ENG2_bef
+		country_exists = IRE
+		NOT = { has_war_with = ENG }
+		date < 1942.1.1
 	}
 	abort = {
-		has_non_aggression_pact_with = GER
-	}
-	
+		IRE  = { 
+			NOT = { 
+				is_guaranteed_by = GER 
+				is_guaranteed_by = USA
+			} 
+		}
+	}	
 	ai_strategy = {
-		type = area_priority
-		id = benelux
-		value = 110
-	}
-	
-	ai_strategy = {
-		type = conquer
-		id = "GER"			
-		value = 50
-	}
-
-	ai_strategy = {
-		type = force_defend_ally_borders
-		id = "FRA"			
-		value = 100
-	}
-
-	ai_strategy = {
-		type = front_unit_request
-		area = europe		
-		value = 40
-	}
-
-	ai_strategy = {
-		type = front_unit_request
-		area = africa		
-		value = -80
-	}
-
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "RUS"			
-		value = 1000
-	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "CSA"			
-		value = 1000
-	}
+		type = ignore_claim
+		id = "IRE"			
+		value = 1
+	}		
 }
-
 
 
 ENG_invade_ireland = {
@@ -675,6 +746,12 @@ ENG_invade_ireland = {
 		has_completed_focus = ENG2_irish_naval_invasion
 	}
 	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = "IRE"			
+		value = 200
+	}
 
 	ai_strategy = {
 		type = invade
@@ -712,8 +789,14 @@ ENG_invade_norway = {
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
+		type = prepare_for_war
+		id = "NOR"			
+		value = 150
+	}
+
+	ai_strategy = {
 		type = invade
-		id = "NOR"		
+		id = "NOR"			
 		value = 150
 	}
 }

@@ -106,12 +106,7 @@ units = {
 		task_force = {					
 			name = "Carrier Division, Battle Force"		
 			location = 1562 # San Diego
-			ship = { name = "USS Ranger" definition = carrier equipment = { carrier_2 = { amount = 1 owner = USA } } 
-				air_wings = {
-					cv_fighter_equipment_0 =  { owner = "USA" amount = 20 } # historical: 36
-					cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 20 } # historical: 12
-				}
-			}
+
 			ship = { name = "USS Lexington" definition = carrier equipment = { carrier_1 = { amount = 1 owner = USA } } 
 				air_wings = {
 					cv_fighter_equipment_0 =  { owner = "USA" amount = 20 } # historical: 16
@@ -119,12 +114,6 @@ units = {
 				}
 			}
 			ship = { name = "USS Saratoga" definition = carrier equipment = { carrier_1 = { amount = 1 owner = USA } } 
-				air_wings = {
-					cv_fighter_equipment_0 =  { owner = "USA" amount = 20 } # historical: 16
-					cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 20 } # historical: 12
-				}
-			}
-			ship = { name = "USS Liberty" definition = carrier equipment = { carrier_1 = { amount = 1 owner = USA } } 
 				air_wings = {
 					cv_fighter_equipment_0 =  { owner = "USA" amount = 20 } # historical: 16
 					cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 20 } # historical: 12
@@ -820,241 +809,187 @@ units = {
 			division_template="Infantry Division"
 			start_experience_factor= 0.1
 	}
-	division= { 
-			name = "53rd Infantry Division"
-			location= 1866 #Minnesota
-			division_template="Infantry Division"
-			start_experience_factor= 0.1
-	}
-	division= { 
-			name = "54th Infantry Division"
-			location= 11782 #New Jeresy
-			division_template="Infantry Division"
-			start_experience_factor= 0.1
-	}
-	division= { 
-			name = "55th Infantry Division"
-			location= 11782 #New Jeresy
-			division_template="Infantry Division"
-			start_experience_factor= 0.1
-	}
-	division= { 
-			name = "56th Infantry Division"
-			location= 11782 #New Jeresy
-			division_template="Infantry Division"
-			start_experience_factor= 0.1
-	}
-	division= { 
-			name = "57th Infantry Division"
-			location= 3957 #DC
-			division_template="Infantry Division"
-			start_experience_factor= 0.1
-	}
-	division= { 
-			name = "58th Infantry Division"
-			location= 3957 #DC
-			division_template="Infantry Division"
-			start_experience_factor= 0.1
-	}
-	division= { 
-			name = "59th Infantry Division"
-			location= 3957 #DC
-			division_template="Infantry Division"
-			start_experience_factor= 0.1
-	}
-	division= { 
-			name = "60th Infantry Division"
-			location=6885 # Pennsylvania
-			division_template="Infantry Division"
-			start_experience_factor= 0.1
-	}
-	division= { 
-			name = "61st Infantry Division"
-			location=6885 # Pennsylvania
-			division_template="Infantry Division"
-			start_experience_factor= 0.1
-	}
-	division= { 
-			name = "62nd Infantry Division"
-			location= 9450 #Chicago
-			division_template="Infantry Division"
-			start_experience_factor= 0.1
-	}	
-
-	division= { 
-			name = "63th Infantry Division"
-			location=9814 #LA
-			division_template="Infantry Division"
-			start_experience_factor= 0.1
-	}
-	division= { 
-			name = "64th Infantry Division"
-			location=6710 #Detroit
-			division_template="Infantry Division"
-			start_experience_factor= 0.1
-	}
-	division= { 
-			name = "65th Infantry Division"
-			location=6710 #Detroit
-			division_template="Infantry Division"
-			start_experience_factor= 0.1
-	}
-	division= { 
-			name = "66th Infantry Division"
-			location=11654 #Buffalo
-			division_template="Infantry Division"
-			start_experience_factor= 0.1
-	}
-	division= { 
-			name = "67th Infantry Division"
-			location=11654 #Buffalo
-			division_template="Infantry Division"
-			start_experience_factor= 0.1
-	}
-	division= { 
-			name = "68th Infantry Division"
-			location=11654 #Buffalo
-			division_template="Infantry Division"
-			start_experience_factor= 0.1
-	}
-	division= { 
-			name = "69th Infantry Division"
-			location=11654 #Buffalo
-			division_template="Infantry Division"
-			start_experience_factor= 0.1
-	}
-	division= { 
-			name = "70th Infantry Division"
-			location=9754 #New York
-			division_template="Infantry Division"
-			start_experience_factor= 0.1
-	}
-	division= { 
-			name = "71st Infantry Division"
-			location= 9754 #New York
-			division_template="Infantry Division"
-			start_experience_factor= 0.1
-	}
-	division= { 
-			name = "72nd Infantry Division"
-			location= 9754 #New York
-			division_template="Infantry Division"
-			start_experience_factor= 0.1
-	}
-
+		
 	division= { 
 			name = "1st National Guard"
 			location=3878 # New York
 			division_template="National Guard"
 			start_experience_factor= 0.1
-			start_equipment_factor = 0.8
+			#start_equipment_factor = 0.65
 			}
 	division= { 
 			name = "2nd National Guard"
 			location= 610 #California
 			division_template="National Guard"
 			start_experience_factor= 0.1
-			start_equipment_factor = 0.8
+			#start_equipment_factor = 0.65
 	}
     division= { 
 			name = "3rd National Guard"
 			location=6984 # Baltimore
 			division_template="National Guard"
 			start_experience_factor= 0.1
-			start_equipment_factor = 0.8
+			#start_equipment_factor = 0.65
 	}
 	division= { 
 			name = "4th National Guard"
 			location=9814 #LA
 			division_template="National Guard"
 			start_experience_factor= 0.1
-			start_equipment_factor = 0.8
+			#start_equipment_factor = 0.65
 	}
 	division= { 
 			name = "5th National Guard"
 			location=1827 #Denver
 			division_template="National Guard"
 			start_experience_factor= 0.1
-			start_equipment_factor = 0.8
+			#start_equipment_factor = 0.65
 	}
 	division= { 
 			name = "6th National Guard"
 			location=6710 #Detroit
 			division_template="National Guard"
 			start_experience_factor= 0.1
-			start_equipment_factor = 0.8
+			#start_equipment_factor = 0.65
 	}
 	division= { 
 			name = "7th National Guard"
 			location= 9754 #New York
 			division_template="National Guard"
 			start_experience_factor= 0.1
-			start_equipment_factor = 0.8
+			#start_equipment_factor = 0.65
 	}
 	division= { 
-				name = "8th National Guard"
-				location= 6823 #West Virgina
-				division_template="National Guard"
-				start_experience_factor= 0.1
-			start_equipment_factor = 0.8
+			name = "8th National Guard"
+			location= 6823 #West Virgina
+			division_template="National Guard"
+			start_experience_factor= 0.1
 		}
 	division= { 
-				name = "9th National Guard"
-				location= 3855 #Nebraska
-				division_template="National Guard"
-				start_experience_factor= 0.1
-			start_equipment_factor = 0.8
+			name = "9th National Guard"
+			location= 3855 #Nebraska
+			division_template="National Guard"
+			start_experience_factor= 0.1
 		}
 	division= { 
 			name = "10th National Guard"
 			location= 7315 #Seattle
 			division_template="National Guard"
 			start_experience_factor= 0.1
-			start_equipment_factor = 0.8
+			#start_equipment_factor = 0.65
 		}
 	division= { 
 			name = "11th National Guard"
 			location= 7315 #Seattle
 			division_template="National Guard"
 			start_experience_factor= 0.1
-			start_equipment_factor = 0.8
+			#start_equipment_factor = 0.65
 	}
 	division= { 
 			name = "12th National Guard"
 			location= 11712 #Montana
 			division_template="National Guard"
 			start_experience_factor= 0.1
-			start_equipment_factor = 0.8
+			#start_equipment_factor = 0.65
 	}
 	division= { 
 			name = "13th National Guard"
 			location= 10709 #Montana
 			division_template="National Guard"
 			start_experience_factor= 0.1
-			start_equipment_factor = 0.8
+			#start_equipment_factor = 0.65
 	}
 	division= { 
 			name = "14th National Guard"
 			location= 1866 #Minnesota
 			division_template="National Guard"
 			start_experience_factor= 0.1
-			start_equipment_factor = 0.8
+			#start_equipment_factor = 0.65
 	}
-
 	division= { 
 			name = "15th National Guard"
 			location= 10573 #Arizona
 			division_template="National Guard"
 			start_experience_factor= 0.1
-			start_equipment_factor = 0.8
+			#start_equipment_factor = 0.65
 	}
 	division= { 
 			name = "16th National Guard"
-			location= 1815 #Wyoming
+			location=3878 # New York
 			division_template="National Guard"
 			start_experience_factor= 0.1
-			start_equipment_factor = 0.8
+			#start_equipment_factor = 0.65
+			}
+	division= { 
+			name = "17th National Guard"
+			location= 610 #California
+			division_template="National Guard"
+			start_experience_factor= 0.1
+			#start_equipment_factor = 0.65
 	}
+    division= { 
+			name = "18th National Guard"
+			location=6984 # Baltimore
+			division_template="National Guard"
+			start_experience_factor= 0.1
+			#start_equipment_factor = 0.65
+	}
+	division= { 
+			name = "19th National Guard"
+			location=9814 #LA
+			division_template="National Guard"
+			start_experience_factor= 0.1
+			#start_equipment_factor = 0.65
+	}
+	division= { 
+			name = "20th National Guard"
+			location=1827 #Denver
+			division_template="National Guard"
+			start_experience_factor= 0.1
+			#start_equipment_factor = 0.65
+	}
+	division= { 
+			name = "21st National Guard"
+			location=6710 #Detroit
+			division_template="National Guard"
+			start_experience_factor= 0.1
+			#start_equipment_factor = 0.65
+	}
+	division= { 
+			name = "22nd National Guard"
+			location= 9754 #New York
+			division_template="National Guard"
+			start_experience_factor= 0.1
+			#start_equipment_factor = 0.65
+	}
+	division= { 
+			name = "23rd National Guard"
+			location= 6823 #West Virgina
+			division_template="National Guard"
+			start_experience_factor= 0.1
+		}
+	division= { 
+			name = "24th National Guard"
+			location= 3855 #Nebraska
+			division_template="National Guard"
+			start_experience_factor= 0.1
+		}
+	division= { 
+			name = "25th National Guard"
+			location= 10573 #Arizona
+			division_template="National Guard"
+			start_experience_factor= 0.1
+			#start_equipment_factor = 0.65
+	}
+	division= { 
+			name = "26th National Guard"
+			location=3878 # New York
+			division_template="National Guard"
+			start_experience_factor= 0.1
+			#start_equipment_factor = 0.65
+			}
+
+	
 	
 
 	division= { 
@@ -1069,7 +1004,6 @@ units = {
 			division_template="Dragoon Division"
 			start_experience_factor=0.2
 	}
-
 	division= { 
 			name = "3rd Dragoon Division"
 			location= 1690 #Washington
@@ -1077,25 +1011,7 @@ units = {
 			start_experience_factor=0.2
 	}
 
-	division= { 
-			name = "4th Dragoon Division"
-			location= 853 #Phoneix
-			division_template="Dragoon Division"
-			start_experience_factor=0.2
-	}
 
-	division= { 
-			name = "5th Dragoon Division"
-			location= 7745 #South Dakota
-			division_template="Dragoon Division"
-			start_experience_factor=0.2
-	}
-	division= { 
-			name = "6th Dragoon Division"
-			location= 10340 #Kansas
-			division_template="Dragoon Division"
-			start_experience_factor=0.2
-	}
 	division= { 
 		name = "1st Marines Division"
 		location=3878 # New York
@@ -1117,12 +1033,6 @@ units = {
 	division= { 
 		name = "4th Marines Division"
 		location= 9671 #San Fransisco
-		division_template="Marines Division"
-		start_experience_factor=0.3
-	}
-	division= { 
-		name = "5th Marines Division"
-		location= 6845 #San Fransisco
 		division_template="Marines Division"
 		start_experience_factor=0.3
 	}

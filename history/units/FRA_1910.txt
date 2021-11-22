@@ -335,38 +335,7 @@ fleet = {
 	}
 }
 
-	
-	division= { 
-			name = "58eme Division d'Infanterie de reserve"
-			location=11506 # Paris
-			division_template="Division d'Infanterie"
-			start_experience_factor=0.1
-			}
-	
-	
-	division= { 
-			name = "63eme Division d'Infanterie de reserve"
-			location=11506 # Paris
-			division_template="Division d'Infanterie"
-			start_experience_factor=0.1
-			}
-	
-	
-	division= { 
-			name = "66eme Division d'Infanterie de reserve"
-			location=11506 # Paris
-			division_template="Division d'Infanterie"
-			start_experience_factor=0.1
-			}
-	
-	
-	division= { 
-			name = "61eme Division d'Infanterie de reserve"
-			location=11506 # Paris
-			division_template="Division d'Infanterie"
-			start_experience_factor=0.1
-			}
-	
+		
 	
 	division= { 
 			name = "62eme Division d'Infanterie de reserve"
@@ -465,72 +434,8 @@ fleet = {
 	
 	
 	division= { 
-			name = "4eme Division d'Infanterie"
-			location = 3402 # Amiens
-			division_template="Division d'Infanterie"
-			start_experience_factor=0.1
-			}
-	
-	
-	division= { 
-			name = "2e Corps d'Infanterie reserve"
-			location = 3402 # Amiens
-			division_template="Division d'Infanterie"
-			start_experience_factor=0.1
-			}
-	
-	
-	division= { 
-			name = "12eme Division d'Infanterie"
-			location = 6545 # Ste Menehould
-			division_template="Division d'Infanterie"
-			start_experience_factor=0.1
-			}
-	
-	
-	division= { 
-			name = "40eme Division d'Infanterie"
-			location = 6545 # Ste Menehould
-			division_template="Division d'Infanterie"
-			start_experience_factor=0.1
-			}
-	
-	
-	division= { 
-			name = "42eme Division d'Infanterie"
-			location = 6545 # Ste Menehould
-			division_template="Division d'Infanterie"
-			start_experience_factor=0.1
-			}
-	
-	
-	division= { 
-			name = "7eme Division d'Infanterie"
-			location = 11463 # Le Mans
-			division_template="Division d'Infanterie"
-			start_experience_factor=0.1
-			}
-	
-	
-	division= { 
 			name = "8eme Division d'Infanterie"
 			location = 11463 # Le Mans
-			division_template="Division d'Infanterie"
-			start_experience_factor=0.1
-			}
-	
-	
-	division= { 
-			name = "9eme Division d'Infanterie"
-			location = 512 # Orléans
-			division_template="Division d'Infanterie"
-			start_experience_factor=0.1
-			}
-	
-	
-	division= { 
-			name = "10eme Division d'Infanterie"
-			location = 512 # Orléans
 			division_template="Division d'Infanterie"
 			start_experience_factor=0.1
 			}
@@ -590,55 +495,7 @@ fleet = {
 			division_template="Division d'Infanterie"
 			start_experience_factor=0.1
 			}
-	
-	
-	division= { 
-			name = "57eme Division d'Infanterie de reserve"
-			location = 11488 # Épinal
-			division_template="Division d'Infanterie"
-			start_experience_factor=0.1
-			}
-	
-	
-	division= { 
-			name = "11eme Division d'Infanterie"
-			location=11516 # Nancy
-			division_template="Division d'Infanterie"
-			start_experience_factor=0.1
-			}
-	
-	
-	division= { 
-			name = "39eme Division d'Infanterie"
-			location=11516 # Nancy
-			division_template="Division d'Infanterie"
-			start_experience_factor=0.1
-			}
-	
-	
-	division= { 
-			name = "10eme Division de Cavalerie"
-			location=11516 # Nancy
-			division_template="Hussards"
-			start_experience_factor=0.1
-			}
-	
-	
-	division= { 
-			name = "25e Division de Gendarmerie"
-			location=9642 # Besancon
-			division_template="Brigade de Gendarmerie"
-			start_experience_factor=0.1
-			}
-	
-	
-	division= { 
-			name = "92eme Division d'Infanterie territoriale"
-			location=9737 # Bordeaux
-			division_template="Division d'Infanterie"
-			start_experience_factor=0.1
-			}
-	
+
 	
 	division= { 
 			name = "91eme Division d'Infanterie territoriale"
@@ -781,24 +638,7 @@ fleet = {
 			location = 3764 # Barcelonnette
 			division_template="Brigade de Gendarmerie"
 			start_experience_factor=0.1
-			}
-	
-	
-	division= { 
-			name = "10e Division de Gendarmerie"
-			location = 6609 # Albertville
-			division_template="Brigade de Gendarmerie"
-			start_experience_factor=0.1
-			}
-	
-	
-	division= { 
-			name = "8e Division de Gendarmerie"
-			location = 6639 # Annecy
-			division_template="Brigade de Gendarmerie"
-			start_experience_factor=0.1
-			}
-	
+			}	
 	
 	division= { 
 			name = "64eme Division d'Infanterie de reserve"
@@ -976,7 +816,7 @@ fleet = {
 			location=4401 # Saigon
 			division_template="Troupes Coloniales"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.6
+			start_equipment_factor = 0.65
 			}
 	
 	
@@ -985,7 +825,7 @@ fleet = {
 			location = 10137 # Quang Ngai
 			division_template="Troupes Coloniales"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.6
+			start_equipment_factor = 0.65
 			}
 	
 	
@@ -994,7 +834,7 @@ fleet = {
 			location=4075 # Hanoi
 			division_template="Troupes Coloniales"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.6
+			start_equipment_factor = 0.65
 			}
 	
 	
@@ -1003,7 +843,7 @@ fleet = {
 			location = 5222 # Antananarivo
 			division_template="Troupes Coloniales"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.6
+			start_equipment_factor = 0.65
 			}
 	
 	
@@ -1012,7 +852,7 @@ fleet = {
 			location = 5222 # Antananarivo
 			division_template="Troupes Coloniales"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.6
+			start_equipment_factor = 0.65
 			}
 	
 	
@@ -1021,7 +861,7 @@ fleet = {
 			location = 698 # St. Louis
 			division_template="Troupes Coloniales"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.6
+			start_equipment_factor = 0.65
 			}
 	
 	
@@ -1030,7 +870,7 @@ fleet = {
 			location=4948 # Dakar
 			division_template="Troupes Coloniales"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.6
+			start_equipment_factor = 0.65
 			}
 	
 	
@@ -1039,7 +879,7 @@ fleet = {
 			location=5139 # Libreville
 			division_template="Troupes Coloniales"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.6
+			start_equipment_factor = 0.65
 			}
 	 
 	 

@@ -27,7 +27,7 @@ state={
 		
 		1914.1.1 = {
 			buildings = {
-				arms_factory = 6
+				arms_factory = 3
 				industrial_complex = 1
 				dockyard = 2
 
@@ -65,7 +65,7 @@ state={
 			industrial_complex = 3
 			arms_factory=1
 			air_base = 2
-			dockyard = 2
+			dockyard = 1
 
 			788 = {
 				naval_base = 10

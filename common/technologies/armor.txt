@@ -373,6 +373,21 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 2
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 2
+				OR = { tag = CSA   tag = FRA }
+			}
+			modifier = {
+				factor = 0.75
+				OR = {
+					has_idea = USA_underfunded_military
+					has_idea = USA_underfunded_military2
+				}
+			}
 		}
 		
 		categories = {
@@ -497,6 +512,21 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 2
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 2
+				OR = { tag = CSA   tag = FRA }
+			}
+			modifier = {
+				factor = 0.75
+				OR = {
+					has_idea = USA_underfunded_military
+					has_idea = USA_underfunded_military2
+				}
+			}
 		}
 		
 		categories = {
@@ -610,7 +640,18 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 2
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 0.75
+				OR = {
+					has_idea = USA_underfunded_military
+					has_idea = USA_underfunded_military2
+				}
+			}
 		}
 		
 		categories = {
@@ -700,6 +741,21 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 2
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 2
+				OR = { tag = CSA   tag = FRA }
+			}
+			modifier = {
+				factor = 0.75
+				OR = {
+					has_idea = USA_underfunded_military
+					has_idea = USA_underfunded_military2
+				}
+			}
 		}
 		
 		categories = {
@@ -824,6 +880,10 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 3
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
 		}
 		
 		categories = {
@@ -946,7 +1006,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 3
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
 		}
 		
 		categories = {
@@ -1060,7 +1124,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 3
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
 		}
 		
 		categories = {

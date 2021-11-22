@@ -88,10 +88,10 @@ ideas={
 
 			modifier={ 
 				training_time_army_factor = 0.1
-				army_morale_factor = -0.1
+				army_morale_factor = -0.2
 				army_attack_factor = -0.1
 				army_defence_factor = -0.1
-				army_org = -10
+				army_org = -15
 			}
 		}
 
@@ -112,10 +112,11 @@ ideas={
 			picture = slavic_army
 
 			modifier={ 
-				army_attack_factor = -0.05
-				army_defence_factor = -0.05
+				training_time_army_factor = 0.05
+				army_attack_factor = -0.1
+				army_defence_factor = -0.1
 				army_morale_factor = -0.1
-				army_org = -10
+				army_org = -5
 			}
 		}
 
@@ -136,12 +137,13 @@ ideas={
 			picture = ger_army
 
 			modifier={ 
-				training_time_army_factor = 0.15
-				army_morale_factor = -0.05
+				training_time_army_factor = 0.2
+				army_morale_factor = -0.1
 				army_attack_factor = -0.05
 				army_defence_factor = -0.05
 			}
 		}
+
 
 		AUH_homogenizing_empire = {
 

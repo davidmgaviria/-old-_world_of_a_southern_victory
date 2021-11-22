@@ -176,12 +176,6 @@ CAN_defend_against_usa = {
 
 	ai_strategy = {
 		type = front_unit_request
-		area = western_canada
-		value = 35
-	}
-
-	ai_strategy = {
-		type = front_unit_request
 		area = europe
 		value = -100
 	}
@@ -198,6 +192,11 @@ CAN_defend_against_usa = {
 	ai_strategy = {
 		type = 	spare_unit_factor		
 		value = -100
+	}
+
+	ai_strategy = {
+		type = garrison
+		value = -5
 	}
 }	
 
@@ -219,14 +218,13 @@ CAN_on_the_defensive = {
 		type = front_control
 		tag = USA
 		priority = 50
-		ratio = 0.6
+		ratio = 0.35
 		ordertype = front
 		execution_type = careful
 		execute_order = yes
 		manual_attack = yes
 	}
 }
-
 
 
 

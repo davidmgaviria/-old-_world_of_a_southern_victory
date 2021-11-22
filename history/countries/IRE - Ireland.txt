@@ -4,8 +4,8 @@
 #					GENERIC VALUES
 #-------------------------------------------------------
 set_fuel_ratio = 0.20
-#set_research_slots = 3
-#set_stability = 0.60
+
+set_stability = 0.60
 set_convoys = 20
 
 #-------------------------------------------------------
@@ -215,9 +215,10 @@ create_corps_commander={  name = "Aiken" id=44002 portrait_path="gfx/leaders/Eur
 
 	oob = "IRE_1937"
 	load_focus_tree = "generic_2_focus"
-	set_war_support = 0.1
+	set_war_support = 0.3
+	set_stability = 0.7
 	set_convoys = 10
-	set_research_slots = 3
+	set_research_slots = 2 #was 3
 
 	set_politics = {
 		ruling_party = democratic

@@ -1654,6 +1654,5 @@ news_event = {
 			NOT = { tag = CSA   is_in_faction_with = CSA }
 			NOT = { tag = USA   is_in_faction_with = USA }
 		}
-	}
+	} 
 }
-

@@ -25,6 +25,6 @@ GRE_first_balkan = {
 	ai_strategy = {
 		type = conquer
 		id = "TUR"			
-		value = 100
+		value = 50
 	}	
 }

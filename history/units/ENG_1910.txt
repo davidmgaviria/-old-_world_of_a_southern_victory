@@ -660,36 +660,6 @@ fleet = {
 	}
 }
 
-	division= { 
-			name = "1st Infantry Division"
-			location = 11471 # Oxford
-			division_template="Royal Guards"
-			start_experience_factor=0.3
-			}
-	
-	
-	division= { 
-			name = "2nd Infantry Division"
-			location = 11471 # Oxford
-			division_template="Royal Guards"
-			start_experience_factor=0.5
-			}
-	
-	
-	division= { 
-			name = "1st Cavalry Brigade"
-			location = 11471 # Oxford
-			division_template="Cavalry Division"
-			start_experience_factor=0.2
-			}
-	
-	
-	division= { 
-			name = "4th Infantry Division"
-			location = 271 # Norwich
-			division_template="Infantry Division"
-			start_experience_factor=0.3
-			}
 	
 	
 	division= { 
@@ -841,7 +811,7 @@ fleet = {
 			location=4135 # Gibraltar
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.65
 			}
 	
 	
@@ -850,7 +820,7 @@ fleet = {
 			location = 12003 # Malta
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.65
 			}
 	
 	
@@ -859,7 +829,7 @@ fleet = {
 			location = 4076 # El Iskandarîya
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.65
 			
 			}
 	
@@ -869,7 +839,7 @@ fleet = {
 			location=12299 # Singapore
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.65
 			
 			}
 	
@@ -879,7 +849,7 @@ fleet = {
 			location = 4205 # Weihai
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.65
 			
 			}
 	
@@ -889,7 +859,7 @@ fleet = {
 			location = 4205 # Weihai
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.65
 			
 			}
 	
@@ -899,7 +869,7 @@ fleet = {
 			location=10062 # Hong Kong
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.65
 		}
 	
 	
@@ -908,7 +878,7 @@ fleet = {
 			location = 12821 # Aden
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.65
 			
 		}
 	
@@ -918,7 +888,7 @@ fleet = {
 			location=5210 # Mombasa
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.65
 			
 			}
 	
@@ -928,7 +898,7 @@ fleet = {
 			location = 1939 # Nairobi
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.65
 			
 			}
 	
@@ -938,7 +908,7 @@ fleet = {
 			location = 10862 # Accra
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.65
 			
 			}
 
@@ -949,7 +919,7 @@ fleet = {
 		location=2050 # Lagos
 		division_template="Reserve Brigade"
 		start_experience_factor=0.1
-		#start_equipment_factor = 0.7
+		#start_equipment_factor = 0.65
 		
 		}
  }

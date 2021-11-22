@@ -77,38 +77,6 @@ CSA_area_priority = {
 
 
 
-CSA_garrison_coast = {
-	allowed = {
-		original_tag = CSA		
-	}
-	enable = {
-		surrender_progress < 0.4
-	}
-
-	ai_strategy = {
-		type = put_unit_buffers
-				
-		states = { 
-			814
-			362
-			363
-			364
-			365
-			366
-			367
-			370
-			371
-			375
-			483
-			315
-		}
-
-		ratio = 0.01
-		subtract_invasions_from_need = no
-	}
-}
-
-
 CSA_france_ally = {
 	allowed = {
 		original_tag = CSA		
@@ -135,6 +103,68 @@ CSA_france_ally = {
 	}		
 }
 
+
+CSA_ignore_europe = {
+	allowed = {
+		original_tag = CSA
+	}
+	enable = {
+		OR = {
+			is_in_faction_with = ENG
+			is_in_faction_with = FRA
+		}
+	}
+	abort = {
+		USA = { has_capitulated = yes }
+	}
+
+
+	ai_strategy = {
+		type = front_unit_request
+		area = europe		
+		value = -1000
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = ENG
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = FRA
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = BEL
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = LUX
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = SER
+		value = 100
+	}				
+}
+
+CSA_ignore_russia = {
+	allowed = {
+		original_tag = CSA
+	}
+	enable = {
+		is_in_faction_with = RUS
+	}
+	
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = RUS
+		value = 100
+	}		
+}
 
 
 ########################## GREAT WAR ##########################
@@ -247,12 +277,12 @@ CSA_gw_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
-		value = 40
+		value = 45
 	}
 	ai_strategy = {
 		type = equipment_production_factor
 		id = artillery
-		value = 25
+		value = 20
 	}
 	ai_strategy = {
 		type = equipment_production_factor
@@ -279,36 +309,6 @@ CSA_ww1_focus_on_usa = {
 		value = 60
 	}
 
-	ai_strategy = {
-		type = 	spare_unit_factor		
-		value = -100
-	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "CAN"		
-		value = 100
-	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "FRA"		
-		value = 100
-	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "RUS"		
-		value = 100
-	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "ENG"		
-		value = 100
-	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "BEL"		
-		value = 100
-	}
-
 	#protect richmond
 	ai_strategy = {
 		type = front_unit_request
@@ -317,7 +317,7 @@ CSA_ww1_focus_on_usa = {
 		state = 361
 		state = 814
 		state = 813
-		value = 50
+		value = 75
 	}
 
 	#sonora
@@ -325,7 +325,7 @@ CSA_ww1_focus_on_usa = {
 		type = front_unit_request
 		state = 377
 		state = 837
-		value = -45
+		value = -30
 	}
 }	
 
@@ -342,7 +342,7 @@ CSA_take_dc = {
 	abort = {
 		OR = {
 			surrender_progress > 0.1
-			casualties > 250000
+			casualties > 150000
 		}
 	}
 
@@ -352,7 +352,7 @@ CSA_take_dc = {
 		state = 360
 		state = 840
 		priority = 100
-		ratio = 0.4
+		ratio = 0.7
 		ordertype = front
 		execution_type = rush_weak
 		execute_order = yes
@@ -370,72 +370,7 @@ CSA_take_dc = {
 }
 
 
-CSA_on_the_defensive = {
-	allowed = { 
-		original_tag = CSA 
-		has_start_date < 1937.1.1
-	}
-	enable = {		
-		has_war_with = USA
-	}
-	abort = {
-		USA = { surrender_progress > 0.15 }
-	}
 
-	ai_strategy = {
-		type = front_control
-		tag = USA
-		priority = 50
-		ratio = 0.7
-		ordertype = front
-		execution_type = careful
-		execute_order = yes
-		manual_attack = yes
-	}
-}
-
-
-
-CSA_conserve_manpower_1 = {
-	allowed = { 
-		original_tag = CSA 
-		has_start_date < 1937.1.1
-	}
-	enable = {		
-		has_war_with = USA
-		casualties > 300000
-	}
-	abort = {
-		USA = { surrender_progress > 0.15 }
-	}
-
-	ai_strategy = {
-		type = consider_weak
-		id = "USA"			
-		value = -15
-	}
-}
-
-
-CSA_conserve_manpower_2 = {
-	allowed = { 
-		original_tag = CSA 
-		has_start_date < 1937.1.1
-	}
-	enable = {		
-		has_war_with = USA
-		casualties > 600000
-	}
-	abort = {
-		USA = { surrender_progress > 0.15 }
-	}
-
-	ai_strategy = {
-		type = consider_weak
-		id = "USA"			
-		value = -25
-	}
-}
 
 
 
@@ -491,7 +426,7 @@ CSA_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = armor
-		value = 2
+		value = -5
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -704,16 +639,35 @@ CSA_stockpile_less_early_game = {
 }
 
 
+CSA_armored_production = {
+	allowed = {
+		original_tag = CSA
+	}
+	enable = {
+		date > 140.1.1
+		ai_wants_divisions > 24 #Decreasing the amount of tanks the AI wants
+	}
+	abort = {
+		ai_wants_divisions < 25 #Decreasing the amount of tanks the AI wants
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 10
+	}
+}
+
+
 CSA_halt_light_armor_production_in_transitioning = {
 	allowed = {
 		original_tag = CSA
-		has_start_date > 1937.1.1
 	}
 	enable = {
 		has_template_majority_unit = medium_armor
 		OR = {
 			has_equipment = { light_tank_equipment > 600 }
-			date > 1941.1.1
+			date > 1940.1.1
 		}		
 	}
 	abort = {
@@ -723,22 +677,65 @@ CSA_halt_light_armor_production_in_transitioning = {
 	ai_strategy = {
 		type = equipment_variant_production_factor
 		id = light_tank_equipment
-		value = -200
+		value = -100
 	}
 }
 
 
 
+CSA_highered_armored_production = {
+	allowed = {
+		original_tag = CSA
+	}
+	enable = {
+		num_of_military_factories > 109
+	}
+	abort = {
+		num_of_military_factories < 110
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 20
+	}
+}
+
+
+CSA_dont_waste_xp_until_medium_armor = {
+	allowed = {
+		original_tag = CSA		
+	}
+	enable = {
+		always = yes
+	}
+	abort = {	
+		has_template_majority_unit = medium_armor
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = paratrooper
+		value = -100
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = mountaineers
+		value = -100
+	}
+}
+
+
 CSA_super_boost_light_for_med_armor = {
 	allowed = {
 		original_tag = CSA
-		has_start_date > 1937.1.1
 	}
 	enable = {
-		has_government = fascism
 		has_tech = basic_medium_tank
 		NOT = { has_template_ai_majority_unit = medium_armor }
 	}
+
 	abort = {	
 		has_template_ai_majority_unit = medium_armor
 	}
@@ -748,30 +745,32 @@ CSA_super_boost_light_for_med_armor = {
 		type = template_xp_reserve 
 		value = -125
 	}
+
 	# this is gateway
 	ai_strategy = {
 		type = template_prio
 		id = light_armor
 		value = 100
 	}
+
 	ai_strategy = {
 		type = template_prio
 		id = medium_armor
 		value = 150
 	}
+	
 }
 
 
 CSA_super_boost_light_for_modern_armor = {
 	allowed = {
 		original_tag = CSA
-		has_start_date > 1937.1.1
 	}
 	enable = {
-		has_government = fascism
 		has_tech = main_battle_tank
 		NOT = { has_template_ai_majority_unit = modern_armor }
 	}
+
 	abort = {	
 		has_template_ai_majority_unit = modern_armor
 	}
@@ -781,12 +780,14 @@ CSA_super_boost_light_for_modern_armor = {
 		type = template_xp_reserve 
 		value = -125
 	}
+
 	# this is gateway
 	ai_strategy = {
 		type = template_prio
 		id = medium_armor
 		value = 100
 	}
+
 	ai_strategy = {
 		type = template_prio
 		id = modern_armor
@@ -906,31 +907,10 @@ CSA_attack_usa_ww2 = {
 		id = "USA"			
 		value = 50
 	}
-  
 	ai_strategy = {
 		type = invade
 		id = "QUE"
 		value = -1000
-	}
-	
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "RUS"			
-		value = 1000
-	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "FRA"			
-		value = 1000
-	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "ENG"			
-		value = 1000
-	}
-	ai_strategy = {
-		type = 	spare_unit_factor		
-		value = -100
 	}
 
 	#southwest america

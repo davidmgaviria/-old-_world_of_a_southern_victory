@@ -12,7 +12,6 @@ ideas = {
 			removal_cost=-1
 			picture = idea_GER_superpower_of_europe
 			modifier = {
-				conscription_factor = 0.1
 				political_power_gain = -0.2
 				guarantee_tension = -0.5
 				send_volunteers_tension = -0.5

@@ -5,7 +5,7 @@ state={
 	resources={
 		#wood=0.000
 		#coal=9.000
-		tungsten=76.000
+		tungsten=36.000
 	}
 
 	history={

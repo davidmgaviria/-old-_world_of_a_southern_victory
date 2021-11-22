@@ -639,6 +639,44 @@ default_mobile_production = {
 #############  GENERIC STUFF   ###############
 ##############################################
 
+
+#combatants historically did not share a lot of divisons
+#default_dont_like_sharing = {		
+#	enable = {
+#		NOT = { tag = ENG }
+#	}
+#
+#	ai_strategy = {
+#		type = spare_unit_factor
+#		value = -75
+#	}
+#}
+
+
+default_garrison_coast = {
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = garrison
+		value = 10
+	}
+}
+
+
+default_garrison_coast_more = {
+	enable = {
+		is_major = yes
+	}
+
+	ai_strategy = {
+		type = garrison
+		value = 5
+	}
+}
+
+
 default_armored_production = {
 	enable = {
 		ai_wants_divisions > 49

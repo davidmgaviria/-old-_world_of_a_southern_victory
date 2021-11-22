@@ -17,7 +17,7 @@ technologies = {
 		enable_tactic = tactic_human_wave_tactics
 
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 2.25
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 0.5
@@ -32,7 +32,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 5 
+			factor = 2
+			modifier = {
+				factor = 2
+				is_major = yes
+			} 
 		}
 	}
 
@@ -53,7 +57,7 @@ technologies = {
 		#enable_tactic = tactic_delay
 
 		doctrine = yes	
-		research_cost = 4.5
+		research_cost = 3.0
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 0.5
@@ -69,9 +73,8 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
+			factor = 2
 		}
-	
 	}
 
 	ww1_rifle_ammo = {
@@ -110,7 +113,11 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1.5
-				tag = USA
+				is_major = yes
+			}
+			modifier = {
+				factor = 0.5
+				tag = AUH
 			}
 		}	
 	}
@@ -147,11 +154,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 0.5
-			modifier = {
-				factor = 4
-				OR = { tag = GER  tag = CAN  tag = SER }
-			}
+			factor = 0
 		}	
 	}
 
@@ -184,8 +187,20 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
+				factor = 1.5
+				OR = {
+					tag = GER
+					tag = ENG
+					tag = FRA
+				}
+			}
+			modifier = {
 				factor = 2
 				tag = USA
+			}
+			modifier = {
+				factor = 0.5
+				tag = AUH
 			}
 		}	
 	}
@@ -217,11 +232,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 1.5
-				tag = GER
-			}
+			factor = 0
 		}	
 	}
 
@@ -258,8 +269,15 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 1.5
-				OR = { tag = USA   tag = GER }
+				factor = 1.2
+				OR = {
+					tag = USA
+					tag = GER
+				}
+			}
+			modifier = {
+				factor = 0.75
+				tag = AUH
 			}
 		}	
 	}
@@ -296,6 +314,17 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 1.2
+				OR = {
+					tag = USA
+					tag = GER
+				}
+			}
+			modifier = {
+				factor = 0.75
+				tag = AUH
+			}
 		}	
 	}
 

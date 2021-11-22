@@ -11,7 +11,7 @@ set_fuel_ratio = 0.19
 set_stability = 0.5
 set_war_support = 0.23
 set_convoys = 100
-set_research_slots = 3
+set_research_slots = 2 #was 3
 
 puppet = HJZ 
 puppet = YEM
@@ -129,7 +129,6 @@ if = { limit = { has_start_date < 1937.1.1 }
 		ww1_Faith_Allah
 		TUR_ethnic_strife
 		limited_conscription
-		low_economic_mobilisation
 		limited_exports
 	}
 	create_equipment_variant={ name="Assari Tewfik Class" type=heavy_cruiser_1890 parent_version = 0 obsolete=yes upgrades={ ship_gun_upgrade=1 ship_armor_upgrade=4 ship_engine_upgrade=0 ship_reliability_upgrade=5           } }
@@ -506,10 +505,10 @@ if = { limit = { has_start_date < 1937.1.1 }
 
 	############### RESISTANCE ##############
 
-	233 = {	start_resistance = yes 	set_compliance = 4	 set_resistance = 9	 set_garrison_strength = 0.5  }
-	231 = {	start_resistance = yes	set_compliance = 5  set_resistance = 7  set_garrison_strength = 0.5  }
-	230 = {	start_resistance = yes	set_compliance = 6  set_resistance = 6  set_garrison_strength = 0.5  }
-	229 = {	start_resistance = yes	set_compliance = 3  set_resistance = 5  set_garrison_strength = 0.5  }
+	#233 = {	start_resistance = yes 	set_compliance = 3	 set_resistance = 7	 set_garrison_strength = 0.5  }
+	231 = {	start_resistance = yes	set_compliance = 2  set_resistance = 8  set_garrison_strength = 0.5  }
+	230 = {	start_resistance = yes	set_compliance = 1  set_resistance = 11  set_garrison_strength = 0.5  }
+	229 = {	start_resistance = yes	set_compliance = 3  set_resistance = 6  set_garrison_strength = 0.5  }
 
 	########################################
 

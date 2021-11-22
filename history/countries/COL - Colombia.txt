@@ -6,7 +6,7 @@ set_global_flag = PANAMA_CANAL_BLOCKED  #canal doesn't exist
 #					GENERIC VALUES
 #-------------------------------------------------------
 set_fuel_ratio = 0.20
-#set_research_slots = 3
+
 #set_stability = 0.75
 set_convoys = 20
 

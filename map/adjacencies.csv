@@ -176,11 +176,16 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3314;6336;sea;2752;2885;1578;2890;1581;;
 5709;3239;sea;13139;1501;1045;1465;1046;NICARAGUA_CANAL;Nicaragua
 
+
+13350;9967;impassable;-1;-1;-1;-1;-1;;south appalachians
+13354;13351;impassable;-1;-1;-1;-1;-1;;south appalachians
 10909;9967;impassable;-1;-1;-1;-1;-1;;south appalachians
 13354;13351;impassable;-1;-1;-1;-1;-1;;south appalachians
 7791;13351;impassable;-1;-1;-1;-1;-1;;south appalachians
 7791;7643;impassable;-1;-1;-1;-1;-1;;south appalachians
 7791;13355;impassable;-1;-1;-1;-1;-1;;south appalachians
+13361;13355;impassable;-1;-1;-1;-1;-1;;south appalachians
+13361;8014;impassable;-1;-1;-1;-1;-1;;south appalachians
 13243;7466;impassable;-1;-1;-1;-1;-1;;mid appalachians
 13243;13249;impassable;-1;-1;-1;-1;-1;;mid appalachians
 13243;13245;impassable;-1;-1;-1;-1;-1;;mid appalachians
@@ -210,9 +215,44 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10422;11698;impassable;-1;-1;-1;-1;-1;;sierra nevada
 10422;10159;impassable;-1;-1;-1;-1;-1;;sierra nevada
 
+11614;11609;impassable;-1;-1;-1;-1;-1;;western caucauses
+11614;9632;impassable;-1;-1;-1;-1;-1;;western caucauses
+685;9632;impassable;-1;-1;-1;-1;-1;;western caucauses
+685;6674;impassable;-1;-1;-1;-1;-1;;western caucauses
+9649;6674;impassable;-1;-1;-1;-1;-1;;western caucauses
+9649;11664;impassable;-1;-1;-1;-1;-1;;western caucauses
+3667;11609;impassable;-1;-1;-1;-1;-1;;eastern caucauses
+3667;4534;impassable;-1;-1;-1;-1;-1;;eastern caucauses
+3667;6436;impassable;-1;-1;-1;-1;-1;;eastern caucauses
+1455;6436;impassable;-1;-1;-1;-1;-1;;eastern caucauses
+7554;6436;impassable;-1;-1;-1;-1;-1;;eastern caucauses
+7554;6763;impassable;-1;-1;-1;-1;-1;;eastern caucauses
+3711;6763;impassable;-1;-1;-1;-1;-1;;eastern caucauses
+1450;6763;impassable;-1;-1;-1;-1;-1;;eastern caucauses
+1450;11645;impassable;-1;-1;-1;-1;-1;;eastern caucauses
+
+3434;11536;impassable;-1;-1;-1;-1;-1;;north carpathians
+3434;6604;impassable;-1;-1;-1;-1;-1;;north carpathians
+6431;11536;impassable;-1;-1;-1;-1;-1;;north carpathians
+9425;9563;impassable;-1;-1;-1;-1;-1;;north carpathians
+9425;6571;impassable;-1;-1;-1;-1;-1;;north carpathians
+3743;727;impassable;-1;-1;-1;-1;-1;;north carpathians
+3743;9704;impassable;-1;-1;-1;-1;-1;;north carpathians
+3743;6571;impassable;-1;-1;-1;-1;-1;;north carpathians
+9548;727;impassable;-1;-1;-1;-1;-1;;north carpathians
+727;11689;impassable;-1;-1;-1;-1;-1;;north carpathians
+711;3728;impassable;-1;-1;-1;-1;-1;;south carpathians
+711;11672;impassable;-1;-1;-1;-1;-1;;south carpathians
+3689;11672;impassable;-1;-1;-1;-1;-1;;south carpathians
+3689;11655;impassable;-1;-1;-1;-1;-1;;south carpathians
+6679;11605;impassable;-1;-1;-1;-1;-1;;west carpathians
+3665;11605;impassable;-1;-1;-1;-1;-1;;west carpathians
+3665;6667;impassable;-1;-1;-1;-1;-1;;west carpathians
+9619;6667;impassable;-1;-1;-1;-1;-1;;west carpathians
+
+3657;671;impassable;-1;-1;-1;-1;-1;;isonzo mountains
+3657;6673;impassable;-1;-1;-1;-1;-1;;isonzo mountains 
+9613;6673;impassable;-1;-1;-1;-1;-1;;isonzo mountains
 
 5205;12582;impassable;-1;-1;-1;-1;-1;;upper michigan - ontario border
-
-
-
 

@@ -69,9 +69,8 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 7
+			factor = 3
 		}
-
 	}
 
 	bonus_bertha1 = {
@@ -102,7 +101,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 5
+			factor = 2
+			modifier = {
+				factor = 2
+				tag = GER
+			}
 		}
 	}
 
@@ -129,7 +132,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 5
+			factor = 2
+			modifier = {
+				factor = 2
+				tag = GER
+			}
 		}
 	}
 
@@ -160,7 +167,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 5
+			factor = 2
+			modifier = {
+				factor = 2
+				tag = GER
+			}
 		}
 
 	}
@@ -192,7 +203,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 5
+			factor = 2
+			modifier = {
+				factor = 2
+				tag = GER
+			}
 		}
 
 	}
@@ -223,7 +238,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 5
+			factor = 2
+			modifier = {
+				factor = 2
+				tag = GER
+			}
 		}
 
 	}
@@ -260,7 +279,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 5
+			factor = 1
 		}
 	}
 
@@ -297,7 +316,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 5
 		}
 	}
 
@@ -322,7 +341,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 5
 		}
 	}
 
@@ -353,7 +372,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 5
 		}
 	}
 
@@ -386,7 +405,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 5
 		}
 	}
 
@@ -418,7 +437,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 5
 		}
 	}
 

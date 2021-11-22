@@ -64,3 +64,50 @@ TUR_balkan_buffers = {
 	}	
 }
 
+
+
+TUR_garrison_anatolia = {
+	enable = {
+		tag = TUR
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = put_unit_buffers
+				
+		states = { 
+			341
+			340
+			342
+			345
+			344
+			356
+			355
+			354
+		}
+		ratio = 0.1
+		subtract_invasions_from_need = yes
+	}	
+}
+
+
+TUR_garrison_middle_east = {
+	enable = {
+		tag = TUR
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = put_unit_buffers
+				
+		states = { 
+			657
+			553
+			454
+			291
+		}
+		ratio = 0.05
+		subtract_invasions_from_need = yes
+	}	
+}
+

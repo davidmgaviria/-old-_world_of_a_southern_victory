@@ -2376,11 +2376,10 @@
 		bypass = { has_war_with = IRE }
 
 		completion_reward = {
-			add_political_power = 50
-			add_opinion_modifier = { 
-				target = IRE
-				modifier = WSV_dislikes_country
-			} 
+			add_state_claim = 119
+			add_state_claim = 113
+			add_state_claim = 134
+			add_state_claim = 135
 		}
 	}
 

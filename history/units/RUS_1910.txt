@@ -1,4 +1,8 @@
-﻿
+﻿#### NOTE: Russia units have low equip but we give them more guns in the instant effect section, this has the effet of giving them lots of rifles but low amounts of support eqipment and rifles ######
+
+
+
+
 ###################################################################
 
 division_template = {
@@ -55,6 +59,7 @@ division_template = {
 		recon = { x = 0 y = 0 }
 		engineer = { x = 0 y = 1 }
 	}
+	priority = 1
 }
 
 division_template = {
@@ -82,24 +87,10 @@ division_template = {
 	}
 	support = {
 		recon = { x = 0 y = 0 }
-		engineer = { x = 0 y = 1 }
 	}
 }
 
-#division_template = {
-#    name = "Armored Recon"
-#
-#    regiments = {
-#        armored_car = { x = 0 y = 0 }
-#        armored_car = { x = 0 y = 1 }
-#        infantry = { x = 1 y = 0 }
-#        infantry = { x = 1 y = 1 }
-#    }
-#    support = {
-#        recon = { x = 0 y = 0 }
-#        engineer = { x = 0 y = 1 }
-#    }
-#}
+
 ###################################################################
 
 units = {
@@ -269,7 +260,6 @@ fleet = {
 			location = 11121 # Petsamo
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -279,7 +269,6 @@ fleet = {
 			location=3134 # Murmansk
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -289,7 +278,6 @@ fleet = {
 			location = 11121 # Oulu
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -299,7 +287,6 @@ fleet = {
 			location = 9228 # Mariehamn
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -309,7 +296,6 @@ fleet = {
 			location=3083 # Turku
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -319,7 +305,6 @@ fleet = {
 			location = 3122 # Isokyrö
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -329,7 +314,6 @@ fleet = {
 			location = 7661 # Baki
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -339,7 +323,6 @@ fleet = {
 			location=10696 # Omsk
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -349,7 +332,6 @@ fleet = {
 			location=4797 # Irkutsk
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -359,7 +341,6 @@ fleet = {
 			location=12189 # Khabarovsk
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -369,7 +350,6 @@ fleet = {
 			location = 305 # Ulya
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -379,7 +359,6 @@ fleet = {
 			location = 10641 # Jakutsk
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -389,7 +368,6 @@ fleet = {
 			location=7274 # Novosibirsk
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -399,7 +377,6 @@ fleet = {
 			location=1459 # Tashkent
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -409,7 +386,6 @@ fleet = {
 			location=6338 # Kazan
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -435,7 +411,7 @@ fleet = {
 			location = 3151 # St. Petersburg
 			division_template="Kavaleriyskaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -452,7 +428,7 @@ fleet = {
 			location = 3151 # St. Petersburg
 			division_template="Kavaleriyskaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -461,7 +437,7 @@ fleet = {
 			location = 3151 # St. Petersburg
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -470,7 +446,7 @@ fleet = {
 			location = 3151 # St. Petersburg
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -479,7 +455,7 @@ fleet = {
 			location = 3151 # St. Petersburg
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -488,7 +464,7 @@ fleet = {
 			location = 3151 # St. Petersburg
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -497,7 +473,7 @@ fleet = {
 			location = 3151 # St. Petersburg
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -506,7 +482,7 @@ fleet = {
 			location=11105 # Helsinki
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -515,7 +491,7 @@ fleet = {
 			location=11105 # Helsinki
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -524,7 +500,7 @@ fleet = {
 			location=11105 # Helsinki
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -533,7 +509,7 @@ fleet = {
 			location=11105 # Helsinki
 			division_template="Kavaleriyskaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -542,7 +518,7 @@ fleet = {
 			location = 3151 # St. Petersburg
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			
 			}
 
@@ -552,7 +528,7 @@ fleet = {
 			location = 3151 # St. Petersburg
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 
 			}
 
@@ -562,7 +538,7 @@ fleet = {
 			location = 3151 # St. Petersburg
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			
 			}
 
@@ -572,7 +548,7 @@ fleet = {
 			location = 3151 # St. Petersburg
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			
 			}
 
@@ -582,7 +558,7 @@ fleet = {
 			location = 3151 # St. Petersburg
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			
 			}
 
@@ -592,7 +568,6 @@ fleet = {
 			location = 3338 # Arkhangelsk
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -602,7 +577,6 @@ fleet = {
 			location = 3151 # St. Petersburg
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -612,7 +586,7 @@ fleet = {
 			location=3393 # Grodno
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -621,7 +595,7 @@ fleet = {
 			location=3393 # Grodno
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -630,7 +604,7 @@ fleet = {
 			location=3393 # Grodno
 			division_template="Kavaleriyskaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -639,7 +613,7 @@ fleet = {
 			location=3320 # Wilno
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -648,7 +622,7 @@ fleet = {
 			location=3320 # Wilno
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -657,7 +631,7 @@ fleet = {
 			location=3320 # Wilno
 			division_template="Kavaleriyskaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -666,7 +640,7 @@ fleet = {
 			location=3320 # Wilno
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -675,7 +649,7 @@ fleet = {
 			location=11370 # Minsk
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -684,7 +658,7 @@ fleet = {
 			location=11370 # Minsk
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -693,7 +667,7 @@ fleet = {
 			location=9340 # Riga
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -702,7 +676,7 @@ fleet = {
 			location=9340 # Riga
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -711,7 +685,7 @@ fleet = {
 			location=3320 # Wilno
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			
 			}
 
@@ -721,7 +695,7 @@ fleet = {
 			location=3320 # Wilno
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			
 			}
 
@@ -731,7 +705,7 @@ fleet = {
 			location=3320 # Wilno
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			
 			}
 
@@ -741,7 +715,7 @@ fleet = {
 			location=3320 # Wilno
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			
 			}
 
@@ -751,7 +725,6 @@ fleet = {
 			location=3320 # Wilno
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -761,7 +734,6 @@ fleet = {
 			location=11370 # Minsk
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -771,7 +743,6 @@ fleet = {
 			location=9340 # Riga
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -781,7 +752,7 @@ fleet = {
 			location = 3544 # Warszawa
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			
 			}
 
@@ -791,7 +762,7 @@ fleet = {
 			location = 3544 # Warszawa
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			
 			}
 
@@ -801,7 +772,7 @@ fleet = {
 			location = 3544 # Warszawa
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			
 			}
 
@@ -811,7 +782,7 @@ fleet = {
 			location = 3544 # Warszawa
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			
 			}
 
@@ -821,7 +792,6 @@ fleet = {
 			location = 3544 # Warszawa
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -831,7 +801,7 @@ fleet = {
 			location = 11301 # Lomza
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -840,7 +810,7 @@ fleet = {
 			location = 11301 # Lomza
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -849,7 +819,7 @@ fleet = {
 			location = 11301 # Lomza
 			division_template="Kavaleriyskaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -858,7 +828,7 @@ fleet = {
 			location = 6580 # Lublin
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -867,7 +837,7 @@ fleet = {
 			location = 6580 # Lublin
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -876,25 +846,7 @@ fleet = {
 			location = 6580 # Lublin
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
-			}
-
-
-	division= {
-			name = "13-ya Kavaleriyskaya Diviziya"
-			location = 6580 # Lublin
-			division_template="Kavaleriyskaya Diviziya"
-			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
-			}
-
-
-	division= {
-			name = "14-ya Kavaleriyskaya Diviziya"
-			location = 6580 # Lublin
-			division_template="Kavaleriyskaya Diviziya"
-			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -903,7 +855,7 @@ fleet = {
 			location = 3544 # Warszawa
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -912,7 +864,7 @@ fleet = {
 			location = 3544 # Warszawa
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -921,7 +873,7 @@ fleet = {
 			location = 3544 # Warszawa
 			division_template="Kavaleriyskaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -930,7 +882,7 @@ fleet = {
 			location = 3544 # Warszawa
 			division_template="Kavaleriyskaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -939,7 +891,7 @@ fleet = {
 			location=3392 # Brzesc Litewski
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -948,7 +900,7 @@ fleet = {
 			location=3392 # Brzesc Litewski
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -957,7 +909,7 @@ fleet = {
 			location=3392 # Brzesc Litewski
 			division_template="Kavaleriyskaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -974,7 +926,7 @@ fleet = {
 			location = 3544 # Warszawa
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -983,46 +935,14 @@ fleet = {
 			location = 3544 # Warszawa
 			division_template="Kavaleriyskaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
-
-
-	division= {
-			name = "66-ya Pekhotnaya Diviziya"
-			location = 525 # Kyiv
-			division_template="Pekhotnaya Diviziya"
-			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
-			
-			}
-
-
-	division= {
-			name = "67-ya Pekhotnaya Diviziya"
-			location = 525 # Kyiv
-			division_template="Pekhotnaya Diviziya"
-			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
-			
-			}
-
-
-	division= {
-			name = "68-ya Pekhotnaya Diviziya"
-			location = 525 # Kyiv
-			division_template="Pekhotnaya Diviziya"
-			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
-			
-			}
-
 
 	division= {
 			name = "Kiev Local Brigada"
 			location = 525 # Kyiv
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -1032,7 +952,6 @@ fleet = {
 			location=418 # Kharkov
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -1042,44 +961,7 @@ fleet = {
 			location = 559 # Poltava
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
-			}
-
-
-	division= {
-			name = "5-ya Pekhotnaya Diviziya"
-			location = 525 # Kyiv
-			division_template="Pekhotnaya Diviziya"
-			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
-			}
-
-
-	division= {
-			name = "42-ya Pekhotnaya Diviziya"
-			location = 525 # Kyiv
-			division_template="Pekhotnaya Diviziya"
-			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
-			}
-
-
-	division= {
-			name = "9-ya Kavaleriyskaya Diviziya"
-			location = 525 # Kyiv
-			division_template="Kavaleriyskaya Diviziya"
-			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
-			}
-
-
-	division= {
-			name = "9-ya Pekhotnaya Diviziya"
-			location=418 # Kharkov
-			division_template="Pekhotnaya Diviziya"
-			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
 			}
 
 
@@ -1088,7 +970,7 @@ fleet = {
 			location = 525 # Kyiv
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -1097,16 +979,7 @@ fleet = {
 			location = 525 # Kyiv
 			division_template="Kavaleriyskaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
-			}
-
-
-	division= {
-			name = "2-ya Kazach'ya Svodnaya Diviziya"
-			location = 525 # Kyiv
-			division_template="Kavaleriyskaya Diviziya"
-			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -1115,7 +988,7 @@ fleet = {
 			location = 6380 # Kyiv
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -1124,7 +997,7 @@ fleet = {
 			location = 6380 # Kyiv
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -1133,7 +1006,7 @@ fleet = {
 			location = 6380 # Kyiv
 			division_template="Kavaleriyskaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -1142,7 +1015,7 @@ fleet = {
 			location=413 # Voronezh
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -1151,16 +1024,7 @@ fleet = {
 			location=413 # Voronezh
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
-			}
-
-
-	division= {
-			name = "3-ya Otdel'naya Kavaleriyskaya Brigada"
-			location=413 # Voronezh
-			division_template="Kavaleriyskaya Diviziya"
-			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -1169,7 +1033,7 @@ fleet = {
 			location = 6387 # Dorogobuz
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -1178,7 +1042,7 @@ fleet = {
 			location = 6387 # Dorogobuz
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -1187,7 +1051,7 @@ fleet = {
 			location = 6387 # Dorogobuz
 			division_template="Kavaleriyskaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -1196,7 +1060,7 @@ fleet = {
 			location = 6380 # Kyiv
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -1205,7 +1069,7 @@ fleet = {
 			location = 6380 # Kyiv
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -1215,7 +1079,7 @@ fleet = {
 			location=6338 # Kazan
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			
 			}
 
@@ -1225,27 +1089,7 @@ fleet = {
 			location=6338 # Kazan
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
-			
-			}
-
-
-	division= {
-			name = "79-ya Pekhotnaya Diviziya"
-			location=6338 # Kazan
-			division_template="Pekhotnaya Diviziya"
-			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
-			
-			}
-
-
-	division= {
-			name = "Kazan Local Brigada"
-			location=6338 # Kazan
-			division_template="Diviziya Opolcheniya"
-			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
+			start_equipment_factor = 0.65
 			
 			}
 
@@ -1255,7 +1099,6 @@ fleet = {
 			location = 12115 # Turgay
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -1265,7 +1108,6 @@ fleet = {
 			location = 4261 # Orenburg
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -1275,7 +1117,6 @@ fleet = {
 			location=3578 # Saratov
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -1284,7 +1125,7 @@ fleet = {
 			location=1459 # Tashkent
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -1293,7 +1134,7 @@ fleet = {
 			location=1459 # Tashkent
 			division_template="Kavaleriyskaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -1302,7 +1143,7 @@ fleet = {
 			location = 12333 # Ashgabat
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -1311,7 +1152,7 @@ fleet = {
 			location = 12333 # Ashgabat
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -1320,7 +1161,7 @@ fleet = {
 			location = 12333 # Ashgabat
 			division_template="Kavaleriyskaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -1329,7 +1170,7 @@ fleet = {
 			location=1459 # Tashkent
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			
 			}
 
@@ -1339,7 +1180,7 @@ fleet = {
 			location=1459 # Tashkent
 			division_template="Pekhotnaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			
 			}
 
@@ -1349,7 +1190,7 @@ fleet = {
 			location=1459 # Tashkent
 			division_template="Kavaleriyskaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			}
 
 
@@ -1358,7 +1199,6 @@ fleet = {
 			location=1459 # Tashkent
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -1367,7 +1207,7 @@ fleet = {
 			name = "11-ya Sibirskaya Strelkovaya Diviziya"
 			location=10696 # Omsk
 			division_template="Sibirskaya Strelkovaya Diviziya"
-			start_experience_factor = 0.05
+			start_experience_factor = 0.3
 			start_equipment_factor = 0.5
 			}
 
@@ -1377,7 +1217,7 @@ fleet = {
 			location=10696 # Omsk
 			division_template="Kavaleriyskaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			
 			}
 
@@ -1386,7 +1226,7 @@ fleet = {
 			name = "Omsk Sibirskaya Reserve Diviziya"
 			location=10696 # Omsk
 			division_template="Sibirskaya Strelkovaya Diviziya"
-			start_experience_factor = 0.05
+			start_experience_factor = 0.3
 			start_equipment_factor = 0.5
 			
 			}
@@ -1397,7 +1237,6 @@ fleet = {
 			location=10696 # Omsk
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -1406,7 +1245,7 @@ fleet = {
 			name = "4-ya Sibirskaya Strelkovaya Diviziya"
 			location=4797 # Irkutsk
 			division_template="Sibirskaya Strelkovaya Diviziya"
-			start_experience_factor = 0.05
+			start_experience_factor = 0.3
 			start_equipment_factor = 0.5
 			}
 
@@ -1415,7 +1254,7 @@ fleet = {
 			name = "5-ya Sibirskaya Strelkovaya Diviziya"
 			location=4797 # Irkutsk
 			division_template="Sibirskaya Strelkovaya Diviziya"
-			start_experience_factor = 0.05
+			start_experience_factor = 0.3
 			start_equipment_factor = 0.5
 			}
 
@@ -1425,7 +1264,7 @@ fleet = {
 			location=4797 # Irkutsk
 			division_template="Kavaleriyskaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			
 			}
 
@@ -1434,7 +1273,7 @@ fleet = {
 			name = "7-ya Sibirskaya Strelkovaya Diviziya"
 			location=4797 # Irkutsk
 			division_template="Sibirskaya Strelkovaya Diviziya"
-			start_experience_factor = 0.05
+			start_experience_factor = 0.3
 			start_equipment_factor = 0.5
 			}
 
@@ -1443,7 +1282,7 @@ fleet = {
 			name = "8-ya Sibirskaya Strelkovaya Diviziya"
 			location=4797 # Irkutsk
 			division_template="Sibirskaya Strelkovaya Diviziya"
-			start_experience_factor = 0.05
+			start_experience_factor = 0.3
 			start_equipment_factor = 0.5
 			}
 
@@ -1453,7 +1292,6 @@ fleet = {
 			location=4797 # Irkutsk
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -1462,7 +1300,7 @@ fleet = {
 			name = "13-ya Sibirskaya Reserve Diviziya"
 			location=4797 # Irkutsk
 			division_template="Sibirskaya Strelkovaya Diviziya"
-			start_experience_factor = 0.05
+			start_experience_factor = 0.3
 			start_equipment_factor = 0.5
 			
 			}
@@ -1472,7 +1310,7 @@ fleet = {
 			name = "1-ya Sibirskaya Strelkovaya Diviziya"
 			location=957 # Vladivostok
 			division_template="Sibirskaya Strelkovaya Diviziya"
-			start_experience_factor = 0.05
+			start_experience_factor = 0.3
 			start_equipment_factor = 0.5
 			}
 
@@ -1481,7 +1319,7 @@ fleet = {
 			name = "2-ya Sibirskaya Strelkovaya Diviziya"
 			location=957 # Vladivostok
 			division_template="Sibirskaya Strelkovaya Diviziya"
-			start_experience_factor = 0.05
+			start_experience_factor = 0.3
 			start_equipment_factor = 0.5
 			}
 
@@ -1491,7 +1329,7 @@ fleet = {
 			location=957 # Vladivostok
 			division_template="Kavaleriyskaya Diviziya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.7
+			start_equipment_factor = 0.65
 			
 			}
 
@@ -1500,7 +1338,7 @@ fleet = {
 			name = "3-ya Sibirskaya Strelkovaya Diviziya"
 			location=957 # Vladivostok
 			division_template="Sibirskaya Strelkovaya Diviziya"
-			start_experience_factor = 0.05
+			start_experience_factor = 0.3
 			start_equipment_factor = 0.5
 		}
 
@@ -1509,7 +1347,7 @@ fleet = {
 			name = "9-ya Sibirskaya Strelkovaya Diviziya"
 			location=957 # Vladivostok
 			division_template="Sibirskaya Strelkovaya Diviziya"
-			start_experience_factor = 0.05
+			start_experience_factor = 0.3
 			start_equipment_factor = 0.5
 			}
 
@@ -1518,7 +1356,7 @@ fleet = {
 			name = "6-ya Sibirskaya Strelkovaya Diviziya"
 			location=12189 # Khabarovsk
 			division_template="Sibirskaya Strelkovaya Diviziya"
-			start_experience_factor = 0.05
+			start_experience_factor = 0.3
 			start_equipment_factor = 0.5
 			}
 
@@ -1527,7 +1365,7 @@ fleet = {
 			name = "10-ya Sibirskaya Strelkovaya Diviziya"
 			location=12189 # Khabarovsk
 			division_template="Sibirskaya Strelkovaya Diviziya"
-			start_experience_factor = 0.05
+			start_experience_factor = 0.3
 			start_equipment_factor = 0.5
 			}
 
@@ -1536,7 +1374,7 @@ fleet = {
 			name = "14-ya Sibirskaya Reserve Diviziya"
 			location=12189 # Khabarovsk
 			division_template="Sibirskaya Strelkovaya Diviziya"
-			start_experience_factor = 0.05
+			start_experience_factor = 0.3
 			start_equipment_factor = 0.5
 			
 			}
@@ -1547,7 +1385,6 @@ fleet = {
 			location=957 # Vladivostok
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 
@@ -1557,7 +1394,6 @@ fleet = {
 			location=12189 # Khabarovsk
 			division_template="Diviziya Opolcheniya"
 			start_experience_factor = 0.1
-			start_equipment_factor = 0.5
 			
 			}
 	  } 
@@ -1672,12 +1508,15 @@ fleet = {
 air_wings = {
 	}
 
-#Tuned in dev03
+
 instant_effect = {
+
 	add_equipment_production = { equipment = { type = support_equipment_1 creator = "RUS" } requested_factories = 4 progress = 0.1 efficiency = 50}
 	add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "RUS" } requested_factories = 5 progress = 0.1 efficiency = 70}
 	add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "RUS" } requested_factories = 1 progress = 0.1 efficiency = 50}
 	add_equipment_production = { equipment = { type = motorized_equipment_1 creator = "RUS" } requested_factories = 1 progress = 0.1 efficiency = 50}
+
+	add_equipment_to_stockpile = { type = infantry_equipment_0   amount = 54000   producer = RUS }
 
 	add_equipment_production = { equipment = { type = battleship_1900 creator = "RUS" version_name = "Ioann Zlatoust Class"  }  requested_factories = 1  progress = 0.96  amount = 1 } #Evstafi LD:01-Dec-1903 Comp:05-Aug-1910
 add_equipment_production = { equipment = { type = battleship_1900 creator = "RUS" version_name = "Ioann Zlatoust Class"  }  requested_factories = 1  progress = 0.96  amount = 1 } #Ioann Zlatoust LD:01-Nov-1903 Comp:11-Aug-1910

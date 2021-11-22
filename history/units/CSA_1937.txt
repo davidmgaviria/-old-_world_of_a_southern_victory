@@ -116,12 +116,11 @@ division_template = {
 units = {
 	
 	fleet = {
-		name = "Confederate Fleet Fleet"
-		naval_base = 7552 #New Oreleans
+		name = "Atlantic Fleet Fleet"
+		naval_base = 788 #Norfolk
 		task_force = {
-			name = "Confederate Fleet"
-			location = 7552 #New Oreleans
-			ship = { name = "CSS Coon" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CSA } } }
+			name = "Atlantic Fleet"
+			location = 788 #Norfolk
 			ship = { name = "CSS South Carolina" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Georgia" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Atlanta" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CSA } } }
@@ -153,6 +152,29 @@ units = {
 			ship = { name = "CSS XV" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS XVI" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CSA } } }
 		}	
+	}
+
+
+	fleet = {
+		name = "Pacific Fleet Fleet"
+		naval_base = 4908 #Sonora
+		task_force = {
+			name = "Pacific Fleet"
+			location = 4908 #Sonora
+			ship = { name = "CSS Richmond" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Little Rock" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Bedford" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Hickory" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Mooresvile" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Anderson" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Oconee" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Albany" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Gainesville" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Cienfuegos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Santa Clara" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Bayamo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Salem" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CSA } } }
+		}
 	}
 
 	fleet = {

@@ -126,80 +126,84 @@ units = {
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1	
 	}
+
 	division = {			
 		name = "20a Milicia Civil"		
 		location = 9933
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1	
 	}
+
+
 	division = {			
 		name = "21a Milicia Civil"		
-		location = 3945
+		location = 813
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1	
 	}
 	division = {			
 		name = "22a Milicia Civil"		
-		location = 871
+		location = 6878
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1	
 	}
 	division = {			
 		name = "23a Milicia Civil"		
-		location = 798
+		location = 6901
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1	
 	}
 	division = {			
 		name = "24a Milicia Civil"		
-		location = 3909
+		location = 9842
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1	
 	}
 	division = {			
 		name = "25a Milicia Civil"		
-		location = 3954
+		location = 11838
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1	
 	}
+
 	division = {			
 		name = "26a Milicia Civil"		
-		location = 790
-		division_template = "Milicia Civil"
-		start_experience_factor = 0.1	
-	}
-	division = {			
-		name = "27a Milicia Civil"		
-		location = 9813
-		division_template = "Milicia Civil"
-		start_experience_factor = 0.1	
-	}
-	division = {			
-		name = "28a Milicia Civil"		
 		location = 11821
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1	
 	}
 	division = {			
-		name = "29a Milicia Civil"		
+		name = "27a Milicia Civil"		
 		location = 915
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1	
 	}
 	division = {			
-		name = "30a Milicia Civil"		
+		name = "28a Milicia Civil"		
 		location = 7111
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1	
 	}
 	division = {			
-		name = "31a Milicia Civil"		
+		name = "29a Milicia Civil"		
 		location = 10109
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1	
 	}
 
 	### North Section ###
+	division = {			
+		name = "30a Milicia Civil"		
+		location = 3735
+		division_template = "Milicia Civil"
+		start_experience_factor = 0.1	
+	}
+	division = {			
+		name = "31a Milicia Civil"		
+		location = 6756
+		division_template = "Milicia Civil"
+		start_experience_factor = 0.1	
+	}
 	division = {			
 		name = "32a Milicia Civil"		
 		location = 9719
@@ -358,6 +362,30 @@ units = {
 	}	
 	division = {			
 		name = "58a Milicia Civil"		
+		location = 9757
+		division_template = "Milicia Civil"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "59a Milicia Civil"		
+		location = 9757
+		division_template = "Milicia Civil"
+		start_experience_factor = 0.1
+	}	
+	division = {			
+		name = "60a Milicia Civil"		
+		location = 9757
+		division_template = "Milicia Civil"
+		start_experience_factor = 0.1
+	}	
+	division = {			
+		name = "61a Milicia Civil"		
+		location = 9757
+		division_template = "Milicia Civil"
+		start_experience_factor = 0.1
+	}	
+	division = {			
+		name = "62a Milicia Civil"		
 		location = 9757
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1

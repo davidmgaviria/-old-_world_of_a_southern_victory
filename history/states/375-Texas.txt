@@ -7,7 +7,7 @@ state={
 	resources={
 		#wood=0
 		#coal=4
-		oil=58
+		oil=62
 		aluminium=14
 		}
 	history={
@@ -19,7 +19,7 @@ state={
 		add_claim_by=USA
 		1914.1.1 = {
 			buildings={
-				arms_factory=5
+				arms_factory=4
 				industrial_complex=2
 			}
 		}

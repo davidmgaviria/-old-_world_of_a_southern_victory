@@ -17,6 +17,8 @@
 
 ######################### WORLD WAR 2 ##########################
 
+
+
 SPR_defensive_war = {
 	allowed = { 
 		original_tag = SPR 
@@ -26,26 +28,28 @@ SPR_defensive_war = {
 		has_war_with = SPN
 	}
 	abort = {
-		SPN = { surrender_progress > 0.15 }
+		SPN = { surrender_progress > 0.25 }
 	}
 
 	ai_strategy = {
 		type = front_control
 		tag = SPN
-		priority = 100
-		ratio = 0.35
+		priority = 50
+		ratio = 0.5
 		ordertype = front
 		execution_type = careful
 		execute_order = yes
 		manual_attack = no
 	}
 
-	ai_strategy = {
-		type = consider_weak
-		id = "SPN"
-		value = -25
-	}
+	#ai_strategy = {
+	#	type = consider_weak
+	#	id = "SPN"			
+	#	value = -15
+	#}
 }
+
+
 
 SPN_we_are_neutral = {
 	allowed = {
