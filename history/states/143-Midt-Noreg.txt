@@ -11,11 +11,6 @@ state={
 		victory_points={ 3022 1 }
 		owner=NOR
 		add_core_of=NOR
-		1914.1.1 = {
-			buildings={
-				arms_factory=1
-			}
-		}
 		1937.1.1={ 
 			owner=NOR
 			add_core_of=NOR
@@ -29,7 +24,6 @@ state={
 			}
 		buildings={
 			infrastructure=4
-			industrial_complex=1
 			arms_factory=0
 			3022={ naval_base=3 coastal_bunker=2 }
 			}

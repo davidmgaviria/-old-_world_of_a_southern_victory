@@ -4,7 +4,7 @@
 #					GENERIC VALUES
 #-------------------------------------------------------
 set_fuel_ratio = 0.44
-set_research_slots = 4
+set_research_slots = 3 #was 4
 set_stability = 0.65
 set_war_support = 0.35
 set_convoys = 300
@@ -664,7 +664,7 @@ create_equipment_variant={ name="Aventurier Class" type=destroyer_1910 parent_ve
 	oob = "FRA_1937"
 	set_stability = 0.7
 	set_war_support = 0.35
-	set_research_slots = 4
+	set_research_slots = 3 #was 4
 	
 	dismantle_faction = yes
 	create_faction = entente #refreshes entente

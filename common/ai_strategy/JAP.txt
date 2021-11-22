@@ -80,6 +80,21 @@ JAP_area_priority = {
 }
 
 
+JAP_extra_home_garrison = {
+	allowed = {
+		original_tag = GER
+	}
+	enable  {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = garrison
+		value = 25
+	}
+}
+
+
 JAP_only_asia = {
 	enable = {
 		tag = JAP
@@ -109,35 +124,35 @@ JAP_only_asia = {
 }
 
 
-JAP_garrison_home_island = {
-	enable = { 
-		tag = JAP
-	}
-
-	ai_strategy = {
-		type = put_unit_buffers
-				
-		states = { 
-			528
-			529
-			530
-			531
-			532
-			534
-			535
-			282
-			533
-			536
-			555
-			537
-			526
-			645
-		}
-
-		ratio = 0.05
-		subtract_invasions_from_need = yes
-	}
-}
+#JAP_garrison_home_island = {
+#	enable = { 
+#		tag = JAP
+#	}
+#
+#	ai_strategy = {
+#		type = put_unit_buffers
+#				
+#		states = { 
+#			528
+#			529
+#			530
+#			531
+#			532
+#			534
+#			535
+#			282
+#			533
+#			536
+#			555
+#			537
+#			526
+#			645
+#		}
+#
+#		ratio = 0.05
+#		subtract_invasions_from_need = yes
+#	}
+#}
 
 
 

@@ -105,7 +105,6 @@ fleet = {
 		ship = { name = "SMS Erzherzog Franz Ferdinand" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AUH  } } }
 		ship = { name = "SMS Radetzky" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AUH  } } }
 		ship = { name = "SMS Zristi" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AUH  } } }
-		ship = { name = "SMS Tegetthoff" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AUH } } }
 		ship = { name = "SMS Turul" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUH } } }
 		ship = { name = "SMS Pandur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUH } } }
 		ship = { name = "SMS Csikos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUH } } }
@@ -127,9 +126,6 @@ fleet = {
 		ship = { name = "SMS Erzherzog Karl" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AUH } } }
 		ship = { name = "SMS Erzherzog Friedrich" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AUH } } }
 		ship = { name = "SMS Erzherzog Ferdinand Max" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AUH } } }
-		ship = { name = "SMS Habsburg" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AUH  } } }
-		ship = { name = "SMS Árpád" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AUH  } } }
-		ship = { name = "SMS Babenberg" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AUH  } } }
 		ship = { name = "SMS Meteor" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUH } } }
 		ship = { name = "SMS Blitz" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUH  } } }
 		ship = { name = "SMS Komet" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUH  } } }
@@ -151,7 +147,6 @@ fleet = {
 		ship = { name = "SMS Kronprinz Erzherzogin Rudolf" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AUH } } }
 		ship = { name = "SMS Monarch" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AUH  } } }
 		ship = { name = "SMS Wien" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AUH  } } }
-		ship = { name = "SMS Budapest" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AUH  } } }
 		ship = { name = "SMS Kaiserin und Königin Maria Theresia" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AUH } } }
 	}
 	task_force = {

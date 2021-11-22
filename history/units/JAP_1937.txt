@@ -624,6 +624,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_3 = { owner = "JAP" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+
 	}
 	division = { # "36 'Yuki' Hohei Shidan"
 		division_name = {
@@ -839,6 +840,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_3 = { owner = "JAP" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
 	}
 	division = {
 		name = "Ominato Kichi Shubitai"
@@ -847,6 +849,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_3 = { owner = "JAP" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
 	}
 	division = {
 		name = "Ominato Kichi Shubitai"
@@ -867,6 +870,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_3 = { owner = "JAP" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+
 	}
 	division = { # "1 Sasebo Rikustentai"
 		division_name = {
@@ -1051,6 +1055,8 @@ units = {
 		force_equipment_variants = { infantry_equipment_3 = { owner = "JAP" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
+
 	}
 
 	### Roppou Homengun (West Japan Army) (CO: ) ###
@@ -1088,6 +1094,8 @@ units = {
 		force_equipment_variants = { infantry_equipment_3 = { owner = "JAP" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
+
 	}
 	division = {
 		name = "Sasebo Kichi Kaiheidan"
@@ -1096,6 +1104,8 @@ units = {
 		force_equipment_variants = { infantry_equipment_3 = { owner = "JAP" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
+
 	}
 	
 	### Taiwan Homengun (Taiwan Army) (CO: ) ###
@@ -1106,6 +1116,8 @@ units = {
 		force_equipment_variants = { infantry_equipment_3 = { owner = "JAP" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
+
 	}
 	
 	### Chosen Gun (Korea Army) (CO: Nakamura) ###
@@ -1134,6 +1146,8 @@ units = {
 		force_equipment_variants = { infantry_equipment_3 = { owner = "JAP" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
+
 	}
 
 	##### Pacific Island Defense Forces #####
@@ -1144,6 +1158,8 @@ units = {
 		force_equipment_variants = { infantry_equipment_3 = { owner = "JAP" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
+
 	}
 
 	### Konkyochi Shiatagun ###
@@ -1155,6 +1171,8 @@ units = {
 		force_equipment_variants = { infantry_equipment_3 = { owner = "JAP" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
+
 	}
 	division = {
 		name = "Iwoto Kichi Shubitai"
@@ -1163,6 +1181,8 @@ units = {
 		force_equipment_variants = { infantry_equipment_3 = { owner = "JAP" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
+
 	}
 
 	# 2 Konkyochi Ichigun -- Palau and Caroline Islands #
@@ -1173,6 +1193,8 @@ units = {
 		force_equipment_variants = { infantry_equipment_3 = { owner = "JAP" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
+
 	}
 	division = {
 		name = "Truk Kichi Shubitai"
@@ -1181,6 +1203,8 @@ units = {
 		force_equipment_variants = { infantry_equipment_3 = { owner = "JAP" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
+
 	}
 	division = {
 		name = "Yappu Kichi Shubitai"
@@ -1189,6 +1213,8 @@ units = {
 		force_equipment_variants = { infantry_equipment_3 = { owner = "JAP" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
+
 	}
 	division = {
 		name = "Satawan Kichi Shubitai"
@@ -1197,6 +1223,8 @@ units = {
 		force_equipment_variants = { infantry_equipment_3 = { owner = "JAP" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
+
 	}
 
 	# 3 Konkyochi Ichigun -- Marshall Islands #
@@ -1207,6 +1235,8 @@ units = {
 		force_equipment_variants = { infantry_equipment_3 = { owner = "JAP" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
+
 	}
 	division = {
 		name = "Eniwetok Kichi Shubitai"
@@ -1215,6 +1245,8 @@ units = {
 		force_equipment_variants = { infantry_equipment_3 = { owner = "JAP" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
+
 	}
 	division = {
 		name = "Ponape Kichi Shubitai"
@@ -1223,6 +1255,8 @@ units = {
 		force_equipment_variants = { infantry_equipment_3 = { owner = "JAP" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
+
 	}
 	division = {
 		name = "Mili Kichi Shubitai"
@@ -1231,6 +1265,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_3 = { owner = "JAP" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
 	}
 
 
@@ -1265,19 +1300,22 @@ units = {
 		force_equipment_variants = { infantry_equipment_3 = { owner = "JAP" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
+
 	}
 	### Kwantung Defense Force (groups of independent garrisons) (CO: ) ###
 	division = {
 		name = "Manshu Tetsudo Shubitai" # Manchuria Railway Guard"	
 		location = 11771 #Mukden
-		division_template = "Chuton-chi Shidan"
+		division_template = "Chuton-chi Shidan"			# Japanese garrison (better experience, equipment than Manchukuo militia)
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+
 	}
 	division = {
 		name = "Kantogun Shureibu Keibitai"
 		location = 4572 #Hsinking
-		division_template = "Chuton-chi Shidan"
+		division_template = "Chuton-chi Shidan"			# Japanese garrison (better experience, equipment than Manchukuo militia)
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
 	}
@@ -1309,9 +1347,10 @@ units = {
 	division = {
 		name = "1 Kokkyou Keibitai"
 		location = 1732
-		division_template = "Chuton-chi Shidan"
+		division_template = "Chuton-chi Shidan"			# Japanese Border Guard garrison (better experience, equipment than Manchukuo militia)
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+
 	}
 
 	### 4 Homengun (CO: Ushiroku) ###
@@ -1333,16 +1372,18 @@ units = {
 	division = {
 		name = "5 Kokkyou Keibitai"
 		location = 10675
-		division_template = "Chuton-chi Shidan"
+		division_template = "Chuton-chi Shidan"			
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+
 	}
 	division = {
 		name = "6 Kokkyou Keibitai"
 		location = 7848
-		division_template = "Chuton-chi Shidan"
+		division_template = "Chuton-chi Shidan"			
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+
 	}
 	division = {
 		name = "7 Kokkyou Keibitai"
@@ -1354,16 +1395,18 @@ units = {
 	division = {
 		name = "8 Kokkyou Keibitai"
 		location = 1693
-		division_template = "Chuton-chi Shidan"
+		division_template = "Chuton-chi Shidan"			
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+
 	}
 	division = {
 		name = "13 Kokkyou Keibitai"
 		location = 12548
-		division_template = "Chuton-chi Shidan"
+		division_template = "Chuton-chi Shidan"	
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+
 	}
 
 	### 5 Homengun (CO: Doihara) ###	
@@ -1385,51 +1428,63 @@ units = {
 	division = {
 		name = "2 Kokkyou Keibitai"
 		location = 6806
-		division_template = "Chuton-chi Shidan"
+		division_template = "Chuton-chi Shidan"			
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+
 	}
 	division = {
 		name = "3 Kokkyou Keibitai"
 		location = 810
-		division_template = "Chuton-chi Shidan"
+		division_template = "Chuton-chi Shidan"		
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+
 	}
 	division = {
 		name = "4 Kokkyou Keibitai"
 		location = 3843
-		division_template = "Chuton-chi Shidan"
+		division_template = "Chuton-chi Shidan"			
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
+
 	}
 	division = {
 		name = "9 Kokkyou Keibitai"
 		location = 5427
-		division_template = "Chuton-chi Shidan"
+		division_template = "Chuton-chi Shidan"			
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
+
 	}
 	division = {
 		name = "10 Kokkyou Keibitai"
 		location = 9798
-		division_template = "Chuton-chi Shidan"
+		division_template = "Chuton-chi Shidan"			
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
+
 	}
 	division = {
 		name = "11 Kokkyou Keibitai"
 		location = 12500
-		division_template = "Chuton-chi Shidan"
+		division_template = "Chuton-chi Shidan"			
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
+
 	}
 	division = {
 		name = "12 Kokkyou Keibitai"
 		location = 10521
-		division_template = "Chuton-chi Shidan"
+		division_template = "Chuton-chi Shidan"			
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.65
+			
+
 	}
 
 	### 6 Homengun (CO: Yasui) ###	

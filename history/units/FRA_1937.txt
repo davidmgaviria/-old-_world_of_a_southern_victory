@@ -159,12 +159,12 @@ units = {
 		task_force = {
 			name = "2ème Région Navale"
 			location = 3552 # Brest			
-			ship = { name = "Béarn" definition = carrier equipment = { carrier_1 = { amount = 1 owner = FRA } } 
-				air_wings = {
-					cv_fighter_equipment_0 =  { owner = "FRA" amount = 25 }
-					cv_nav_bomber_equipment_1 =  { owner = "FRA" amount = 20 }
-				}
-			}
+
+			# 8e Division des Sous-Marins
+			ship = { name = "Surcouf" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Phénix" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Thétis" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }	
+
 			# 2e Division des Contre-Torpilleurs
 			ship = { name = "Jaguar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
 			ship = { name = "Chacal" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
@@ -186,6 +186,15 @@ units = {
 			ship = { name = "Cyclone" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
 			ship = { name = "Siroco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
 			ship = { name = "Mistral" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }	
+
+			ship = { name = "SMS S90" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA  } } }
+			ship = { name = "SMS S91" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA  } } }
+			ship = { name = "SMS S92" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA  } } }
+			ship = { name = "SMS S93" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA  } } }
+			ship = { name = "SMS S94" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA  } } }
+			ship = { name = "SMS S95" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA  } } }
+			ship = { name = "SMS S96" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA  } } }
+			ship = { name = "SMS S97" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA  } } }
 		}				
 		task_force = {				
 			name = "4ème Escadron Sous-Marins"			
@@ -198,9 +207,6 @@ units = {
 			ship = { name = "Poncelet" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
 			ship = { name = "Ajax" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
 			ship = { name = "Archimède" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
-			# 8e Division des Sous-Marins
-			ship = { name = "Surcouf" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
-			ship = { name = "Phénix" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
 		}				
 	}
 
@@ -212,12 +218,19 @@ units = {
 			location = 911 # Toulon	
 			ship = { name = "Courbet" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FRA } } }       
 			ship = { name = "Paris" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FRA } } }		
-			ship = { name = "Algérie" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = FRA } }	}	# Algerie variant		
-			ship = { name = "Foch" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
-			ship = { name = "Dupleix" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
-			ship = { name = "Colbert" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Algérie" definition =  battleship equipment = { battleship_1 = { amount = 1 owner = FRA } }	}	# Algerie variant		
+			ship = { name = "Foch" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Dupleix" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Colbert" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = FRA } } }
 			ship = { name = "Duquesne" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
 			ship = { name = "Tourville" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+
+
+			ship = { name = "SMS S104" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA  } } }
+			ship = { name = "SMS S105" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA  } } }
+			ship = { name = "SMS S106" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA  } } }			
+			ship = { name = "Doris" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+
 			# 4e Division des Contre-Torpilleurs
 			ship = { name = "Lynx" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
 			ship = { name = "Tigre" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
@@ -233,6 +246,12 @@ units = {
 			ship = { name = "Cassard" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Aigle & Vauquelin Class" } } }
 			ship = { name = "Maillé Brézé" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Aigle & Vauquelin Class" } } }
 			ship = { name = "Kersaint" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Aigle & Vauquelin Class" } } }
+			ship = { name = "SMS S98" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA  } } }
+			ship = { name = "SMS S99" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA  } } }
+			ship = { name = "SMS S100" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA  } } }
+			ship = { name = "SMS S101" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA  } } }
+			ship = { name = "SMS S102" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA  } } }
+			ship = { name = "SMS S103" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA  } } }
 		}				
 		task_force = {				
 			name = "3ème Escadron Sous-Marins"			
@@ -244,10 +263,6 @@ units = {
 			ship = { name = "Actéon" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
 			ship = { name = "Fresnel" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
 			ship = { name = "Achéron" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
-			# 5e Division des Sous-Marins
-			ship = { name = "L`Espoire" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
-			ship = { name = "Pégase" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
-			ship = { name = "Monge" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
 		}				
 		task_force = {				
 			name = "5ème Escadron Sous-Marins"			
@@ -257,14 +272,7 @@ units = {
 			ship = { name = "Vengeur" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
 			# 13e Division des Sous-Marins
 			ship = { name = "Circé" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
-			ship = { name = "Calypso" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
-			ship = { name = "Thétis" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
-			ship = { name = "Doris" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
-			# 15e Division des Sous-Marins
-			ship = { name = "Argonaute" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
-			ship = { name = "Sirène" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
-			ship = { name = "Naïade" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
-			ship = { name = "Galathée" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }				
+			ship = { name = "Calypso" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }						
 		}
 	}
 

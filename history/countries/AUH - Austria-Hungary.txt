@@ -4,7 +4,7 @@
 #					GENERIC VALUES
 #-------------------------------------------------------
 set_fuel_ratio = 0.3
-set_research_slots = 4
+set_research_slots = 3 #was 4
 set_stability = 0.65
 set_war_support = 0.4
 set_convoys = 200
@@ -206,7 +206,6 @@ create_navy_leader={  name = "Miklós Horthy" id=6394 portrait_path="gfx/portrai
 		AUH_ww1_Multinational_State
 		AUH_ww1_multinational_army
 		limited_conscription
-		low_economic_mobilisation
 		AUH_austrian_staff
 	}
 	
@@ -431,7 +430,7 @@ create_navy_leader={  name = "Miklós Horthy" id=6394 portrait_path="gfx/portrai
 
 	set_stability = 0.59
 	set_war_support = 0.2
-	set_research_slots = 4
+	set_research_slots = 3 #was 4
 
 	add_ideas = {
 		civilian_economy

@@ -6,7 +6,7 @@
 set_fuel_ratio = 0.20
 set_research_slots = 3
 set_stability = 0.8
-set_war_support = 0.6
+set_war_support = 0.25
 set_convoys = 400
 create_import = { resource = oil amount = 12 exporter = USA }
 puppet = KOR
@@ -171,7 +171,7 @@ create_navy_leader={  name = "Prince Fushimi H." id=47178 portrait_path="gfx/por
 
 	add_ideas = {
 		limited_conscription
-		partial_economic_mobilisation
+		low_economic_mobilisation
 		state_shintoism
 		JAP_warrior_traditions_idea
 	}
@@ -388,7 +388,7 @@ create_country_leader={ name = "Emperor Taishō " desc=JAP_emperor_taisho_DESC p
 	set_province_name = { id = 10000   name = "Qingdao" }
 	745 = { set_state_name = "Qingdao" }
 	
-	set_research_slots = 4
+	set_research_slots = 3 #was 4
 	set_fuel_ratio = 1.0
 
 	create_faction = east_asia_sphere

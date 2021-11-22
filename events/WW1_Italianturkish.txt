@@ -103,9 +103,6 @@ country_event = {
 					OR = { controls_state = 448  controls_state = 450 }
 					OR = { controls_state = 448  controls_state = 451 }
 					OR = { controls_state = 450  controls_state = 451 }
-					controls_state = 661
-					controls_state = 662
-					controls_state = 663
 				}
 			}
 		}

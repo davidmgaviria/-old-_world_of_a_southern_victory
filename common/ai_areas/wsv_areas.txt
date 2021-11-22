@@ -1,5 +1,24 @@
 areas = {
 
+    britain = { #bad teeth land
+        strategic_regions = {
+            1
+            2
+            3
+            4
+            16
+            18
+            43
+            45
+        }
+    }
+    
+    japan = {
+        strategic_regions = {
+            154
+        }
+    }
+
     ###################################################
     #--- AMERICAS
     ###################################################
@@ -46,7 +65,7 @@ areas = {
 
 
 
-     benelux = {
+    benelux = {
         strategic_regions = {
             5
         }
@@ -103,12 +122,12 @@ areas = {
             16
         }
     }
-    british_coast = {
-        strategic_regions = {
-           43
-           18
-        }
-    }
+    #british_coast = {
+    #    strategic_regions = {
+    #       43
+    #       18
+    #    }
+    #}
     eastern_seaboard = {
         strategic_regions = {
             54

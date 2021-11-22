@@ -94,21 +94,17 @@ units = {
 			ship = { name = "CSS Mobile" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Virginia" definition = battleship equipment = { battleship_1900 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Alabama" definition = battleship equipment = { battleship_1900 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS New Orleans" definition = battleship equipment = { battleship_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Stonewall" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Lee" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Pensacola" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Cuba" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Miami" definition = light_cruiser equipment = { light_cruiser_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Houston" definition = light_cruiser equipment = { light_cruiser_1900 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Birmingham" definition = light_cruiser equipment = { light_cruiser_1900 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Missouri" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Mississippi" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Biloxi" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Charlotte" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Chanslorville" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Washington" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Longstreet" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Savannah" definition = destroyer equipment = { destroyer_1900 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Railegh" definition = destroyer equipment = { destroyer_1900 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Duke" definition = destroyer equipment = { destroyer_1900 = { amount = 1 owner = CSA } } }
@@ -126,8 +122,8 @@ units = {
 		task_force = {
 			name = "Caribbean Fleet"
 			location = 7552 #New Oreleans
+			ship = { name = "CSS Richmond" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS South Carolina" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Manassas" definition = heavy_cruiser equipment = { heavy_cruiser_1900 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS North Carolina" definition = light_cruiser equipment = { light_cruiser_1900 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Charleston" definition = light_cruiser equipment = { light_cruiser_1890 = { amount = 1 owner = CSA  } } }
 			ship = { name = "CSS Tampa" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
@@ -137,9 +133,10 @@ units = {
 			ship = { name = "CSS Memphis" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Austin" definition = destroyer equipment = { destroyer_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Hermosillo" definition = destroyer equipment = { destroyer_1900 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS El Paso" definition = destroyer equipment = { destroyer_1900 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Greensborg" definition = destroyer equipment = { destroyer_1900 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Roanoke" definition = destroyer equipment = { destroyer_1900 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Mooresvile" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Anderson" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Oconee" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = CSA } } }
+			ship = { name = "CSS Albany" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = CSA } } }
 		}	
 	}
 
@@ -151,16 +148,11 @@ units = {
 		task_force = {
 			name = "Pacific Fleet"
 			location = 4908 #Sonora
-			ship = { name = "CSS Richmond" definition = battleship equipment = { battleship_1890 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Sequoyah" definition = heavy_cruiser equipment = { heavy_cruiser_1890 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Little Rock" definition = light_cruiser equipment = { light_cruiser_1900 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Louisville" definition = light_cruiser equipment = { light_cruiser_1890 = { amount = 1 owner = CSA  } } }
 			ship = { name = "CSS Bedford" definition = destroyer equipment = { destroyer_1900 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Hickory" definition = destroyer equipment = { destroyer_1900 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Mooresvile" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Anderson" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Oconee" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Albany" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Gainesville" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Cienfuegos" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Santa Clara" definition = destroyer equipment = { destroyer_1890 = { amount = 1 owner = CSA } } }
@@ -181,10 +173,8 @@ units = {
 			ship = { name = "CSS Eel" definition = submarine equipment = { coastal_submarine_1900 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Razorback" definition = submarine equipment = { coastal_submarine_1900 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Coldwater" definition = submarine equipment = { coastal_submarine_1900 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Boxcutter" definition = submarine equipment = { coastal_submarine_1900 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Paildiver" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
 			ship = { name = "CSS Springs" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
-			ship = { name = "CSS Lurker" definition = submarine equipment = { submarine_1906 = { amount = 1 owner = CSA } } }
 		}
 	}
 	
@@ -336,62 +326,32 @@ units = {
 			start_experience_factor=0.2
 	}
 	division= { 
-			name = "25th Grenadier Division"
-			location=7138 #Charlotte
-			division_template="Grenadier Division"
-			start_experience_factor=0.2
-	}
-	division= { 
-			name = "26th Grenadier Division"
-			location=7138 #Charlotte
-			division_template="Grenadier Division"
-			start_experience_factor=0.2
-	}
-	division= { 
-			name = "27th Grenadier Division"
-			location=873 #North Virginia
-			division_template="Grenadier Division"
-			start_experience_factor=0.2
-	}
-	division= { 
-			name = "28th Grenadier Division"
-			location=873 #North Virginia
-			division_template="Grenadier Division"
-			start_experience_factor=0.2
-	}
-	division= { 
-			name = "29th Grenadier Division"
-			location=10343 #North Virginia
-			division_template="Grenadier Division"
-			start_experience_factor=0.2
-	}
-	division= { 
 			name = "1st State Guard"
 			location= 788 #Norfolk
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.45
+			start_equipment_factor = 0.55
 	}
 	division= { 
 			name = "2nd State Guard"
 			location= 788 #Norfolk
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.45
+			start_equipment_factor = 0.55
 	}
 	division= { 
 			name = "3rd State Guard"
 			location= 11975 #Georgia
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.45
+			start_equipment_factor = 0.55
 	}
 	division= { 
 			name = "4th State Guard"
 			location= 1550 #Cuba
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.45
+			start_equipment_factor = 0.55
 	}
 	
 	division= { 
@@ -399,63 +359,63 @@ units = {
 			location= 10352 #Alabama
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.45
+			start_equipment_factor = 0.55
 	}
 	division= { 
 			name = "6th State Guard"
 			location= 12728 #Texas
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.45
+			start_equipment_factor = 0.55
 	}
 	division= { 
 			name = "7th State Guard"
 			location= 9773 #Texas
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.45
+			start_equipment_factor = 0.55
 	}
 	division= { 
 			name = "8th State Guard"
 			location= 1485 #South Carolina
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.45
+			start_equipment_factor = 0.55
 	}
 	division= { 
 			name = "9th State Guard"
 			location= 12325 #Florida
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.45
+			start_equipment_factor = 0.55
 	}
 	division= { 
 			name = "10th State Guard"
 			location= 12301 #Texas
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.45
+			start_equipment_factor = 0.55
 	}
 	division= { 
 			name = "11th State Guard"
 			location= 12833 #Sonora
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.45
+			start_equipment_factor = 0.55
 	}
 	division= { 
 			name = "12th State Guard"
 			location= 7480 #Mobile
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.45
+			start_equipment_factor = 0.55
 	}
 	division= { 
 			name = "13th State Guard"
 			location= 7480 #Mobile
 			division_template="State Guard"
 			start_experience_factor=0.1
-			start_equipment_factor = 0.45
+			start_equipment_factor = 0.55
 	}
 
 	division= { 

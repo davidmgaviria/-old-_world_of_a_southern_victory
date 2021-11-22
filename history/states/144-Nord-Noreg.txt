@@ -23,6 +23,7 @@ state={
 			add_core_of=NOR
 			victory_points={ 192 1 }
 			buildings={
+				arms_factory=0
 				infrastructure=3
 				air_base=1
 				192={ naval_base=3 }

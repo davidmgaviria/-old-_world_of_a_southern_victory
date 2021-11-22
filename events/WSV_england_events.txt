@@ -18,8 +18,8 @@ country_event = {
 		ENG = {
 			transfer_units_fraction= {
 				target = CAN
-				size = 0.4
-				stockpile_ratio = 0.4
+				size = 0.25
+				stockpile_ratio = 0.25
 			}
 			add_ideas = ENG_canadian_expeditionary_force_sender
 			set_country_flag = england_canadian_expeditionary_force

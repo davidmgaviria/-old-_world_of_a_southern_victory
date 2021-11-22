@@ -298,11 +298,6 @@ country_event = {
 			add_timed_idea = {	idea = schlieffen	days = 60	}
 		}
 		
-		hidden_effect = {
-		    BEL = { add_timed_idea = { days = 30  idea = unexpected_assault }  }
-		   	FRA = { add_timed_idea = { days = 30  idea = outflanked_through_belgium }  }
-		}
-		
 		if = { 
 			limit = { is_ai = no }
 			LUX = {
@@ -335,11 +330,6 @@ country_event = {
 			add_timed_idea = {	idea = schlieffen	days = 60	}
 		}
 		
-		hidden_effect = {
-		    BEL = { add_timed_idea = { days = 30  idea = unexpected_assault }  }
-		    FRA = { add_timed_idea = { days = 30  idea = outflanked_through_belgium } }
-		}
-
 		HOL = {
 		    hidden_effect = {
 		        add_timed_idea = { days = 30  idea = unexpected_assault }

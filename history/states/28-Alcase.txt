@@ -37,6 +37,7 @@ state={
 		buildings={
 			infrastructure=7
 			industrial_complex=2
+			arms_factory=1
 			549 = { trench = 3 }
 			678 = { trench = 4 }
 			3629 = { trench = 4 }

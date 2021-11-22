@@ -14,7 +14,6 @@ state={
 		add_core_of=AUH
 		buildings={
 			infrastructure=4
-			industrial_complex=2
 			}
 		}
 	}

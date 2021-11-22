@@ -9,33 +9,25 @@ state={
 		aluminium=2
 		}
 	history={
-		victory_points={ 3379 5 }
+		victory_points={ 3379 3 }
 		owner=ENG
 		add_core_of=ENG
 		add_core_of=IRE
-		1914.1.1={
-			buildings={
-				arms_factory=2
-				dockyard=2
-			}
-		}
+		
 		1937.1.1={ 
 			owner=IRE
 			remove_core_of=ENG
 			victory_points={ 3379 5 }
 			buildings={
-				infrastructure=6
-				industrial_complex=2
+				infrastructure=5
 				air_base=1
-				dockyard=2
 				arms_factory=1
 				3379={ naval_base=4 }
 				}
 			}
 		buildings={
-			infrastructure=6
+			infrastructure=5
 			industrial_complex=1
-			dockyard=1
 			3379={ naval_base=4 }
 			}
 		}

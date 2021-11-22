@@ -13,7 +13,8 @@ ideas = {
 			removal_cost = -1
 			picture = generic_agrarian_society
 			modifier = {
-				global_building_slots_factor = -0.5
+				global_building_slots_factor = -0.25
+				local_resources_factor = -0.25
 			}
 		}
 

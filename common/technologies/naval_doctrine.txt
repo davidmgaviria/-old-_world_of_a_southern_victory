@@ -41,10 +41,10 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 1.2
 			modifier = {
-				factor = 1.5
-				OR = { tag = USA  tag = ENG  tag = JAP }
+				factor = 2
+				is_major = yes
 			} 
 		}
 	}
@@ -116,10 +116,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 1.2
-				OR = { tag = ENG  tag = JAP }
-			}
 		}
 	}
 
@@ -157,11 +153,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 1 
 			modifier = {
-				factor = 1.2
-				OR = { tag = ENG  tag = JAP }
-			} 
+				factor = 0.5
+				date < 1915.1.1
+			}
 		}
 	}
 

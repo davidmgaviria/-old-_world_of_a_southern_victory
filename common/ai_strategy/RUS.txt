@@ -79,6 +79,117 @@ RUS_area_priority = {
 
 
 
+RUS_ignore_north_america = {
+	allowed = {
+		original_tag = RUS
+	}
+	enable = {
+		OR = {
+			is_in_faction_with = CSA
+			is_in_faction_with = CAN
+		}
+	}
+	abort = { 
+		GER = { has_capitulated = yes }
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		area = north_america		
+		value = -90
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = CSA
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = MEX
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = CAN
+		value = 100
+	}			
+}
+
+
+RUS_ignore_western_europe = {
+	allowed = {
+		original_tag = RUS
+	}
+	enable = {
+		date > 1914.1.1
+		#has_war_with = GER
+	}
+	
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = ENG
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = FRA
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = BEL
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = LUX
+		value = 100
+	}				
+}
+
+
+RUS_no_naval_invasions = {
+	allowed = {
+		original_tag = RUS
+		has_start_date < 1937.1.1
+	}
+	enable = {
+		OR = {
+			has_war_with = USA
+			has_war_with = GER
+			has_war_with = AUH
+			has_war_with = TUR
+			has_war_with = BUL
+		}
+	}
+	ai_strategy = {
+ 		type = invade
+  		id = "USA"
+   		value = -1000
+   	}
+	ai_strategy = {
+ 		type = invade
+  		id = "GER"
+   		value = -1000
+   	}
+   	ai_strategy = {
+ 		type = invade
+  		id = "AUH"
+   		value = -1000
+   	}
+   	ai_strategy = {
+ 		type = invade
+  		id = "TUR"
+   		value = -1000
+   	}
+   	ai_strategy = {
+ 		type = invade
+  		id = "BUL"
+   		value = -1000
+   	}	
+}
+
+
 
 ######################### GREAT WAR ##########################
 
@@ -216,112 +327,6 @@ RUS_save_up_equip = {
 	}
 }
 
-
-
-RUS_ww1_focus_on_ger = {
-	allowed = {
-		original_tag = RUS
-		has_start_date < 1937.1.1
-	}
-	enable = {	
-		country_exists = GER
-		NOT = { is_in_faction_with = GER }
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = 	spare_unit_factor		
-		value = -100
-	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "CAN"		
-		value = 100
-	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "FRA"		
-		value = 100
-	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "CSA"		
-		value = 100
-	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "BEL"		
-		value = 100
-	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "FRA"		
-		value = 100
-	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "ENG"		
-		value = 100
-	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "MEX"		
-		value = 100
-	}
-	ai_strategy = {
-		type = ignore
-		id = "USA"		
-		value = 200
-	}
-	ai_strategy = {
-		type = front_unit_request
-		area = north_america
-		value = -80
-	}
-}
-
-
-
-RUS_no_naval_invasions = {
-	allowed = {
-		original_tag = RUS
-		has_start_date < 1937.1.1
-	}
-	enable = {
-		OR = {
-			has_war_with = USA
-			has_war_with = GER
-			has_war_with = AUH
-			has_war_with = TUR
-			has_war_with = BUL
-		}
-	}
-	ai_strategy = {
- 		type = invade
-  		id = "USA"
-   		value = -1000
-   	}
-	ai_strategy = {
- 		type = invade
-  		id = "GER"
-   		value = -1000
-   	}
-   	ai_strategy = {
- 		type = invade
-  		id = "AUH"
-   		value = -1000
-   	}
-   	ai_strategy = {
- 		type = invade
-  		id = "TUR"
-   		value = -1000
-   	}
-   	ai_strategy = {
- 		type = invade
-  		id = "BUL"
-   		value = -1000
-   	}	
-}
 
 ########################## WW2 ##########################
 
@@ -538,27 +543,13 @@ RUS_attack_germany_ww2 = {
 		id = "LIT"			
 		value = 60
 	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "CSA"			
-		value = 1000
-	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "FRA"			
-		value = 1000
-	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "ENG"			
-		value = 1000
-	}
 }
 
 
 RUS_dont_take_claims_on_UBD = {
 	allowed = {
 		original_tag = RUS
+		has_start_date > 1937.1.1
 	}
 	enable = {
 		country_exists = UBD
@@ -578,6 +569,7 @@ RUS_dont_take_claims_on_UBD = {
 RUS_dont_take_claims_on_LIT = {
 	allowed = {
 		original_tag = RUS
+		has_start_date > 1937.1.1
 	}
 	enable = {
 		country_exists = LIT
@@ -597,6 +589,7 @@ RUS_dont_take_claims_on_LIT = {
 RUS_dont_take_claims_on_POL = {
 	allowed = {
 		original_tag = RUS
+		has_start_date > 1937.1.1
 	}
 	enable = {
 		country_exists = POL
@@ -616,6 +609,7 @@ RUS_dont_take_claims_on_POL = {
 RUS_dont_take_claims_on_UKR = {
 	allowed = {
 		original_tag = RUS
+		has_start_date > 1937.1.1
 	}
 	enable = {
 		country_exists = UKR

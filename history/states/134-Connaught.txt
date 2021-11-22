@@ -14,12 +14,8 @@ state={
 		1937.1.1={ 
 			owner=IRE
 			remove_core_of=ENG
-			buildings={
-				infrastructure=6
-				}
-			}
 		buildings={
-			infrastructure=6
+			infrastructure=3
 			}
 		}
 	}

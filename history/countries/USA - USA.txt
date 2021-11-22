@@ -4,7 +4,7 @@
 #					GENERIC VALUES
 #-------------------------------------------------------
 set_fuel_ratio = 0.45
-set_research_slots = 4
+set_research_slots = 3 #was 4
 set_stability = 0.6
 set_war_support = 0.15
 set_convoys = 350
@@ -497,6 +497,9 @@ if = { limit = { has_start_date < 1937.1.1 }
 		# Artillery
 		light_field_gun1 = 1
 		heavy_field_gun1 = 1
+
+		#Land Doctrine
+		ww1_landdoctrine = 1
 
 		# Navy
 		ww1_heavy_cruiser0 = 1

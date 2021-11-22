@@ -565,7 +565,7 @@ country_event = {
 					transfer_state = 229
 					transfer_state = 230
 					transfer_state = 231
-					transfer_state = 233
+					#transfer_state = 233
 				}	
 			}
 

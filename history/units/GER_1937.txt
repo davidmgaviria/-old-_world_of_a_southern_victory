@@ -233,10 +233,6 @@ units = {
                  ship = { name = "SMS Hannover" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER  } } }
                  ship = { name = "SMS Pommern" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER  } } }
                  ship = { name = "SMS Schlesien" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER  } } }
-                 ship = { name = "SMS Schleswig-Holstein" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER  } } }
-                 ship = { name = "SMS Braunschweig" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }
-                 ship = { name = "SMS Elsaß" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }
-                 ship = { name = "SMS Lothringen" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }
          }
          task_force = {
                  name = "4. Schlachtschwadron"
@@ -246,22 +242,6 @@ units = {
                  ship = { name = "SMS Zähringen" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER  } } }
                  ship = { name = "SMS Schwaben" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER  } } }
                  ship = { name = "SMS Mecklenburg" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER  } } }
-         }
-         task_force = {
-                 name = "5. Schlachtschwadron"
-                 location = 241#Wilhelmshaven
-                 ship = { name = "SMS Wörth" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER  } } }
-                 ship = { name = "SMS Weissenburg" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER  } } }
-                 ship = { name = "SMS Kaiser Friedrich III" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER  } } }
-                 ship = { name = "SMS Kaiser Wilhelm II" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER  } } }
-                 ship = { name = "SMS Kaiser Wilhelm der Große" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER  } } }
-                 ship = { name = "SMS Kaiser Karl der Große" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER  } } }
-                 ship = { name = "SMS Kaiser Barbarossa" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER  } } }
-                 ship = { name = "SMS Kurfürst Friedrich Wilhelm" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER  } } }
-                 ship = { name = "SMS Brandenburg" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER  } } }
-                 ship = { name = "SMS Kaiser" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }
-                 ship = { name = "SMS Württemberg" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }
-                 ship = { name = "SMS Oldenburg" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }
          }
     }
 
@@ -351,21 +331,9 @@ fleet = {
 		location = 11372 #Kiel
 		ship = { name = "SMS Siegfried" definition = carrier equipment = { carrier_1 = { amount = 1 owner = GER  } } 
             air_wings = {
-                cv_fighter_equipment_0 =  { owner = "GER" amount = 12 } # historical: 36
+                cv_fighter_equipment_0 =  { owner = "GER" amount = 20 } # historical: 36
                 cv_nav_bomber_equipment_1 =  { owner = "GER" amount = 12 } # historical: 12
             }
-        }
-		ship = { name = "SMS Beowulf" definition = carrier equipment = { carrier_1 = { amount = 1 owner = GER  } } 
-            air_wings = {
-                cv_fighter_equipment_0 =  { owner = "GER" amount = 12 } # historical: 36
-                cv_nav_bomber_equipment_1 =  { owner = "GER" amount = 12 } # historical: 12
-            }
-        }
-		ship = { name = "SMS Frithjof" definition = carrier equipment = { carrier_1 = { amount = 1 owner = GER  } }
-            air_wings = {
-                cv_fighter_equipment_0 =  { owner = "GER" amount = 12 } # historical: 36
-                cv_nav_bomber_equipment_1 =  { owner = "GER" amount = 12 } # historical: 12
-            } 
         }
 		ship = { name = "SMS Hildebrand" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER  } } }
 		ship = { name = "SMS Hagen" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER  } } }
@@ -506,35 +474,34 @@ fleet = {
         location = 11219#Pritzwalk
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "6. Reserve-Division"
         location = 11219#Pritzwalk
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "7. Reserve-Division"
         location = 11545#Wittenberg
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "22. Reserve-Division"
         location = 11545#Wittenberg
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "10th Mixed Infantry Brigade"
         location = 6282#Stettin
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
     }
     division = {
         name = "1. Infanterie-Division"
@@ -577,21 +544,21 @@ fleet = {
         location = 6332#Königsberg
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "36. Reserve-Division"
         location = 6332#Königsberg
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "3. Reserve-Division"
         location = 3351#Torun
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "87. Infanterie Division"
@@ -646,106 +613,72 @@ fleet = {
         location = 479
         division_template = "Infanterie Division"
         start_experience_factor = 0.1
-    }
-    division = {
-        name = "96. Infanterie Division"
-        location = 6462
-        division_template = "Infanterie Division"
-        start_experience_factor = 0.1
-    }
-    division = {
-        name = "97. Infanterie Division"
-        location = 243
-        division_template = "Infanterie Division"
-        start_experience_factor = 0.1
-    }
-    division = {
-        name = "98. Infanterie Division"
-        location = 9532
-        division_template = "Infanterie Division"
-        start_experience_factor = 0.1
-    }
-    division = {
-        name = "99. Infanterie Division"
-        location = 3384
-        division_template = "Infanterie Division"
-        start_experience_factor = 0.1
-    }
-    division = {
-        name = "103. Infanterie Division"
-        location = 6462
-        division_template = "Infanterie Division"
-        start_experience_factor = 0.1
-    }
+    }    
+   
     division = {
         name = "Konigsberg Garrison"
         location = 6332#Königsberg
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "43 Infantry Brigade"
         location = 514#Dresden
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
     }
     division = {
         name = "45. Infantry Brigade"
         location = 514#Dresden
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
     }
     division = {
         name = "53. Infantry Brigade"
         location = 514#Dresden
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
     }
     division = {
         name = "9. Bayerisches Infantry Brigade"
         location = 514#Dresden
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
     }
     division = {
         name = "16. Infantry Brigade"
         location = 514#Dresden
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
     }
     division = {
         name = "9. Reserve-Division"
         location = 6488#Grünberg
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "10. Reserve-Division"
         location = 6488#Grünberg
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "11. Reserve-Division"
         location = 9570#Breslau
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "12. Reserve-Division"
         location = 9570#Breslau
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "9. Infanterie-Division"
@@ -754,119 +687,55 @@ fleet = {
         start_experience_factor = 0.1
     }
     division = {
-        name = "10. Infanterie-Division"
-        location = 6488#Grünberg
-        division_template = "Infanterie Division"
-        start_experience_factor = 0.1
-    }
-    division = {
-        name = "35. Reserve Division"
-        location = 3351#Torun
-        division_template = "Ersatz Division"
-        start_experience_factor = 0.1
-        start_equipment_factor = 0.8
-    }
-    division = {
-        name = "19. Infantry Brigade"
-        location = 6558#Poznan
-        division_template = "Schutztruppe Division"
-        start_experience_factor = 0.1
-        start_equipment_factor = 0.8
-    }
-    division = {
-        name = "69. Ersatz Division"
-        location = 11467#Katowice
-        division_template = "Ersatz Division"
-        start_experience_factor = 0.1
-        start_equipment_factor = 0.8
-    }
-    division = {
-        name = "Bayerisches Ersatz-Division"
-        location = 6521#Berlin
-        division_template = "Ersatz Division"
-        start_experience_factor = 0.1
-        start_equipment_factor = 0.8
-    }
-    division = {
-        name = "Garde-Ersatz-Division"
-        location = 6521#Berlin
-        division_template = "Ersatz Division"
-        start_experience_factor = 0.1
-        start_equipment_factor = 0.8
-    }
-    division = {
         name = "4. Ersatz-Division"
         location = 6521#Berlin
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "8. Ersatz-Division"
         location = 6521#Berlin
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "10. Ersatz-Division"
         location = 6521#Berlin
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "19. Ersatz-Division"
         location = 6521#Berlin
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "4. Infantry Kommando"
         location = 6521#Berlin
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
     }
     division = {
         name = "3. Infantry Kommando"
         location = 6521#Berlin
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
     }
     division = {
         name = "2. Infantry Brigade"
         location = 6521#Berlin
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
     }
     division = {
         name = "6. Infantry Brigade"
         location = 6521#Berlin
         division_template = "Schutztruppe Division"
-        start_experience_factor = 0.1
-        start_equipment_factor = 0.8
-    }
-    division = {
-        name = "70. Infantry Brigade"
-        location = 6521#Berlin
-        division_template = "Schutztruppe Division"
-        start_experience_factor = 0.1
-        start_equipment_factor = 0.8
-    }
-    division = {
-        name = "31. Infanterie-Division"
-        location = 11531#Saarbrücken
-        division_template = "Infanterie Division"
-        start_experience_factor = 0.1
-    }
-    division = {
-        name = "42. Infanterie-Division"
-        location = 11531#Saarbrücken
-        division_template = "Infanterie Division"
         start_experience_factor = 0.1
     }
     division = {
@@ -874,7 +743,7 @@ fleet = {
         location = 9545#Heidenheim
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "2. Bayerisches Infanterie-Division"
@@ -883,49 +752,24 @@ fleet = {
         start_experience_factor = 0.1
     }
     division = {
-        name = "3. Bayerisches Infanterie-Division"
-        location = 9557#Würzburg
-        division_template = "Infanterie Division"
-        start_experience_factor = 0.1
-    }
-    division = {
-        name = "4. Bayerisches Infanterie-Division"
-        location = 9557#Würzburg
-        division_template = "Infanterie Division"
-        start_experience_factor = 0.1
-    }
-    division = {
-        name = "5. Bayerisches Infanterie-Division"
-        location = 11544#Nürnberg
-        division_template = "Infanterie Division"
-        start_experience_factor = 0.1
-    }
-    division = {
-        name = "5. Bayerisches Infanterie-Division"
-        location = 11544#Nürnberg
-        division_template = "Infanterie Division"
-        start_experience_factor = 0.1
-    }
-    division = {
         name = "1.Bayerisches Reserve-Division"
         location = 692#München
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "5. Bayerisches Reserve-Division"
         location = 692#München
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "5. Bayerisches Infantry Brigade"
         location = 692#München
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
     }
     division = {
         name = "28. Infanterie-Division"
@@ -944,41 +788,27 @@ fleet = {
         location = 6581#Mosbach
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "28. Reserve-Division"
         location = 6581#Mosbach
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "60. Mixed Infantry Brigade"
         location = 9655#Konstanz
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
     }
     division = {
         name = "30. Bayerisches Reserve Division"
         location = 9503#Straßburg
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
-    }
-    division = {
-        name = "33. Reserve Division"
-        location = 9559#Metz
-        division_template = "Ersatz Division"
-        start_experience_factor = 0.1
-        start_equipment_factor = 0.8
-    }
-    division = {
-        name = "7. Kavallerie-Division"
-        location = 9655#Konstanz
-        division_template = "Hussars"
-        start_experience_factor = 0.1
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "8. Kavallerie-Division"
@@ -991,7 +821,7 @@ fleet = {
         location = 6581#Mosbach
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "30. Infanterie-Division"
@@ -1083,28 +913,28 @@ fleet = {
         location = 678#Mühlhausen
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "25. Reserve-Division"
         location = 678#Mühlhausen
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "15. Reserve-Division"
         location = 529#Bonn
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "16. Reserve-Division"
         location = 529#Bonn
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "22. Infanterie-Division"
@@ -1135,42 +965,41 @@ fleet = {
         location = 6487#Halle
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "24. Reserve-Division"
         location = 6487#Halle
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "17. Reserve-Division"
         location = 9347#Hamburg
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "18. Reserve-Division"
         location = 9347#Hamburg
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "Kamerun Garrison"
         location = 5036#Douala
         division_template = "Ersatz Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
+        #start_equipment_factor = 0.65
     }
     division = {
         name = "Ostafrikanische Schutztruppe 1-10"
         location = 2196#Dar es Salaam
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
     }
     division = {
         name = "Ostafrikanische Schutztruppe 11-14"
@@ -1183,7 +1012,6 @@ fleet = {
         location = 2196#Kaiti
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
     }
     division = {
         name = "1. DSWA Regiment"
@@ -1202,14 +1030,12 @@ fleet = {
         location = 2229#Lüderitz
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
     }
     division = {
         name = "Schutzgebiet Kiautschou"
         location = 12237#Qingdao
         division_template = "Schutztruppe Division"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.8
     }
 
     ################################

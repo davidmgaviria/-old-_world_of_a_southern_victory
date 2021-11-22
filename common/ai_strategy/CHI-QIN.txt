@@ -112,17 +112,11 @@ CHI_conserve_equipment = {
 		tag = MEN
 		tag = MAN
 		priority = 100
-		ratio = 0.35
+		ratio = 0.8
 		ordertype = front
 		execution_type = careful
 		execute_order = yes
-		manual_attack = no
-	}
-
-	ai_strategy = {
-		type = consider_weak
-		id = "JAP"
-		value = -15
+		manual_attack = yes
 	}
 }
 

@@ -16,10 +16,9 @@ state={
 		1914.1.1 = {
 			buildings = {
 				industrial_complex = 1
-				arms_factory = 2
+				arms_factory = 1
 
 			}
-
 		}
 		1937.1.1 = {
 			owner = CSA

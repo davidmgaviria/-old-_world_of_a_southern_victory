@@ -47,19 +47,7 @@ SER_first_balkan = {
 	ai_strategy = {
 		type = conquer
 		id = "TUR"			
-		value = 100
-	}
-
-	ai_strategy = {
-		type = front_control
-		state = 756
-		state = 341
-		priority = 50
-		ratio = 0.05
-		ordertype = front
-		execution_type = careful
-		execute_order = yes
-		manual_attack = no
+		value = 10
 	}		
 }
 

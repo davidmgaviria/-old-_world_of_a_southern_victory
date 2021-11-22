@@ -17,7 +17,7 @@ division_template = {
 	support = {
 		recon = { x = 0 y = 0 }
 		engineer = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
+        artillery = { x = 0 y = 2 }
 	}
 }
 
@@ -630,26 +630,7 @@ fleet = {
         location = 479
         division_template = "Infanterie Division"
         start_experience_factor = 0.15
-    }
-    division = {
-        name = "106. Infanterie Division"
-        location = 6462
-        division_template = "Infanterie Division"
-        start_experience_factor = 0.15
-    }
-    division = {
-        name = "107. Infanterie Division"
-        location = 243
-        division_template = "Infanterie Division"
-        start_experience_factor = 0.15
-    }
-    division = {
-        name = "108. Infanterie Division"
-        location = 9532
-        division_template = "Infanterie Division"
-        start_experience_factor = 0.15
-    }
-    
+    }    
     division = {
         name = "Konigsberg Garrison"
         location = 6332#Königsberg

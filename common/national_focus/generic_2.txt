@@ -2024,7 +2024,7 @@
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = military_youth_focus
+			add_ideas = militarism_focus
 			if = {
 				limit = { has_government = fascism }
 				add_popularity = {

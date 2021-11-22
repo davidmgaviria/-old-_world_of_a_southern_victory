@@ -63,8 +63,6 @@ news_event = {
 				transfer_state = 176
 				transfer_state = 171
 				transfer_state = 172
-				transfer_state = 166
-				transfer_state = 808
 				every_owned_state = { add_core_of = SPN  remove_core_of = SPR }
 
 				load_oob = "SPR_fascist"

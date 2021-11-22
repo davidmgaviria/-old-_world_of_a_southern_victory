@@ -1,6 +1,16 @@
 version="1.9"
 tags={
 	"Alternative History"
+	"Events"
+	"Gameplay"
+	"Graphics"
+	"Map"
+	"Military"
+	"National Focuses"
+	"Sound"
+	"Technologies"
 }
-name="Featherstone Tester"
+name="World of a Southern Victory"
+picture="thumbnail.png"
 supported_version="1.10.*"
+remote_file_id="2126619761"

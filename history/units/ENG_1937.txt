@@ -453,12 +453,6 @@ units = {
 		task_force = {				
 			name = "China Fleet"
 			location = 10062 # Hong Kong			
-			ship = { name = "HMS Eagle" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ENG } } 
-				air_wings = {
-					cv_fighter_equipment_0 =  { owner = "ENG" amount = 18 }
-					cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 18 }
-				}
-			}
 			ship = { name = "HMS Kent" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }	
 			ship = { name = "HMS Cornwall" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }	
 			ship = { name = "HMS Dorsetshire" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } }	}

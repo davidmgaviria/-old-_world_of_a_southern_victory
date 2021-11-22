@@ -139,69 +139,70 @@ units = {
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1
 	}
+
+
 	division = {			
 		name = "22a Milicia Civil"		
-		location = 813
+		location = 3887
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1
 	}
 	division = {			
 		name = "23a Milicia Civil"		
-		location = 948
+		location = 6903
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1
 	}
 	division = {			
 		name = "24a Milicia Civil"		
-		location = 7213
+		location = 9857
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1
 	}
 	division = {			
 		name = "25a Milicia Civil"		
-		location = 11737
+		location = 9857
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1
 	}
 	division = {			
 		name = "26a Milicia Civil"		
-		location = 3816
+		location = 3931
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1
 	}
 	division = {			
 		name = "27a Milicia Civil"		
-		location = 6901
+		location = 3931
+		division_template = "Milicia Civil"
+		start_experience_factor = 0.1
+	}
+	
+	### North Section ###
+	division = {			
+		name = "27a Milicia Civil"		
+		location = 3933
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1
 	}
 	division = {			
 		name = "28a Milicia Civil"		
-		location = 9840
+		location = 3933
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1
 	}
-	division = {			
-		name = "29a Milicia Civil"		
-		location = 11838
-		division_template = "Milicia Civil"
-		start_experience_factor = 0.1
-	}
-
 	division = {			
 		name = "30a Milicia Civil"		
-		location = 7196
+		location = 3737
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1
 	}
 	division = {			
 		name = "31a Milicia Civil"		
-		location = 4065
+		location = 3737
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1
 	}
-
-	### North Section ###
 	division = {			
 		name = "32a Milicia Civil"		
 		location = 6724
@@ -258,13 +259,13 @@ units = {
 	}
 	division = {			
 		name = "41a Milicia Civil"		
-		location = 3735
+		location = 3902
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1
 	}
 	division = {			
 		name = "42a Milicia Civil"		
-		location = 740
+		location = 932
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1
 	}	
@@ -363,6 +364,30 @@ units = {
 	}
 	division = {			
 		name = "58a Milicia Civil"		
+		location = 11825
+		division_template = "Milicia Civil"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "59a Milicia Civil"		
+		location = 11825
+		division_template = "Milicia Civil"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "60a Milicia Civil"		
+		location = 11825
+		division_template = "Milicia Civil"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "61a Milicia Civil"		
+		location = 11825
+		division_template = "Milicia Civil"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "62a Milicia Civil"		
 		location = 11825
 		division_template = "Milicia Civil"
 		start_experience_factor = 0.1

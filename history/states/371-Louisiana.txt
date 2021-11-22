@@ -15,8 +15,8 @@ state={
 		add_claim_by = USA
 		1914.1.1 = {
 			buildings = {
-				arms_factory = 4
-				industrial_complex = 2
+				arms_factory = 1
+				industrial_complex = 1
 
 			}
 
