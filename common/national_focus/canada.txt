@@ -449,7 +449,7 @@ focus_tree = {
 		available = {
 			OR = {
 				NOT = { has_war_with = USA }
-				NOT = { USA = { is_in_faction_with GER } }
+				NOT = { USA = { is_in_faction_with = GER } }
 			}
 	 		NOT = { has_war_with = GER }
 			is_in_faction = no

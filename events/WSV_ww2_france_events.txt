@@ -668,7 +668,7 @@ news_event = {
 				    	50 52 53 54 55 60 826
 				    }
 				}
-				load_oob "GER_communist_uprising_monarchist"
+				load_oob = "GER_communist_uprising_monarchist"
 				set_division_template_lock = { division_template = "Freiwillige Miliz"  is_locked = yes }
 				set_equipment_fraction = 0.6
 				set_stability = 0.8
@@ -680,7 +680,7 @@ news_event = {
 					original_tag = GER
 					has_government = communism
 				}
-				load_oob "GER_communist_uprising"
+				load_oob = "GER_communist_uprising"
 				set_division_template_lock = { division_template = "Freiwillige Miliz"  is_locked = yes }
 				set_equipment_fraction = 0.4
 				set_stability = 0.8

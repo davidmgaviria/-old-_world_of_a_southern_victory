@@ -1477,7 +1477,7 @@
 			ITA = { is_in_faction = no }
 		}
 
-		bypass { is_in_faction_with = ITA }
+		bypass = { is_in_faction_with = ITA }
 
 		completion_reward = {
 			hidden_effect = {
@@ -1520,7 +1520,7 @@
 			}
 		}
 
-		bypass { is_in_faction_with = ITA }
+		bypass = { is_in_faction_with = ITA }
 
 		completion_reward = {
 			AUH = {
@@ -1555,7 +1555,7 @@
 			has_war_with = FRA
 		}
 
-		bypass { is_in_faction_with = ITA }
+		bypass = { is_in_faction_with = ITA }
 
 		completion_reward = {
 			ITA = { country_event = wsv_ww2_germany.17 }
@@ -1973,7 +1973,7 @@
 			}
 		}
 
-		bypass { is_in_faction_with = SPR }
+		bypass = { is_in_faction_with = SPR }
 
 		completion_reward = {
 			hidden_effect = {
@@ -2019,7 +2019,7 @@
 			}
 		}
 
-		bypass { is_in_faction_with = SPR }
+		bypass = { is_in_faction_with = SPR }
 
 		completion_reward = {
 			SPR = { country_event = wsv_ww2_germany.13 }
@@ -2245,7 +2245,7 @@
 			TUR = { is_in_faction = no }
 		}
 
-		bypass { is_in_faction_with = TUR }
+		bypass = { is_in_faction_with = TUR }
 
 		completion_reward = {
 			TUR = { country_event = wsv_ww2_germany.26 }
@@ -2273,7 +2273,7 @@
 			BUL = { is_in_faction = no }
 		}
 
-		bypass { is_in_faction_with = BUL }
+		bypass = { is_in_faction_with = BUL }
 
 		completion_reward = {
 			BUL = { country_event = wsv_ww2_germany.26 }

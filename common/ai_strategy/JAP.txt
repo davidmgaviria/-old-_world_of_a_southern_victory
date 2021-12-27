@@ -84,7 +84,7 @@ JAP_extra_home_garrison = {
 	allowed = {
 		original_tag = GER
 	}
-	enable  {
+	enable = {
 		always = yes
 	}
 

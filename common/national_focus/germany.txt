@@ -577,7 +577,8 @@ focus_tree = {
 			puppet = BAV
 
 	        # SPECIAL_DLC Together for Victory
-	        if = { limit = { has_dlc = "Together for Victory" }
+	        if = { 
+	        	limit = { has_dlc = "Together for Victory" }
 
 	            #IF-----------------------------------------
 	            set_autonomy = {
@@ -591,11 +592,12 @@ focus_tree = {
 	                # WORK IN PROGRESS # Temporary Solution for Open Beta 0.1.9
 	            }
 	            #-------------------------------------------
-	        }
+	       
 
-	        hidden_effect {
+	        	hidden_effect {
 
-	        	BAV = { load_oob = "BAV_1910" }
+	        		BAV = { load_oob = "BAV_1910" }
+	        	}
 	        }
 		}
 

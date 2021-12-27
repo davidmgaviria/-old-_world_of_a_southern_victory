@@ -11,9 +11,9 @@ state={
 		}
 	history={
 		victory_points={ 9809 25 }
-		owner=MTN
+		owner=MNT
 		#KiS No More YUG# add_core_of=YUG
-		add_core_of=MTN
+		add_core_of=MNT
 		1937.1.1={ 
 			owner=AUH
 			#add_extra_state_shared_building_slots=2

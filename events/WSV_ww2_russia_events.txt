@@ -612,7 +612,7 @@ news_event = {
 	    	set_global_flag = poland_promised_german_land_by_russia
 	    	set_global_flag = poland_promised_auh_land_by_russia
 	    	POL = {
-	    		set_capital = 87
+	    		set_capital = { state = 87 }
 
 	    		start_civil_war = {
 	    		    ideology = fascism

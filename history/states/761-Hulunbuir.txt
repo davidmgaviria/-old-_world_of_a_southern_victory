@@ -9,8 +9,8 @@ state={
 		}
 	history={
 		owner=TUR
-		add_claim_by=MTN
-		1913.5.30 = { owner = MTN  }
+		add_claim_by=MNT
+		1913.5.30 = { owner = MNT  }
 		1937.1.1={ owner=AUH }
 		buildings={
 			infrastructure=3

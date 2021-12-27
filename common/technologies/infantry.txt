@@ -488,6 +488,9 @@ technologies = {
 			defense = 0.05
 		}
 
+		on_research_complete_limit = {
+			has_cosmetic_tag = yes
+		}
 		on_research_complete = {
 			custom_effect_tooltip = units_get_helmets_tt
 			hidden_effect = { drop_cosmetic_tag = yes }
@@ -886,12 +889,13 @@ technologies = {
 			position = { x = 0 y = @1936 }
 		}
 		
-		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = paratrooper
-				}
+
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = paratrooper
 			}
+		}
+		on_research_complete = {
 			hidden_effect = {
 				load_oob = "unlock_paratroopers"
 			}
@@ -965,12 +969,13 @@ technologies = {
 			marine
 		}
 		
-		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = marine
-				}
+
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = marine
 			}
+		}
+		on_research_complete = {
 			hidden_effect = {
 				load_oob = "unlock_marines"
 			}			
@@ -1110,12 +1115,12 @@ technologies = {
 			mountaineers
 		}
 
-		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = mountaineers
-				}
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = mountaineers
 			}
+		}
+		on_research_complete = {
 			hidden_effect = {
 				load_oob = "unlock_mountaineers"
 			}
@@ -1635,12 +1640,12 @@ technologies = {
 			motorized
 		}
 
-		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = motorized
-				}
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = motorized
 			}
+		}
+		on_research_complete = {	
 			hidden_effect = {
 				load_oob = "unlock_motorized"
 			}			

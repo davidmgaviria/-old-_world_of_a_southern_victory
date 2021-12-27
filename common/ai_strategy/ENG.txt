@@ -21,7 +21,7 @@ ENG_britannia_rules_the_waves = {
 	allowed = {
 		original_tag = ENG
 	}
-	enable  {
+	enable = {
 		always = yes
 	}
 
@@ -48,7 +48,7 @@ ENG_civilian_focus = {
 	allowed = {
 		original_tag = ENG
 	}
-	enable  {
+	enable = {
 		has_war = no
 	}
 
@@ -82,7 +82,7 @@ ENG_extra_home_garrison = {
 	allowed = {
 		original_tag = ENG
 	}
-	enable  {
+	enable = {
 		always = yes
 	}
 
@@ -188,7 +188,7 @@ ENG_default_area_priority = {
 	allowed = {
 		original_tag = ENG
 	}
-	enable  {
+	enable = {
 		always = yes
 	}
 

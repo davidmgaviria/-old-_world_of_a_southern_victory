@@ -1125,7 +1125,7 @@ news_event = {
 			add_named_threat = { threat=3  name=CSA_civil_war_tt }
 			CSA = {
 				remove_ideas = CSA_constitutional_crisis
-				set_capital = 375
+				set_capital = { state = 375 }
 				start_civil_war = {
 					ruling_party = democratic
 				    ideology = fascism

@@ -6,4 +6,5 @@ technologies = {
 	scout_plane1 = { start_year = 2000  research_cost = 1 }
 	heavy_battleship = { start_year = 2000  research_cost = 1 }
 	heavy_battleship2 = { start_year = 2000  research_cost = 1 }
+	gw_artillery = { start_year = 2000  research_cost = 1 }
 }
