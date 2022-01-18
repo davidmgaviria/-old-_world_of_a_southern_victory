@@ -199,14 +199,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13265;951;impassable;-1;-1;-1;-1;-1;;north appalachians
 9967;13354;impassable;-1;-1;-1;-1;-1;;north appalachians
 
-7920;13218;impassable;-1;-1;-1;-1;-1;;north mexican desert
-7920;8012;impassable;-1;-1;-1;-1;-1;;north mexican desert
-7920;5071;impassable;-1;-1;-1;-1;-1;;north mexican desert
-5044;5071;impassable;-1;-1;-1;-1;-1;;north mexican desert
-5044;10809;impassable;-1;-1;-1;-1;-1;;north mexican desert
-5044;8097;impassable;-1;-1;-1;-1;-1;;north mexican desert
-
-4799;4657;impassable;-1;-1;-1;-1;-1;;sierra nevada
 4799;1651;impassable;-1;-1;-1;-1;-1;;sierra nevada
 12425;1651;impassable;-1;-1;-1;-1;-1;;sierra nevada
 12425;7667;impassable;-1;-1;-1;-1;-1;;sierra nevada
