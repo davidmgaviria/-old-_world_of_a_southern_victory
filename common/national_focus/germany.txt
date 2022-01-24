@@ -594,7 +594,7 @@ focus_tree = {
 	            #-------------------------------------------
 	       
 
-	        	hidden_effect {
+	        	hidden_effect = {
 
 	        		BAV = { load_oob = "BAV_1910" }
 	        	}

@@ -206,7 +206,6 @@ create_navy_leader={  name = "Miklós Horthy" id=6394 portrait_path="gfx/portrai
 		AUH_ww1_Multinational_State
 		AUH_ww1_multinational_army
 		limited_conscription
-		low_economic_mobilisation
 		AUH_austrian_staff
 	}
 	

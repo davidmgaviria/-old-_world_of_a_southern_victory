@@ -14,7 +14,7 @@ set_convoys = 100
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
-add_namespace = { name = "unit_leader_sov" type = unit_leader }
+#add_namespace = { name = "unit_leader_sov" type = unit_leader }
 if = { limit = { has_start_date < 1937.1.1 }
 set_cosmetic_tag = RUS_nohelmet
 
